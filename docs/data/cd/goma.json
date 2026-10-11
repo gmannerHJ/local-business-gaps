@@ -1,0 +1,209 @@
+{
+ "city": "Goma",
+ "local_name": "Goma",
+ "slug": "goma",
+ "country": "CD",
+ "country_name": "Democratic Republic of the Congo",
+ "population": 2000000,
+ "wikidata": "Q204381",
+ "division_id": "d1b7eb3b-11ad-46fa-8e5f-4699fc8fed9a",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 706.0
+ },
+ "bbox": [
+  29.090848,
+  -1.802224,
+  29.360456,
+  -1.530913
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 382,
+  "with_website": 190,
+  "without_website": 192,
+  "share_without_website": 0.5026,
+  "without_website_with_phone": 127,
+  "without_website_with_social": 188
+ },
+ "excluded": {
+  "below_confidence": 118,
+  "permanently_closed": 0
+ },
+ "uncategorised": 8,
+ "blank_website_entries": 3,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 59,
+   "with_website": 31,
+   "without_website": 28,
+   "share_without_website": 0.4746
+  },
+  {
+   "category": "restaurant",
+   "places": 27,
+   "with_website": 6,
+   "without_website": 21,
+   "share_without_website": 0.7778
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 21,
+   "with_website": 10,
+   "without_website": 11,
+   "share_without_website": 0.5238
+  },
+  {
+   "category": "religious_organization",
+   "places": 20,
+   "with_website": 8,
+   "without_website": 12,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "travel_service",
+   "places": 17,
+   "with_website": 11,
+   "without_website": 6,
+   "share_without_website": 0.3529
+  },
+  {
+   "category": "college_university",
+   "places": 14,
+   "with_website": 9,
+   "without_website": 5,
+   "share_without_website": 0.3571
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 14,
+   "with_website": 9,
+   "without_website": 5,
+   "share_without_website": 0.3571
+  },
+  {
+   "category": "place_of_learning",
+   "places": 13,
+   "with_website": 8,
+   "without_website": 5,
+   "share_without_website": 0.3846
+  },
+  {
+   "category": "hospital",
+   "places": 11,
+   "with_website": 2,
+   "without_website": 9,
+   "share_without_website": 0.8182
+  },
+  {
+   "category": "bar",
+   "places": 9,
+   "with_website": 3,
+   "without_website": 6,
+   "share_without_website": 0.6667
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "lodging",
+   "places": 69,
+   "with_website": 38,
+   "without_website": 31,
+   "share_without_website": 0.4493
+  },
+  {
+   "category": "services_and_business",
+   "places": 52,
+   "with_website": 32,
+   "without_website": 20,
+   "share_without_website": 0.3846
+  },
+  {
+   "category": "food_and_drink",
+   "places": 46,
+   "with_website": 13,
+   "without_website": 33,
+   "share_without_website": 0.7174
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 44,
+   "with_website": 19,
+   "without_website": 25,
+   "share_without_website": 0.5682
+  },
+  {
+   "category": "education",
+   "places": 37,
+   "with_website": 21,
+   "without_website": 16,
+   "share_without_website": 0.4324
+  },
+  {
+   "category": "community_and_government",
+   "places": 32,
+   "with_website": 21,
+   "without_website": 11,
+   "share_without_website": 0.3438
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 24,
+   "with_website": 14,
+   "without_website": 10,
+   "share_without_website": 0.4167
+  },
+  {
+   "category": "shopping",
+   "places": 19,
+   "with_website": 10,
+   "without_website": 9,
+   "share_without_website": 0.4737
+  },
+  {
+   "category": "health_care",
+   "places": 17,
+   "with_website": 5,
+   "without_website": 12,
+   "share_without_website": 0.7059
+  },
+  {
+   "category": "geographic_entities",
+   "places": 12,
+   "with_website": 2,
+   "without_website": 10,
+   "share_without_website": 0.8333
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 11,
+   "with_website": 4,
+   "without_website": 7,
+   "share_without_website": 0.6364
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 6,
+   "with_website": 3,
+   "without_website": 3,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 5,
+   "with_website": 3,
+   "without_website": 2,
+   "share_without_website": 0.4
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:34Z",
+  "query_seconds": 1.1,
+  "bytes_read": 805990,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

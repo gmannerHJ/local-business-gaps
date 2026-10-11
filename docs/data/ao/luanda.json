@@ -1,0 +1,210 @@
+{
+ "city": "Luanda",
+ "local_name": "Luanda",
+ "slug": "luanda",
+ "country": "AO",
+ "country_name": "Angola",
+ "population": 2600000,
+ "wikidata": "Q3897",
+ "division_id": "f4b3aa82-cb59-4432-b4f6-c97a4517ffc5",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "0f4c2bd2-71a1-4b84-9cb7-94e55c49aea9",
+  "area_subtype": "locality",
+  "area_km2": 121.9
+ },
+ "bbox": [
+  13.173223,
+  -8.920827,
+  13.310863,
+  -8.759227
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 3312,
+  "with_website": 1506,
+  "without_website": 1806,
+  "share_without_website": 0.5453,
+  "without_website_with_phone": 1303,
+  "without_website_with_social": 1781
+ },
+ "excluded": {
+  "below_confidence": 3923,
+  "permanently_closed": 0
+ },
+ "uncategorised": 102,
+ "blank_website_entries": 5,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 240,
+   "with_website": 82,
+   "without_website": 158,
+   "share_without_website": 0.6583
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 178,
+   "with_website": 55,
+   "without_website": 123,
+   "share_without_website": 0.691
+  },
+  {
+   "category": "place_of_learning",
+   "places": 153,
+   "with_website": 59,
+   "without_website": 94,
+   "share_without_website": 0.6144
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 125,
+   "with_website": 38,
+   "without_website": 87,
+   "share_without_website": 0.696
+  },
+  {
+   "category": "hotel",
+   "places": 120,
+   "with_website": 60,
+   "without_website": 60,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "professional_service",
+   "places": 111,
+   "with_website": 73,
+   "without_website": 38,
+   "share_without_website": 0.3423
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 103,
+   "with_website": 55,
+   "without_website": 48,
+   "share_without_website": 0.466
+  },
+  {
+   "category": "religious_organization",
+   "places": 102,
+   "with_website": 25,
+   "without_website": 77,
+   "share_without_website": 0.7549
+  },
+  {
+   "category": "government_office",
+   "places": 80,
+   "with_website": 41,
+   "without_website": 39,
+   "share_without_website": 0.4875
+  },
+  {
+   "category": "education",
+   "places": 76,
+   "with_website": 40,
+   "without_website": 36,
+   "share_without_website": 0.4737
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 635,
+   "with_website": 417,
+   "without_website": 218,
+   "share_without_website": 0.3433
+  },
+  {
+   "category": "education",
+   "places": 395,
+   "with_website": 180,
+   "without_website": 215,
+   "share_without_website": 0.5443
+  },
+  {
+   "category": "shopping",
+   "places": 390,
+   "with_website": 189,
+   "without_website": 201,
+   "share_without_website": 0.5154
+  },
+  {
+   "category": "food_and_drink",
+   "places": 383,
+   "with_website": 123,
+   "without_website": 260,
+   "share_without_website": 0.6789
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 333,
+   "with_website": 94,
+   "without_website": 239,
+   "share_without_website": 0.7177
+  },
+  {
+   "category": "health_care",
+   "places": 225,
+   "with_website": 96,
+   "without_website": 129,
+   "share_without_website": 0.5733
+  },
+  {
+   "category": "community_and_government",
+   "places": 205,
+   "with_website": 95,
+   "without_website": 110,
+   "share_without_website": 0.5366
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 167,
+   "with_website": 50,
+   "without_website": 117,
+   "share_without_website": 0.7006
+  },
+  {
+   "category": "lodging",
+   "places": 153,
+   "with_website": 72,
+   "without_website": 81,
+   "share_without_website": 0.5294
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 127,
+   "with_website": 62,
+   "without_website": 65,
+   "share_without_website": 0.5118
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 106,
+   "with_website": 39,
+   "without_website": 67,
+   "share_without_website": 0.6321
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 69,
+   "with_website": 32,
+   "without_website": 37,
+   "share_without_website": 0.5362
+  },
+  {
+   "category": "geographic_entities",
+   "places": 21,
+   "with_website": 2,
+   "without_website": 19,
+   "share_without_website": 0.9048
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:25Z",
+  "query_seconds": 1.1,
+  "bytes_read": 1020620,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

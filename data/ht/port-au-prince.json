@@ -1,0 +1,210 @@
+{
+ "city": "Port-au-Prince",
+ "local_name": "Port-au-Prince",
+ "slug": "port-au-prince",
+ "country": "HT",
+ "country_name": "Haiti",
+ "population": 1275000,
+ "wikidata": "Q34261",
+ "division_id": "3e1c941b-074d-45d5-ba91-10cb91c6d9b6",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "5501eaa3-a7a2-4f09-abe2-99d3d1cb6907",
+  "area_subtype": "county",
+  "area_km2": 726.8
+ },
+ "bbox": [
+  -72.569771,
+  18.339897,
+  -72.158928,
+  18.630735
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 2405,
+  "with_website": 948,
+  "without_website": 1457,
+  "share_without_website": 0.6058,
+  "without_website_with_phone": 1067,
+  "without_website_with_social": 1443
+ },
+ "excluded": {
+  "below_confidence": 1247,
+  "permanently_closed": 0
+ },
+ "uncategorised": 41,
+ "blank_website_entries": 12,
+ "top_categories": [
+  {
+   "category": "place_of_learning",
+   "places": 205,
+   "with_website": 56,
+   "without_website": 149,
+   "share_without_website": 0.7268
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 186,
+   "with_website": 50,
+   "without_website": 136,
+   "share_without_website": 0.7312
+  },
+  {
+   "category": "restaurant",
+   "places": 125,
+   "with_website": 37,
+   "without_website": 88,
+   "share_without_website": 0.704
+  },
+  {
+   "category": "hotel",
+   "places": 124,
+   "with_website": 61,
+   "without_website": 63,
+   "share_without_website": 0.5081
+  },
+  {
+   "category": "college_university",
+   "places": 118,
+   "with_website": 64,
+   "without_website": 54,
+   "share_without_website": 0.4576
+  },
+  {
+   "category": "religious_organization",
+   "places": 110,
+   "with_website": 41,
+   "without_website": 69,
+   "share_without_website": 0.6273
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 77,
+   "with_website": 52,
+   "without_website": 25,
+   "share_without_website": 0.3247
+  },
+  {
+   "category": "education",
+   "places": 58,
+   "with_website": 20,
+   "without_website": 38,
+   "share_without_website": 0.6552
+  },
+  {
+   "category": "hospital",
+   "places": 55,
+   "with_website": 15,
+   "without_website": 40,
+   "share_without_website": 0.7273
+  },
+  {
+   "category": "professional_service",
+   "places": 50,
+   "with_website": 32,
+   "without_website": 18,
+   "share_without_website": 0.36
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "education",
+   "places": 483,
+   "with_website": 170,
+   "without_website": 313,
+   "share_without_website": 0.648
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 318,
+   "with_website": 95,
+   "without_website": 223,
+   "share_without_website": 0.7013
+  },
+  {
+   "category": "services_and_business",
+   "places": 317,
+   "with_website": 186,
+   "without_website": 131,
+   "share_without_website": 0.4132
+  },
+  {
+   "category": "shopping",
+   "places": 293,
+   "with_website": 120,
+   "without_website": 173,
+   "share_without_website": 0.5904
+  },
+  {
+   "category": "food_and_drink",
+   "places": 216,
+   "with_website": 51,
+   "without_website": 165,
+   "share_without_website": 0.7639
+  },
+  {
+   "category": "community_and_government",
+   "places": 193,
+   "with_website": 113,
+   "without_website": 80,
+   "share_without_website": 0.4145
+  },
+  {
+   "category": "health_care",
+   "places": 156,
+   "with_website": 41,
+   "without_website": 115,
+   "share_without_website": 0.7372
+  },
+  {
+   "category": "lodging",
+   "places": 149,
+   "with_website": 73,
+   "without_website": 76,
+   "share_without_website": 0.5101
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 76,
+   "with_website": 28,
+   "without_website": 48,
+   "share_without_website": 0.6316
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 68,
+   "with_website": 28,
+   "without_website": 40,
+   "share_without_website": 0.5882
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 59,
+   "with_website": 15,
+   "without_website": 44,
+   "share_without_website": 0.7458
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 33,
+   "with_website": 9,
+   "without_website": 24,
+   "share_without_website": 0.7273
+  },
+  {
+   "category": "geographic_entities",
+   "places": 2,
+   "with_website": 0,
+   "without_website": 2,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:53Z",
+  "query_seconds": 1.2,
+  "bytes_read": 762368,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

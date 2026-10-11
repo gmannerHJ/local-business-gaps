@@ -1,0 +1,209 @@
+{
+ "city": "Cali",
+ "local_name": "Cali",
+ "slug": "cali",
+ "country": "CO",
+ "country_name": "Colombia",
+ "population": 2285099,
+ "wikidata": "Q51103",
+ "division_id": "614d831a-e2ae-48ed-9c53-3e14575f975c",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 706.0
+ },
+ "bbox": [
+  -76.667518,
+  3.316343,
+  -76.397534,
+  3.587655
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 23189,
+  "with_website": 12187,
+  "without_website": 11002,
+  "share_without_website": 0.4744,
+  "without_website_with_phone": 8051,
+  "without_website_with_social": 10860
+ },
+ "excluded": {
+  "below_confidence": 20324,
+  "permanently_closed": 0
+ },
+ "uncategorised": 642,
+ "blank_website_entries": 77,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 2262,
+   "with_website": 987,
+   "without_website": 1275,
+   "share_without_website": 0.5637
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 1063,
+   "with_website": 438,
+   "without_website": 625,
+   "share_without_website": 0.588
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 875,
+   "with_website": 552,
+   "without_website": 323,
+   "share_without_website": 0.3691
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 756,
+   "with_website": 458,
+   "without_website": 298,
+   "share_without_website": 0.3942
+  },
+  {
+   "category": "dental_clinic",
+   "places": 689,
+   "with_website": 411,
+   "without_website": 278,
+   "share_without_website": 0.4035
+  },
+  {
+   "category": "automotive_service",
+   "places": 666,
+   "with_website": 310,
+   "without_website": 356,
+   "share_without_website": 0.5345
+  },
+  {
+   "category": "historic_site",
+   "places": 636,
+   "with_website": 36,
+   "without_website": 600,
+   "share_without_website": 0.9434
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 594,
+   "with_website": 262,
+   "without_website": 332,
+   "share_without_website": 0.5589
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 591,
+   "with_website": 253,
+   "without_website": 338,
+   "share_without_website": 0.5719
+  },
+  {
+   "category": "casual_eatery",
+   "places": 564,
+   "with_website": 251,
+   "without_website": 313,
+   "share_without_website": 0.555
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 4707,
+   "with_website": 2799,
+   "without_website": 1908,
+   "share_without_website": 0.4054
+  },
+  {
+   "category": "food_and_drink",
+   "places": 3989,
+   "with_website": 1674,
+   "without_website": 2315,
+   "share_without_website": 0.5803
+  },
+  {
+   "category": "services_and_business",
+   "places": 3213,
+   "with_website": 2200,
+   "without_website": 1013,
+   "share_without_website": 0.3153
+  },
+  {
+   "category": "health_care",
+   "places": 1787,
+   "with_website": 1133,
+   "without_website": 654,
+   "share_without_website": 0.366
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1666,
+   "with_website": 755,
+   "without_website": 911,
+   "share_without_website": 0.5468
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1487,
+   "with_website": 403,
+   "without_website": 1084,
+   "share_without_website": 0.729
+  },
+  {
+   "category": "education",
+   "places": 1252,
+   "with_website": 847,
+   "without_website": 405,
+   "share_without_website": 0.3235
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1224,
+   "with_website": 575,
+   "without_website": 649,
+   "share_without_website": 0.5302
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1061,
+   "with_website": 416,
+   "without_website": 645,
+   "share_without_website": 0.6079
+  },
+  {
+   "category": "lodging",
+   "places": 816,
+   "with_website": 460,
+   "without_website": 356,
+   "share_without_website": 0.4363
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 596,
+   "with_website": 265,
+   "without_website": 331,
+   "share_without_website": 0.5554
+  },
+  {
+   "category": "community_and_government",
+   "places": 591,
+   "with_website": 309,
+   "without_website": 282,
+   "share_without_website": 0.4772
+  },
+  {
+   "category": "geographic_entities",
+   "places": 140,
+   "with_website": 5,
+   "without_website": 135,
+   "share_without_website": 0.9643
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:26Z",
+  "query_seconds": 2.0,
+  "bytes_read": 5347737,
+  "get_requests": 36,
+  "head_requests": 0
+ }
+}

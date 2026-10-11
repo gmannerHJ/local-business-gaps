@@ -1,0 +1,210 @@
+{
+ "city": "Shymkent",
+ "local_name": "Шымкент",
+ "slug": "shymkent",
+ "country": "KZ",
+ "country_name": "Kazakhstan",
+ "population": 1222055,
+ "wikidata": "Q485496",
+ "division_id": "b61d931a-6149-431c-8e8f-b3d4428460a4",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "a9512d62-4835-48c4-9192-e87ab72235cf",
+  "area_subtype": "region",
+  "area_km2": 1170.0
+ },
+ "bbox": [
+  69.301849,
+  42.109016,
+  69.935722,
+  42.479446
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 1429,
+  "with_website": 644,
+  "without_website": 785,
+  "share_without_website": 0.5493,
+  "without_website_with_phone": 452,
+  "without_website_with_social": 723
+ },
+ "excluded": {
+  "below_confidence": 1124,
+  "permanently_closed": 0
+ },
+ "uncategorised": 50,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 209,
+   "with_website": 70,
+   "without_website": 139,
+   "share_without_website": 0.6651
+  },
+  {
+   "category": "shopping",
+   "places": 85,
+   "with_website": 20,
+   "without_website": 65,
+   "share_without_website": 0.7647
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 79,
+   "with_website": 37,
+   "without_website": 42,
+   "share_without_website": 0.5316
+  },
+  {
+   "category": "cafe",
+   "places": 60,
+   "with_website": 18,
+   "without_website": 42,
+   "share_without_website": 0.7
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 48,
+   "with_website": 33,
+   "without_website": 15,
+   "share_without_website": 0.3125
+  },
+  {
+   "category": "coffee_shop",
+   "places": 42,
+   "with_website": 20,
+   "without_website": 22,
+   "share_without_website": 0.5238
+  },
+  {
+   "category": "hotel",
+   "places": 39,
+   "with_website": 19,
+   "without_website": 20,
+   "share_without_website": 0.5128
+  },
+  {
+   "category": "bar",
+   "places": 38,
+   "with_website": 16,
+   "without_website": 22,
+   "share_without_website": 0.5789
+  },
+  {
+   "category": "place_of_learning",
+   "places": 36,
+   "with_website": 20,
+   "without_website": 16,
+   "share_without_website": 0.4444
+  },
+  {
+   "category": "hospital",
+   "places": 33,
+   "with_website": 15,
+   "without_website": 18,
+   "share_without_website": 0.5455
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 380,
+   "with_website": 139,
+   "without_website": 241,
+   "share_without_website": 0.6342
+  },
+  {
+   "category": "shopping",
+   "places": 366,
+   "with_website": 172,
+   "without_website": 194,
+   "share_without_website": 0.5301
+  },
+  {
+   "category": "services_and_business",
+   "places": 123,
+   "with_website": 94,
+   "without_website": 29,
+   "share_without_website": 0.2358
+  },
+  {
+   "category": "education",
+   "places": 113,
+   "with_website": 51,
+   "without_website": 62,
+   "share_without_website": 0.5487
+  },
+  {
+   "category": "health_care",
+   "places": 80,
+   "with_website": 43,
+   "without_website": 37,
+   "share_without_website": 0.4625
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 63,
+   "with_website": 19,
+   "without_website": 44,
+   "share_without_website": 0.6984
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 57,
+   "with_website": 18,
+   "without_website": 39,
+   "share_without_website": 0.6842
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 51,
+   "with_website": 19,
+   "without_website": 32,
+   "share_without_website": 0.6275
+  },
+  {
+   "category": "lodging",
+   "places": 48,
+   "with_website": 21,
+   "without_website": 27,
+   "share_without_website": 0.5625
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 47,
+   "with_website": 25,
+   "without_website": 22,
+   "share_without_website": 0.4681
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 24,
+   "with_website": 3,
+   "without_website": 21,
+   "share_without_website": 0.875
+  },
+  {
+   "category": "community_and_government",
+   "places": 22,
+   "with_website": 10,
+   "without_website": 12,
+   "share_without_website": 0.5455
+  },
+  {
+   "category": "geographic_entities",
+   "places": 3,
+   "with_website": 1,
+   "without_website": 2,
+   "share_without_website": 0.6667
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:39Z",
+  "query_seconds": 1.0,
+  "bytes_read": 687411,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

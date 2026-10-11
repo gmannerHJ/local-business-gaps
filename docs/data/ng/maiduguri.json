@@ -1,0 +1,202 @@
+{
+ "city": "Maiduguri",
+ "local_name": "Maiduguri",
+ "slug": "maiduguri",
+ "country": "NG",
+ "country_name": "Nigeria",
+ "population": 1197497,
+ "wikidata": "Q221436",
+ "division_id": "70eb2ce2-6e53-49aa-851a-44ca70ada734",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 706.4
+ },
+ "bbox": [
+  13.015946,
+  11.703882,
+  13.291297,
+  11.975193
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 537,
+  "with_website": 190,
+  "without_website": 347,
+  "share_without_website": 0.6462,
+  "without_website_with_phone": 184,
+  "without_website_with_social": 339
+ },
+ "excluded": {
+  "below_confidence": 117,
+  "permanently_closed": 0
+ },
+ "uncategorised": 12,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "religious_organization",
+   "places": 41,
+   "with_website": 12,
+   "without_website": 29,
+   "share_without_website": 0.7073
+  },
+  {
+   "category": "college_university",
+   "places": 39,
+   "with_website": 17,
+   "without_website": 22,
+   "share_without_website": 0.5641
+  },
+  {
+   "category": "place_of_learning",
+   "places": 39,
+   "with_website": 9,
+   "without_website": 30,
+   "share_without_website": 0.7692
+  },
+  {
+   "category": "government_office",
+   "places": 28,
+   "with_website": 8,
+   "without_website": 20,
+   "share_without_website": 0.7143
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 26,
+   "with_website": 5,
+   "without_website": 21,
+   "share_without_website": 0.8077
+  },
+  {
+   "category": "professional_service",
+   "places": 23,
+   "with_website": 11,
+   "without_website": 12,
+   "share_without_website": 0.5217
+  },
+  {
+   "category": "hospital",
+   "places": 22,
+   "with_website": 0,
+   "without_website": 22,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "civic_organization",
+   "places": 18,
+   "with_website": 14,
+   "without_website": 4,
+   "share_without_website": 0.2222
+  },
+  {
+   "category": "elementary_school",
+   "places": 18,
+   "with_website": 0,
+   "without_website": 18,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 18,
+   "with_website": 13,
+   "without_website": 5,
+   "share_without_website": 0.2778
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "education",
+   "places": 125,
+   "with_website": 44,
+   "without_website": 81,
+   "share_without_website": 0.648
+  },
+  {
+   "category": "services_and_business",
+   "places": 95,
+   "with_website": 47,
+   "without_website": 48,
+   "share_without_website": 0.5053
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 82,
+   "with_website": 17,
+   "without_website": 65,
+   "share_without_website": 0.7927
+  },
+  {
+   "category": "community_and_government",
+   "places": 77,
+   "with_website": 38,
+   "without_website": 39,
+   "share_without_website": 0.5065
+  },
+  {
+   "category": "shopping",
+   "places": 50,
+   "with_website": 15,
+   "without_website": 35,
+   "share_without_website": 0.7
+  },
+  {
+   "category": "health_care",
+   "places": 30,
+   "with_website": 5,
+   "without_website": 25,
+   "share_without_website": 0.8333
+  },
+  {
+   "category": "lodging",
+   "places": 21,
+   "with_website": 6,
+   "without_website": 15,
+   "share_without_website": 0.7143
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 15,
+   "with_website": 5,
+   "without_website": 10,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "food_and_drink",
+   "places": 14,
+   "with_website": 2,
+   "without_website": 12,
+   "share_without_website": 0.8571
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 6,
+   "with_website": 0,
+   "without_website": 6,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 6,
+   "with_website": 2,
+   "without_website": 4,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 4,
+   "with_website": 2,
+   "without_website": 2,
+   "share_without_website": 0.5
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:33Z",
+  "query_seconds": 1.1,
+  "bytes_read": 1258291,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

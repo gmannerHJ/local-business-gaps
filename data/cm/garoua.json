@@ -1,0 +1,203 @@
+{
+ "city": "Garoua",
+ "local_name": "Communauté urbaine de Garoua",
+ "slug": "garoua",
+ "country": "CM",
+ "country_name": "Cameroon",
+ "population": 1703000,
+ "wikidata": "Q157915",
+ "division_id": "c1fad6e0-343c-458b-b941-e5dc8ac8c192",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "22f26796-3974-4688-afb8-cfc8f2f7984f",
+  "area_subtype": "locality",
+  "area_km2": 424.4
+ },
+ "bbox": [
+  13.328127,
+  9.194309,
+  13.574765,
+  9.420701
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 113,
+  "with_website": 32,
+  "without_website": 81,
+  "share_without_website": 0.7168,
+  "without_website_with_phone": 42,
+  "without_website_with_social": 80
+ },
+ "excluded": {
+  "below_confidence": 47,
+  "permanently_closed": 0
+ },
+ "uncategorised": 4,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 11,
+   "with_website": 3,
+   "without_website": 8,
+   "share_without_website": 0.7273
+  },
+  {
+   "category": "college_university",
+   "places": 6,
+   "with_website": 3,
+   "without_website": 3,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "government_office",
+   "places": 6,
+   "with_website": 3,
+   "without_website": 3,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "place_of_learning",
+   "places": 6,
+   "with_website": 2,
+   "without_website": 4,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "hospital",
+   "places": 5,
+   "with_website": 0,
+   "without_website": 5,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "restaurant",
+   "places": 5,
+   "with_website": 0,
+   "without_website": 5,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 4,
+   "with_website": 1,
+   "without_website": 3,
+   "share_without_website": 0.75
+  },
+  {
+   "category": "electronics_store",
+   "places": 4,
+   "with_website": 0,
+   "without_website": 4,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "bank_or_credit_union",
+   "places": 3,
+   "with_website": 1,
+   "without_website": 2,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "elementary_school",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "education",
+   "places": 22,
+   "with_website": 7,
+   "without_website": 15,
+   "share_without_website": 0.6818
+  },
+  {
+   "category": "services_and_business",
+   "places": 15,
+   "with_website": 7,
+   "without_website": 8,
+   "share_without_website": 0.5333
+  },
+  {
+   "category": "lodging",
+   "places": 14,
+   "with_website": 5,
+   "without_website": 9,
+   "share_without_website": 0.6429
+  },
+  {
+   "category": "shopping",
+   "places": 11,
+   "with_website": 1,
+   "without_website": 10,
+   "share_without_website": 0.9091
+  },
+  {
+   "category": "food_and_drink",
+   "places": 10,
+   "with_website": 1,
+   "without_website": 9,
+   "share_without_website": 0.9
+  },
+  {
+   "category": "community_and_government",
+   "places": 9,
+   "with_website": 3,
+   "without_website": 6,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 8,
+   "with_website": 1,
+   "without_website": 7,
+   "share_without_website": 0.875
+  },
+  {
+   "category": "health_care",
+   "places": 7,
+   "with_website": 0,
+   "without_website": 7,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 6,
+   "with_website": 3,
+   "without_website": 3,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 5,
+   "with_website": 2,
+   "without_website": 3,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "geographic_entities",
+   "places": 1,
+   "with_website": 0,
+   "without_website": 1,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1,
+   "with_website": 0,
+   "without_website": 1,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:40Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1258291,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

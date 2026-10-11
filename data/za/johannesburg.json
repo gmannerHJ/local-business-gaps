@@ -1,0 +1,209 @@
+{
+ "city": "Johannesburg",
+ "local_name": "Johannesburg",
+ "slug": "johannesburg",
+ "country": "ZA",
+ "country_name": "South Africa",
+ "population": 4434827,
+ "wikidata": "Q34647",
+ "division_id": "a97c9252-f8d9-4fe2-8c62-1e87220eda05",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 707.8
+ },
+ "bbox": [
+  27.89954,
+  -26.340656,
+  28.199904,
+  -26.069344
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 43088,
+  "with_website": 28084,
+  "without_website": 15004,
+  "share_without_website": 0.3482,
+  "without_website_with_phone": 9448,
+  "without_website_with_social": 11551
+ },
+ "excluded": {
+  "below_confidence": 29492,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1122,
+ "blank_website_entries": 400,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 2214,
+   "with_website": 1500,
+   "without_website": 714,
+   "share_without_website": 0.3225
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 1976,
+   "with_website": 948,
+   "without_website": 1028,
+   "share_without_website": 0.5202
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1954,
+   "with_website": 1389,
+   "without_website": 565,
+   "share_without_website": 0.2892
+  },
+  {
+   "category": "preschool",
+   "places": 1685,
+   "with_website": 232,
+   "without_website": 1453,
+   "share_without_website": 0.8623
+  },
+  {
+   "category": "automotive_service",
+   "places": 1544,
+   "with_website": 939,
+   "without_website": 605,
+   "share_without_website": 0.3918
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 1240,
+   "with_website": 982,
+   "without_website": 258,
+   "share_without_website": 0.2081
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 1171,
+   "with_website": 610,
+   "without_website": 561,
+   "share_without_website": 0.4791
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 1153,
+   "with_website": 644,
+   "without_website": 509,
+   "share_without_website": 0.4415
+  },
+  {
+   "category": "place_of_learning",
+   "places": 978,
+   "with_website": 412,
+   "without_website": 566,
+   "share_without_website": 0.5787
+  },
+  {
+   "category": "professional_service",
+   "places": 957,
+   "with_website": 782,
+   "without_website": 175,
+   "share_without_website": 0.1829
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 9618,
+   "with_website": 7445,
+   "without_website": 2173,
+   "share_without_website": 0.2259
+  },
+  {
+   "category": "shopping",
+   "places": 9368,
+   "with_website": 6604,
+   "without_website": 2764,
+   "share_without_website": 0.295
+  },
+  {
+   "category": "food_and_drink",
+   "places": 4413,
+   "with_website": 2809,
+   "without_website": 1604,
+   "share_without_website": 0.3635
+  },
+  {
+   "category": "education",
+   "places": 4171,
+   "with_website": 1725,
+   "without_website": 2446,
+   "share_without_website": 0.5864
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 2582,
+   "with_website": 1351,
+   "without_website": 1231,
+   "share_without_website": 0.4768
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 2524,
+   "with_website": 1659,
+   "without_website": 865,
+   "share_without_website": 0.3427
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 2332,
+   "with_website": 1051,
+   "without_website": 1281,
+   "share_without_website": 0.5493
+  },
+  {
+   "category": "health_care",
+   "places": 1895,
+   "with_website": 1377,
+   "without_website": 518,
+   "share_without_website": 0.2734
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1580,
+   "with_website": 946,
+   "without_website": 634,
+   "share_without_website": 0.4013
+  },
+  {
+   "category": "lodging",
+   "places": 1397,
+   "with_website": 914,
+   "without_website": 483,
+   "share_without_website": 0.3457
+  },
+  {
+   "category": "community_and_government",
+   "places": 1209,
+   "with_website": 833,
+   "without_website": 376,
+   "share_without_website": 0.311
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 781,
+   "with_website": 489,
+   "without_website": 292,
+   "share_without_website": 0.3739
+  },
+  {
+   "category": "geographic_entities",
+   "places": 59,
+   "with_website": 18,
+   "without_website": 41,
+   "share_without_website": 0.6949
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:49:55Z",
+  "query_seconds": 1.8,
+  "bytes_read": 7969177,
+  "get_requests": 53,
+  "head_requests": 0
+ }
+}

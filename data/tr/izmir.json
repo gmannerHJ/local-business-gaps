@@ -1,0 +1,209 @@
+{
+ "city": "İzmir",
+ "local_name": "İzmir",
+ "slug": "izmir",
+ "country": "TR",
+ "country_name": "Turkey",
+ "population": 4493242,
+ "wikidata": "Q35997",
+ "division_id": "64290f90-850e-483c-943a-a53735a6d15e",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.6
+ },
+ "bbox": [
+  26.956485,
+  38.283598,
+  27.300453,
+  38.554909
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 68894,
+  "with_website": 31936,
+  "without_website": 36958,
+  "share_without_website": 0.5364,
+  "without_website_with_phone": 21056,
+  "without_website_with_social": 34896
+ },
+ "excluded": {
+  "below_confidence": 16672,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1391,
+ "blank_website_entries": 41,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 4663,
+   "with_website": 1804,
+   "without_website": 2859,
+   "share_without_website": 0.6131
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 3339,
+   "with_website": 1714,
+   "without_website": 1625,
+   "share_without_website": 0.4867
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 2837,
+   "with_website": 1658,
+   "without_website": 1179,
+   "share_without_website": 0.4156
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 2436,
+   "with_website": 701,
+   "without_website": 1735,
+   "share_without_website": 0.7122
+  },
+  {
+   "category": "real_estate_service",
+   "places": 2323,
+   "with_website": 998,
+   "without_website": 1325,
+   "share_without_website": 0.5704
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 2183,
+   "with_website": 498,
+   "without_website": 1685,
+   "share_without_website": 0.7719
+  },
+  {
+   "category": "wellness_service",
+   "places": 1936,
+   "with_website": 590,
+   "without_website": 1346,
+   "share_without_website": 0.6952
+  },
+  {
+   "category": "cafe",
+   "places": 1870,
+   "with_website": 578,
+   "without_website": 1292,
+   "share_without_website": 0.6909
+  },
+  {
+   "category": "casual_eatery",
+   "places": 1824,
+   "with_website": 634,
+   "without_website": 1190,
+   "share_without_website": 0.6524
+  },
+  {
+   "category": "automotive_service",
+   "places": 1680,
+   "with_website": 699,
+   "without_website": 981,
+   "share_without_website": 0.5839
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 16553,
+   "with_website": 10263,
+   "without_website": 6290,
+   "share_without_website": 0.38
+  },
+  {
+   "category": "shopping",
+   "places": 15726,
+   "with_website": 7540,
+   "without_website": 8186,
+   "share_without_website": 0.5205
+  },
+  {
+   "category": "food_and_drink",
+   "places": 11198,
+   "with_website": 4098,
+   "without_website": 7100,
+   "share_without_website": 0.634
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 4837,
+   "with_website": 1528,
+   "without_website": 3309,
+   "share_without_website": 0.6841
+  },
+  {
+   "category": "education",
+   "places": 3343,
+   "with_website": 1881,
+   "without_website": 1462,
+   "share_without_website": 0.4373
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 3260,
+   "with_website": 1449,
+   "without_website": 1811,
+   "share_without_website": 0.5555
+  },
+  {
+   "category": "health_care",
+   "places": 2879,
+   "with_website": 1816,
+   "without_website": 1063,
+   "share_without_website": 0.3692
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 2647,
+   "with_website": 768,
+   "without_website": 1879,
+   "share_without_website": 0.7099
+  },
+  {
+   "category": "community_and_government",
+   "places": 2100,
+   "with_website": 664,
+   "without_website": 1436,
+   "share_without_website": 0.6838
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 1774,
+   "with_website": 534,
+   "without_website": 1240,
+   "share_without_website": 0.699
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1699,
+   "with_website": 186,
+   "without_website": 1513,
+   "share_without_website": 0.8905
+  },
+  {
+   "category": "lodging",
+   "places": 1102,
+   "with_website": 421,
+   "without_website": 681,
+   "share_without_website": 0.618
+  },
+  {
+   "category": "geographic_entities",
+   "places": 309,
+   "with_website": 14,
+   "without_website": 295,
+   "share_without_website": 0.9547
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:48Z",
+  "query_seconds": 1.4,
+  "bytes_read": 7130316,
+  "get_requests": 50,
+  "head_requests": 0
+ }
+}

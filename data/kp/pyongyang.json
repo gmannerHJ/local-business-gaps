@@ -1,0 +1,203 @@
+{
+ "city": "Pyongyang",
+ "local_name": "평양시",
+ "slug": "pyongyang",
+ "country": "KP",
+ "country_name": "North Korea",
+ "population": 3871335,
+ "wikidata": "Q18808",
+ "division_id": "c92f4ece-d69f-48f2-9d0e-ed335422a27d",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "fc8a1202-ee5b-4ba6-bfe1-2fcbe8ab4dda",
+  "area_subtype": "region",
+  "area_km2": 1845.4
+ },
+ "bbox": [
+  125.522308,
+  38.791672,
+  126.403328,
+  39.305592
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 121,
+  "with_website": 47,
+  "without_website": 74,
+  "share_without_website": 0.6116,
+  "without_website_with_phone": 2,
+  "without_website_with_social": 74
+ },
+ "excluded": {
+  "below_confidence": 21,
+  "permanently_closed": 0
+ },
+ "uncategorised": 0,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "historic_site",
+   "places": 25,
+   "with_website": 5,
+   "without_website": 20,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "stadium_arena",
+   "places": 8,
+   "with_website": 4,
+   "without_website": 4,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "train_station",
+   "places": 8,
+   "with_website": 3,
+   "without_website": 5,
+   "share_without_website": 0.625
+  },
+  {
+   "category": "hotel",
+   "places": 7,
+   "with_website": 3,
+   "without_website": 4,
+   "share_without_website": 0.5714
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 6,
+   "with_website": 1,
+   "without_website": 5,
+   "share_without_website": 0.8333
+  },
+  {
+   "category": "monument",
+   "places": 5,
+   "with_website": 1,
+   "without_website": 4,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "restaurant",
+   "places": 5,
+   "with_website": 3,
+   "without_website": 2,
+   "share_without_website": 0.4
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 4,
+   "with_website": 1,
+   "without_website": 3,
+   "share_without_website": 0.75
+  },
+  {
+   "category": "college_university",
+   "places": 4,
+   "with_website": 2,
+   "without_website": 2,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "government_office",
+   "places": 4,
+   "with_website": 2,
+   "without_website": 2,
+   "share_without_website": 0.5
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "cultural_and_historic",
+   "places": 35,
+   "with_website": 8,
+   "without_website": 27,
+   "share_without_website": 0.7714
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 21,
+   "with_website": 11,
+   "without_website": 10,
+   "share_without_website": 0.4762
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 15,
+   "with_website": 5,
+   "without_website": 10,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "community_and_government",
+   "places": 11,
+   "with_website": 4,
+   "without_website": 7,
+   "share_without_website": 0.6364
+  },
+  {
+   "category": "lodging",
+   "places": 8,
+   "with_website": 3,
+   "without_website": 5,
+   "share_without_website": 0.625
+  },
+  {
+   "category": "education",
+   "places": 7,
+   "with_website": 2,
+   "without_website": 5,
+   "share_without_website": 0.7143
+  },
+  {
+   "category": "food_and_drink",
+   "places": 7,
+   "with_website": 4,
+   "without_website": 3,
+   "share_without_website": 0.4286
+  },
+  {
+   "category": "geographic_entities",
+   "places": 5,
+   "with_website": 1,
+   "without_website": 4,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 5,
+   "with_website": 2,
+   "without_website": 3,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "health_care",
+   "places": 3,
+   "with_website": 3,
+   "without_website": 0,
+   "share_without_website": 0.0
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 3,
+   "with_website": 3,
+   "without_website": 0,
+   "share_without_website": 0.0
+  },
+  {
+   "category": "shopping",
+   "places": 1,
+   "with_website": 1,
+   "without_website": 0,
+   "share_without_website": 0.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:43Z",
+  "query_seconds": 1.0,
+  "bytes_read": 539648,
+  "get_requests": 5,
+  "head_requests": 0
+ }
+}

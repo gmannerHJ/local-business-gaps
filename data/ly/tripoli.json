@@ -1,0 +1,210 @@
+{
+ "city": "Tripoli",
+ "local_name": "طرابلس",
+ "slug": "tripoli",
+ "country": "LY",
+ "country_name": "Libya",
+ "population": 2127000,
+ "wikidata": "Q3579",
+ "division_id": "74d48ca5-8ed2-46ab-9c2f-68864d64ba22",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "f86bbf89-2e30-486e-891c-03c1a5622d68",
+  "area_subtype": "locality",
+  "area_km2": 842.4
+ },
+ "bbox": [
+  13.065738,
+  32.625305,
+  13.598142,
+  32.921223
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 6844,
+  "with_website": 2449,
+  "without_website": 4395,
+  "share_without_website": 0.6422,
+  "without_website_with_phone": 3178,
+  "without_website_with_social": 4386
+ },
+ "excluded": {
+  "below_confidence": 3894,
+  "permanently_closed": 0
+ },
+ "uncategorised": 527,
+ "blank_website_entries": 5,
+ "top_categories": [
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 375,
+   "with_website": 126,
+   "without_website": 249,
+   "share_without_website": 0.664
+  },
+  {
+   "category": "restaurant",
+   "places": 337,
+   "with_website": 68,
+   "without_website": 269,
+   "share_without_website": 0.7982
+  },
+  {
+   "category": "place_of_learning",
+   "places": 289,
+   "with_website": 78,
+   "without_website": 211,
+   "share_without_website": 0.7301
+  },
+  {
+   "category": "cafe",
+   "places": 258,
+   "with_website": 42,
+   "without_website": 216,
+   "share_without_website": 0.8372
+  },
+  {
+   "category": "hospital",
+   "places": 249,
+   "with_website": 63,
+   "without_website": 186,
+   "share_without_website": 0.747
+  },
+  {
+   "category": "shopping",
+   "places": 247,
+   "with_website": 89,
+   "without_website": 158,
+   "share_without_website": 0.6397
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 186,
+   "with_website": 89,
+   "without_website": 97,
+   "share_without_website": 0.5215
+  },
+  {
+   "category": "travel_service",
+   "places": 167,
+   "with_website": 91,
+   "without_website": 76,
+   "share_without_website": 0.4551
+  },
+  {
+   "category": "coffee_shop",
+   "places": 164,
+   "with_website": 33,
+   "without_website": 131,
+   "share_without_website": 0.7988
+  },
+  {
+   "category": "college_university",
+   "places": 164,
+   "with_website": 85,
+   "without_website": 79,
+   "share_without_website": 0.4817
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 1484,
+   "with_website": 567,
+   "without_website": 917,
+   "share_without_website": 0.6179
+  },
+  {
+   "category": "services_and_business",
+   "places": 1061,
+   "with_website": 611,
+   "without_website": 450,
+   "share_without_website": 0.4241
+  },
+  {
+   "category": "food_and_drink",
+   "places": 979,
+   "with_website": 191,
+   "without_website": 788,
+   "share_without_website": 0.8049
+  },
+  {
+   "category": "education",
+   "places": 777,
+   "with_website": 267,
+   "without_website": 510,
+   "share_without_website": 0.6564
+  },
+  {
+   "category": "health_care",
+   "places": 663,
+   "with_website": 169,
+   "without_website": 494,
+   "share_without_website": 0.7451
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 357,
+   "with_website": 159,
+   "without_website": 198,
+   "share_without_website": 0.5546
+  },
+  {
+   "category": "community_and_government",
+   "places": 272,
+   "with_website": 127,
+   "without_website": 145,
+   "share_without_website": 0.5331
+  },
+  {
+   "category": "lodging",
+   "places": 166,
+   "with_website": 52,
+   "without_website": 114,
+   "share_without_website": 0.6867
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 157,
+   "with_website": 40,
+   "without_website": 117,
+   "share_without_website": 0.7452
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 154,
+   "with_website": 17,
+   "without_website": 137,
+   "share_without_website": 0.8896
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 140,
+   "with_website": 42,
+   "without_website": 98,
+   "share_without_website": 0.7
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 77,
+   "with_website": 29,
+   "without_website": 48,
+   "share_without_website": 0.6234
+  },
+  {
+   "category": "geographic_entities",
+   "places": 25,
+   "with_website": 7,
+   "without_website": 18,
+   "share_without_website": 0.72
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:32Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1258291,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "city": "Mecca",
+ "local_name": "مكة",
+ "slug": "mecca",
+ "country": "SA",
+ "country_name": "Saudi Arabia",
+ "population": 1534731,
+ "wikidata": "Q5806",
+ "division_id": "e3161c55-6dde-4b67-94fe-32da4a2b3fc2",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "e4917ca4-8167-4220-a34a-c697952d92b8",
+  "area_subtype": "county",
+  "area_km2": 3851.7
+ },
+ "bbox": [
+  39.505852,
+  21.119816,
+  40.475616,
+  21.848043
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 4206,
+  "with_website": 1684,
+  "without_website": 2522,
+  "share_without_website": 0.5996,
+  "without_website_with_phone": 870,
+  "without_website_with_social": 2379
+ },
+ "excluded": {
+  "below_confidence": 1191,
+  "permanently_closed": 0
+ },
+ "uncategorised": 61,
+ "blank_website_entries": 15,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 689,
+   "with_website": 256,
+   "without_website": 433,
+   "share_without_website": 0.6284
+  },
+  {
+   "category": "restaurant",
+   "places": 461,
+   "with_website": 172,
+   "without_website": 289,
+   "share_without_website": 0.6269
+  },
+  {
+   "category": "muslim_place_of_worship",
+   "places": 239,
+   "with_website": 30,
+   "without_website": 209,
+   "share_without_website": 0.8745
+  },
+  {
+   "category": "coffee_shop",
+   "places": 165,
+   "with_website": 110,
+   "without_website": 55,
+   "share_without_website": 0.3333
+  },
+  {
+   "category": "hospital",
+   "places": 165,
+   "with_website": 56,
+   "without_website": 109,
+   "share_without_website": 0.6606
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 147,
+   "with_website": 82,
+   "without_website": 65,
+   "share_without_website": 0.4422
+  },
+  {
+   "category": "fast_food_restaurant",
+   "places": 114,
+   "with_website": 65,
+   "without_website": 49,
+   "share_without_website": 0.4298
+  },
+  {
+   "category": "pharmacy_and_drug_store",
+   "places": 110,
+   "with_website": 101,
+   "without_website": 9,
+   "share_without_website": 0.0818
+  },
+  {
+   "category": "casual_eatery",
+   "places": 109,
+   "with_website": 58,
+   "without_website": 51,
+   "share_without_website": 0.4679
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 104,
+   "with_website": 41,
+   "without_website": 63,
+   "share_without_website": 0.6058
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 980,
+   "with_website": 443,
+   "without_website": 537,
+   "share_without_website": 0.548
+  },
+  {
+   "category": "lodging",
+   "places": 762,
+   "with_website": 287,
+   "without_website": 475,
+   "share_without_website": 0.6234
+  },
+  {
+   "category": "shopping",
+   "places": 674,
+   "with_website": 368,
+   "without_website": 306,
+   "share_without_website": 0.454
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 368,
+   "with_website": 66,
+   "without_website": 302,
+   "share_without_website": 0.8207
+  },
+  {
+   "category": "services_and_business",
+   "places": 363,
+   "with_website": 153,
+   "without_website": 210,
+   "share_without_website": 0.5785
+  },
+  {
+   "category": "health_care",
+   "places": 253,
+   "with_website": 97,
+   "without_website": 156,
+   "share_without_website": 0.6166
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 242,
+   "with_website": 85,
+   "without_website": 157,
+   "share_without_website": 0.6488
+  },
+  {
+   "category": "community_and_government",
+   "places": 128,
+   "with_website": 40,
+   "without_website": 88,
+   "share_without_website": 0.6875
+  },
+  {
+   "category": "education",
+   "places": 117,
+   "with_website": 50,
+   "without_website": 67,
+   "share_without_website": 0.5726
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 85,
+   "with_website": 19,
+   "without_website": 66,
+   "share_without_website": 0.7765
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 64,
+   "with_website": 15,
+   "without_website": 49,
+   "share_without_website": 0.7656
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 63,
+   "with_website": 15,
+   "without_website": 48,
+   "share_without_website": 0.7619
+  },
+  {
+   "category": "geographic_entities",
+   "places": 45,
+   "with_website": 8,
+   "without_website": 37,
+   "share_without_website": 0.8222
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:31Z",
+  "query_seconds": 0.9,
+  "bytes_read": 1677721,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "city": "Nagoya",
+ "local_name": "名古屋市",
+ "slug": "nagoya",
+ "country": "JP",
+ "country_name": "Japan",
+ "population": 2236000,
+ "wikidata": "Q11751",
+ "division_id": "167fcf5c-c381-4432-9d45-585855c12335",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "9d7c465e-73af-458c-9f51-110f79d5dbce",
+  "area_subtype": "locality",
+  "area_km2": 341.8
+ },
+ "bbox": [
+  136.791962,
+  35.025948,
+  137.060913,
+  35.260235
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 57063,
+  "with_website": 37756,
+  "without_website": 19307,
+  "share_without_website": 0.3383,
+  "without_website_with_phone": 12949,
+  "without_website_with_social": 17487
+ },
+ "excluded": {
+  "below_confidence": 5682,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1072,
+ "blank_website_entries": 81,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 11456,
+   "with_website": 7257,
+   "without_website": 4199,
+   "share_without_website": 0.3665
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 2860,
+   "with_website": 2191,
+   "without_website": 669,
+   "share_without_website": 0.2339
+  },
+  {
+   "category": "bar",
+   "places": 2732,
+   "with_website": 1463,
+   "without_website": 1269,
+   "share_without_website": 0.4645
+  },
+  {
+   "category": "rental_service",
+   "places": 1767,
+   "with_website": 141,
+   "without_website": 1626,
+   "share_without_website": 0.9202
+  },
+  {
+   "category": "convenience_store",
+   "places": 1554,
+   "with_website": 1497,
+   "without_website": 57,
+   "share_without_website": 0.0367
+  },
+  {
+   "category": "cafe",
+   "places": 1545,
+   "with_website": 1019,
+   "without_website": 526,
+   "share_without_website": 0.3405
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1510,
+   "with_website": 1148,
+   "without_website": 362,
+   "share_without_website": 0.2397
+  },
+  {
+   "category": "parking",
+   "places": 1307,
+   "with_website": 1237,
+   "without_website": 70,
+   "share_without_website": 0.0536
+  },
+  {
+   "category": "casual_eatery",
+   "places": 1189,
+   "with_website": 884,
+   "without_website": 305,
+   "share_without_website": 0.2565
+  },
+  {
+   "category": "coffee_shop",
+   "places": 1127,
+   "with_website": 585,
+   "without_website": 542,
+   "share_without_website": 0.4809
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 18738,
+   "with_website": 11658,
+   "without_website": 7080,
+   "share_without_website": 0.3778
+  },
+  {
+   "category": "shopping",
+   "places": 9527,
+   "with_website": 7362,
+   "without_website": 2165,
+   "share_without_website": 0.2272
+  },
+  {
+   "category": "services_and_business",
+   "places": 9203,
+   "with_website": 5823,
+   "without_website": 3380,
+   "share_without_website": 0.3673
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 3713,
+   "with_website": 2827,
+   "without_website": 886,
+   "share_without_website": 0.2386
+  },
+  {
+   "category": "health_care",
+   "places": 3245,
+   "with_website": 2638,
+   "without_website": 607,
+   "share_without_website": 0.1871
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 2977,
+   "with_website": 2161,
+   "without_website": 816,
+   "share_without_website": 0.2741
+  },
+  {
+   "category": "education",
+   "places": 2111,
+   "with_website": 1529,
+   "without_website": 582,
+   "share_without_website": 0.2757
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1845,
+   "with_website": 975,
+   "without_website": 870,
+   "share_without_website": 0.4715
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 1367,
+   "with_website": 942,
+   "without_website": 425,
+   "share_without_website": 0.3109
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1310,
+   "with_website": 333,
+   "without_website": 977,
+   "share_without_website": 0.7458
+  },
+  {
+   "category": "community_and_government",
+   "places": 1109,
+   "with_website": 570,
+   "without_website": 539,
+   "share_without_website": 0.486
+  },
+  {
+   "category": "lodging",
+   "places": 562,
+   "with_website": 368,
+   "without_website": 194,
+   "share_without_website": 0.3452
+  },
+  {
+   "category": "geographic_entities",
+   "places": 221,
+   "with_website": 35,
+   "without_website": 186,
+   "share_without_website": 0.8416
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:31Z",
+  "query_seconds": 1.9,
+  "bytes_read": 7444889,
+  "get_requests": 50,
+  "head_requests": 0
+ }
+}

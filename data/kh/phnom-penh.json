@@ -1,0 +1,210 @@
+{
+ "city": "Phnom Penh",
+ "local_name": "រាជធានីភ្នំពេញ",
+ "slug": "phnom-penh",
+ "country": "KH",
+ "country_name": "Cambodia",
+ "population": 2009264,
+ "wikidata": "Q1850",
+ "division_id": "e4f1c114-7e45-40b4-9cb5-4cbef425ba91",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "a4ef2414-0113-45ec-bdd9-8e85652e9133",
+  "area_subtype": "region",
+  "area_km2": 689.0
+ },
+ "bbox": [
+  104.72039,
+  11.420085,
+  105.037376,
+  11.734954
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 31260,
+  "with_website": 13677,
+  "without_website": 17583,
+  "share_without_website": 0.5625,
+  "without_website_with_phone": 15318,
+  "without_website_with_social": 17487
+ },
+ "excluded": {
+  "below_confidence": 47170,
+  "permanently_closed": 0
+ },
+ "uncategorised": 988,
+ "blank_website_entries": 31,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 3238,
+   "with_website": 867,
+   "without_website": 2371,
+   "share_without_website": 0.7322
+  },
+  {
+   "category": "coffee_shop",
+   "places": 1654,
+   "with_website": 358,
+   "without_website": 1296,
+   "share_without_website": 0.7836
+  },
+  {
+   "category": "real_estate_service",
+   "places": 1512,
+   "with_website": 888,
+   "without_website": 624,
+   "share_without_website": 0.4127
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1287,
+   "with_website": 560,
+   "without_website": 727,
+   "share_without_website": 0.5649
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 1179,
+   "with_website": 369,
+   "without_website": 810,
+   "share_without_website": 0.687
+  },
+  {
+   "category": "electronics_store",
+   "places": 1105,
+   "with_website": 577,
+   "without_website": 528,
+   "share_without_website": 0.4778
+  },
+  {
+   "category": "professional_service",
+   "places": 1037,
+   "with_website": 571,
+   "without_website": 466,
+   "share_without_website": 0.4494
+  },
+  {
+   "category": "cafe",
+   "places": 827,
+   "with_website": 173,
+   "without_website": 654,
+   "share_without_website": 0.7908
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 797,
+   "with_website": 380,
+   "without_website": 417,
+   "share_without_website": 0.5232
+  },
+  {
+   "category": "automotive_service",
+   "places": 645,
+   "with_website": 205,
+   "without_website": 440,
+   "share_without_website": 0.6822
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 7227,
+   "with_website": 1887,
+   "without_website": 5340,
+   "share_without_website": 0.7389
+  },
+  {
+   "category": "shopping",
+   "places": 6791,
+   "with_website": 3057,
+   "without_website": 3734,
+   "share_without_website": 0.5498
+  },
+  {
+   "category": "services_and_business",
+   "places": 6589,
+   "with_website": 3830,
+   "without_website": 2759,
+   "share_without_website": 0.4187
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1766,
+   "with_website": 635,
+   "without_website": 1131,
+   "share_without_website": 0.6404
+  },
+  {
+   "category": "education",
+   "places": 1611,
+   "with_website": 965,
+   "without_website": 646,
+   "share_without_website": 0.401
+  },
+  {
+   "category": "health_care",
+   "places": 1534,
+   "with_website": 607,
+   "without_website": 927,
+   "share_without_website": 0.6043
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1346,
+   "with_website": 581,
+   "without_website": 765,
+   "share_without_website": 0.5684
+  },
+  {
+   "category": "lodging",
+   "places": 847,
+   "with_website": 452,
+   "without_website": 395,
+   "share_without_website": 0.4664
+  },
+  {
+   "category": "community_and_government",
+   "places": 842,
+   "with_website": 542,
+   "without_website": 300,
+   "share_without_website": 0.3563
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 766,
+   "with_website": 329,
+   "without_website": 437,
+   "share_without_website": 0.5705
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 561,
+   "with_website": 216,
+   "without_website": 345,
+   "share_without_website": 0.615
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 346,
+   "with_website": 150,
+   "without_website": 196,
+   "share_without_website": 0.5665
+  },
+  {
+   "category": "geographic_entities",
+   "places": 38,
+   "with_website": 6,
+   "without_website": 32,
+   "share_without_website": 0.8421
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:07Z",
+  "query_seconds": 1.6,
+  "bytes_read": 5976883,
+  "get_requests": 43,
+  "head_requests": 0
+ }
+}

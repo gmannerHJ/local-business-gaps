@@ -1,0 +1,210 @@
+{
+ "city": "Adelaide",
+ "local_name": "Adelaide",
+ "slug": "adelaide",
+ "country": "AU",
+ "country_name": "Australia",
+ "population": 1245011,
+ "wikidata": "Q5112",
+ "division_id": "7725747d-bdfa-4a39-871a-ecef702c4e97",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "19075ede-30d9-4ffa-b5b9-a79185025565",
+  "area_subtype": "locality",
+  "area_km2": 1625.5
+ },
+ "bbox": [
+  138.428131,
+  -35.350296,
+  138.847916,
+  -34.572239
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 50917,
+  "with_website": 42163,
+  "without_website": 8754,
+  "share_without_website": 0.1719,
+  "without_website_with_phone": 6011,
+  "without_website_with_social": 7567
+ },
+ "excluded": {
+  "below_confidence": 9690,
+  "permanently_closed": 1
+ },
+ "uncategorised": 1538,
+ "blank_website_entries": 658,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 3097,
+   "with_website": 2287,
+   "without_website": 810,
+   "share_without_website": 0.2615
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 2378,
+   "with_website": 1515,
+   "without_website": 863,
+   "share_without_website": 0.3629
+  },
+  {
+   "category": "home_service",
+   "places": 2247,
+   "with_website": 2107,
+   "without_website": 140,
+   "share_without_website": 0.0623
+  },
+  {
+   "category": "automotive_service",
+   "places": 1821,
+   "with_website": 1470,
+   "without_website": 351,
+   "share_without_website": 0.1928
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1554,
+   "with_website": 1347,
+   "without_website": 207,
+   "share_without_website": 0.1332
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 1501,
+   "with_website": 1392,
+   "without_website": 109,
+   "share_without_website": 0.0726
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 1333,
+   "with_website": 1042,
+   "without_website": 291,
+   "share_without_website": 0.2183
+  },
+  {
+   "category": "professional_service",
+   "places": 1321,
+   "with_website": 1278,
+   "without_website": 43,
+   "share_without_website": 0.0326
+  },
+  {
+   "category": "financial_service",
+   "places": 1231,
+   "with_website": 1113,
+   "without_website": 118,
+   "share_without_website": 0.0959
+  },
+  {
+   "category": "real_estate_service",
+   "places": 950,
+   "with_website": 907,
+   "without_website": 43,
+   "share_without_website": 0.0453
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 12647,
+   "with_website": 11709,
+   "without_website": 938,
+   "share_without_website": 0.0742
+  },
+  {
+   "category": "shopping",
+   "places": 9518,
+   "with_website": 8275,
+   "without_website": 1243,
+   "share_without_website": 0.1306
+  },
+  {
+   "category": "food_and_drink",
+   "places": 6447,
+   "with_website": 4811,
+   "without_website": 1636,
+   "share_without_website": 0.2538
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 3840,
+   "with_website": 2534,
+   "without_website": 1306,
+   "share_without_website": 0.3401
+  },
+  {
+   "category": "health_care",
+   "places": 3606,
+   "with_website": 3249,
+   "without_website": 357,
+   "share_without_website": 0.099
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 3320,
+   "with_website": 2287,
+   "without_website": 1033,
+   "share_without_website": 0.3111
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 3059,
+   "with_website": 2481,
+   "without_website": 578,
+   "share_without_website": 0.189
+  },
+  {
+   "category": "education",
+   "places": 1848,
+   "with_website": 1639,
+   "without_website": 209,
+   "share_without_website": 0.1131
+  },
+  {
+   "category": "community_and_government",
+   "places": 1749,
+   "with_website": 1509,
+   "without_website": 240,
+   "share_without_website": 0.1372
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1105,
+   "with_website": 777,
+   "without_website": 328,
+   "share_without_website": 0.2968
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 1078,
+   "with_website": 812,
+   "without_website": 266,
+   "share_without_website": 0.2468
+  },
+  {
+   "category": "lodging",
+   "places": 697,
+   "with_website": 540,
+   "without_website": 157,
+   "share_without_website": 0.2253
+  },
+  {
+   "category": "geographic_entities",
+   "places": 337,
+   "with_website": 75,
+   "without_website": 262,
+   "share_without_website": 0.7774
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:02Z",
+  "query_seconds": 3.0,
+  "bytes_read": 5557452,
+  "get_requests": 36,
+  "head_requests": 0
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "city": "Giza",
+ "local_name": "الجيزة",
+ "slug": "giza",
+ "country": "EG",
+ "country_name": "Egypt",
+ "population": 2681863,
+ "wikidata": "Q81788",
+ "division_id": "bb910e58-9fe3-45ab-8e63-eeeb967a7ca8",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 708.3
+ },
+ "bbox": [
+  31.056234,
+  29.85142,
+  31.367378,
+  30.122731
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 45424,
+  "with_website": 22358,
+  "without_website": 23066,
+  "share_without_website": 0.5078,
+  "without_website_with_phone": 18432,
+  "without_website_with_social": 22660
+ },
+ "excluded": {
+  "below_confidence": 33467,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1372,
+ "blank_website_entries": 77,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 2986,
+   "with_website": 1088,
+   "without_website": 1898,
+   "share_without_website": 0.6356
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1887,
+   "with_website": 900,
+   "without_website": 987,
+   "share_without_website": 0.5231
+  },
+  {
+   "category": "hospital",
+   "places": 1604,
+   "with_website": 547,
+   "without_website": 1057,
+   "share_without_website": 0.659
+  },
+  {
+   "category": "dental_clinic",
+   "places": 1461,
+   "with_website": 476,
+   "without_website": 985,
+   "share_without_website": 0.6742
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 1323,
+   "with_website": 816,
+   "without_website": 507,
+   "share_without_website": 0.3832
+  },
+  {
+   "category": "professional_service",
+   "places": 1270,
+   "with_website": 946,
+   "without_website": 324,
+   "share_without_website": 0.2551
+  },
+  {
+   "category": "travel_service",
+   "places": 1235,
+   "with_website": 935,
+   "without_website": 300,
+   "share_without_website": 0.2429
+  },
+  {
+   "category": "cafe",
+   "places": 1057,
+   "with_website": 221,
+   "without_website": 836,
+   "share_without_website": 0.7909
+  },
+  {
+   "category": "automotive_service",
+   "places": 1005,
+   "with_website": 422,
+   "without_website": 583,
+   "share_without_website": 0.5801
+  },
+  {
+   "category": "home_service",
+   "places": 968,
+   "with_website": 682,
+   "without_website": 286,
+   "share_without_website": 0.2955
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 9258,
+   "with_website": 6648,
+   "without_website": 2610,
+   "share_without_website": 0.2819
+  },
+  {
+   "category": "shopping",
+   "places": 8813,
+   "with_website": 4417,
+   "without_website": 4396,
+   "share_without_website": 0.4988
+  },
+  {
+   "category": "food_and_drink",
+   "places": 6342,
+   "with_website": 2258,
+   "without_website": 4084,
+   "share_without_website": 0.644
+  },
+  {
+   "category": "health_care",
+   "places": 6043,
+   "with_website": 2374,
+   "without_website": 3669,
+   "share_without_website": 0.6071
+  },
+  {
+   "category": "education",
+   "places": 3378,
+   "with_website": 1510,
+   "without_website": 1868,
+   "share_without_website": 0.553
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 2678,
+   "with_website": 1600,
+   "without_website": 1078,
+   "share_without_website": 0.4025
+  },
+  {
+   "category": "community_and_government",
+   "places": 1696,
+   "with_website": 833,
+   "without_website": 863,
+   "share_without_website": 0.5088
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1457,
+   "with_website": 323,
+   "without_website": 1134,
+   "share_without_website": 0.7783
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1422,
+   "with_website": 545,
+   "without_website": 877,
+   "share_without_website": 0.6167
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1161,
+   "with_website": 404,
+   "without_website": 757,
+   "share_without_website": 0.652
+  },
+  {
+   "category": "lodging",
+   "places": 855,
+   "with_website": 461,
+   "without_website": 394,
+   "share_without_website": 0.4608
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 731,
+   "with_website": 318,
+   "without_website": 413,
+   "share_without_website": 0.565
+  },
+  {
+   "category": "geographic_entities",
+   "places": 115,
+   "with_website": 16,
+   "without_website": 99,
+   "share_without_website": 0.8609
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:57Z",
+  "query_seconds": 2.0,
+  "bytes_read": 9227468,
+  "get_requests": 64,
+  "head_requests": 0
+ }
+}

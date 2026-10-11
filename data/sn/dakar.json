@@ -1,0 +1,209 @@
+{
+ "city": "Dakar",
+ "local_name": "Dakar",
+ "slug": "dakar",
+ "country": "SN",
+ "country_name": "Senegal",
+ "population": 2396800,
+ "wikidata": "Q3718",
+ "division_id": "af462cdd-eef6-4e6f-9bd6-a53196c8aa6d",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 706.6
+ },
+ "bbox": [
+  -17.58724,
+  14.557769,
+  -17.308636,
+  14.829081
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 5026,
+  "with_website": 3050,
+  "without_website": 1976,
+  "share_without_website": 0.3932,
+  "without_website_with_phone": 1594,
+  "without_website_with_social": 1948
+ },
+ "excluded": {
+  "below_confidence": 3333,
+  "permanently_closed": 0
+ },
+ "uncategorised": 168,
+ "blank_website_entries": 11,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 323,
+   "with_website": 138,
+   "without_website": 185,
+   "share_without_website": 0.5728
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 251,
+   "with_website": 123,
+   "without_website": 128,
+   "share_without_website": 0.51
+  },
+  {
+   "category": "place_of_learning",
+   "places": 183,
+   "with_website": 104,
+   "without_website": 79,
+   "share_without_website": 0.4317
+  },
+  {
+   "category": "college_university",
+   "places": 158,
+   "with_website": 138,
+   "without_website": 20,
+   "share_without_website": 0.1266
+  },
+  {
+   "category": "real_estate_service",
+   "places": 155,
+   "with_website": 109,
+   "without_website": 46,
+   "share_without_website": 0.2968
+  },
+  {
+   "category": "hotel",
+   "places": 144,
+   "with_website": 96,
+   "without_website": 48,
+   "share_without_website": 0.3333
+  },
+  {
+   "category": "professional_service",
+   "places": 141,
+   "with_website": 116,
+   "without_website": 25,
+   "share_without_website": 0.1773
+  },
+  {
+   "category": "shopping",
+   "places": 140,
+   "with_website": 73,
+   "without_website": 67,
+   "share_without_website": 0.4786
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 135,
+   "with_website": 91,
+   "without_website": 44,
+   "share_without_website": 0.3259
+  },
+  {
+   "category": "government_office",
+   "places": 124,
+   "with_website": 86,
+   "without_website": 38,
+   "share_without_website": 0.3065
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 1083,
+   "with_website": 793,
+   "without_website": 290,
+   "share_without_website": 0.2678
+  },
+  {
+   "category": "shopping",
+   "places": 1024,
+   "with_website": 572,
+   "without_website": 452,
+   "share_without_website": 0.4414
+  },
+  {
+   "category": "education",
+   "places": 595,
+   "with_website": 387,
+   "without_website": 208,
+   "share_without_website": 0.3496
+  },
+  {
+   "category": "food_and_drink",
+   "places": 497,
+   "with_website": 209,
+   "without_website": 288,
+   "share_without_website": 0.5795
+  },
+  {
+   "category": "community_and_government",
+   "places": 384,
+   "with_website": 271,
+   "without_website": 113,
+   "share_without_website": 0.2943
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 277,
+   "with_website": 216,
+   "without_website": 61,
+   "share_without_website": 0.2202
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 197,
+   "with_website": 72,
+   "without_website": 125,
+   "share_without_website": 0.6345
+  },
+  {
+   "category": "lodging",
+   "places": 192,
+   "with_website": 123,
+   "without_website": 69,
+   "share_without_website": 0.3594
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 176,
+   "with_website": 90,
+   "without_website": 86,
+   "share_without_website": 0.4886
+  },
+  {
+   "category": "health_care",
+   "places": 172,
+   "with_website": 93,
+   "without_website": 79,
+   "share_without_website": 0.4593
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 127,
+   "with_website": 58,
+   "without_website": 69,
+   "share_without_website": 0.5433
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 106,
+   "with_website": 52,
+   "without_website": 54,
+   "share_without_website": 0.5094
+  },
+  {
+   "category": "geographic_entities",
+   "places": 22,
+   "with_website": 5,
+   "without_website": 17,
+   "share_without_website": 0.7727
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:27Z",
+  "query_seconds": 1.2,
+  "bytes_read": 2306867,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

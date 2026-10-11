@@ -1,0 +1,210 @@
+{
+ "city": "Caloocan",
+ "local_name": "Caloocan",
+ "slug": "caloocan",
+ "country": "PH",
+ "country_name": "Philippines",
+ "population": 1661584,
+ "wikidata": "Q1478",
+ "division_id": "22de69df-65ba-4e65-9ef6-f1f7bfb7e7b1",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "caa07d78-d4ed-47db-a591-be4fa25004ed",
+  "area_subtype": "locality",
+  "area_km2": 52.8
+ },
+ "bbox": [
+  120.96064,
+  14.635558,
+  121.099075,
+  14.785336
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 10071,
+  "with_website": 2602,
+  "without_website": 7469,
+  "share_without_website": 0.7416,
+  "without_website_with_phone": 4667,
+  "without_website_with_social": 7410
+ },
+ "excluded": {
+  "below_confidence": 8902,
+  "permanently_closed": 0
+ },
+ "uncategorised": 203,
+ "blank_website_entries": 18,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 703,
+   "with_website": 179,
+   "without_website": 524,
+   "share_without_website": 0.7454
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 666,
+   "with_website": 117,
+   "without_website": 549,
+   "share_without_website": 0.8243
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 377,
+   "with_website": 54,
+   "without_website": 323,
+   "share_without_website": 0.8568
+  },
+  {
+   "category": "lodging",
+   "places": 343,
+   "with_website": 22,
+   "without_website": 321,
+   "share_without_website": 0.9359
+  },
+  {
+   "category": "historic_site",
+   "places": 269,
+   "with_website": 31,
+   "without_website": 238,
+   "share_without_website": 0.8848
+  },
+  {
+   "category": "dental_clinic",
+   "places": 240,
+   "with_website": 29,
+   "without_website": 211,
+   "share_without_website": 0.8792
+  },
+  {
+   "category": "automotive_service",
+   "places": 232,
+   "with_website": 44,
+   "without_website": 188,
+   "share_without_website": 0.8103
+  },
+  {
+   "category": "coffee_shop",
+   "places": 216,
+   "with_website": 45,
+   "without_website": 171,
+   "share_without_website": 0.7917
+  },
+  {
+   "category": "place_of_learning",
+   "places": 215,
+   "with_website": 52,
+   "without_website": 163,
+   "share_without_website": 0.7581
+  },
+  {
+   "category": "fast_food_restaurant",
+   "places": 197,
+   "with_website": 91,
+   "without_website": 106,
+   "share_without_website": 0.5381
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 1662,
+   "with_website": 431,
+   "without_website": 1231,
+   "share_without_website": 0.7407
+  },
+  {
+   "category": "services_and_business",
+   "places": 1584,
+   "with_website": 625,
+   "without_website": 959,
+   "share_without_website": 0.6054
+  },
+  {
+   "category": "shopping",
+   "places": 1575,
+   "with_website": 589,
+   "without_website": 986,
+   "share_without_website": 0.626
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1109,
+   "with_website": 183,
+   "without_website": 926,
+   "share_without_website": 0.835
+  },
+  {
+   "category": "health_care",
+   "places": 681,
+   "with_website": 87,
+   "without_website": 594,
+   "share_without_website": 0.8722
+  },
+  {
+   "category": "education",
+   "places": 660,
+   "with_website": 178,
+   "without_website": 482,
+   "share_without_website": 0.7303
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 585,
+   "with_website": 154,
+   "without_website": 431,
+   "share_without_website": 0.7368
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 570,
+   "with_website": 94,
+   "without_website": 476,
+   "share_without_website": 0.8351
+  },
+  {
+   "category": "lodging",
+   "places": 520,
+   "with_website": 66,
+   "without_website": 454,
+   "share_without_website": 0.8731
+  },
+  {
+   "category": "community_and_government",
+   "places": 442,
+   "with_website": 71,
+   "without_website": 371,
+   "share_without_website": 0.8394
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 341,
+   "with_website": 36,
+   "without_website": 305,
+   "share_without_website": 0.8944
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 91,
+   "with_website": 14,
+   "without_website": 77,
+   "share_without_website": 0.8462
+  },
+  {
+   "category": "geographic_entities",
+   "places": 28,
+   "with_website": 1,
+   "without_website": 27,
+   "share_without_website": 0.9643
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:42Z",
+  "query_seconds": 2.0,
+  "bytes_read": 6815744,
+  "get_requests": 51,
+  "head_requests": 0
+ }
+}

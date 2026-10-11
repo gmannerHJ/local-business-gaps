@@ -1,0 +1,209 @@
+{
+ "city": "Antananarivo",
+ "local_name": "Antananarivo",
+ "slug": "antananarivo",
+ "country": "MG",
+ "country_name": "Madagascar",
+ "population": 1391433,
+ "wikidata": "Q3915",
+ "division_id": "042b2e4e-d916-4b85-a0eb-b6d514e0a4e8",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 707.0
+ },
+ "bbox": [
+  47.383147,
+  -19.045668,
+  47.668015,
+  -18.774356
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 3673,
+  "with_website": 1318,
+  "without_website": 2355,
+  "share_without_website": 0.6412,
+  "without_website_with_phone": 1599,
+  "without_website_with_social": 2340
+ },
+ "excluded": {
+  "below_confidence": 3554,
+  "permanently_closed": 0
+ },
+ "uncategorised": 121,
+ "blank_website_entries": 10,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 379,
+   "with_website": 66,
+   "without_website": 313,
+   "share_without_website": 0.8259
+  },
+  {
+   "category": "hotel",
+   "places": 199,
+   "with_website": 117,
+   "without_website": 82,
+   "share_without_website": 0.4121
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 131,
+   "with_website": 21,
+   "without_website": 110,
+   "share_without_website": 0.8397
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 102,
+   "with_website": 24,
+   "without_website": 78,
+   "share_without_website": 0.7647
+  },
+  {
+   "category": "place_of_learning",
+   "places": 101,
+   "with_website": 33,
+   "without_website": 68,
+   "share_without_website": 0.6733
+  },
+  {
+   "category": "event_or_party_service",
+   "places": 94,
+   "with_website": 27,
+   "without_website": 67,
+   "share_without_website": 0.7128
+  },
+  {
+   "category": "shopping",
+   "places": 93,
+   "with_website": 25,
+   "without_website": 68,
+   "share_without_website": 0.7312
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 92,
+   "with_website": 19,
+   "without_website": 73,
+   "share_without_website": 0.7935
+  },
+  {
+   "category": "religious_organization",
+   "places": 80,
+   "with_website": 36,
+   "without_website": 44,
+   "share_without_website": 0.55
+  },
+  {
+   "category": "professional_service",
+   "places": 76,
+   "with_website": 47,
+   "without_website": 29,
+   "share_without_website": 0.3816
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 603,
+   "with_website": 112,
+   "without_website": 491,
+   "share_without_website": 0.8143
+  },
+  {
+   "category": "shopping",
+   "places": 586,
+   "with_website": 176,
+   "without_website": 410,
+   "share_without_website": 0.6997
+  },
+  {
+   "category": "services_and_business",
+   "places": 561,
+   "with_website": 275,
+   "without_website": 286,
+   "share_without_website": 0.5098
+  },
+  {
+   "category": "education",
+   "places": 315,
+   "with_website": 122,
+   "without_website": 193,
+   "share_without_website": 0.6127
+  },
+  {
+   "category": "lodging",
+   "places": 259,
+   "with_website": 140,
+   "without_website": 119,
+   "share_without_website": 0.4595
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 251,
+   "with_website": 72,
+   "without_website": 179,
+   "share_without_website": 0.7131
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 229,
+   "with_website": 119,
+   "without_website": 110,
+   "share_without_website": 0.4803
+  },
+  {
+   "category": "community_and_government",
+   "places": 218,
+   "with_website": 125,
+   "without_website": 93,
+   "share_without_website": 0.4266
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 163,
+   "with_website": 36,
+   "without_website": 127,
+   "share_without_website": 0.7791
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 140,
+   "with_website": 32,
+   "without_website": 108,
+   "share_without_website": 0.7714
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 114,
+   "with_website": 35,
+   "without_website": 79,
+   "share_without_website": 0.693
+  },
+  {
+   "category": "health_care",
+   "places": 95,
+   "with_website": 26,
+   "without_website": 69,
+   "share_without_website": 0.7263
+  },
+  {
+   "category": "geographic_entities",
+   "places": 16,
+   "with_website": 1,
+   "without_website": 15,
+   "share_without_website": 0.9375
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:26Z",
+  "query_seconds": 0.5,
+  "bytes_read": 6860,
+  "get_requests": 1,
+  "head_requests": 0
+ }
+}

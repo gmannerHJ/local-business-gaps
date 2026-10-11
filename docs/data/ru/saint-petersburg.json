@@ -1,0 +1,210 @@
+{
+ "city": "Saint Petersburg",
+ "local_name": "Санкт-Петербург",
+ "slug": "saint-petersburg",
+ "country": "RU",
+ "country_name": "Russia",
+ "population": 5652922,
+ "wikidata": "Q656",
+ "division_id": "ff3a1bef-1d4a-4f98-8221-19c888ad76f1",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "4cbd2e2e-e853-4a2f-a10d-cbad057bcc4b",
+  "area_subtype": "locality",
+  "area_km2": 594.6
+ },
+ "bbox": [
+  30.043343,
+  59.744141,
+  30.567169,
+  60.090744
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 47948,
+  "with_website": 34823,
+  "without_website": 13125,
+  "share_without_website": 0.2737,
+  "without_website_with_phone": 4005,
+  "without_website_with_social": 9708
+ },
+ "excluded": {
+  "below_confidence": 9811,
+  "permanently_closed": 0
+ },
+ "uncategorised": 961,
+ "blank_website_entries": 1,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 3186,
+   "with_website": 2468,
+   "without_website": 718,
+   "share_without_website": 0.2254
+  },
+  {
+   "category": "shopping",
+   "places": 2892,
+   "with_website": 895,
+   "without_website": 1997,
+   "share_without_website": 0.6905
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 2511,
+   "with_website": 2047,
+   "without_website": 464,
+   "share_without_website": 0.1848
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 2384,
+   "with_website": 1874,
+   "without_website": 510,
+   "share_without_website": 0.2139
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 1542,
+   "with_website": 1139,
+   "without_website": 403,
+   "share_without_website": 0.2613
+  },
+  {
+   "category": "bar",
+   "places": 1290,
+   "with_website": 905,
+   "without_website": 385,
+   "share_without_website": 0.2984
+  },
+  {
+   "category": "casual_eatery",
+   "places": 1132,
+   "with_website": 711,
+   "without_website": 421,
+   "share_without_website": 0.3719
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 1119,
+   "with_website": 1005,
+   "without_website": 114,
+   "share_without_website": 0.1019
+  },
+  {
+   "category": "hotel",
+   "places": 1054,
+   "with_website": 875,
+   "without_website": 179,
+   "share_without_website": 0.1698
+  },
+  {
+   "category": "coffee_shop",
+   "places": 1006,
+   "with_website": 712,
+   "without_website": 294,
+   "share_without_website": 0.2922
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 13004,
+   "with_website": 9122,
+   "without_website": 3882,
+   "share_without_website": 0.2985
+  },
+  {
+   "category": "food_and_drink",
+   "places": 8488,
+   "with_website": 5993,
+   "without_website": 2495,
+   "share_without_website": 0.2939
+  },
+  {
+   "category": "services_and_business",
+   "places": 6189,
+   "with_website": 5266,
+   "without_website": 923,
+   "share_without_website": 0.1491
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 3098,
+   "with_website": 2408,
+   "without_website": 690,
+   "share_without_website": 0.2227
+  },
+  {
+   "category": "education",
+   "places": 2890,
+   "with_website": 2475,
+   "without_website": 415,
+   "share_without_website": 0.1436
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 2260,
+   "with_website": 1388,
+   "without_website": 872,
+   "share_without_website": 0.3858
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 2209,
+   "with_website": 1415,
+   "without_website": 794,
+   "share_without_website": 0.3594
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 2200,
+   "with_website": 1634,
+   "without_website": 566,
+   "share_without_website": 0.2573
+  },
+  {
+   "category": "health_care",
+   "places": 2162,
+   "with_website": 1925,
+   "without_website": 237,
+   "share_without_website": 0.1096
+  },
+  {
+   "category": "lodging",
+   "places": 1500,
+   "with_website": 1089,
+   "without_website": 411,
+   "share_without_website": 0.274
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1438,
+   "with_website": 423,
+   "without_website": 1015,
+   "share_without_website": 0.7058
+  },
+  {
+   "category": "community_and_government",
+   "places": 1051,
+   "with_website": 719,
+   "without_website": 332,
+   "share_without_website": 0.3159
+  },
+  {
+   "category": "geographic_entities",
+   "places": 334,
+   "with_website": 76,
+   "without_website": 258,
+   "share_without_website": 0.7725
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:49:54Z",
+  "query_seconds": 1.6,
+  "bytes_read": 5347737,
+  "get_requests": 36,
+  "head_requests": 0
+ }
+}

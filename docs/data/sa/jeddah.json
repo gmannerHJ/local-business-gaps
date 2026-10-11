@@ -1,0 +1,209 @@
+{
+ "city": "Jeddah",
+ "local_name": "جدة",
+ "slug": "jeddah",
+ "country": "SA",
+ "country_name": "Saudi Arabia",
+ "population": 3430697,
+ "wikidata": "Q374365",
+ "division_id": "b3d9e84a-9473-4113-8a96-ecf55ed3f292",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 707.2
+ },
+ "bbox": [
+  39.029362,
+  21.414787,
+  39.31911,
+  21.686099
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 14318,
+  "with_website": 7395,
+  "without_website": 6923,
+  "share_without_website": 0.4835,
+  "without_website_with_phone": 3245,
+  "without_website_with_social": 6619
+ },
+ "excluded": {
+  "below_confidence": 5117,
+  "permanently_closed": 0
+ },
+ "uncategorised": 246,
+ "blank_website_entries": 49,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 1987,
+   "with_website": 887,
+   "without_website": 1100,
+   "share_without_website": 0.5536
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 808,
+   "with_website": 523,
+   "without_website": 285,
+   "share_without_website": 0.3527
+  },
+  {
+   "category": "hotel",
+   "places": 579,
+   "with_website": 246,
+   "without_website": 333,
+   "share_without_website": 0.5751
+  },
+  {
+   "category": "casual_eatery",
+   "places": 567,
+   "with_website": 320,
+   "without_website": 247,
+   "share_without_website": 0.4356
+  },
+  {
+   "category": "coffee_shop",
+   "places": 567,
+   "with_website": 382,
+   "without_website": 185,
+   "share_without_website": 0.3263
+  },
+  {
+   "category": "hospital",
+   "places": 405,
+   "with_website": 182,
+   "without_website": 223,
+   "share_without_website": 0.5506
+  },
+  {
+   "category": "fast_food_restaurant",
+   "places": 385,
+   "with_website": 237,
+   "without_website": 148,
+   "share_without_website": 0.3844
+  },
+  {
+   "category": "cafe",
+   "places": 357,
+   "with_website": 122,
+   "without_website": 235,
+   "share_without_website": 0.6583
+  },
+  {
+   "category": "pharmacy_and_drug_store",
+   "places": 334,
+   "with_website": 284,
+   "without_website": 50,
+   "share_without_website": 0.1497
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 296,
+   "with_website": 139,
+   "without_website": 157,
+   "share_without_website": 0.5304
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 4108,
+   "with_website": 2027,
+   "without_website": 2081,
+   "share_without_website": 0.5066
+  },
+  {
+   "category": "shopping",
+   "places": 2926,
+   "with_website": 1781,
+   "without_website": 1145,
+   "share_without_website": 0.3913
+  },
+  {
+   "category": "services_and_business",
+   "places": 2132,
+   "with_website": 1413,
+   "without_website": 719,
+   "share_without_website": 0.3372
+  },
+  {
+   "category": "health_care",
+   "places": 887,
+   "with_website": 464,
+   "without_website": 423,
+   "share_without_website": 0.4769
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 721,
+   "with_website": 327,
+   "without_website": 394,
+   "share_without_website": 0.5465
+  },
+  {
+   "category": "lodging",
+   "places": 708,
+   "with_website": 295,
+   "without_website": 413,
+   "share_without_website": 0.5833
+  },
+  {
+   "category": "education",
+   "places": 625,
+   "with_website": 334,
+   "without_website": 291,
+   "share_without_website": 0.4656
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 515,
+   "with_website": 70,
+   "without_website": 445,
+   "share_without_website": 0.8641
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 394,
+   "with_website": 151,
+   "without_website": 243,
+   "share_without_website": 0.6168
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 354,
+   "with_website": 120,
+   "without_website": 234,
+   "share_without_website": 0.661
+  },
+  {
+   "category": "community_and_government",
+   "places": 349,
+   "with_website": 148,
+   "without_website": 201,
+   "share_without_website": 0.5759
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 230,
+   "with_website": 89,
+   "without_website": 141,
+   "share_without_website": 0.613
+  },
+  {
+   "category": "geographic_entities",
+   "places": 116,
+   "with_website": 10,
+   "without_website": 106,
+   "share_without_website": 0.9138
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:02Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1677721,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

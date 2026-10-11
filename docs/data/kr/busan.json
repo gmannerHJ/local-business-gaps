@@ -1,0 +1,210 @@
+{
+ "city": "Busan",
+ "local_name": "부산광역시",
+ "slug": "busan",
+ "country": "KR",
+ "country_name": "South Korea",
+ "population": 3455611,
+ "wikidata": "Q16520",
+ "division_id": "096b3ddc-1fe1-49b5-8f00-588eaeba1a81",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "3324930b-1cd2-4299-91bf-c721afb59ecb",
+  "area_subtype": "region",
+  "area_km2": 776.4
+ },
+ "bbox": [
+  128.76564,
+  34.98864,
+  129.308044,
+  35.389225
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 18949,
+  "with_website": 8996,
+  "without_website": 9953,
+  "share_without_website": 0.5253,
+  "without_website_with_phone": 6242,
+  "without_website_with_social": 9278
+ },
+ "excluded": {
+  "below_confidence": 9248,
+  "permanently_closed": 0
+ },
+ "uncategorised": 306,
+ "blank_website_entries": 21,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 5348,
+   "with_website": 1456,
+   "without_website": 3892,
+   "share_without_website": 0.7277
+  },
+  {
+   "category": "cafe",
+   "places": 1247,
+   "with_website": 385,
+   "without_website": 862,
+   "share_without_website": 0.6913
+  },
+  {
+   "category": "casual_eatery",
+   "places": 875,
+   "with_website": 471,
+   "without_website": 404,
+   "share_without_website": 0.4617
+  },
+  {
+   "category": "coffee_shop",
+   "places": 852,
+   "with_website": 475,
+   "without_website": 377,
+   "share_without_website": 0.4425
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 544,
+   "with_website": 288,
+   "without_website": 256,
+   "share_without_website": 0.4706
+  },
+  {
+   "category": "bar",
+   "places": 448,
+   "with_website": 137,
+   "without_website": 311,
+   "share_without_website": 0.6942
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 421,
+   "with_website": 309,
+   "without_website": 112,
+   "share_without_website": 0.266
+  },
+  {
+   "category": "hotel",
+   "places": 381,
+   "with_website": 194,
+   "without_website": 187,
+   "share_without_website": 0.4908
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 293,
+   "with_website": 155,
+   "without_website": 138,
+   "share_without_website": 0.471
+  },
+  {
+   "category": "historic_site",
+   "places": 280,
+   "with_website": 52,
+   "without_website": 228,
+   "share_without_website": 0.8143
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 9183,
+   "with_website": 3088,
+   "without_website": 6095,
+   "share_without_website": 0.6637
+  },
+  {
+   "category": "shopping",
+   "places": 1993,
+   "with_website": 1251,
+   "without_website": 742,
+   "share_without_website": 0.3723
+  },
+  {
+   "category": "education",
+   "places": 1062,
+   "with_website": 906,
+   "without_website": 156,
+   "share_without_website": 0.1469
+  },
+  {
+   "category": "services_and_business",
+   "places": 1058,
+   "with_website": 717,
+   "without_website": 341,
+   "share_without_website": 0.3223
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 875,
+   "with_website": 397,
+   "without_website": 478,
+   "share_without_website": 0.5463
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 763,
+   "with_website": 294,
+   "without_website": 469,
+   "share_without_website": 0.6147
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 731,
+   "with_website": 397,
+   "without_website": 334,
+   "share_without_website": 0.4569
+  },
+  {
+   "category": "health_care",
+   "places": 690,
+   "with_website": 521,
+   "without_website": 169,
+   "share_without_website": 0.2449
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 621,
+   "with_website": 337,
+   "without_website": 284,
+   "share_without_website": 0.4573
+  },
+  {
+   "category": "lodging",
+   "places": 533,
+   "with_website": 294,
+   "without_website": 239,
+   "share_without_website": 0.4484
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 461,
+   "with_website": 273,
+   "without_website": 188,
+   "share_without_website": 0.4078
+  },
+  {
+   "category": "community_and_government",
+   "places": 449,
+   "with_website": 311,
+   "without_website": 138,
+   "share_without_website": 0.3073
+  },
+  {
+   "category": "geographic_entities",
+   "places": 208,
+   "with_website": 37,
+   "without_website": 171,
+   "share_without_website": 0.8221
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:45Z",
+  "query_seconds": 1.2,
+  "bytes_read": 3460300,
+  "get_requests": 29,
+  "head_requests": 0
+ }
+}

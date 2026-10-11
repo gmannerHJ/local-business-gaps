@@ -1,0 +1,209 @@
+{
+ "city": "Basra",
+ "local_name": "البصرة",
+ "slug": "basra",
+ "country": "IQ",
+ "country_name": "Iraq",
+ "population": 2150000,
+ "wikidata": "Q48195",
+ "division_id": "88c09796-52fb-4f9d-acc1-e991e894a519",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 708.4
+ },
+ "bbox": [
+  47.65272,
+  30.359581,
+  47.965476,
+  30.630893
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 1618,
+  "with_website": 561,
+  "without_website": 1057,
+  "share_without_website": 0.6533,
+  "without_website_with_phone": 805,
+  "without_website_with_social": 1053
+ },
+ "excluded": {
+  "below_confidence": 843,
+  "permanently_closed": 0
+ },
+ "uncategorised": 106,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 99,
+   "with_website": 32,
+   "without_website": 67,
+   "share_without_website": 0.6768
+  },
+  {
+   "category": "dental_clinic",
+   "places": 69,
+   "with_website": 13,
+   "without_website": 56,
+   "share_without_website": 0.8116
+  },
+  {
+   "category": "place_of_learning",
+   "places": 63,
+   "with_website": 15,
+   "without_website": 48,
+   "share_without_website": 0.7619
+  },
+  {
+   "category": "automotive_service",
+   "places": 56,
+   "with_website": 20,
+   "without_website": 36,
+   "share_without_website": 0.6429
+  },
+  {
+   "category": "college_university",
+   "places": 55,
+   "with_website": 31,
+   "without_website": 24,
+   "share_without_website": 0.4364
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 51,
+   "with_website": 22,
+   "without_website": 29,
+   "share_without_website": 0.5686
+  },
+  {
+   "category": "hospital",
+   "places": 49,
+   "with_website": 12,
+   "without_website": 37,
+   "share_without_website": 0.7551
+  },
+  {
+   "category": "shopping",
+   "places": 46,
+   "with_website": 14,
+   "without_website": 32,
+   "share_without_website": 0.6957
+  },
+  {
+   "category": "travel_service",
+   "places": 39,
+   "with_website": 18,
+   "without_website": 21,
+   "share_without_website": 0.5385
+  },
+  {
+   "category": "electronics_store",
+   "places": 36,
+   "with_website": 16,
+   "without_website": 20,
+   "share_without_website": 0.5556
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 272,
+   "with_website": 139,
+   "without_website": 133,
+   "share_without_website": 0.489
+  },
+  {
+   "category": "shopping",
+   "places": 259,
+   "with_website": 95,
+   "without_website": 164,
+   "share_without_website": 0.6332
+  },
+  {
+   "category": "health_care",
+   "places": 227,
+   "with_website": 53,
+   "without_website": 174,
+   "share_without_website": 0.7665
+  },
+  {
+   "category": "education",
+   "places": 210,
+   "with_website": 85,
+   "without_website": 125,
+   "share_without_website": 0.5952
+  },
+  {
+   "category": "food_and_drink",
+   "places": 185,
+   "with_website": 47,
+   "without_website": 138,
+   "share_without_website": 0.7459
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 110,
+   "with_website": 44,
+   "without_website": 66,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "community_and_government",
+   "places": 54,
+   "with_website": 24,
+   "without_website": 30,
+   "share_without_website": 0.5556
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 43,
+   "with_website": 11,
+   "without_website": 32,
+   "share_without_website": 0.7442
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 38,
+   "with_website": 6,
+   "without_website": 32,
+   "share_without_website": 0.8421
+  },
+  {
+   "category": "lodging",
+   "places": 36,
+   "with_website": 12,
+   "without_website": 24,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 35,
+   "with_website": 9,
+   "without_website": 26,
+   "share_without_website": 0.7429
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 30,
+   "with_website": 8,
+   "without_website": 22,
+   "share_without_website": 0.7333
+  },
+  {
+   "category": "geographic_entities",
+   "places": 13,
+   "with_website": 0,
+   "without_website": 13,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:04Z",
+  "query_seconds": 1.1,
+  "bytes_read": 1048576,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

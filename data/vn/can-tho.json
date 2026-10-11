@@ -1,0 +1,210 @@
+{
+ "city": "Cần Thơ",
+ "local_name": "Cần Thơ",
+ "slug": "can-tho",
+ "country": "VN",
+ "country_name": "Vietnam",
+ "population": 4199824,
+ "wikidata": "Q216075",
+ "division_id": "19475984-7d19-41ff-98c5-ae674cac25d9",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "fe00d80e-af6b-456f-97df-da6a26c305e6",
+  "area_subtype": "region",
+  "area_km2": 6347.2
+ },
+ "bbox": [
+  105.225677,
+  9.244907,
+  106.293282,
+  10.32521
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 24429,
+  "with_website": 8510,
+  "without_website": 15919,
+  "share_without_website": 0.6516,
+  "without_website_with_phone": 13323,
+  "without_website_with_social": 15856
+ },
+ "excluded": {
+  "below_confidence": 9313,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1228,
+ "blank_website_entries": 8,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 1847,
+   "with_website": 329,
+   "without_website": 1518,
+   "share_without_website": 0.8219
+  },
+  {
+   "category": "coffee_shop",
+   "places": 1414,
+   "with_website": 194,
+   "without_website": 1220,
+   "share_without_website": 0.8628
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 1369,
+   "with_website": 291,
+   "without_website": 1078,
+   "share_without_website": 0.7874
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1346,
+   "with_website": 528,
+   "without_website": 818,
+   "share_without_website": 0.6077
+  },
+  {
+   "category": "professional_service",
+   "places": 991,
+   "with_website": 440,
+   "without_website": 551,
+   "share_without_website": 0.556
+  },
+  {
+   "category": "shopping",
+   "places": 918,
+   "with_website": 342,
+   "without_website": 576,
+   "share_without_website": 0.6275
+  },
+  {
+   "category": "casual_eatery",
+   "places": 819,
+   "with_website": 180,
+   "without_website": 639,
+   "share_without_website": 0.7802
+  },
+  {
+   "category": "wellness_service",
+   "places": 770,
+   "with_website": 231,
+   "without_website": 539,
+   "share_without_website": 0.7
+  },
+  {
+   "category": "cafe",
+   "places": 767,
+   "with_website": 78,
+   "without_website": 689,
+   "share_without_website": 0.8983
+  },
+  {
+   "category": "electronics_store",
+   "places": 740,
+   "with_website": 395,
+   "without_website": 345,
+   "share_without_website": 0.4662
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 6365,
+   "with_website": 2906,
+   "without_website": 3459,
+   "share_without_website": 0.5434
+  },
+  {
+   "category": "food_and_drink",
+   "places": 5603,
+   "with_website": 960,
+   "without_website": 4643,
+   "share_without_website": 0.8287
+  },
+  {
+   "category": "services_and_business",
+   "places": 3863,
+   "with_website": 2010,
+   "without_website": 1853,
+   "share_without_website": 0.4797
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 2264,
+   "with_website": 569,
+   "without_website": 1695,
+   "share_without_website": 0.7487
+  },
+  {
+   "category": "education",
+   "places": 1081,
+   "with_website": 436,
+   "without_website": 645,
+   "share_without_website": 0.5967
+  },
+  {
+   "category": "lodging",
+   "places": 773,
+   "with_website": 260,
+   "without_website": 513,
+   "share_without_website": 0.6636
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 713,
+   "with_website": 299,
+   "without_website": 414,
+   "share_without_website": 0.5806
+  },
+  {
+   "category": "health_care",
+   "places": 646,
+   "with_website": 253,
+   "without_website": 393,
+   "share_without_website": 0.6084
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 579,
+   "with_website": 80,
+   "without_website": 499,
+   "share_without_website": 0.8618
+  },
+  {
+   "category": "community_and_government",
+   "places": 507,
+   "with_website": 125,
+   "without_website": 382,
+   "share_without_website": 0.7535
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 426,
+   "with_website": 102,
+   "without_website": 324,
+   "share_without_website": 0.7606
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 313,
+   "with_website": 74,
+   "without_website": 239,
+   "share_without_website": 0.7636
+  },
+  {
+   "category": "geographic_entities",
+   "places": 64,
+   "with_website": 13,
+   "without_website": 51,
+   "share_without_website": 0.7969
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:42Z",
+  "query_seconds": 1.2,
+  "bytes_read": 3670016,
+  "get_requests": 25,
+  "head_requests": 0
+ }
+}

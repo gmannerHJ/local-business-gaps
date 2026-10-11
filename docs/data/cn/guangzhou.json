@@ -1,0 +1,210 @@
+{
+ "city": "Guangzhou",
+ "local_name": "广州市",
+ "slug": "guangzhou",
+ "country": "CN",
+ "country_name": "China",
+ "population": 14043500,
+ "wikidata": "Q16572",
+ "division_id": "60e623db-8dcc-41ab-9b53-3ecd618b50e5",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "0fe25a81-43c2-4847-bf93-338890bdd99b",
+  "area_subtype": "county",
+  "area_km2": 7372.8
+ },
+ "bbox": [
+  112.95237,
+  22.560795,
+  114.055313,
+  23.935699
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 7684,
+  "with_website": 3564,
+  "without_website": 4120,
+  "share_without_website": 0.5362,
+  "without_website_with_phone": 687,
+  "without_website_with_social": 3692
+ },
+ "excluded": {
+  "below_confidence": 813,
+  "permanently_closed": 0
+ },
+ "uncategorised": 242,
+ "blank_website_entries": 10,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 1242,
+   "with_website": 243,
+   "without_website": 999,
+   "share_without_website": 0.8043
+  },
+  {
+   "category": "hotel",
+   "places": 713,
+   "with_website": 277,
+   "without_website": 436,
+   "share_without_website": 0.6115
+  },
+  {
+   "category": "coffee_shop",
+   "places": 507,
+   "with_website": 203,
+   "without_website": 304,
+   "share_without_website": 0.5996
+  },
+  {
+   "category": "fast_food_restaurant",
+   "places": 429,
+   "with_website": 384,
+   "without_website": 45,
+   "share_without_website": 0.1049
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 301,
+   "with_website": 178,
+   "without_website": 123,
+   "share_without_website": 0.4086
+  },
+  {
+   "category": "historic_site",
+   "places": 208,
+   "with_website": 48,
+   "without_website": 160,
+   "share_without_website": 0.7692
+  },
+  {
+   "category": "corporate_or_business_office",
+   "places": 154,
+   "with_website": 137,
+   "without_website": 17,
+   "share_without_website": 0.1104
+  },
+  {
+   "category": "park",
+   "places": 152,
+   "with_website": 19,
+   "without_website": 133,
+   "share_without_website": 0.875
+  },
+  {
+   "category": "train_station",
+   "places": 149,
+   "with_website": 66,
+   "without_website": 83,
+   "share_without_website": 0.557
+  },
+  {
+   "category": "shopping_mall",
+   "places": 142,
+   "with_website": 42,
+   "without_website": 100,
+   "share_without_website": 0.7042
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 2618,
+   "with_website": 1019,
+   "without_website": 1599,
+   "share_without_website": 0.6108
+  },
+  {
+   "category": "shopping",
+   "places": 1228,
+   "with_website": 798,
+   "without_website": 430,
+   "share_without_website": 0.3502
+  },
+  {
+   "category": "services_and_business",
+   "places": 836,
+   "with_website": 610,
+   "without_website": 226,
+   "share_without_website": 0.2703
+  },
+  {
+   "category": "lodging",
+   "places": 777,
+   "with_website": 319,
+   "without_website": 458,
+   "share_without_website": 0.5894
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 520,
+   "with_website": 193,
+   "without_website": 327,
+   "share_without_website": 0.6288
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 295,
+   "with_website": 89,
+   "without_website": 206,
+   "share_without_website": 0.6983
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 273,
+   "with_website": 59,
+   "without_website": 214,
+   "share_without_website": 0.7839
+  },
+  {
+   "category": "education",
+   "places": 267,
+   "with_website": 138,
+   "without_website": 129,
+   "share_without_website": 0.4831
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 233,
+   "with_website": 45,
+   "without_website": 188,
+   "share_without_website": 0.8069
+  },
+  {
+   "category": "community_and_government",
+   "places": 119,
+   "with_website": 31,
+   "without_website": 88,
+   "share_without_website": 0.7395
+  },
+  {
+   "category": "health_care",
+   "places": 116,
+   "with_website": 52,
+   "without_website": 64,
+   "share_without_website": 0.5517
+  },
+  {
+   "category": "geographic_entities",
+   "places": 96,
+   "with_website": 10,
+   "without_website": 86,
+   "share_without_website": 0.8958
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 60,
+   "with_website": 35,
+   "without_website": 25,
+   "share_without_website": 0.4167
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:49:36Z",
+  "query_seconds": 2.5,
+  "bytes_read": 2621440,
+  "get_requests": 22,
+  "head_requests": 0
+ }
+}

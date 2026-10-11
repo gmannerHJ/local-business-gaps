@@ -1,0 +1,209 @@
+{
+ "city": "Baku",
+ "local_name": "Bakı",
+ "slug": "baku",
+ "country": "AZ",
+ "country_name": "Azerbaijan",
+ "population": 2300500,
+ "wikidata": "Q9248",
+ "division_id": "469a5a5e-7211-4f18-a8ee-dd669b6d4319",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.9
+ },
+ "bbox": [
+  49.655925,
+  40.239933,
+  50.009677,
+  40.511244
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 15751,
+  "with_website": 8109,
+  "without_website": 7642,
+  "share_without_website": 0.4852,
+  "without_website_with_phone": 4963,
+  "without_website_with_social": 7538
+ },
+ "excluded": {
+  "below_confidence": 7421,
+  "permanently_closed": 0
+ },
+ "uncategorised": 415,
+ "blank_website_entries": 20,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 2039,
+   "with_website": 686,
+   "without_website": 1353,
+   "share_without_website": 0.6636
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 571,
+   "with_website": 219,
+   "without_website": 352,
+   "share_without_website": 0.6165
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 520,
+   "with_website": 273,
+   "without_website": 247,
+   "share_without_website": 0.475
+  },
+  {
+   "category": "education",
+   "places": 441,
+   "with_website": 278,
+   "without_website": 163,
+   "share_without_website": 0.3696
+  },
+  {
+   "category": "bar",
+   "places": 415,
+   "with_website": 94,
+   "without_website": 321,
+   "share_without_website": 0.7735
+  },
+  {
+   "category": "cafe",
+   "places": 394,
+   "with_website": 114,
+   "without_website": 280,
+   "share_without_website": 0.7107
+  },
+  {
+   "category": "place_of_learning",
+   "places": 387,
+   "with_website": 211,
+   "without_website": 176,
+   "share_without_website": 0.4548
+  },
+  {
+   "category": "hotel",
+   "places": 377,
+   "with_website": 230,
+   "without_website": 147,
+   "share_without_website": 0.3899
+  },
+  {
+   "category": "hospital",
+   "places": 376,
+   "with_website": 166,
+   "without_website": 210,
+   "share_without_website": 0.5585
+  },
+  {
+   "category": "travel_service",
+   "places": 344,
+   "with_website": 291,
+   "without_website": 53,
+   "share_without_website": 0.1541
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 3545,
+   "with_website": 1150,
+   "without_website": 2395,
+   "share_without_website": 0.6756
+  },
+  {
+   "category": "services_and_business",
+   "places": 2511,
+   "with_website": 1860,
+   "without_website": 651,
+   "share_without_website": 0.2593
+  },
+  {
+   "category": "shopping",
+   "places": 2149,
+   "with_website": 1291,
+   "without_website": 858,
+   "share_without_website": 0.3993
+  },
+  {
+   "category": "education",
+   "places": 1727,
+   "with_website": 1054,
+   "without_website": 673,
+   "share_without_website": 0.3897
+  },
+  {
+   "category": "health_care",
+   "places": 1138,
+   "with_website": 570,
+   "without_website": 568,
+   "share_without_website": 0.4991
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 744,
+   "with_website": 450,
+   "without_website": 294,
+   "share_without_website": 0.3952
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 725,
+   "with_website": 291,
+   "without_website": 434,
+   "share_without_website": 0.5986
+  },
+  {
+   "category": "community_and_government",
+   "places": 703,
+   "with_website": 440,
+   "without_website": 263,
+   "share_without_website": 0.3741
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 630,
+   "with_website": 173,
+   "without_website": 457,
+   "share_without_website": 0.7254
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 537,
+   "with_website": 188,
+   "without_website": 349,
+   "share_without_website": 0.6499
+  },
+  {
+   "category": "lodging",
+   "places": 495,
+   "with_website": 272,
+   "without_website": 223,
+   "share_without_website": 0.4505
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 342,
+   "with_website": 102,
+   "without_website": 240,
+   "share_without_website": 0.7018
+  },
+  {
+   "category": "geographic_entities",
+   "places": 81,
+   "with_website": 6,
+   "without_website": 75,
+   "share_without_website": 0.9259
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:29Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1887436,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

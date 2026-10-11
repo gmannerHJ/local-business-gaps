@@ -1,0 +1,209 @@
+{
+ "city": "Havana",
+ "local_name": "La Habana",
+ "slug": "havana",
+ "country": "CU",
+ "country_name": "Cuba",
+ "population": 1749964,
+ "wikidata": "Q1563",
+ "division_id": "dfa6f636-6545-41de-bfb9-dd497a2068a2",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 707.4
+ },
+ "bbox": [
+  -82.505494,
+  22.999649,
+  -82.212432,
+  23.270961
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 5462,
+  "with_website": 2291,
+  "without_website": 3171,
+  "share_without_website": 0.5806,
+  "without_website_with_phone": 2305,
+  "without_website_with_social": 3167
+ },
+ "excluded": {
+  "below_confidence": 827,
+  "permanently_closed": 0
+ },
+ "uncategorised": 195,
+ "blank_website_entries": 3,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 594,
+   "with_website": 336,
+   "without_website": 258,
+   "share_without_website": 0.4343
+  },
+  {
+   "category": "restaurant",
+   "places": 535,
+   "with_website": 196,
+   "without_website": 339,
+   "share_without_website": 0.6336
+  },
+  {
+   "category": "lodging",
+   "places": 306,
+   "with_website": 153,
+   "without_website": 153,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 205,
+   "with_website": 57,
+   "without_website": 148,
+   "share_without_website": 0.722
+  },
+  {
+   "category": "professional_service",
+   "places": 188,
+   "with_website": 87,
+   "without_website": 101,
+   "share_without_website": 0.5372
+  },
+  {
+   "category": "bed_and_breakfast",
+   "places": 180,
+   "with_website": 119,
+   "without_website": 61,
+   "share_without_website": 0.3389
+  },
+  {
+   "category": "bar",
+   "places": 167,
+   "with_website": 42,
+   "without_website": 125,
+   "share_without_website": 0.7485
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 133,
+   "with_website": 31,
+   "without_website": 102,
+   "share_without_website": 0.7669
+  },
+  {
+   "category": "place_of_learning",
+   "places": 127,
+   "with_website": 30,
+   "without_website": 97,
+   "share_without_website": 0.7638
+  },
+  {
+   "category": "wellness_service",
+   "places": 99,
+   "with_website": 23,
+   "without_website": 76,
+   "share_without_website": 0.7677
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "lodging",
+   "places": 1168,
+   "with_website": 662,
+   "without_website": 506,
+   "share_without_website": 0.4332
+  },
+  {
+   "category": "food_and_drink",
+   "places": 906,
+   "with_website": 290,
+   "without_website": 616,
+   "share_without_website": 0.6799
+  },
+  {
+   "category": "services_and_business",
+   "places": 627,
+   "with_website": 333,
+   "without_website": 294,
+   "share_without_website": 0.4689
+  },
+  {
+   "category": "shopping",
+   "places": 426,
+   "with_website": 164,
+   "without_website": 262,
+   "share_without_website": 0.615
+  },
+  {
+   "category": "education",
+   "places": 350,
+   "with_website": 123,
+   "without_website": 227,
+   "share_without_website": 0.6486
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 331,
+   "with_website": 86,
+   "without_website": 245,
+   "share_without_website": 0.7402
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 318,
+   "with_website": 86,
+   "without_website": 232,
+   "share_without_website": 0.7296
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 299,
+   "with_website": 123,
+   "without_website": 176,
+   "share_without_website": 0.5886
+  },
+  {
+   "category": "community_and_government",
+   "places": 287,
+   "with_website": 161,
+   "without_website": 126,
+   "share_without_website": 0.439
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 213,
+   "with_website": 56,
+   "without_website": 157,
+   "share_without_website": 0.7371
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 191,
+   "with_website": 93,
+   "without_website": 98,
+   "share_without_website": 0.5131
+  },
+  {
+   "category": "health_care",
+   "places": 121,
+   "with_website": 40,
+   "without_website": 81,
+   "share_without_website": 0.6694
+  },
+  {
+   "category": "geographic_entities",
+   "places": 29,
+   "with_website": 4,
+   "without_website": 25,
+   "share_without_website": 0.8621
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:37Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1677721,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

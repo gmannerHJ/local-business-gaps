@@ -1,0 +1,209 @@
+{
+ "city": "Sana'a",
+ "local_name": "صنعاء",
+ "slug": "sana-a",
+ "country": "YE",
+ "country_name": "Yemen",
+ "population": 1527861,
+ "wikidata": "Q2471",
+ "division_id": "17888179-7138-455b-a9d7-0cd21b5385d8",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 706.6
+ },
+ "bbox": [
+  44.06615,
+  15.218201,
+  44.345618,
+  15.489513
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 3615,
+  "with_website": 1967,
+  "without_website": 1648,
+  "share_without_website": 0.4559,
+  "without_website_with_phone": 1489,
+  "without_website_with_social": 1642
+ },
+ "excluded": {
+  "below_confidence": 994,
+  "permanently_closed": 0
+ },
+ "uncategorised": 295,
+ "blank_website_entries": 3,
+ "top_categories": [
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 207,
+   "with_website": 95,
+   "without_website": 112,
+   "share_without_website": 0.5411
+  },
+  {
+   "category": "shopping",
+   "places": 180,
+   "with_website": 107,
+   "without_website": 73,
+   "share_without_website": 0.4056
+  },
+  {
+   "category": "electronics_store",
+   "places": 154,
+   "with_website": 82,
+   "without_website": 72,
+   "share_without_website": 0.4675
+  },
+  {
+   "category": "professional_service",
+   "places": 148,
+   "with_website": 100,
+   "without_website": 48,
+   "share_without_website": 0.3243
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 133,
+   "with_website": 71,
+   "without_website": 62,
+   "share_without_website": 0.4662
+  },
+  {
+   "category": "place_of_learning",
+   "places": 117,
+   "with_website": 44,
+   "without_website": 73,
+   "share_without_website": 0.6239
+  },
+  {
+   "category": "restaurant",
+   "places": 112,
+   "with_website": 39,
+   "without_website": 73,
+   "share_without_website": 0.6518
+  },
+  {
+   "category": "hospital",
+   "places": 107,
+   "with_website": 64,
+   "without_website": 43,
+   "share_without_website": 0.4019
+  },
+  {
+   "category": "travel_service",
+   "places": 106,
+   "with_website": 70,
+   "without_website": 36,
+   "share_without_website": 0.3396
+  },
+  {
+   "category": "dental_clinic",
+   "places": 100,
+   "with_website": 36,
+   "without_website": 64,
+   "share_without_website": 0.64
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 1027,
+   "with_website": 543,
+   "without_website": 484,
+   "share_without_website": 0.4713
+  },
+  {
+   "category": "services_and_business",
+   "places": 855,
+   "with_website": 561,
+   "without_website": 294,
+   "share_without_website": 0.3439
+  },
+  {
+   "category": "health_care",
+   "places": 369,
+   "with_website": 175,
+   "without_website": 194,
+   "share_without_website": 0.5257
+  },
+  {
+   "category": "education",
+   "places": 332,
+   "with_website": 161,
+   "without_website": 171,
+   "share_without_website": 0.5151
+  },
+  {
+   "category": "food_and_drink",
+   "places": 226,
+   "with_website": 75,
+   "without_website": 151,
+   "share_without_website": 0.6681
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 179,
+   "with_website": 111,
+   "without_website": 68,
+   "share_without_website": 0.3799
+  },
+  {
+   "category": "community_and_government",
+   "places": 97,
+   "with_website": 70,
+   "without_website": 27,
+   "share_without_website": 0.2784
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 68,
+   "with_website": 36,
+   "without_website": 32,
+   "share_without_website": 0.4706
+  },
+  {
+   "category": "lodging",
+   "places": 63,
+   "with_website": 40,
+   "without_website": 23,
+   "share_without_website": 0.3651
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 51,
+   "with_website": 18,
+   "without_website": 33,
+   "share_without_website": 0.6471
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 33,
+   "with_website": 14,
+   "without_website": 19,
+   "share_without_website": 0.5758
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 18,
+   "with_website": 6,
+   "without_website": 12,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "geographic_entities",
+   "places": 2,
+   "with_website": 0,
+   "without_website": 2,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:46Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1048576,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

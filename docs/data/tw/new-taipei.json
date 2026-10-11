@@ -1,0 +1,210 @@
+{
+ "city": "New Taipei",
+ "local_name": "新北市",
+ "slug": "new-taipei",
+ "country": "TW",
+ "country_name": "Taiwan",
+ "population": 3979208,
+ "wikidata": "Q244898",
+ "division_id": "7ae79b6b-58ff-45ee-80c6-085a2d576e3b",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "e2371dd9-4603-4b30-b959-77ed00a93a2a",
+  "area_subtype": "region",
+  "area_km2": 2060.0
+ },
+ "bbox": [
+  121.282631,
+  24.673164,
+  122.00708,
+  25.299671
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 98587,
+  "with_website": 35049,
+  "without_website": 63538,
+  "share_without_website": 0.6445,
+  "without_website_with_phone": 46855,
+  "without_website_with_social": 61263
+ },
+ "excluded": {
+  "below_confidence": 28453,
+  "permanently_closed": 0
+ },
+ "uncategorised": 2369,
+ "blank_website_entries": 40,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 20086,
+   "with_website": 4356,
+   "without_website": 15730,
+   "share_without_website": 0.7831
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 5472,
+   "with_website": 1962,
+   "without_website": 3510,
+   "share_without_website": 0.6414
+  },
+  {
+   "category": "casual_eatery",
+   "places": 4238,
+   "with_website": 1109,
+   "without_website": 3129,
+   "share_without_website": 0.7383
+  },
+  {
+   "category": "automotive_service",
+   "places": 3035,
+   "with_website": 877,
+   "without_website": 2158,
+   "share_without_website": 0.711
+  },
+  {
+   "category": "convenience_store",
+   "places": 2948,
+   "with_website": 1061,
+   "without_website": 1887,
+   "share_without_website": 0.6401
+  },
+  {
+   "category": "religious_organization",
+   "places": 2299,
+   "with_website": 390,
+   "without_website": 1909,
+   "share_without_website": 0.8304
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 2255,
+   "with_website": 1110,
+   "without_website": 1145,
+   "share_without_website": 0.5078
+  },
+  {
+   "category": "historic_site",
+   "places": 1899,
+   "with_website": 323,
+   "without_website": 1576,
+   "share_without_website": 0.8299
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 1741,
+   "with_website": 935,
+   "without_website": 806,
+   "share_without_website": 0.463
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 1712,
+   "with_website": 649,
+   "without_website": 1063,
+   "share_without_website": 0.6209
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 30594,
+   "with_website": 7770,
+   "without_website": 22824,
+   "share_without_website": 0.746
+  },
+  {
+   "category": "shopping",
+   "places": 17801,
+   "with_website": 8193,
+   "without_website": 9608,
+   "share_without_website": 0.5397
+  },
+  {
+   "category": "services_and_business",
+   "places": 11697,
+   "with_website": 6632,
+   "without_website": 5065,
+   "share_without_website": 0.433
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 7487,
+   "with_website": 2759,
+   "without_website": 4728,
+   "share_without_website": 0.6315
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 6408,
+   "with_website": 1086,
+   "without_website": 5322,
+   "share_without_website": 0.8305
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 5246,
+   "with_website": 1430,
+   "without_website": 3816,
+   "share_without_website": 0.7274
+  },
+  {
+   "category": "health_care",
+   "places": 3894,
+   "with_website": 1335,
+   "without_website": 2559,
+   "share_without_website": 0.6572
+  },
+  {
+   "category": "education",
+   "places": 3778,
+   "with_website": 1927,
+   "without_website": 1851,
+   "share_without_website": 0.4899
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 3283,
+   "with_website": 924,
+   "without_website": 2359,
+   "share_without_website": 0.7186
+  },
+  {
+   "category": "community_and_government",
+   "places": 2231,
+   "with_website": 864,
+   "without_website": 1367,
+   "share_without_website": 0.6127
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 1464,
+   "with_website": 586,
+   "without_website": 878,
+   "share_without_website": 0.5997
+  },
+  {
+   "category": "lodging",
+   "places": 1300,
+   "with_website": 533,
+   "without_website": 767,
+   "share_without_website": 0.59
+  },
+  {
+   "category": "geographic_entities",
+   "places": 997,
+   "with_website": 76,
+   "without_website": 921,
+   "share_without_website": 0.9238
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:03Z",
+  "query_seconds": 3.8,
+  "bytes_read": 18769510,
+  "get_requests": 129,
+  "head_requests": 0
+ }
+}

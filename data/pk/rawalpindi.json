@@ -1,0 +1,209 @@
+{
+ "city": "Rawalpindi",
+ "local_name": "راولپنڈی",
+ "slug": "rawalpindi",
+ "country": "PK",
+ "country_name": "Pakistan",
+ "population": 2098231,
+ "wikidata": "Q93230",
+ "division_id": "50a301d2-62c7-499a-b982-418f5bcd11c8",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 708.9
+ },
+ "bbox": [
+  72.891961,
+  33.455889,
+  73.215481,
+  33.7272
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 18601,
+  "with_website": 10078,
+  "without_website": 8523,
+  "share_without_website": 0.4582,
+  "without_website_with_phone": 6977,
+  "without_website_with_social": 8445
+ },
+ "excluded": {
+  "below_confidence": 6581,
+  "permanently_closed": 0
+ },
+ "uncategorised": 479,
+ "blank_website_entries": 37,
+ "top_categories": [
+  {
+   "category": "real_estate_service",
+   "places": 2101,
+   "with_website": 1308,
+   "without_website": 793,
+   "share_without_website": 0.3774
+  },
+  {
+   "category": "restaurant",
+   "places": 1121,
+   "with_website": 320,
+   "without_website": 801,
+   "share_without_website": 0.7145
+  },
+  {
+   "category": "professional_service",
+   "places": 720,
+   "with_website": 545,
+   "without_website": 175,
+   "share_without_website": 0.2431
+  },
+  {
+   "category": "place_of_learning",
+   "places": 635,
+   "with_website": 346,
+   "without_website": 289,
+   "share_without_website": 0.4551
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 607,
+   "with_website": 266,
+   "without_website": 341,
+   "share_without_website": 0.5618
+  },
+  {
+   "category": "travel_service",
+   "places": 532,
+   "with_website": 394,
+   "without_website": 138,
+   "share_without_website": 0.2594
+  },
+  {
+   "category": "college_university",
+   "places": 465,
+   "with_website": 332,
+   "without_website": 133,
+   "share_without_website": 0.286
+  },
+  {
+   "category": "financial_service",
+   "places": 442,
+   "with_website": 308,
+   "without_website": 134,
+   "share_without_website": 0.3032
+  },
+  {
+   "category": "hotel",
+   "places": 425,
+   "with_website": 173,
+   "without_website": 252,
+   "share_without_website": 0.5929
+  },
+  {
+   "category": "event_or_party_service",
+   "places": 421,
+   "with_website": 217,
+   "without_website": 204,
+   "share_without_website": 0.4846
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 6353,
+   "with_website": 4233,
+   "without_website": 2120,
+   "share_without_website": 0.3337
+  },
+  {
+   "category": "shopping",
+   "places": 2511,
+   "with_website": 1185,
+   "without_website": 1326,
+   "share_without_website": 0.5281
+  },
+  {
+   "category": "education",
+   "places": 2088,
+   "with_website": 1312,
+   "without_website": 776,
+   "share_without_website": 0.3716
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1906,
+   "with_website": 593,
+   "without_website": 1313,
+   "share_without_website": 0.6889
+  },
+  {
+   "category": "health_care",
+   "places": 1207,
+   "with_website": 601,
+   "without_website": 606,
+   "share_without_website": 0.5021
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1019,
+   "with_website": 596,
+   "without_website": 423,
+   "share_without_website": 0.4151
+  },
+  {
+   "category": "lodging",
+   "places": 749,
+   "with_website": 283,
+   "without_website": 466,
+   "share_without_website": 0.6222
+  },
+  {
+   "category": "community_and_government",
+   "places": 660,
+   "with_website": 338,
+   "without_website": 322,
+   "share_without_website": 0.4879
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 556,
+   "with_website": 267,
+   "without_website": 289,
+   "share_without_website": 0.5198
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 466,
+   "with_website": 145,
+   "without_website": 321,
+   "share_without_website": 0.6888
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 394,
+   "with_website": 149,
+   "without_website": 245,
+   "share_without_website": 0.6218
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 162,
+   "with_website": 69,
+   "without_website": 93,
+   "share_without_website": 0.5741
+  },
+  {
+   "category": "geographic_entities",
+   "places": 38,
+   "with_website": 4,
+   "without_website": 34,
+   "share_without_website": 0.8947
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:05Z",
+  "query_seconds": 1.2,
+  "bytes_read": 2936012,
+  "get_requests": 22,
+  "head_requests": 0
+ }
+}

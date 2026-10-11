@@ -1,0 +1,210 @@
+{
+ "city": "Valencia",
+ "local_name": "Valencia",
+ "slug": "valencia",
+ "country": "VE",
+ "country_name": "Venezuela",
+ "population": 2299026,
+ "wikidata": "Q54880",
+ "division_id": "cad322f1-c348-429e-9805-53c1e6d36436",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "eddce50c-684b-4548-81cb-10a279e0d3fb",
+  "area_subtype": "locality",
+  "area_km2": 148.9
+ },
+ "bbox": [
+  -68.077888,
+  10.110398,
+  -67.910843,
+  10.277795
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 2919,
+  "with_website": 1218,
+  "without_website": 1701,
+  "share_without_website": 0.5827,
+  "without_website_with_phone": 1092,
+  "without_website_with_social": 1690
+ },
+ "excluded": {
+  "below_confidence": 1889,
+  "permanently_closed": 0
+ },
+ "uncategorised": 114,
+ "blank_website_entries": 1,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 185,
+   "with_website": 81,
+   "without_website": 104,
+   "share_without_website": 0.5622
+  },
+  {
+   "category": "vehicle_parts_store",
+   "places": 134,
+   "with_website": 67,
+   "without_website": 67,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "automotive_service",
+   "places": 128,
+   "with_website": 55,
+   "without_website": 73,
+   "share_without_website": 0.5703
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 101,
+   "with_website": 53,
+   "without_website": 48,
+   "share_without_website": 0.4752
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 95,
+   "with_website": 25,
+   "without_website": 70,
+   "share_without_website": 0.7368
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 77,
+   "with_website": 31,
+   "without_website": 46,
+   "share_without_website": 0.5974
+  },
+  {
+   "category": "historic_site",
+   "places": 77,
+   "with_website": 1,
+   "without_website": 76,
+   "share_without_website": 0.987
+  },
+  {
+   "category": "shopping_mall",
+   "places": 76,
+   "with_website": 14,
+   "without_website": 62,
+   "share_without_website": 0.8158
+  },
+  {
+   "category": "casual_eatery",
+   "places": 72,
+   "with_website": 24,
+   "without_website": 48,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "real_estate_service",
+   "places": 72,
+   "with_website": 22,
+   "without_website": 50,
+   "share_without_website": 0.6944
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 718,
+   "with_website": 331,
+   "without_website": 387,
+   "share_without_website": 0.539
+  },
+  {
+   "category": "services_and_business",
+   "places": 422,
+   "with_website": 229,
+   "without_website": 193,
+   "share_without_website": 0.4573
+  },
+  {
+   "category": "food_and_drink",
+   "places": 355,
+   "with_website": 131,
+   "without_website": 224,
+   "share_without_website": 0.631
+  },
+  {
+   "category": "health_care",
+   "places": 256,
+   "with_website": 116,
+   "without_website": 140,
+   "share_without_website": 0.5469
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 218,
+   "with_website": 43,
+   "without_website": 175,
+   "share_without_website": 0.8028
+  },
+  {
+   "category": "education",
+   "places": 207,
+   "with_website": 95,
+   "without_website": 112,
+   "share_without_website": 0.5411
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 179,
+   "with_website": 82,
+   "without_website": 97,
+   "share_without_website": 0.5419
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 129,
+   "with_website": 33,
+   "without_website": 96,
+   "share_without_website": 0.7442
+  },
+  {
+   "category": "community_and_government",
+   "places": 94,
+   "with_website": 27,
+   "without_website": 67,
+   "share_without_website": 0.7128
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 85,
+   "with_website": 35,
+   "without_website": 50,
+   "share_without_website": 0.5882
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 66,
+   "with_website": 28,
+   "without_website": 38,
+   "share_without_website": 0.5758
+  },
+  {
+   "category": "lodging",
+   "places": 61,
+   "with_website": 22,
+   "without_website": 39,
+   "share_without_website": 0.6393
+  },
+  {
+   "category": "geographic_entities",
+   "places": 14,
+   "with_website": 1,
+   "without_website": 13,
+   "share_without_website": 0.9286
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:03Z",
+  "query_seconds": 1.0,
+  "bytes_read": 791756,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

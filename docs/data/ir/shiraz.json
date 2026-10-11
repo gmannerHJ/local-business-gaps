@@ -1,0 +1,210 @@
+{
+ "city": "Shiraz",
+ "local_name": "شیراز",
+ "slug": "shiraz",
+ "country": "IR",
+ "country_name": "Iran",
+ "population": 1565572,
+ "wikidata": "Q6397066",
+ "division_id": "2ba9e7f9-4c08-4a30-b770-ac3e5f43180d",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "5cebda22-4e5e-4aaf-b45b-07c20636ec19",
+  "area_subtype": "locality",
+  "area_km2": 267.2
+ },
+ "bbox": [
+  52.382248,
+  29.498737,
+  52.667515,
+  29.840349
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 493,
+  "with_website": 219,
+  "without_website": 274,
+  "share_without_website": 0.5558,
+  "without_website_with_phone": 97,
+  "without_website_with_social": 274
+ },
+ "excluded": {
+  "below_confidence": 316,
+  "permanently_closed": 0
+ },
+ "uncategorised": 10,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 49,
+   "with_website": 35,
+   "without_website": 14,
+   "share_without_website": 0.2857
+  },
+  {
+   "category": "restaurant",
+   "places": 32,
+   "with_website": 5,
+   "without_website": 27,
+   "share_without_website": 0.8438
+  },
+  {
+   "category": "hospital",
+   "places": 25,
+   "with_website": 8,
+   "without_website": 17,
+   "share_without_website": 0.68
+  },
+  {
+   "category": "cafe",
+   "places": 24,
+   "with_website": 4,
+   "without_website": 20,
+   "share_without_website": 0.8333
+  },
+  {
+   "category": "travel_service",
+   "places": 23,
+   "with_website": 20,
+   "without_website": 3,
+   "share_without_website": 0.1304
+  },
+  {
+   "category": "historic_site",
+   "places": 21,
+   "with_website": 3,
+   "without_website": 18,
+   "share_without_website": 0.8571
+  },
+  {
+   "category": "shopping_mall",
+   "places": 15,
+   "with_website": 0,
+   "without_website": 15,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "college_university",
+   "places": 14,
+   "with_website": 8,
+   "without_website": 6,
+   "share_without_website": 0.4286
+  },
+  {
+   "category": "public_plaza",
+   "places": 14,
+   "with_website": 1,
+   "without_website": 13,
+   "share_without_website": 0.9286
+  },
+  {
+   "category": "coffee_shop",
+   "places": 12,
+   "with_website": 5,
+   "without_website": 7,
+   "share_without_website": 0.5833
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 88,
+   "with_website": 24,
+   "without_website": 64,
+   "share_without_website": 0.7273
+  },
+  {
+   "category": "lodging",
+   "places": 65,
+   "with_website": 43,
+   "without_website": 22,
+   "share_without_website": 0.3385
+  },
+  {
+   "category": "shopping",
+   "places": 56,
+   "with_website": 23,
+   "without_website": 33,
+   "share_without_website": 0.5893
+  },
+  {
+   "category": "health_care",
+   "places": 48,
+   "with_website": 22,
+   "without_website": 26,
+   "share_without_website": 0.5417
+  },
+  {
+   "category": "education",
+   "places": 37,
+   "with_website": 24,
+   "without_website": 13,
+   "share_without_website": 0.3514
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 36,
+   "with_website": 8,
+   "without_website": 28,
+   "share_without_website": 0.7778
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 34,
+   "with_website": 22,
+   "without_website": 12,
+   "share_without_website": 0.3529
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 33,
+   "with_website": 14,
+   "without_website": 19,
+   "share_without_website": 0.5758
+  },
+  {
+   "category": "services_and_business",
+   "places": 28,
+   "with_website": 23,
+   "without_website": 5,
+   "share_without_website": 0.1786
+  },
+  {
+   "category": "community_and_government",
+   "places": 22,
+   "with_website": 3,
+   "without_website": 19,
+   "share_without_website": 0.8636
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 18,
+   "with_website": 2,
+   "without_website": 16,
+   "share_without_website": 0.8889
+  },
+  {
+   "category": "geographic_entities",
+   "places": 8,
+   "with_website": 1,
+   "without_website": 7,
+   "share_without_website": 0.875
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 8,
+   "with_website": 3,
+   "without_website": 5,
+   "share_without_website": 0.625
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:50Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1153433,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

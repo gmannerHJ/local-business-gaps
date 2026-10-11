@@ -1,0 +1,210 @@
+{
+ "city": "Yekaterinburg",
+ "local_name": "Екатеринбург",
+ "slug": "yekaterinburg",
+ "country": "RU",
+ "country_name": "Russia",
+ "population": 1495066,
+ "wikidata": "Q887",
+ "division_id": "6a6ec8ed-9149-420f-a168-84c9500dfd44",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "a5c6960b-0889-465c-ba13-8c5ce2a9bf51",
+  "area_subtype": "locality",
+  "area_km2": 1111.0
+ },
+ "bbox": [
+  60.00708,
+  56.593739,
+  60.943283,
+  56.982693
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 11219,
+  "with_website": 7525,
+  "without_website": 3694,
+  "share_without_website": 0.3293,
+  "without_website_with_phone": 1255,
+  "without_website_with_social": 2546
+ },
+ "excluded": {
+  "below_confidence": 2712,
+  "permanently_closed": 0
+ },
+ "uncategorised": 207,
+ "blank_website_entries": 1,
+ "top_categories": [
+  {
+   "category": "shopping",
+   "places": 996,
+   "with_website": 253,
+   "without_website": 743,
+   "share_without_website": 0.746
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 623,
+   "with_website": 459,
+   "without_website": 164,
+   "share_without_website": 0.2632
+  },
+  {
+   "category": "restaurant",
+   "places": 569,
+   "with_website": 416,
+   "without_website": 153,
+   "share_without_website": 0.2689
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 533,
+   "with_website": 389,
+   "without_website": 144,
+   "share_without_website": 0.2702
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 385,
+   "with_website": 185,
+   "without_website": 200,
+   "share_without_website": 0.5195
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 295,
+   "with_website": 276,
+   "without_website": 19,
+   "share_without_website": 0.0644
+  },
+  {
+   "category": "real_estate_service",
+   "places": 245,
+   "with_website": 155,
+   "without_website": 90,
+   "share_without_website": 0.3673
+  },
+  {
+   "category": "automotive_service",
+   "places": 233,
+   "with_website": 191,
+   "without_website": 42,
+   "share_without_website": 0.1803
+  },
+  {
+   "category": "bar",
+   "places": 230,
+   "with_website": 146,
+   "without_website": 84,
+   "share_without_website": 0.3652
+  },
+  {
+   "category": "cafe",
+   "places": 215,
+   "with_website": 141,
+   "without_website": 74,
+   "share_without_website": 0.3442
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 3469,
+   "with_website": 2060,
+   "without_website": 1409,
+   "share_without_website": 0.4062
+  },
+  {
+   "category": "services_and_business",
+   "places": 1598,
+   "with_website": 1307,
+   "without_website": 291,
+   "share_without_website": 0.1821
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1474,
+   "with_website": 984,
+   "without_website": 490,
+   "share_without_website": 0.3324
+  },
+  {
+   "category": "education",
+   "places": 700,
+   "with_website": 577,
+   "without_website": 123,
+   "share_without_website": 0.1757
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 697,
+   "with_website": 508,
+   "without_website": 189,
+   "share_without_website": 0.2712
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 607,
+   "with_website": 341,
+   "without_website": 266,
+   "share_without_website": 0.4382
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 596,
+   "with_website": 347,
+   "without_website": 249,
+   "share_without_website": 0.4178
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 514,
+   "with_website": 378,
+   "without_website": 136,
+   "share_without_website": 0.2646
+  },
+  {
+   "category": "health_care",
+   "places": 450,
+   "with_website": 403,
+   "without_website": 47,
+   "share_without_website": 0.1044
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 303,
+   "with_website": 87,
+   "without_website": 216,
+   "share_without_website": 0.7129
+  },
+  {
+   "category": "community_and_government",
+   "places": 263,
+   "with_website": 163,
+   "without_website": 100,
+   "share_without_website": 0.3802
+  },
+  {
+   "category": "lodging",
+   "places": 232,
+   "with_website": 170,
+   "without_website": 62,
+   "share_without_website": 0.2672
+  },
+  {
+   "category": "geographic_entities",
+   "places": 64,
+   "with_website": 9,
+   "without_website": 55,
+   "share_without_website": 0.8594
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:32Z",
+  "query_seconds": 1.1,
+  "bytes_read": 3145728,
+  "get_requests": 29,
+  "head_requests": 0
+ }
+}

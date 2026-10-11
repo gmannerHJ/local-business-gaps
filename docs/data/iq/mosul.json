@@ -1,0 +1,209 @@
+{
+ "city": "Mosul",
+ "local_name": "الموصل",
+ "slug": "mosul",
+ "country": "IQ",
+ "country_name": "Iraq",
+ "population": 1848000,
+ "wikidata": "Q83317",
+ "division_id": "dd369b1b-8e58-48d9-86e0-843a2b74854e",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.3
+ },
+ "bbox": [
+  42.961855,
+  36.205929,
+  43.296422,
+  36.47724
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 1610,
+  "with_website": 441,
+  "without_website": 1169,
+  "share_without_website": 0.7261,
+  "without_website_with_phone": 844,
+  "without_website_with_social": 1167
+ },
+ "excluded": {
+  "below_confidence": 652,
+  "permanently_closed": 0
+ },
+ "uncategorised": 170,
+ "blank_website_entries": 1,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 84,
+   "with_website": 22,
+   "without_website": 62,
+   "share_without_website": 0.7381
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 68,
+   "with_website": 23,
+   "without_website": 45,
+   "share_without_website": 0.6618
+  },
+  {
+   "category": "dental_clinic",
+   "places": 66,
+   "with_website": 9,
+   "without_website": 57,
+   "share_without_website": 0.8636
+  },
+  {
+   "category": "place_of_learning",
+   "places": 63,
+   "with_website": 10,
+   "without_website": 53,
+   "share_without_website": 0.8413
+  },
+  {
+   "category": "college_university",
+   "places": 51,
+   "with_website": 27,
+   "without_website": 24,
+   "share_without_website": 0.4706
+  },
+  {
+   "category": "hospital",
+   "places": 46,
+   "with_website": 5,
+   "without_website": 41,
+   "share_without_website": 0.8913
+  },
+  {
+   "category": "shopping",
+   "places": 40,
+   "with_website": 15,
+   "without_website": 25,
+   "share_without_website": 0.625
+  },
+  {
+   "category": "diagnostics_imaging_or_lab_service",
+   "places": 37,
+   "with_website": 4,
+   "without_website": 33,
+   "share_without_website": 0.8919
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 36,
+   "with_website": 13,
+   "without_website": 23,
+   "share_without_website": 0.6389
+  },
+  {
+   "category": "pharmacy_and_drug_store",
+   "places": 36,
+   "with_website": 10,
+   "without_website": 26,
+   "share_without_website": 0.7222
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 304,
+   "with_website": 96,
+   "without_website": 208,
+   "share_without_website": 0.6842
+  },
+  {
+   "category": "services_and_business",
+   "places": 233,
+   "with_website": 92,
+   "without_website": 141,
+   "share_without_website": 0.6052
+  },
+  {
+   "category": "health_care",
+   "places": 231,
+   "with_website": 38,
+   "without_website": 193,
+   "share_without_website": 0.8355
+  },
+  {
+   "category": "education",
+   "places": 215,
+   "with_website": 62,
+   "without_website": 153,
+   "share_without_website": 0.7116
+  },
+  {
+   "category": "food_and_drink",
+   "places": 172,
+   "with_website": 38,
+   "without_website": 134,
+   "share_without_website": 0.7791
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 62,
+   "with_website": 19,
+   "without_website": 43,
+   "share_without_website": 0.6935
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 52,
+   "with_website": 20,
+   "without_website": 32,
+   "share_without_website": 0.6154
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 44,
+   "with_website": 5,
+   "without_website": 39,
+   "share_without_website": 0.8864
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 39,
+   "with_website": 2,
+   "without_website": 37,
+   "share_without_website": 0.9487
+  },
+  {
+   "category": "community_and_government",
+   "places": 35,
+   "with_website": 15,
+   "without_website": 20,
+   "share_without_website": 0.5714
+  },
+  {
+   "category": "lodging",
+   "places": 24,
+   "with_website": 3,
+   "without_website": 21,
+   "share_without_website": 0.875
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 20,
+   "with_website": 2,
+   "without_website": 18,
+   "share_without_website": 0.9
+  },
+  {
+   "category": "geographic_entities",
+   "places": 6,
+   "with_website": 0,
+   "without_website": 6,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:24Z",
+  "query_seconds": 1.0,
+  "bytes_read": 847052,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

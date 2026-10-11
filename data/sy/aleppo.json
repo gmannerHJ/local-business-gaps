@@ -1,0 +1,209 @@
+{
+ "city": "Aleppo",
+ "local_name": "حلب",
+ "slug": "aleppo",
+ "country": "SY",
+ "country_name": "Syria",
+ "population": 2132100,
+ "wikidata": "Q41183",
+ "division_id": "955fd0a3-2d8b-4960-a9bf-5079a57415f7",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.3
+ },
+ "bbox": [
+  36.996746,
+  36.063584,
+  37.330704,
+  36.334896
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 1479,
+  "with_website": 395,
+  "without_website": 1084,
+  "share_without_website": 0.7329,
+  "without_website_with_phone": 729,
+  "without_website_with_social": 1084
+ },
+ "excluded": {
+  "below_confidence": 300,
+  "permanently_closed": 0
+ },
+ "uncategorised": 95,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 91,
+   "with_website": 10,
+   "without_website": 81,
+   "share_without_website": 0.8901
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 81,
+   "with_website": 25,
+   "without_website": 56,
+   "share_without_website": 0.6914
+  },
+  {
+   "category": "historic_site",
+   "places": 75,
+   "with_website": 5,
+   "without_website": 70,
+   "share_without_website": 0.9333
+  },
+  {
+   "category": "place_of_learning",
+   "places": 67,
+   "with_website": 10,
+   "without_website": 57,
+   "share_without_website": 0.8507
+  },
+  {
+   "category": "cafe",
+   "places": 55,
+   "with_website": 7,
+   "without_website": 48,
+   "share_without_website": 0.8727
+  },
+  {
+   "category": "casual_eatery",
+   "places": 54,
+   "with_website": 14,
+   "without_website": 40,
+   "share_without_website": 0.7407
+  },
+  {
+   "category": "coffee_shop",
+   "places": 49,
+   "with_website": 6,
+   "without_website": 43,
+   "share_without_website": 0.8776
+  },
+  {
+   "category": "shopping",
+   "places": 47,
+   "with_website": 14,
+   "without_website": 33,
+   "share_without_website": 0.7021
+  },
+  {
+   "category": "dental_clinic",
+   "places": 35,
+   "with_website": 5,
+   "without_website": 30,
+   "share_without_website": 0.8571
+  },
+  {
+   "category": "college_university",
+   "places": 33,
+   "with_website": 14,
+   "without_website": 19,
+   "share_without_website": 0.5758
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 283,
+   "with_website": 97,
+   "without_website": 186,
+   "share_without_website": 0.6572
+  },
+  {
+   "category": "food_and_drink",
+   "places": 273,
+   "with_website": 43,
+   "without_website": 230,
+   "share_without_website": 0.8425
+  },
+  {
+   "category": "services_and_business",
+   "places": 187,
+   "with_website": 86,
+   "without_website": 101,
+   "share_without_website": 0.5401
+  },
+  {
+   "category": "education",
+   "places": 159,
+   "with_website": 36,
+   "without_website": 123,
+   "share_without_website": 0.7736
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 137,
+   "with_website": 20,
+   "without_website": 117,
+   "share_without_website": 0.854
+  },
+  {
+   "category": "health_care",
+   "places": 118,
+   "with_website": 21,
+   "without_website": 97,
+   "share_without_website": 0.822
+  },
+  {
+   "category": "community_and_government",
+   "places": 49,
+   "with_website": 15,
+   "without_website": 34,
+   "share_without_website": 0.6939
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 43,
+   "with_website": 15,
+   "without_website": 28,
+   "share_without_website": 0.6512
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 38,
+   "with_website": 5,
+   "without_website": 33,
+   "share_without_website": 0.8684
+  },
+  {
+   "category": "lodging",
+   "places": 29,
+   "with_website": 11,
+   "without_website": 18,
+   "share_without_website": 0.6207
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 25,
+   "with_website": 8,
+   "without_website": 17,
+   "share_without_website": 0.68
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 24,
+   "with_website": 7,
+   "without_website": 17,
+   "share_without_website": 0.7083
+  },
+  {
+   "category": "geographic_entities",
+   "places": 18,
+   "with_website": 0,
+   "without_website": 18,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:27Z",
+  "query_seconds": 1.2,
+  "bytes_read": 2202009,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

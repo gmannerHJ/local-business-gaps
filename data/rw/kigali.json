@@ -1,0 +1,210 @@
+{
+ "city": "Kigali",
+ "local_name": "Kigali",
+ "slug": "kigali",
+ "country": "RW",
+ "country_name": "Rwanda",
+ "population": 1745555,
+ "wikidata": "Q3859",
+ "division_id": "5215b144-6494-4d08-8ac6-8c1c6986f7bf",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "95183faa-0178-4b66-95f2-91f635f49348",
+  "area_subtype": "region",
+  "area_km2": 738.2
+ },
+ "bbox": [
+  29.979523,
+  -2.079822,
+  30.279871,
+  -1.779581
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 2259,
+  "with_website": 1461,
+  "without_website": 798,
+  "share_without_website": 0.3533,
+  "without_website_with_phone": 581,
+  "without_website_with_social": 783
+ },
+ "excluded": {
+  "below_confidence": 677,
+  "permanently_closed": 0
+ },
+ "uncategorised": 69,
+ "blank_website_entries": 7,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 185,
+   "with_website": 140,
+   "without_website": 45,
+   "share_without_website": 0.2432
+  },
+  {
+   "category": "restaurant",
+   "places": 141,
+   "with_website": 66,
+   "without_website": 75,
+   "share_without_website": 0.5319
+  },
+  {
+   "category": "travel_service",
+   "places": 85,
+   "with_website": 82,
+   "without_website": 3,
+   "share_without_website": 0.0353
+  },
+  {
+   "category": "professional_service",
+   "places": 84,
+   "with_website": 64,
+   "without_website": 20,
+   "share_without_website": 0.2381
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 79,
+   "with_website": 32,
+   "without_website": 47,
+   "share_without_website": 0.5949
+  },
+  {
+   "category": "place_of_learning",
+   "places": 61,
+   "with_website": 39,
+   "without_website": 22,
+   "share_without_website": 0.3607
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 60,
+   "with_website": 49,
+   "without_website": 11,
+   "share_without_website": 0.1833
+  },
+  {
+   "category": "real_estate_service",
+   "places": 48,
+   "with_website": 32,
+   "without_website": 16,
+   "share_without_website": 0.3333
+  },
+  {
+   "category": "religious_organization",
+   "places": 48,
+   "with_website": 29,
+   "without_website": 19,
+   "share_without_website": 0.3958
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 47,
+   "with_website": 25,
+   "without_website": 22,
+   "share_without_website": 0.4681
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 473,
+   "with_website": 359,
+   "without_website": 114,
+   "share_without_website": 0.241
+  },
+  {
+   "category": "food_and_drink",
+   "places": 285,
+   "with_website": 137,
+   "without_website": 148,
+   "share_without_website": 0.5193
+  },
+  {
+   "category": "shopping",
+   "places": 268,
+   "with_website": 155,
+   "without_website": 113,
+   "share_without_website": 0.4216
+  },
+  {
+   "category": "lodging",
+   "places": 238,
+   "with_website": 173,
+   "without_website": 65,
+   "share_without_website": 0.2731
+  },
+  {
+   "category": "education",
+   "places": 201,
+   "with_website": 129,
+   "without_website": 72,
+   "share_without_website": 0.3582
+  },
+  {
+   "category": "community_and_government",
+   "places": 178,
+   "with_website": 134,
+   "without_website": 44,
+   "share_without_website": 0.2472
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 158,
+   "with_website": 75,
+   "without_website": 83,
+   "share_without_website": 0.5253
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 132,
+   "with_website": 104,
+   "without_website": 28,
+   "share_without_website": 0.2121
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 82,
+   "with_website": 47,
+   "without_website": 35,
+   "share_without_website": 0.4268
+  },
+  {
+   "category": "health_care",
+   "places": 62,
+   "with_website": 43,
+   "without_website": 19,
+   "share_without_website": 0.3065
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 55,
+   "with_website": 23,
+   "without_website": 32,
+   "share_without_website": 0.5818
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 46,
+   "with_website": 27,
+   "without_website": 19,
+   "share_without_website": 0.413
+  },
+  {
+   "category": "geographic_entities",
+   "places": 10,
+   "with_website": 2,
+   "without_website": 8,
+   "share_without_website": 0.8
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:44Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1048576,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

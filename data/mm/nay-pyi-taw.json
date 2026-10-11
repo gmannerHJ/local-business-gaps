@@ -1,0 +1,209 @@
+{
+ "city": "Nay Pyi Taw",
+ "local_name": "နေပြည်တော်",
+ "slug": "nay-pyi-taw",
+ "country": "MM",
+ "country_name": "Myanmar",
+ "population": 1160242,
+ "wikidata": "Q37400",
+ "division_id": "e4df6a25-a74d-43f5-9dd9-79c1c15800ea",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 707.0
+ },
+ "bbox": [
+  95.960064,
+  19.639673,
+  96.246446,
+  19.910985
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 1070,
+  "with_website": 275,
+  "without_website": 795,
+  "share_without_website": 0.743,
+  "without_website_with_phone": 571,
+  "without_website_with_social": 795
+ },
+ "excluded": {
+  "below_confidence": 201,
+  "permanently_closed": 0
+ },
+ "uncategorised": 54,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 141,
+   "with_website": 21,
+   "without_website": 120,
+   "share_without_website": 0.8511
+  },
+  {
+   "category": "hotel",
+   "places": 86,
+   "with_website": 43,
+   "without_website": 43,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "government_office",
+   "places": 76,
+   "with_website": 26,
+   "without_website": 50,
+   "share_without_website": 0.6579
+  },
+  {
+   "category": "electronics_store",
+   "places": 38,
+   "with_website": 8,
+   "without_website": 30,
+   "share_without_website": 0.7895
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 34,
+   "with_website": 12,
+   "without_website": 22,
+   "share_without_website": 0.6471
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 27,
+   "with_website": 2,
+   "without_website": 25,
+   "share_without_website": 0.9259
+  },
+  {
+   "category": "hospital",
+   "places": 26,
+   "with_website": 2,
+   "without_website": 24,
+   "share_without_website": 0.9231
+  },
+  {
+   "category": "place_of_learning",
+   "places": 24,
+   "with_website": 8,
+   "without_website": 16,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "bar",
+   "places": 23,
+   "with_website": 4,
+   "without_website": 19,
+   "share_without_website": 0.8261
+  },
+  {
+   "category": "automotive_service",
+   "places": 20,
+   "with_website": 7,
+   "without_website": 13,
+   "share_without_website": 0.65
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 230,
+   "with_website": 34,
+   "without_website": 196,
+   "share_without_website": 0.8522
+  },
+  {
+   "category": "shopping",
+   "places": 178,
+   "with_website": 49,
+   "without_website": 129,
+   "share_without_website": 0.7247
+  },
+  {
+   "category": "services_and_business",
+   "places": 129,
+   "with_website": 44,
+   "without_website": 85,
+   "share_without_website": 0.6589
+  },
+  {
+   "category": "community_and_government",
+   "places": 98,
+   "with_website": 29,
+   "without_website": 69,
+   "share_without_website": 0.7041
+  },
+  {
+   "category": "lodging",
+   "places": 94,
+   "with_website": 47,
+   "without_website": 47,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "education",
+   "places": 81,
+   "with_website": 28,
+   "without_website": 53,
+   "share_without_website": 0.6543
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 51,
+   "with_website": 5,
+   "without_website": 46,
+   "share_without_website": 0.902
+  },
+  {
+   "category": "health_care",
+   "places": 45,
+   "with_website": 6,
+   "without_website": 39,
+   "share_without_website": 0.8667
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 35,
+   "with_website": 7,
+   "without_website": 28,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 32,
+   "with_website": 7,
+   "without_website": 25,
+   "share_without_website": 0.7812
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 20,
+   "with_website": 6,
+   "without_website": 14,
+   "share_without_website": 0.7
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 20,
+   "with_website": 0,
+   "without_website": 20,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "geographic_entities",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:05Z",
+  "query_seconds": 1.1,
+  "bytes_read": 1021030,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

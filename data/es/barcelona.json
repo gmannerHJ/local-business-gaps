@@ -1,0 +1,210 @@
+{
+ "city": "Barcelona",
+ "local_name": "Barcelona",
+ "slug": "barcelona",
+ "country": "ES",
+ "country_name": "Spain",
+ "population": 1713247,
+ "wikidata": "Q1492",
+ "division_id": "b7c512e6-208d-45a5-ac47-08ccdfa1cd0a",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "606cd3e3-a2c9-49d0-bd8b-b2191a15feae",
+  "area_subtype": "locality",
+  "area_km2": 101.3
+ },
+ "bbox": [
+  2.052498,
+  41.317032,
+  2.228356,
+  41.467915
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 56499,
+  "with_website": 42323,
+  "without_website": 14176,
+  "share_without_website": 0.2509,
+  "without_website_with_phone": 9845,
+  "without_website_with_social": 12973
+ },
+ "excluded": {
+  "below_confidence": 17444,
+  "permanently_closed": 1
+ },
+ "uncategorised": 1428,
+ "blank_website_entries": 604,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 5624,
+   "with_website": 3939,
+   "without_website": 1685,
+   "share_without_website": 0.2996
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 2975,
+   "with_website": 2337,
+   "without_website": 638,
+   "share_without_website": 0.2145
+  },
+  {
+   "category": "casual_eatery",
+   "places": 2598,
+   "with_website": 1659,
+   "without_website": 939,
+   "share_without_website": 0.3614
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 2484,
+   "with_website": 1472,
+   "without_website": 1012,
+   "share_without_website": 0.4074
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 2257,
+   "with_website": 1604,
+   "without_website": 653,
+   "share_without_website": 0.2893
+  },
+  {
+   "category": "bar",
+   "places": 2064,
+   "with_website": 911,
+   "without_website": 1153,
+   "share_without_website": 0.5586
+  },
+  {
+   "category": "professional_service",
+   "places": 1203,
+   "with_website": 1098,
+   "without_website": 105,
+   "share_without_website": 0.0873
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 1046,
+   "with_website": 895,
+   "without_website": 151,
+   "share_without_website": 0.1444
+  },
+  {
+   "category": "hotel",
+   "places": 1037,
+   "with_website": 812,
+   "without_website": 225,
+   "share_without_website": 0.217
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 1013,
+   "with_website": 897,
+   "without_website": 116,
+   "share_without_website": 0.1145
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 11832,
+   "with_website": 7392,
+   "without_website": 4440,
+   "share_without_website": 0.3753
+  },
+  {
+   "category": "shopping",
+   "places": 11188,
+   "with_website": 8820,
+   "without_website": 2368,
+   "share_without_website": 0.2117
+  },
+  {
+   "category": "services_and_business",
+   "places": 10597,
+   "with_website": 9220,
+   "without_website": 1377,
+   "share_without_website": 0.1299
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 3624,
+   "with_website": 2317,
+   "without_website": 1307,
+   "share_without_website": 0.3607
+  },
+  {
+   "category": "health_care",
+   "places": 3069,
+   "with_website": 2654,
+   "without_website": 415,
+   "share_without_website": 0.1352
+  },
+  {
+   "category": "education",
+   "places": 2550,
+   "with_website": 2220,
+   "without_website": 330,
+   "share_without_website": 0.1294
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 2302,
+   "with_website": 1733,
+   "without_website": 569,
+   "share_without_website": 0.2472
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 2290,
+   "with_website": 1583,
+   "without_website": 707,
+   "share_without_website": 0.3087
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 2084,
+   "with_website": 1489,
+   "without_website": 595,
+   "share_without_website": 0.2855
+  },
+  {
+   "category": "community_and_government",
+   "places": 2056,
+   "with_website": 1580,
+   "without_website": 476,
+   "share_without_website": 0.2315
+  },
+  {
+   "category": "lodging",
+   "places": 1743,
+   "with_website": 1376,
+   "without_website": 367,
+   "share_without_website": 0.2106
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1334,
+   "with_website": 708,
+   "without_website": 626,
+   "share_without_website": 0.4693
+  },
+  {
+   "category": "geographic_entities",
+   "places": 312,
+   "with_website": 56,
+   "without_website": 256,
+   "share_without_website": 0.8205
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:17Z",
+  "query_seconds": 1.6,
+  "bytes_read": 7549747,
+  "get_requests": 46,
+  "head_requests": 0
+ }
+}

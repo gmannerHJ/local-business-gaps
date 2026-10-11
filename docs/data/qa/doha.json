@@ -1,0 +1,210 @@
+{
+ "city": "Doha",
+ "local_name": "الدوحة",
+ "slug": "doha",
+ "country": "QA",
+ "country_name": "Qatar",
+ "population": 1312947,
+ "wikidata": "Q3861",
+ "division_id": "6332acce-a9fe-4105-a756-aa57f1fe7289",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "f7586464-1bb6-4c90-8184-a6b74c7251df",
+  "area_subtype": "region",
+  "area_km2": 210.3
+ },
+ "bbox": [
+  51.395767,
+  25.150537,
+  52.417118,
+  25.683205
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 11182,
+  "with_website": 6490,
+  "without_website": 4692,
+  "share_without_website": 0.4196,
+  "without_website_with_phone": 2733,
+  "without_website_with_social": 4580
+ },
+ "excluded": {
+  "below_confidence": 4492,
+  "permanently_closed": 0
+ },
+ "uncategorised": 311,
+ "blank_website_entries": 43,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 1613,
+   "with_website": 792,
+   "without_website": 821,
+   "share_without_website": 0.509
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 485,
+   "with_website": 340,
+   "without_website": 145,
+   "share_without_website": 0.299
+  },
+  {
+   "category": "hotel",
+   "places": 367,
+   "with_website": 228,
+   "without_website": 139,
+   "share_without_website": 0.3787
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 353,
+   "with_website": 152,
+   "without_website": 201,
+   "share_without_website": 0.5694
+  },
+  {
+   "category": "automotive_service",
+   "places": 311,
+   "with_website": 172,
+   "without_website": 139,
+   "share_without_website": 0.4469
+  },
+  {
+   "category": "professional_service",
+   "places": 288,
+   "with_website": 237,
+   "without_website": 51,
+   "share_without_website": 0.1771
+  },
+  {
+   "category": "coffee_shop",
+   "places": 286,
+   "with_website": 190,
+   "without_website": 96,
+   "share_without_website": 0.3357
+  },
+  {
+   "category": "cafe",
+   "places": 275,
+   "with_website": 125,
+   "without_website": 150,
+   "share_without_website": 0.5455
+  },
+  {
+   "category": "historic_site",
+   "places": 256,
+   "with_website": 49,
+   "without_website": 207,
+   "share_without_website": 0.8086
+  },
+  {
+   "category": "real_estate_service",
+   "places": 241,
+   "with_website": 136,
+   "without_website": 105,
+   "share_without_website": 0.4357
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 2748,
+   "with_website": 1434,
+   "without_website": 1314,
+   "share_without_website": 0.4782
+  },
+  {
+   "category": "services_and_business",
+   "places": 2195,
+   "with_website": 1692,
+   "without_website": 503,
+   "share_without_website": 0.2292
+  },
+  {
+   "category": "shopping",
+   "places": 1788,
+   "with_website": 1111,
+   "without_website": 677,
+   "share_without_website": 0.3786
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 730,
+   "with_website": 392,
+   "without_website": 338,
+   "share_without_website": 0.463
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 564,
+   "with_website": 275,
+   "without_website": 289,
+   "share_without_website": 0.5124
+  },
+  {
+   "category": "lodging",
+   "places": 483,
+   "with_website": 268,
+   "without_website": 215,
+   "share_without_website": 0.4451
+  },
+  {
+   "category": "education",
+   "places": 457,
+   "with_website": 304,
+   "without_website": 153,
+   "share_without_website": 0.3348
+  },
+  {
+   "category": "health_care",
+   "places": 447,
+   "with_website": 240,
+   "without_website": 207,
+   "share_without_website": 0.4631
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 414,
+   "with_website": 194,
+   "without_website": 220,
+   "share_without_website": 0.5314
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 393,
+   "with_website": 79,
+   "without_website": 314,
+   "share_without_website": 0.799
+  },
+  {
+   "category": "community_and_government",
+   "places": 342,
+   "with_website": 176,
+   "without_website": 166,
+   "share_without_website": 0.4854
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 205,
+   "with_website": 99,
+   "without_website": 106,
+   "share_without_website": 0.5171
+  },
+  {
+   "category": "geographic_entities",
+   "places": 96,
+   "with_website": 11,
+   "without_website": 85,
+   "share_without_website": 0.8854
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:52Z",
+  "query_seconds": 1.2,
+  "bytes_read": 2202009,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

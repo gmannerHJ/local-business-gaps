@@ -1,0 +1,209 @@
+{
+ "city": "Kabul",
+ "local_name": "کابل",
+ "slug": "kabul",
+ "country": "AF",
+ "country_name": "Afghanistan",
+ "population": 3289000,
+ "wikidata": "Q5838",
+ "division_id": "518e8c55-ad1d-448c-a833-745c0e341279",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.0
+ },
+ "bbox": [
+  69.021503,
+  34.391295,
+  69.348614,
+  34.662606
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 2469,
+  "with_website": 1147,
+  "without_website": 1322,
+  "share_without_website": 0.5354,
+  "without_website_with_phone": 981,
+  "without_website_with_social": 1320
+ },
+ "excluded": {
+  "below_confidence": 1730,
+  "permanently_closed": 0
+ },
+ "uncategorised": 106,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 131,
+   "with_website": 31,
+   "without_website": 100,
+   "share_without_website": 0.7634
+  },
+  {
+   "category": "hospital",
+   "places": 116,
+   "with_website": 55,
+   "without_website": 61,
+   "share_without_website": 0.5259
+  },
+  {
+   "category": "college_university",
+   "places": 110,
+   "with_website": 76,
+   "without_website": 34,
+   "share_without_website": 0.3091
+  },
+  {
+   "category": "education",
+   "places": 94,
+   "with_website": 31,
+   "without_website": 63,
+   "share_without_website": 0.6702
+  },
+  {
+   "category": "travel_service",
+   "places": 90,
+   "with_website": 34,
+   "without_website": 56,
+   "share_without_website": 0.6222
+  },
+  {
+   "category": "corporate_or_business_office",
+   "places": 89,
+   "with_website": 64,
+   "without_website": 25,
+   "share_without_website": 0.2809
+  },
+  {
+   "category": "dental_clinic",
+   "places": 89,
+   "with_website": 23,
+   "without_website": 66,
+   "share_without_website": 0.7416
+  },
+  {
+   "category": "professional_service",
+   "places": 86,
+   "with_website": 53,
+   "without_website": 33,
+   "share_without_website": 0.3837
+  },
+  {
+   "category": "place_of_learning",
+   "places": 81,
+   "with_website": 34,
+   "without_website": 47,
+   "share_without_website": 0.5802
+  },
+  {
+   "category": "historic_site",
+   "places": 73,
+   "with_website": 8,
+   "without_website": 65,
+   "share_without_website": 0.8904
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 518,
+   "with_website": 339,
+   "without_website": 179,
+   "share_without_website": 0.3456
+  },
+  {
+   "category": "education",
+   "places": 430,
+   "with_website": 217,
+   "without_website": 213,
+   "share_without_website": 0.4953
+  },
+  {
+   "category": "health_care",
+   "places": 320,
+   "with_website": 115,
+   "without_website": 205,
+   "share_without_website": 0.6406
+  },
+  {
+   "category": "shopping",
+   "places": 305,
+   "with_website": 150,
+   "without_website": 155,
+   "share_without_website": 0.5082
+  },
+  {
+   "category": "food_and_drink",
+   "places": 209,
+   "with_website": 48,
+   "without_website": 161,
+   "share_without_website": 0.7703
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 135,
+   "with_website": 56,
+   "without_website": 79,
+   "share_without_website": 0.5852
+  },
+  {
+   "category": "community_and_government",
+   "places": 131,
+   "with_website": 78,
+   "without_website": 53,
+   "share_without_website": 0.4046
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 84,
+   "with_website": 13,
+   "without_website": 71,
+   "share_without_website": 0.8452
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 66,
+   "with_website": 15,
+   "without_website": 51,
+   "share_without_website": 0.7727
+  },
+  {
+   "category": "lodging",
+   "places": 50,
+   "with_website": 27,
+   "without_website": 23,
+   "share_without_website": 0.46
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 43,
+   "with_website": 16,
+   "without_website": 27,
+   "share_without_website": 0.6279
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 35,
+   "with_website": 20,
+   "without_website": 15,
+   "share_without_website": 0.4286
+  },
+  {
+   "category": "geographic_entities",
+   "places": 35,
+   "with_website": 0,
+   "without_website": 35,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:46Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1153433,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

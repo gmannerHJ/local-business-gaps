@@ -1,0 +1,209 @@
+{
+ "city": "Algiers",
+ "local_name": "Alger ⴷⵣⴰⵢⴻⵔ الجزائر",
+ "slug": "algiers",
+ "country": "DZ",
+ "country_name": "Algeria",
+ "population": 3415811,
+ "wikidata": "Q3561",
+ "division_id": "e0d4a489-7333-45d0-9d37-8b951e3e5b83",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.4
+ },
+ "bbox": [
+  2.890624,
+  36.637278,
+  3.227065,
+  36.908589
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 11473,
+  "with_website": 4598,
+  "without_website": 6875,
+  "share_without_website": 0.5992,
+  "without_website_with_phone": 5843,
+  "without_website_with_social": 6823
+ },
+ "excluded": {
+  "below_confidence": 8668,
+  "permanently_closed": 0
+ },
+ "uncategorised": 428,
+ "blank_website_entries": 14,
+ "top_categories": [
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 851,
+   "with_website": 316,
+   "without_website": 535,
+   "share_without_website": 0.6287
+  },
+  {
+   "category": "restaurant",
+   "places": 830,
+   "with_website": 175,
+   "without_website": 655,
+   "share_without_website": 0.7892
+  },
+  {
+   "category": "place_of_learning",
+   "places": 606,
+   "with_website": 225,
+   "without_website": 381,
+   "share_without_website": 0.6287
+  },
+  {
+   "category": "travel_service",
+   "places": 487,
+   "with_website": 248,
+   "without_website": 239,
+   "share_without_website": 0.4908
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 366,
+   "with_website": 168,
+   "without_website": 198,
+   "share_without_website": 0.541
+  },
+  {
+   "category": "shopping",
+   "places": 356,
+   "with_website": 137,
+   "without_website": 219,
+   "share_without_website": 0.6152
+  },
+  {
+   "category": "professional_service",
+   "places": 310,
+   "with_website": 188,
+   "without_website": 122,
+   "share_without_website": 0.3935
+  },
+  {
+   "category": "dental_clinic",
+   "places": 298,
+   "with_website": 80,
+   "without_website": 218,
+   "share_without_website": 0.7315
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 292,
+   "with_website": 68,
+   "without_website": 224,
+   "share_without_website": 0.7671
+  },
+  {
+   "category": "electronics_store",
+   "places": 253,
+   "with_website": 135,
+   "without_website": 118,
+   "share_without_website": 0.4664
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 2797,
+   "with_website": 1084,
+   "without_website": 1713,
+   "share_without_website": 0.6124
+  },
+  {
+   "category": "services_and_business",
+   "places": 1842,
+   "with_website": 1182,
+   "without_website": 660,
+   "share_without_website": 0.3583
+  },
+  {
+   "category": "education",
+   "places": 1398,
+   "with_website": 584,
+   "without_website": 814,
+   "share_without_website": 0.5823
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1259,
+   "with_website": 280,
+   "without_website": 979,
+   "share_without_website": 0.7776
+  },
+  {
+   "category": "health_care",
+   "places": 1104,
+   "with_website": 316,
+   "without_website": 788,
+   "share_without_website": 0.7138
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 782,
+   "with_website": 328,
+   "without_website": 454,
+   "share_without_website": 0.5806
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 460,
+   "with_website": 122,
+   "without_website": 338,
+   "share_without_website": 0.7348
+  },
+  {
+   "category": "community_and_government",
+   "places": 431,
+   "with_website": 222,
+   "without_website": 209,
+   "share_without_website": 0.4849
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 306,
+   "with_website": 84,
+   "without_website": 222,
+   "share_without_website": 0.7255
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 216,
+   "with_website": 39,
+   "without_website": 177,
+   "share_without_website": 0.8194
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 206,
+   "with_website": 72,
+   "without_website": 134,
+   "share_without_website": 0.6505
+  },
+  {
+   "category": "lodging",
+   "places": 198,
+   "with_website": 100,
+   "without_website": 98,
+   "share_without_website": 0.4949
+  },
+  {
+   "category": "geographic_entities",
+   "places": 41,
+   "with_website": 5,
+   "without_website": 36,
+   "share_without_website": 0.878
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:09Z",
+  "query_seconds": 1.2,
+  "bytes_read": 3460300,
+  "get_requests": 22,
+  "head_requests": 0
+ }
+}

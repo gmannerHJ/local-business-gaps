@@ -1,0 +1,209 @@
+{
+ "city": "Soweto",
+ "local_name": "Soweto",
+ "slug": "soweto",
+ "country": "ZA",
+ "country_name": "South Africa",
+ "population": 1270000,
+ "wikidata": "Q217426",
+ "division_id": "3952ebbf-009d-46be-a2c3-24597aa93a3d",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 707.8
+ },
+ "bbox": [
+  27.739795,
+  -26.358434,
+  28.040205,
+  -26.087122
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 22597,
+  "with_website": 12100,
+  "without_website": 10497,
+  "share_without_website": 0.4645,
+  "without_website_with_phone": 6002,
+  "without_website_with_social": 7340
+ },
+ "excluded": {
+  "below_confidence": 13238,
+  "permanently_closed": 0
+ },
+ "uncategorised": 563,
+ "blank_website_entries": 210,
+ "top_categories": [
+  {
+   "category": "preschool",
+   "places": 1971,
+   "with_website": 123,
+   "without_website": 1848,
+   "share_without_website": 0.9376
+  },
+  {
+   "category": "restaurant",
+   "places": 1134,
+   "with_website": 660,
+   "without_website": 474,
+   "share_without_website": 0.418
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 999,
+   "with_website": 386,
+   "without_website": 613,
+   "share_without_website": 0.6136
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 906,
+   "with_website": 608,
+   "without_website": 298,
+   "share_without_website": 0.3289
+  },
+  {
+   "category": "automotive_service",
+   "places": 866,
+   "with_website": 449,
+   "without_website": 417,
+   "share_without_website": 0.4815
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 852,
+   "with_website": 355,
+   "without_website": 497,
+   "share_without_website": 0.5833
+  },
+  {
+   "category": "place_of_learning",
+   "places": 746,
+   "with_website": 209,
+   "without_website": 537,
+   "share_without_website": 0.7198
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 677,
+   "with_website": 328,
+   "without_website": 349,
+   "share_without_website": 0.5155
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 652,
+   "with_website": 474,
+   "without_website": 178,
+   "share_without_website": 0.273
+  },
+  {
+   "category": "fast_food_restaurant",
+   "places": 413,
+   "with_website": 250,
+   "without_website": 163,
+   "share_without_website": 0.3947
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 4579,
+   "with_website": 3014,
+   "without_website": 1565,
+   "share_without_website": 0.3418
+  },
+  {
+   "category": "services_and_business",
+   "places": 4133,
+   "with_website": 2914,
+   "without_website": 1219,
+   "share_without_website": 0.2949
+  },
+  {
+   "category": "education",
+   "places": 3620,
+   "with_website": 854,
+   "without_website": 2766,
+   "share_without_website": 0.7641
+  },
+  {
+   "category": "food_and_drink",
+   "places": 2479,
+   "with_website": 1284,
+   "without_website": 1195,
+   "share_without_website": 0.482
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1513,
+   "with_website": 590,
+   "without_website": 923,
+   "share_without_website": 0.61
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1334,
+   "with_website": 784,
+   "without_website": 550,
+   "share_without_website": 0.4123
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1243,
+   "with_website": 524,
+   "without_website": 719,
+   "share_without_website": 0.5784
+  },
+  {
+   "category": "health_care",
+   "places": 837,
+   "with_website": 501,
+   "without_website": 336,
+   "share_without_website": 0.4014
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 664,
+   "with_website": 348,
+   "without_website": 316,
+   "share_without_website": 0.4759
+  },
+  {
+   "category": "community_and_government",
+   "places": 626,
+   "with_website": 360,
+   "without_website": 266,
+   "share_without_website": 0.4249
+  },
+  {
+   "category": "lodging",
+   "places": 533,
+   "with_website": 323,
+   "without_website": 210,
+   "share_without_website": 0.394
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 425,
+   "with_website": 221,
+   "without_website": 204,
+   "share_without_website": 0.48
+  },
+  {
+   "category": "geographic_entities",
+   "places": 31,
+   "with_website": 10,
+   "without_website": 21,
+   "share_without_website": 0.6774
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:59Z",
+  "query_seconds": 1.7,
+  "bytes_read": 6606028,
+  "get_requests": 46,
+  "head_requests": 0
+ }
+}

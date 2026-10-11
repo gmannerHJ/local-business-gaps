@@ -1,0 +1,209 @@
+{
+ "city": "Gujranwala",
+ "local_name": "گوجرانوالہ",
+ "slug": "gujranwala",
+ "country": "PK",
+ "country_name": "Pakistan",
+ "population": 2027001,
+ "wikidata": "Q243322",
+ "division_id": "b93a63eb-f027-4ee7-8c81-8136524fafc4",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 708.6
+ },
+ "bbox": [
+  74.034219,
+  32.016875,
+  74.35253,
+  32.288187
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 3297,
+  "with_website": 1391,
+  "without_website": 1906,
+  "share_without_website": 0.5781,
+  "without_website_with_phone": 1588,
+  "without_website_with_social": 1892
+ },
+ "excluded": {
+  "below_confidence": 1121,
+  "permanently_closed": 0
+ },
+ "uncategorised": 119,
+ "blank_website_entries": 7,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 233,
+   "with_website": 48,
+   "without_website": 185,
+   "share_without_website": 0.794
+  },
+  {
+   "category": "place_of_learning",
+   "places": 179,
+   "with_website": 76,
+   "without_website": 103,
+   "share_without_website": 0.5754
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 140,
+   "with_website": 55,
+   "without_website": 85,
+   "share_without_website": 0.6071
+  },
+  {
+   "category": "manufacturer",
+   "places": 137,
+   "with_website": 84,
+   "without_website": 53,
+   "share_without_website": 0.3869
+  },
+  {
+   "category": "real_estate_service",
+   "places": 113,
+   "with_website": 55,
+   "without_website": 58,
+   "share_without_website": 0.5133
+  },
+  {
+   "category": "professional_service",
+   "places": 110,
+   "with_website": 59,
+   "without_website": 51,
+   "share_without_website": 0.4636
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 107,
+   "with_website": 40,
+   "without_website": 67,
+   "share_without_website": 0.6262
+  },
+  {
+   "category": "hospital",
+   "places": 101,
+   "with_website": 30,
+   "without_website": 71,
+   "share_without_website": 0.703
+  },
+  {
+   "category": "education",
+   "places": 91,
+   "with_website": 48,
+   "without_website": 43,
+   "share_without_website": 0.4725
+  },
+  {
+   "category": "college_university",
+   "places": 89,
+   "with_website": 48,
+   "without_website": 41,
+   "share_without_website": 0.4607
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 874,
+   "with_website": 462,
+   "without_website": 412,
+   "share_without_website": 0.4714
+  },
+  {
+   "category": "shopping",
+   "places": 562,
+   "with_website": 221,
+   "without_website": 341,
+   "share_without_website": 0.6068
+  },
+  {
+   "category": "education",
+   "places": 518,
+   "with_website": 263,
+   "without_website": 255,
+   "share_without_website": 0.4923
+  },
+  {
+   "category": "food_and_drink",
+   "places": 412,
+   "with_website": 95,
+   "without_website": 317,
+   "share_without_website": 0.7694
+  },
+  {
+   "category": "health_care",
+   "places": 210,
+   "with_website": 71,
+   "without_website": 139,
+   "share_without_website": 0.6619
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 160,
+   "with_website": 73,
+   "without_website": 87,
+   "share_without_website": 0.5437
+  },
+  {
+   "category": "community_and_government",
+   "places": 114,
+   "with_website": 39,
+   "without_website": 75,
+   "share_without_website": 0.6579
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 101,
+   "with_website": 27,
+   "without_website": 74,
+   "share_without_website": 0.7327
+  },
+  {
+   "category": "lodging",
+   "places": 69,
+   "with_website": 26,
+   "without_website": 43,
+   "share_without_website": 0.6232
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 64,
+   "with_website": 27,
+   "without_website": 37,
+   "share_without_website": 0.5781
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 62,
+   "with_website": 8,
+   "without_website": 54,
+   "share_without_website": 0.871
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 28,
+   "with_website": 13,
+   "without_website": 15,
+   "share_without_website": 0.5357
+  },
+  {
+   "category": "geographic_entities",
+   "places": 1,
+   "with_website": 1,
+   "without_website": 0,
+   "share_without_website": 0.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:33Z",
+  "query_seconds": 1.3,
+  "bytes_read": 1153433,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

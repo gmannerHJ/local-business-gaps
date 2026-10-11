@@ -1,0 +1,210 @@
+{
+ "city": "Yokohama",
+ "local_name": "横浜市",
+ "slug": "yokohama",
+ "country": "JP",
+ "country_name": "Japan",
+ "population": 3777491,
+ "wikidata": "Q38283",
+ "division_id": "01143241-d602-430a-b5d5-348ca1abb26b",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "c15576e2-5e26-4157-a84a-3f570a8e6ade",
+  "area_subtype": "locality",
+  "area_km2": 559.6
+ },
+ "bbox": [
+  139.464767,
+  35.3125,
+  139.776947,
+  35.592854
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 68385,
+  "with_website": 47162,
+  "without_website": 21223,
+  "share_without_website": 0.3103,
+  "without_website_with_phone": 11222,
+  "without_website_with_social": 16928
+ },
+ "excluded": {
+  "below_confidence": 4440,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1183,
+ "blank_website_entries": 81,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 11272,
+   "with_website": 7611,
+   "without_website": 3661,
+   "share_without_website": 0.3248
+  },
+  {
+   "category": "rental_service",
+   "places": 4539,
+   "with_website": 477,
+   "without_website": 4062,
+   "share_without_website": 0.8949
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 2991,
+   "with_website": 2490,
+   "without_website": 501,
+   "share_without_website": 0.1675
+  },
+  {
+   "category": "bar",
+   "places": 2532,
+   "with_website": 1494,
+   "without_website": 1038,
+   "share_without_website": 0.41
+  },
+  {
+   "category": "atm",
+   "places": 1945,
+   "with_website": 1942,
+   "without_website": 3,
+   "share_without_website": 0.0015
+  },
+  {
+   "category": "convenience_store",
+   "places": 1937,
+   "with_website": 1864,
+   "without_website": 73,
+   "share_without_website": 0.0377
+  },
+  {
+   "category": "pharmacy_and_drug_store",
+   "places": 1661,
+   "with_website": 1508,
+   "without_website": 153,
+   "share_without_website": 0.0921
+  },
+  {
+   "category": "casual_eatery",
+   "places": 1626,
+   "with_website": 1283,
+   "without_website": 343,
+   "share_without_website": 0.2109
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1563,
+   "with_website": 1280,
+   "without_website": 283,
+   "share_without_website": 0.1811
+  },
+  {
+   "category": "parking",
+   "places": 1421,
+   "with_website": 1338,
+   "without_website": 83,
+   "share_without_website": 0.0584
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 18103,
+   "with_website": 12369,
+   "without_website": 5734,
+   "share_without_website": 0.3167
+  },
+  {
+   "category": "services_and_business",
+   "places": 14021,
+   "with_website": 8302,
+   "without_website": 5719,
+   "share_without_website": 0.4079
+  },
+  {
+   "category": "shopping",
+   "places": 11591,
+   "with_website": 9559,
+   "without_website": 2032,
+   "share_without_website": 0.1753
+  },
+  {
+   "category": "health_care",
+   "places": 4243,
+   "with_website": 3683,
+   "without_website": 560,
+   "share_without_website": 0.132
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 4143,
+   "with_website": 3419,
+   "without_website": 724,
+   "share_without_website": 0.1748
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 3592,
+   "with_website": 2523,
+   "without_website": 1069,
+   "share_without_website": 0.2976
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 3012,
+   "with_website": 1722,
+   "without_website": 1290,
+   "share_without_website": 0.4283
+  },
+  {
+   "category": "education",
+   "places": 2625,
+   "with_website": 2018,
+   "without_website": 607,
+   "share_without_website": 0.2312
+  },
+  {
+   "category": "community_and_government",
+   "places": 1743,
+   "with_website": 975,
+   "without_website": 768,
+   "share_without_website": 0.4406
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1617,
+   "with_website": 546,
+   "without_website": 1071,
+   "share_without_website": 0.6623
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 1403,
+   "with_website": 1002,
+   "without_website": 401,
+   "share_without_website": 0.2858
+  },
+  {
+   "category": "geographic_entities",
+   "places": 462,
+   "with_website": 95,
+   "without_website": 367,
+   "share_without_website": 0.7944
+  },
+  {
+   "category": "lodging",
+   "places": 453,
+   "with_website": 268,
+   "without_website": 185,
+   "share_without_website": 0.4084
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:55Z",
+  "query_seconds": 1.1,
+  "bytes_read": 4194304,
+  "get_requests": 29,
+  "head_requests": 0
+ }
+}

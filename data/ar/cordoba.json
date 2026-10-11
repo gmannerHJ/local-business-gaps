@@ -1,0 +1,210 @@
+{
+ "city": "Cordoba",
+ "local_name": "Córdoba",
+ "slug": "cordoba",
+ "country": "AR",
+ "country_name": "Argentina",
+ "population": 1655481,
+ "wikidata": "Q44210",
+ "division_id": "f48c9e81-af22-4c4c-b571-5ebc1dba9090",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "5794871a-52fd-40e7-9e6c-788ba7a1f431",
+  "area_subtype": "locality",
+  "area_km2": 576.0
+ },
+ "bbox": [
+  -64.310097,
+  -31.525127,
+  -64.057243,
+  -31.308329
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 24361,
+  "with_website": 11691,
+  "without_website": 12670,
+  "share_without_website": 0.5201,
+  "without_website_with_phone": 10493,
+  "without_website_with_social": 12388
+ },
+ "excluded": {
+  "below_confidence": 16322,
+  "permanently_closed": 0
+ },
+ "uncategorised": 556,
+ "blank_website_entries": 108,
+ "top_categories": [
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 1553,
+   "with_website": 768,
+   "without_website": 785,
+   "share_without_website": 0.5055
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 1183,
+   "with_website": 408,
+   "without_website": 775,
+   "share_without_website": 0.6551
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 1179,
+   "with_website": 374,
+   "without_website": 805,
+   "share_without_website": 0.6828
+  },
+  {
+   "category": "automotive_service",
+   "places": 1030,
+   "with_website": 366,
+   "without_website": 664,
+   "share_without_website": 0.6447
+  },
+  {
+   "category": "restaurant",
+   "places": 958,
+   "with_website": 396,
+   "without_website": 562,
+   "share_without_website": 0.5866
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 914,
+   "with_website": 553,
+   "without_website": 361,
+   "share_without_website": 0.395
+  },
+  {
+   "category": "casual_eatery",
+   "places": 609,
+   "with_website": 240,
+   "without_website": 369,
+   "share_without_website": 0.6059
+  },
+  {
+   "category": "real_estate_service",
+   "places": 567,
+   "with_website": 439,
+   "without_website": 128,
+   "share_without_website": 0.2257
+  },
+  {
+   "category": "bar",
+   "places": 497,
+   "with_website": 132,
+   "without_website": 365,
+   "share_without_website": 0.7344
+  },
+  {
+   "category": "dental_clinic",
+   "places": 464,
+   "with_website": 202,
+   "without_website": 262,
+   "share_without_website": 0.5647
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 6881,
+   "with_website": 3427,
+   "without_website": 3454,
+   "share_without_website": 0.502
+  },
+  {
+   "category": "services_and_business",
+   "places": 3894,
+   "with_website": 2496,
+   "without_website": 1398,
+   "share_without_website": 0.359
+  },
+  {
+   "category": "food_and_drink",
+   "places": 2477,
+   "with_website": 925,
+   "without_website": 1552,
+   "share_without_website": 0.6266
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1778,
+   "with_website": 593,
+   "without_website": 1185,
+   "share_without_website": 0.6665
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1552,
+   "with_website": 675,
+   "without_website": 877,
+   "share_without_website": 0.5651
+  },
+  {
+   "category": "education",
+   "places": 1496,
+   "with_website": 770,
+   "without_website": 726,
+   "share_without_website": 0.4853
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1437,
+   "with_website": 498,
+   "without_website": 939,
+   "share_without_website": 0.6534
+  },
+  {
+   "category": "health_care",
+   "places": 1424,
+   "with_website": 741,
+   "without_website": 683,
+   "share_without_website": 0.4796
+  },
+  {
+   "category": "community_and_government",
+   "places": 848,
+   "with_website": 432,
+   "without_website": 416,
+   "share_without_website": 0.4906
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 779,
+   "with_website": 301,
+   "without_website": 478,
+   "share_without_website": 0.6136
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 592,
+   "with_website": 269,
+   "without_website": 323,
+   "share_without_website": 0.5456
+  },
+  {
+   "category": "lodging",
+   "places": 558,
+   "with_website": 288,
+   "without_website": 270,
+   "share_without_website": 0.4839
+  },
+  {
+   "category": "geographic_entities",
+   "places": 66,
+   "with_website": 11,
+   "without_website": 55,
+   "share_without_website": 0.8333
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:19Z",
+  "query_seconds": 1.2,
+  "bytes_read": 3879731,
+  "get_requests": 29,
+  "head_requests": 0
+ }
+}

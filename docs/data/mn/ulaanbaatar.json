@@ -1,0 +1,209 @@
+{
+ "city": "Ulaanbaatar",
+ "local_name": "Улаанбаатар ᠤᠯᠠᠭᠠᠨ ᠪᠠᠭᠠᠲᠤᠷ",
+ "slug": "ulaanbaatar",
+ "country": "MN",
+ "country_name": "Mongolia",
+ "population": 1672627,
+ "wikidata": "Q23430",
+ "division_id": "f7b66945-2e86-4ee2-93b3-28bebbd70093",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 711.2
+ },
+ "bbox": [
+  106.716643,
+  47.782812,
+  107.11876,
+  48.054123
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 9380,
+  "with_website": 4703,
+  "without_website": 4677,
+  "share_without_website": 0.4986,
+  "without_website_with_phone": 3504,
+  "without_website_with_social": 4628
+ },
+ "excluded": {
+  "below_confidence": 7028,
+  "permanently_closed": 0
+ },
+ "uncategorised": 349,
+ "blank_website_entries": 3,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 663,
+   "with_website": 192,
+   "without_website": 471,
+   "share_without_website": 0.7104
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 432,
+   "with_website": 113,
+   "without_website": 319,
+   "share_without_website": 0.7384
+  },
+  {
+   "category": "hospital",
+   "places": 383,
+   "with_website": 139,
+   "without_website": 244,
+   "share_without_website": 0.6371
+  },
+  {
+   "category": "real_estate_service",
+   "places": 323,
+   "with_website": 172,
+   "without_website": 151,
+   "share_without_website": 0.4675
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 308,
+   "with_website": 173,
+   "without_website": 135,
+   "share_without_website": 0.4383
+  },
+  {
+   "category": "automotive_service",
+   "places": 234,
+   "with_website": 95,
+   "without_website": 139,
+   "share_without_website": 0.594
+  },
+  {
+   "category": "government_office",
+   "places": 213,
+   "with_website": 144,
+   "without_website": 69,
+   "share_without_website": 0.3239
+  },
+  {
+   "category": "historic_site",
+   "places": 205,
+   "with_website": 89,
+   "without_website": 116,
+   "share_without_website": 0.5659
+  },
+  {
+   "category": "college_university",
+   "places": 197,
+   "with_website": 153,
+   "without_website": 44,
+   "share_without_website": 0.2234
+  },
+  {
+   "category": "hotel",
+   "places": 197,
+   "with_website": 104,
+   "without_website": 93,
+   "share_without_website": 0.4721
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 1750,
+   "with_website": 1220,
+   "without_website": 530,
+   "share_without_website": 0.3029
+  },
+  {
+   "category": "shopping",
+   "places": 1422,
+   "with_website": 801,
+   "without_website": 621,
+   "share_without_website": 0.4367
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1371,
+   "with_website": 417,
+   "without_website": 954,
+   "share_without_website": 0.6958
+  },
+  {
+   "category": "education",
+   "places": 817,
+   "with_website": 500,
+   "without_website": 317,
+   "share_without_website": 0.388
+  },
+  {
+   "category": "health_care",
+   "places": 784,
+   "with_website": 287,
+   "without_website": 497,
+   "share_without_website": 0.6339
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 538,
+   "with_website": 152,
+   "without_website": 386,
+   "share_without_website": 0.7175
+  },
+  {
+   "category": "community_and_government",
+   "places": 484,
+   "with_website": 331,
+   "without_website": 153,
+   "share_without_website": 0.3161
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 483,
+   "with_website": 271,
+   "without_website": 212,
+   "share_without_website": 0.4389
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 413,
+   "with_website": 127,
+   "without_website": 286,
+   "share_without_website": 0.6925
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 337,
+   "with_website": 136,
+   "without_website": 201,
+   "share_without_website": 0.5964
+  },
+  {
+   "category": "lodging",
+   "places": 308,
+   "with_website": 153,
+   "without_website": 155,
+   "share_without_website": 0.5032
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 276,
+   "with_website": 118,
+   "without_website": 158,
+   "share_without_website": 0.5725
+  },
+  {
+   "category": "geographic_entities",
+   "places": 43,
+   "with_website": 2,
+   "without_website": 41,
+   "share_without_website": 0.9535
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:28Z",
+  "query_seconds": 1.0,
+  "bytes_read": 1887436,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

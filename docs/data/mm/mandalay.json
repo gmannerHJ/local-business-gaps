@@ -1,0 +1,210 @@
+{
+ "city": "Mandalay",
+ "local_name": "မန္တလေး",
+ "slug": "mandalay",
+ "country": "MM",
+ "country_name": "Myanmar",
+ "population": 1208099,
+ "wikidata": "Q185518",
+ "division_id": "71b2938d-0c4a-41c2-aa9f-afdc9565da7a",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "198bab27-11ba-4289-8576-28faecbc3071",
+  "area_subtype": "county",
+  "area_km2": 910.0
+ },
+ "bbox": [
+  95.984009,
+  21.772335,
+  96.365707,
+  22.166746
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 6382,
+  "with_website": 1512,
+  "without_website": 4870,
+  "share_without_website": 0.7631,
+  "without_website_with_phone": 4067,
+  "without_website_with_social": 4870
+ },
+ "excluded": {
+  "below_confidence": 1689,
+  "permanently_closed": 0
+ },
+ "uncategorised": 293,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 683,
+   "with_website": 93,
+   "without_website": 590,
+   "share_without_website": 0.8638
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 343,
+   "with_website": 90,
+   "without_website": 253,
+   "share_without_website": 0.7376
+  },
+  {
+   "category": "hotel",
+   "places": 339,
+   "with_website": 159,
+   "without_website": 180,
+   "share_without_website": 0.531
+  },
+  {
+   "category": "electronics_store",
+   "places": 333,
+   "with_website": 92,
+   "without_website": 241,
+   "share_without_website": 0.7237
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 213,
+   "with_website": 36,
+   "without_website": 177,
+   "share_without_website": 0.831
+  },
+  {
+   "category": "professional_service",
+   "places": 188,
+   "with_website": 44,
+   "without_website": 144,
+   "share_without_website": 0.766
+  },
+  {
+   "category": "shopping",
+   "places": 158,
+   "with_website": 27,
+   "without_website": 131,
+   "share_without_website": 0.8291
+  },
+  {
+   "category": "place_of_learning",
+   "places": 156,
+   "with_website": 37,
+   "without_website": 119,
+   "share_without_website": 0.7628
+  },
+  {
+   "category": "automotive_service",
+   "places": 148,
+   "with_website": 31,
+   "without_website": 117,
+   "share_without_website": 0.7905
+  },
+  {
+   "category": "cafe",
+   "places": 130,
+   "with_website": 10,
+   "without_website": 120,
+   "share_without_website": 0.9231
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 1508,
+   "with_website": 360,
+   "without_website": 1148,
+   "share_without_website": 0.7613
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1318,
+   "with_website": 183,
+   "without_website": 1135,
+   "share_without_website": 0.8612
+  },
+  {
+   "category": "services_and_business",
+   "places": 868,
+   "with_website": 270,
+   "without_website": 598,
+   "share_without_website": 0.6889
+  },
+  {
+   "category": "education",
+   "places": 608,
+   "with_website": 196,
+   "without_website": 412,
+   "share_without_website": 0.6776
+  },
+  {
+   "category": "lodging",
+   "places": 380,
+   "with_website": 168,
+   "without_website": 212,
+   "share_without_website": 0.5579
+  },
+  {
+   "category": "health_care",
+   "places": 336,
+   "with_website": 51,
+   "without_website": 285,
+   "share_without_website": 0.8482
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 317,
+   "with_website": 52,
+   "without_website": 265,
+   "share_without_website": 0.836
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 256,
+   "with_website": 73,
+   "without_website": 183,
+   "share_without_website": 0.7148
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 172,
+   "with_website": 16,
+   "without_website": 156,
+   "share_without_website": 0.907
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 132,
+   "with_website": 21,
+   "without_website": 111,
+   "share_without_website": 0.8409
+  },
+  {
+   "category": "community_and_government",
+   "places": 97,
+   "with_website": 26,
+   "without_website": 71,
+   "share_without_website": 0.732
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 75,
+   "with_website": 15,
+   "without_website": 60,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "geographic_entities",
+   "places": 22,
+   "with_website": 3,
+   "without_website": 19,
+   "share_without_website": 0.8636
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:56Z",
+  "query_seconds": 1.4,
+  "bytes_read": 1887436,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

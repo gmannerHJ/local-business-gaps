@@ -1,0 +1,210 @@
+{
+ "city": "Ecatepec",
+ "local_name": "Ecatepec",
+ "slug": "ecatepec",
+ "country": "MX",
+ "country_name": "Mexico",
+ "population": 1645352,
+ "wikidata": "Q15121208",
+ "division_id": "58963006-fcc5-4da8-832b-87c20dbf1708",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "ac662f53-c23f-434d-8406-43487f24bf45",
+  "area_subtype": "county",
+  "area_km2": 156.2
+ },
+ "bbox": [
+  -99.118599,
+  19.48457,
+  -98.975761,
+  19.659149
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 13735,
+  "with_website": 4141,
+  "without_website": 9594,
+  "share_without_website": 0.6985,
+  "without_website_with_phone": 7218,
+  "without_website_with_social": 9384
+ },
+ "excluded": {
+  "below_confidence": 7851,
+  "permanently_closed": 0
+ },
+ "uncategorised": 360,
+ "blank_website_entries": 112,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 1700,
+   "with_website": 326,
+   "without_website": 1374,
+   "share_without_website": 0.8082
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 865,
+   "with_website": 170,
+   "without_website": 695,
+   "share_without_website": 0.8035
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 433,
+   "with_website": 98,
+   "without_website": 335,
+   "share_without_website": 0.7737
+  },
+  {
+   "category": "automotive_service",
+   "places": 421,
+   "with_website": 114,
+   "without_website": 307,
+   "share_without_website": 0.7292
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 374,
+   "with_website": 82,
+   "without_website": 292,
+   "share_without_website": 0.7807
+  },
+  {
+   "category": "dental_clinic",
+   "places": 351,
+   "with_website": 101,
+   "without_website": 250,
+   "share_without_website": 0.7123
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 349,
+   "with_website": 171,
+   "without_website": 178,
+   "share_without_website": 0.51
+  },
+  {
+   "category": "place_of_learning",
+   "places": 347,
+   "with_website": 116,
+   "without_website": 231,
+   "share_without_website": 0.6657
+  },
+  {
+   "category": "event_or_party_service",
+   "places": 326,
+   "with_website": 85,
+   "without_website": 241,
+   "share_without_website": 0.7393
+  },
+  {
+   "category": "gym",
+   "places": 312,
+   "with_website": 40,
+   "without_website": 272,
+   "share_without_website": 0.8718
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 2666,
+   "with_website": 530,
+   "without_website": 2136,
+   "share_without_website": 0.8012
+  },
+  {
+   "category": "shopping",
+   "places": 2659,
+   "with_website": 1086,
+   "without_website": 1573,
+   "share_without_website": 0.5916
+  },
+  {
+   "category": "services_and_business",
+   "places": 1964,
+   "with_website": 900,
+   "without_website": 1064,
+   "share_without_website": 0.5418
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1225,
+   "with_website": 259,
+   "without_website": 966,
+   "share_without_website": 0.7886
+  },
+  {
+   "category": "education",
+   "places": 1053,
+   "with_website": 343,
+   "without_website": 710,
+   "share_without_website": 0.6743
+  },
+  {
+   "category": "health_care",
+   "places": 1040,
+   "with_website": 324,
+   "without_website": 716,
+   "share_without_website": 0.6885
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 803,
+   "with_website": 122,
+   "without_website": 681,
+   "share_without_website": 0.8481
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 673,
+   "with_website": 187,
+   "without_website": 486,
+   "share_without_website": 0.7221
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 612,
+   "with_website": 140,
+   "without_website": 472,
+   "share_without_website": 0.7712
+  },
+  {
+   "category": "community_and_government",
+   "places": 263,
+   "with_website": 70,
+   "without_website": 193,
+   "share_without_website": 0.7338
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 261,
+   "with_website": 65,
+   "without_website": 196,
+   "share_without_website": 0.751
+  },
+  {
+   "category": "lodging",
+   "places": 127,
+   "with_website": 20,
+   "without_website": 107,
+   "share_without_website": 0.8425
+  },
+  {
+   "category": "geographic_entities",
+   "places": 21,
+   "with_website": 1,
+   "without_website": 20,
+   "share_without_website": 0.9524
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:29Z",
+  "query_seconds": 0.7,
+  "bytes_read": 1782579,
+  "get_requests": 13,
+  "head_requests": 0
+ }
+}

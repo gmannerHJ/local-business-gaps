@@ -1,0 +1,210 @@
+{
+ "city": "Davao City",
+ "local_name": "Davao City",
+ "slug": "davao-city",
+ "country": "PH",
+ "country_name": "Philippines",
+ "population": 1848947,
+ "wikidata": "Q1473",
+ "division_id": "0670dac4-c5a6-4792-98ca-8b8d40e54efd",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "70cb9e1c-4b0a-47d2-adbb-0d67c07e91d5",
+  "area_subtype": "locality",
+  "area_km2": 2487.3
+ },
+ "bbox": [
+  125.21759,
+  6.95621,
+  125.697197,
+  7.605795
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 20971,
+  "with_website": 6069,
+  "without_website": 14902,
+  "share_without_website": 0.7106,
+  "without_website_with_phone": 9933,
+  "without_website_with_social": 14705
+ },
+ "excluded": {
+  "below_confidence": 9880,
+  "permanently_closed": 0
+ },
+ "uncategorised": 438,
+ "blank_website_entries": 86,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 1635,
+   "with_website": 374,
+   "without_website": 1261,
+   "share_without_website": 0.7713
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 860,
+   "with_website": 168,
+   "without_website": 692,
+   "share_without_website": 0.8047
+  },
+  {
+   "category": "real_estate_service",
+   "places": 696,
+   "with_website": 276,
+   "without_website": 420,
+   "share_without_website": 0.6034
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 635,
+   "with_website": 140,
+   "without_website": 495,
+   "share_without_website": 0.7795
+  },
+  {
+   "category": "hotel",
+   "places": 594,
+   "with_website": 194,
+   "without_website": 400,
+   "share_without_website": 0.6734
+  },
+  {
+   "category": "lodging",
+   "places": 588,
+   "with_website": 61,
+   "without_website": 527,
+   "share_without_website": 0.8963
+  },
+  {
+   "category": "automotive_service",
+   "places": 480,
+   "with_website": 81,
+   "without_website": 399,
+   "share_without_website": 0.8313
+  },
+  {
+   "category": "government_office",
+   "places": 476,
+   "with_website": 176,
+   "without_website": 300,
+   "share_without_website": 0.6303
+  },
+  {
+   "category": "place_of_learning",
+   "places": 445,
+   "with_website": 106,
+   "without_website": 339,
+   "share_without_website": 0.7618
+  },
+  {
+   "category": "professional_service",
+   "places": 441,
+   "with_website": 167,
+   "without_website": 274,
+   "share_without_website": 0.6213
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 4236,
+   "with_website": 1591,
+   "without_website": 2645,
+   "share_without_website": 0.6244
+  },
+  {
+   "category": "food_and_drink",
+   "places": 3294,
+   "with_website": 876,
+   "without_website": 2418,
+   "share_without_website": 0.7341
+  },
+  {
+   "category": "shopping",
+   "places": 3157,
+   "with_website": 1083,
+   "without_website": 2074,
+   "share_without_website": 0.657
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1677,
+   "with_website": 329,
+   "without_website": 1348,
+   "share_without_website": 0.8038
+  },
+  {
+   "category": "education",
+   "places": 1461,
+   "with_website": 427,
+   "without_website": 1034,
+   "share_without_website": 0.7077
+  },
+  {
+   "category": "lodging",
+   "places": 1369,
+   "with_website": 316,
+   "without_website": 1053,
+   "share_without_website": 0.7692
+  },
+  {
+   "category": "health_care",
+   "places": 1146,
+   "with_website": 221,
+   "without_website": 925,
+   "share_without_website": 0.8072
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1096,
+   "with_website": 243,
+   "without_website": 853,
+   "share_without_website": 0.7783
+  },
+  {
+   "category": "community_and_government",
+   "places": 1031,
+   "with_website": 326,
+   "without_website": 705,
+   "share_without_website": 0.6838
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1022,
+   "with_website": 267,
+   "without_website": 755,
+   "share_without_website": 0.7387
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 558,
+   "with_website": 136,
+   "without_website": 422,
+   "share_without_website": 0.7563
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 242,
+   "with_website": 63,
+   "without_website": 179,
+   "share_without_website": 0.7397
+  },
+  {
+   "category": "geographic_entities",
+   "places": 188,
+   "with_website": 19,
+   "without_website": 169,
+   "share_without_website": 0.8989
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:12Z",
+  "query_seconds": 1.2,
+  "bytes_read": 4194304,
+  "get_requests": 29,
+  "head_requests": 0
+ }
+}

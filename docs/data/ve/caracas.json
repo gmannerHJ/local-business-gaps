@@ -1,0 +1,210 @@
+{
+ "city": "Caracas",
+ "local_name": "Caracas",
+ "slug": "caracas",
+ "country": "VE",
+ "country_name": "Venezuela",
+ "population": 3523959,
+ "wikidata": "Q1533",
+ "division_id": "b6485263-6c57-4cb4-b59b-1d61291473fc",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "bb01aeeb-22a1-4ec2-a4ed-ed1170df0d26",
+  "area_subtype": "locality",
+  "area_km2": 778.9
+ },
+ "bbox": [
+  -67.163239,
+  10.340395,
+  -66.692223,
+  10.567741
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 10193,
+  "with_website": 4686,
+  "without_website": 5507,
+  "share_without_website": 0.5403,
+  "without_website_with_phone": 3184,
+  "without_website_with_social": 5444
+ },
+ "excluded": {
+  "below_confidence": 7800,
+  "permanently_closed": 0
+ },
+ "uncategorised": 255,
+ "blank_website_entries": 6,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 795,
+   "with_website": 316,
+   "without_website": 479,
+   "share_without_website": 0.6025
+  },
+  {
+   "category": "historic_site",
+   "places": 332,
+   "with_website": 21,
+   "without_website": 311,
+   "share_without_website": 0.9367
+  },
+  {
+   "category": "automotive_service",
+   "places": 328,
+   "with_website": 127,
+   "without_website": 201,
+   "share_without_website": 0.6128
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 307,
+   "with_website": 93,
+   "without_website": 214,
+   "share_without_website": 0.6971
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 267,
+   "with_website": 158,
+   "without_website": 109,
+   "share_without_website": 0.4082
+  },
+  {
+   "category": "place_of_learning",
+   "places": 264,
+   "with_website": 104,
+   "without_website": 160,
+   "share_without_website": 0.6061
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 262,
+   "with_website": 140,
+   "without_website": 122,
+   "share_without_website": 0.4656
+  },
+  {
+   "category": "casual_eatery",
+   "places": 254,
+   "with_website": 98,
+   "without_website": 156,
+   "share_without_website": 0.6142
+  },
+  {
+   "category": "real_estate_service",
+   "places": 251,
+   "with_website": 58,
+   "without_website": 193,
+   "share_without_website": 0.7689
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 249,
+   "with_website": 115,
+   "without_website": 134,
+   "share_without_website": 0.5382
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 1949,
+   "with_website": 1073,
+   "without_website": 876,
+   "share_without_website": 0.4495
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1427,
+   "with_website": 559,
+   "without_website": 868,
+   "share_without_website": 0.6083
+  },
+  {
+   "category": "services_and_business",
+   "places": 1379,
+   "with_website": 787,
+   "without_website": 592,
+   "share_without_website": 0.4293
+  },
+  {
+   "category": "education",
+   "places": 881,
+   "with_website": 382,
+   "without_website": 499,
+   "share_without_website": 0.5664
+  },
+  {
+   "category": "health_care",
+   "places": 828,
+   "with_website": 446,
+   "without_website": 382,
+   "share_without_website": 0.4614
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 798,
+   "with_website": 188,
+   "without_website": 610,
+   "share_without_website": 0.7644
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 581,
+   "with_website": 207,
+   "without_website": 374,
+   "share_without_website": 0.6437
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 571,
+   "with_website": 240,
+   "without_website": 331,
+   "share_without_website": 0.5797
+  },
+  {
+   "category": "community_and_government",
+   "places": 541,
+   "with_website": 264,
+   "without_website": 277,
+   "share_without_website": 0.512
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 353,
+   "with_website": 157,
+   "without_website": 196,
+   "share_without_website": 0.5552
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 321,
+   "with_website": 146,
+   "without_website": 175,
+   "share_without_website": 0.5452
+  },
+  {
+   "category": "lodging",
+   "places": 244,
+   "with_website": 97,
+   "without_website": 147,
+   "share_without_website": 0.6025
+  },
+  {
+   "category": "geographic_entities",
+   "places": 59,
+   "with_website": 11,
+   "without_website": 48,
+   "share_without_website": 0.8136
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:44Z",
+  "query_seconds": 1.1,
+  "bytes_read": 2202009,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

@@ -200,8 +200,8 @@
   }
  ],
  "run": {
-  "computed_at": "2026-10-11T13:41:48Z",
-  "query_seconds": 3.5,
+  "computed_at": "2026-10-11T13:49:34Z",
+  "query_seconds": 1.1,
   "bytes_read": 877260,
   "get_requests": 8,
   "head_requests": 0

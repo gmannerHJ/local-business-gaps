@@ -1,0 +1,210 @@
+{
+ "city": "Addis Ababa",
+ "local_name": "አዲስ አበባ",
+ "slug": "addis-ababa",
+ "country": "ET",
+ "country_name": "Ethiopia",
+ "population": 3500000,
+ "wikidata": "Q3624",
+ "division_id": "3d7cc12f-9bf1-4bdb-8e19-b5e9832fa395",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "c251ed13-dbba-4331-98d2-cfc806909ac8",
+  "area_subtype": "region",
+  "area_km2": 538.3
+ },
+ "bbox": [
+  38.6399,
+  8.833115,
+  38.908054,
+  9.098577
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 3787,
+  "with_website": 2352,
+  "without_website": 1435,
+  "share_without_website": 0.3789,
+  "without_website_with_phone": 917,
+  "without_website_with_social": 1376
+ },
+ "excluded": {
+  "below_confidence": 1704,
+  "permanently_closed": 0
+ },
+ "uncategorised": 112,
+ "blank_website_entries": 5,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 255,
+   "with_website": 176,
+   "without_website": 79,
+   "share_without_website": 0.3098
+  },
+  {
+   "category": "restaurant",
+   "places": 227,
+   "with_website": 91,
+   "without_website": 136,
+   "share_without_website": 0.5991
+  },
+  {
+   "category": "christian_place_of_worship",
+   "places": 161,
+   "with_website": 48,
+   "without_website": 113,
+   "share_without_website": 0.7019
+  },
+  {
+   "category": "travel_service",
+   "places": 158,
+   "with_website": 149,
+   "without_website": 9,
+   "share_without_website": 0.057
+  },
+  {
+   "category": "professional_service",
+   "places": 143,
+   "with_website": 110,
+   "without_website": 33,
+   "share_without_website": 0.2308
+  },
+  {
+   "category": "government_office",
+   "places": 127,
+   "with_website": 87,
+   "without_website": 40,
+   "share_without_website": 0.315
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 95,
+   "with_website": 54,
+   "without_website": 41,
+   "share_without_website": 0.4316
+  },
+  {
+   "category": "religious_organization",
+   "places": 94,
+   "with_website": 53,
+   "without_website": 41,
+   "share_without_website": 0.4362
+  },
+  {
+   "category": "hospital",
+   "places": 88,
+   "with_website": 42,
+   "without_website": 46,
+   "share_without_website": 0.5227
+  },
+  {
+   "category": "corporate_or_business_office",
+   "places": 87,
+   "with_website": 72,
+   "without_website": 15,
+   "share_without_website": 0.1724
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 874,
+   "with_website": 693,
+   "without_website": 181,
+   "share_without_website": 0.2071
+  },
+  {
+   "category": "food_and_drink",
+   "places": 442,
+   "with_website": 187,
+   "without_website": 255,
+   "share_without_website": 0.5769
+  },
+  {
+   "category": "shopping",
+   "places": 441,
+   "with_website": 232,
+   "without_website": 209,
+   "share_without_website": 0.4739
+  },
+  {
+   "category": "community_and_government",
+   "places": 319,
+   "with_website": 219,
+   "without_website": 100,
+   "share_without_website": 0.3135
+  },
+  {
+   "category": "education",
+   "places": 313,
+   "with_website": 185,
+   "without_website": 128,
+   "share_without_website": 0.4089
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 310,
+   "with_website": 122,
+   "without_website": 188,
+   "share_without_website": 0.6065
+  },
+  {
+   "category": "lodging",
+   "places": 290,
+   "with_website": 203,
+   "without_website": 87,
+   "share_without_website": 0.3
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 253,
+   "with_website": 200,
+   "without_website": 53,
+   "share_without_website": 0.2095
+  },
+  {
+   "category": "health_care",
+   "places": 218,
+   "with_website": 117,
+   "without_website": 101,
+   "share_without_website": 0.4633
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 83,
+   "with_website": 52,
+   "without_website": 31,
+   "share_without_website": 0.3735
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 73,
+   "with_website": 36,
+   "without_website": 37,
+   "share_without_website": 0.5068
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 52,
+   "with_website": 25,
+   "without_website": 27,
+   "share_without_website": 0.5192
+  },
+  {
+   "category": "geographic_entities",
+   "places": 7,
+   "with_website": 0,
+   "without_website": 7,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:56Z",
+  "query_seconds": 1.0,
+  "bytes_read": 2097152,
+  "get_requests": 15,
+  "head_requests": 0
+ }
+}

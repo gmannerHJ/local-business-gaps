@@ -1,0 +1,210 @@
+{
+ "city": "Montevideo",
+ "local_name": "Montevideo",
+ "slug": "montevideo",
+ "country": "UY",
+ "country_name": "Uruguay",
+ "population": 1319108,
+ "wikidata": "Q1335",
+ "division_id": "6e05a706-19d5-4540-8bb3-650c987a3807",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "04a3c431-641f-4fe8-9fae-4166bcbeb457",
+  "area_subtype": "locality",
+  "area_km2": 529.7
+ },
+ "bbox": [
+  -56.4314,
+  -34.938057,
+  -56.0172,
+  -34.701851
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 17837,
+  "with_website": 9299,
+  "without_website": 8538,
+  "share_without_website": 0.4787,
+  "without_website_with_phone": 6583,
+  "without_website_with_social": 8368
+ },
+ "excluded": {
+  "below_confidence": 13105,
+  "permanently_closed": 0
+ },
+ "uncategorised": 423,
+ "blank_website_entries": 23,
+ "top_categories": [
+  {
+   "category": "personal_or_beauty_service",
+   "places": 1078,
+   "with_website": 335,
+   "without_website": 743,
+   "share_without_website": 0.6892
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 901,
+   "with_website": 435,
+   "without_website": 466,
+   "share_without_website": 0.5172
+  },
+  {
+   "category": "restaurant",
+   "places": 856,
+   "with_website": 399,
+   "without_website": 457,
+   "share_without_website": 0.5339
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 644,
+   "with_website": 417,
+   "without_website": 227,
+   "share_without_website": 0.3525
+  },
+  {
+   "category": "food_and_beverage_store",
+   "places": 619,
+   "with_website": 251,
+   "without_website": 368,
+   "share_without_website": 0.5945
+  },
+  {
+   "category": "automotive_service",
+   "places": 555,
+   "with_website": 215,
+   "without_website": 340,
+   "share_without_website": 0.6126
+  },
+  {
+   "category": "place_of_learning",
+   "places": 387,
+   "with_website": 195,
+   "without_website": 192,
+   "share_without_website": 0.4961
+  },
+  {
+   "category": "casual_eatery",
+   "places": 375,
+   "with_website": 168,
+   "without_website": 207,
+   "share_without_website": 0.552
+  },
+  {
+   "category": "dental_clinic",
+   "places": 357,
+   "with_website": 176,
+   "without_website": 181,
+   "share_without_website": 0.507
+  },
+  {
+   "category": "education",
+   "places": 341,
+   "with_website": 214,
+   "without_website": 127,
+   "share_without_website": 0.3724
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "shopping",
+   "places": 4045,
+   "with_website": 2302,
+   "without_website": 1743,
+   "share_without_website": 0.4309
+  },
+  {
+   "category": "services_and_business",
+   "places": 2787,
+   "with_website": 1933,
+   "without_website": 854,
+   "share_without_website": 0.3064
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1955,
+   "with_website": 848,
+   "without_website": 1107,
+   "share_without_website": 0.5662
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 1526,
+   "with_website": 510,
+   "without_website": 1016,
+   "share_without_website": 0.6658
+  },
+  {
+   "category": "education",
+   "places": 1450,
+   "with_website": 819,
+   "without_website": 631,
+   "share_without_website": 0.4352
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 1240,
+   "with_website": 486,
+   "without_website": 754,
+   "share_without_website": 0.6081
+  },
+  {
+   "category": "health_care",
+   "places": 924,
+   "with_website": 513,
+   "without_website": 411,
+   "share_without_website": 0.4448
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 868,
+   "with_website": 407,
+   "without_website": 461,
+   "share_without_website": 0.5311
+  },
+  {
+   "category": "community_and_government",
+   "places": 809,
+   "with_website": 452,
+   "without_website": 357,
+   "share_without_website": 0.4413
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 771,
+   "with_website": 303,
+   "without_website": 468,
+   "share_without_website": 0.607
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 583,
+   "with_website": 291,
+   "without_website": 292,
+   "share_without_website": 0.5009
+  },
+  {
+   "category": "lodging",
+   "places": 315,
+   "with_website": 189,
+   "without_website": 126,
+   "share_without_website": 0.4
+  },
+  {
+   "category": "geographic_entities",
+   "places": 120,
+   "with_website": 14,
+   "without_website": 106,
+   "share_without_website": 0.8833
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:35Z",
+  "query_seconds": 1.1,
+  "bytes_read": 5138022,
+  "get_requests": 29,
+  "head_requests": 0
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "city": "Mbuji-Mayi",
+ "local_name": "Mbuji-Mayi",
+ "slug": "mbuji-mayi",
+ "country": "CD",
+ "country_name": "Democratic Republic of the Congo",
+ "population": 1680991,
+ "wikidata": "Q319660",
+ "division_id": "c351bc37-c2cd-4bb3-a4a3-5f79e69a13ac",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 706.1
+ },
+ "bbox": [
+  23.464291,
+  -6.26155,
+  23.735332,
+  -5.990238
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 103,
+  "with_website": 27,
+  "without_website": 76,
+  "share_without_website": 0.7379,
+  "without_website_with_phone": 52,
+  "without_website_with_social": 75
+ },
+ "excluded": {
+  "below_confidence": 21,
+  "permanently_closed": 0
+ },
+ "uncategorised": 2,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "christian_place_of_worship",
+   "places": 18,
+   "with_website": 7,
+   "without_website": 11,
+   "share_without_website": 0.6111
+  },
+  {
+   "category": "religious_organization",
+   "places": 13,
+   "with_website": 4,
+   "without_website": 9,
+   "share_without_website": 0.6923
+  },
+  {
+   "category": "college_university",
+   "places": 10,
+   "with_website": 3,
+   "without_website": 7,
+   "share_without_website": 0.7
+  },
+  {
+   "category": "place_of_learning",
+   "places": 7,
+   "with_website": 1,
+   "without_website": 6,
+   "share_without_website": 0.8571
+  },
+  {
+   "category": "hotel",
+   "places": 6,
+   "with_website": 1,
+   "without_website": 5,
+   "share_without_website": 0.8333
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 5,
+   "with_website": 2,
+   "without_website": 3,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "government_office",
+   "places": 4,
+   "with_website": 0,
+   "without_website": 4,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "river",
+   "places": 4,
+   "with_website": 0,
+   "without_website": 4,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "airport",
+   "places": 3,
+   "with_website": 1,
+   "without_website": 2,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "civic_organization",
+   "places": 3,
+   "with_website": 1,
+   "without_website": 2,
+   "share_without_website": 0.6667
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "cultural_and_historic",
+   "places": 33,
+   "with_website": 11,
+   "without_website": 22,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "education",
+   "places": 22,
+   "with_website": 5,
+   "without_website": 17,
+   "share_without_website": 0.7727
+  },
+  {
+   "category": "community_and_government",
+   "places": 13,
+   "with_website": 4,
+   "without_website": 9,
+   "share_without_website": 0.6923
+  },
+  {
+   "category": "shopping",
+   "places": 9,
+   "with_website": 2,
+   "without_website": 7,
+   "share_without_website": 0.7778
+  },
+  {
+   "category": "lodging",
+   "places": 6,
+   "with_website": 1,
+   "without_website": 5,
+   "share_without_website": 0.8333
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 6,
+   "with_website": 2,
+   "without_website": 4,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "services_and_business",
+   "places": 5,
+   "with_website": 0,
+   "without_website": 5,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "geographic_entities",
+   "places": 4,
+   "with_website": 0,
+   "without_website": 4,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 1,
+   "with_website": 0,
+   "without_website": 1,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "food_and_drink",
+   "places": 1,
+   "with_website": 0,
+   "without_website": 1,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "health_care",
+   "places": 1,
+   "with_website": 1,
+   "without_website": 0,
+   "share_without_website": 0.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:52:18Z",
+  "query_seconds": 1.1,
+  "bytes_read": 1258291,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

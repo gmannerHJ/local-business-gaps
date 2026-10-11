@@ -1,0 +1,196 @@
+{
+ "city": "Maroua",
+ "local_name": "Communauté urbaine de Maroua",
+ "slug": "maroua",
+ "country": "CM",
+ "country_name": "Cameroon",
+ "population": 3119000,
+ "wikidata": "Q818824",
+ "division_id": "c10d071e-6b03-4d36-8493-3429805e4d2c",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "e12df8c7-bc03-4e8d-b3f2-d73b8606739f",
+  "area_subtype": "locality",
+  "area_km2": 1116.3
+ },
+ "bbox": [
+  14.143753,
+  10.433302,
+  14.633121,
+  10.998217
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 89,
+  "with_website": 30,
+  "without_website": 59,
+  "share_without_website": 0.6629,
+  "without_website_with_phone": 24,
+  "without_website_with_social": 58
+ },
+ "excluded": {
+  "below_confidence": 34,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1,
+ "blank_website_entries": 0,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 9,
+   "with_website": 2,
+   "without_website": 7,
+   "share_without_website": 0.7778
+  },
+  {
+   "category": "college_university",
+   "places": 8,
+   "with_website": 4,
+   "without_website": 4,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "religious_organization",
+   "places": 4,
+   "with_website": 2,
+   "without_website": 2,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "social_or_community_service",
+   "places": 4,
+   "with_website": 4,
+   "without_website": 0,
+   "share_without_website": 0.0
+  },
+  {
+   "category": "bank_or_credit_union",
+   "places": 3,
+   "with_website": 1,
+   "without_website": 2,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "gas_station",
+   "places": 3,
+   "with_website": 1,
+   "without_website": 2,
+   "share_without_website": 0.6667
+  },
+  {
+   "category": "geographic_entities",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "hospital",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "muslim_place_of_worship",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "education",
+   "places": 22,
+   "with_website": 9,
+   "without_website": 13,
+   "share_without_website": 0.5909
+  },
+  {
+   "category": "shopping",
+   "places": 12,
+   "with_website": 3,
+   "without_website": 9,
+   "share_without_website": 0.75
+  },
+  {
+   "category": "lodging",
+   "places": 10,
+   "with_website": 2,
+   "without_website": 8,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "community_and_government",
+   "places": 9,
+   "with_website": 5,
+   "without_website": 4,
+   "share_without_website": 0.4444
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 7,
+   "with_website": 2,
+   "without_website": 5,
+   "share_without_website": 0.7143
+  },
+  {
+   "category": "services_and_business",
+   "places": 6,
+   "with_website": 3,
+   "without_website": 3,
+   "share_without_website": 0.5
+  },
+  {
+   "category": "food_and_drink",
+   "places": 5,
+   "with_website": 2,
+   "without_website": 3,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "geographic_entities",
+   "places": 5,
+   "with_website": 0,
+   "without_website": 5,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "health_care",
+   "places": 5,
+   "with_website": 1,
+   "without_website": 4,
+   "share_without_website": 0.8
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 5,
+   "with_website": 2,
+   "without_website": 3,
+   "share_without_website": 0.6
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 2,
+   "with_website": 1,
+   "without_website": 1,
+   "share_without_website": 0.5
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:59Z",
+  "query_seconds": 1.0,
+  "bytes_read": 1258291,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

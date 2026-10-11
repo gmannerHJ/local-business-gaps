@@ -1,0 +1,209 @@
+{
+ "city": "Erbil",
+ "local_name": "ھەولێر",
+ "slug": "erbil",
+ "country": "IQ",
+ "country_name": "Iraq",
+ "population": 1713461,
+ "wikidata": "Q132754",
+ "division_id": "5f32930b-305c-4808-9395-c9ebd6efee30",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 15,
+  "area_km2": 709.3
+ },
+ "bbox": [
+  43.842453,
+  36.055519,
+  44.176376,
+  36.32683
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 5309,
+  "with_website": 2629,
+  "without_website": 2680,
+  "share_without_website": 0.5048,
+  "without_website_with_phone": 1986,
+  "without_website_with_social": 2661
+ },
+ "excluded": {
+  "below_confidence": 2202,
+  "permanently_closed": 0
+ },
+ "uncategorised": 240,
+ "blank_website_entries": 6,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 473,
+   "with_website": 162,
+   "without_website": 311,
+   "share_without_website": 0.6575
+  },
+  {
+   "category": "hotel",
+   "places": 279,
+   "with_website": 103,
+   "without_website": 176,
+   "share_without_website": 0.6308
+  },
+  {
+   "category": "real_estate_service",
+   "places": 245,
+   "with_website": 137,
+   "without_website": 108,
+   "share_without_website": 0.4408
+  },
+  {
+   "category": "hospital",
+   "places": 173,
+   "with_website": 62,
+   "without_website": 111,
+   "share_without_website": 0.6416
+  },
+  {
+   "category": "travel_service",
+   "places": 153,
+   "with_website": 103,
+   "without_website": 50,
+   "share_without_website": 0.3268
+  },
+  {
+   "category": "dental_clinic",
+   "places": 140,
+   "with_website": 55,
+   "without_website": 85,
+   "share_without_website": 0.6071
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 134,
+   "with_website": 66,
+   "without_website": 68,
+   "share_without_website": 0.5075
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 130,
+   "with_website": 78,
+   "without_website": 52,
+   "share_without_website": 0.4
+  },
+  {
+   "category": "home_service",
+   "places": 122,
+   "with_website": 81,
+   "without_website": 41,
+   "share_without_website": 0.3361
+  },
+  {
+   "category": "cafe",
+   "places": 120,
+   "with_website": 52,
+   "without_website": 68,
+   "share_without_website": 0.5667
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 1143,
+   "with_website": 752,
+   "without_website": 391,
+   "share_without_website": 0.3421
+  },
+  {
+   "category": "food_and_drink",
+   "places": 890,
+   "with_website": 308,
+   "without_website": 582,
+   "share_without_website": 0.6539
+  },
+  {
+   "category": "shopping",
+   "places": 860,
+   "with_website": 443,
+   "without_website": 417,
+   "share_without_website": 0.4849
+  },
+  {
+   "category": "health_care",
+   "places": 619,
+   "with_website": 242,
+   "without_website": 377,
+   "share_without_website": 0.609
+  },
+  {
+   "category": "education",
+   "places": 334,
+   "with_website": 184,
+   "without_website": 150,
+   "share_without_website": 0.4491
+  },
+  {
+   "category": "lodging",
+   "places": 317,
+   "with_website": 123,
+   "without_website": 194,
+   "share_without_website": 0.612
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 298,
+   "with_website": 182,
+   "without_website": 116,
+   "share_without_website": 0.3893
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 165,
+   "with_website": 72,
+   "without_website": 93,
+   "share_without_website": 0.5636
+  },
+  {
+   "category": "community_and_government",
+   "places": 158,
+   "with_website": 86,
+   "without_website": 72,
+   "share_without_website": 0.4557
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 105,
+   "with_website": 49,
+   "without_website": 56,
+   "share_without_website": 0.5333
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 103,
+   "with_website": 34,
+   "without_website": 69,
+   "share_without_website": 0.6699
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 60,
+   "with_website": 29,
+   "without_website": 31,
+   "share_without_website": 0.5167
+  },
+  {
+   "category": "geographic_entities",
+   "places": 10,
+   "with_website": 3,
+   "without_website": 7,
+   "share_without_website": 0.7
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:45Z",
+  "query_seconds": 1.2,
+  "bytes_read": 847052,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}

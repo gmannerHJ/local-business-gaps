@@ -1,0 +1,209 @@
+{
+ "city": "Surat",
+ "local_name": "Surat",
+ "slug": "surat",
+ "country": "IN",
+ "country_name": "India",
+ "population": 6936534,
+ "wikidata": "Q4629",
+ "division_id": "1eeae916-7713-449c-b8b2-1430ecd24697",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 20,
+  "area_km2": 1257.2
+ },
+ "bbox": [
+  72.63899,
+  21.028615,
+  73.024422,
+  21.390364
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 32133,
+  "with_website": 15569,
+  "without_website": 16564,
+  "share_without_website": 0.5155,
+  "without_website_with_phone": 11415,
+  "without_website_with_social": 16039
+ },
+ "excluded": {
+  "below_confidence": 18921,
+  "permanently_closed": 0
+ },
+ "uncategorised": 1204,
+ "blank_website_entries": 271,
+ "top_categories": [
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 2822,
+   "with_website": 1460,
+   "without_website": 1362,
+   "share_without_website": 0.4826
+  },
+  {
+   "category": "financial_service",
+   "places": 1407,
+   "with_website": 1206,
+   "without_website": 201,
+   "share_without_website": 0.1429
+  },
+  {
+   "category": "manufacturer",
+   "places": 1126,
+   "with_website": 722,
+   "without_website": 404,
+   "share_without_website": 0.3588
+  },
+  {
+   "category": "restaurant",
+   "places": 1040,
+   "with_website": 372,
+   "without_website": 668,
+   "share_without_website": 0.6423
+  },
+  {
+   "category": "hospital",
+   "places": 1026,
+   "with_website": 323,
+   "without_website": 703,
+   "share_without_website": 0.6852
+  },
+  {
+   "category": "bank_or_credit_union",
+   "places": 1009,
+   "with_website": 703,
+   "without_website": 306,
+   "share_without_website": 0.3033
+  },
+  {
+   "category": "electronics_store",
+   "places": 971,
+   "with_website": 448,
+   "without_website": 523,
+   "share_without_website": 0.5386
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 884,
+   "with_website": 406,
+   "without_website": 478,
+   "share_without_website": 0.5407
+  },
+  {
+   "category": "historic_site",
+   "places": 855,
+   "with_website": 61,
+   "without_website": 794,
+   "share_without_website": 0.9287
+  },
+  {
+   "category": "hindu_place_of_worship",
+   "places": 771,
+   "with_website": 59,
+   "without_website": 712,
+   "share_without_website": 0.9235
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "services_and_business",
+   "places": 9059,
+   "with_website": 6127,
+   "without_website": 2932,
+   "share_without_website": 0.3237
+  },
+  {
+   "category": "shopping",
+   "places": 7550,
+   "with_website": 3501,
+   "without_website": 4049,
+   "share_without_website": 0.5363
+  },
+  {
+   "category": "health_care",
+   "places": 2857,
+   "with_website": 1297,
+   "without_website": 1560,
+   "share_without_website": 0.546
+  },
+  {
+   "category": "education",
+   "places": 2545,
+   "with_website": 1208,
+   "without_website": 1337,
+   "share_without_website": 0.5253
+  },
+  {
+   "category": "food_and_drink",
+   "places": 2253,
+   "with_website": 755,
+   "without_website": 1498,
+   "share_without_website": 0.6649
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 1940,
+   "with_website": 153,
+   "without_website": 1787,
+   "share_without_website": 0.9211
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 1269,
+   "with_website": 720,
+   "without_website": 549,
+   "share_without_website": 0.4326
+  },
+  {
+   "category": "lodging",
+   "places": 874,
+   "with_website": 315,
+   "without_website": 559,
+   "share_without_website": 0.6396
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 835,
+   "with_website": 304,
+   "without_website": 531,
+   "share_without_website": 0.6359
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 713,
+   "with_website": 192,
+   "without_website": 521,
+   "share_without_website": 0.7307
+  },
+  {
+   "category": "community_and_government",
+   "places": 621,
+   "with_website": 214,
+   "without_website": 407,
+   "share_without_website": 0.6554
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 340,
+   "with_website": 103,
+   "without_website": 237,
+   "share_without_website": 0.6971
+  },
+  {
+   "category": "geographic_entities",
+   "places": 54,
+   "with_website": 7,
+   "without_website": 47,
+   "share_without_website": 0.8704
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:49:49Z",
+  "query_seconds": 1.8,
+  "bytes_read": 4823449,
+  "get_requests": 36,
+  "head_requests": 0
+ }
+}

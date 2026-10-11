@@ -1,0 +1,209 @@
+{
+ "city": "Chengdu",
+ "local_name": "成都市",
+ "slug": "chengdu",
+ "country": "CN",
+ "country_name": "China",
+ "population": 20937757,
+ "wikidata": "Q30002",
+ "division_id": "553dd688-1ab7-4e5e-b89c-0466418a6175",
+ "boundary": {
+  "kind": "radius",
+  "radius_km": 20,
+  "area_km2": 1259.4
+ },
+ "bbox": [
+  103.854456,
+  30.478993,
+  104.272174,
+  30.840741
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 2908,
+  "with_website": 1313,
+  "without_website": 1595,
+  "share_without_website": 0.5485,
+  "without_website_with_phone": 362,
+  "without_website_with_social": 1237
+ },
+ "excluded": {
+  "below_confidence": 238,
+  "permanently_closed": 0
+ },
+ "uncategorised": 36,
+ "blank_website_entries": 6,
+ "top_categories": [
+  {
+   "category": "hotel",
+   "places": 391,
+   "with_website": 209,
+   "without_website": 182,
+   "share_without_website": 0.4655
+  },
+  {
+   "category": "restaurant",
+   "places": 386,
+   "with_website": 61,
+   "without_website": 325,
+   "share_without_website": 0.842
+  },
+  {
+   "category": "coffee_shop",
+   "places": 300,
+   "with_website": 99,
+   "without_website": 201,
+   "share_without_website": 0.67
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 278,
+   "with_website": 198,
+   "without_website": 80,
+   "share_without_website": 0.2878
+  },
+  {
+   "category": "fast_food_restaurant",
+   "places": 167,
+   "with_website": 112,
+   "without_website": 55,
+   "share_without_website": 0.3293
+  },
+  {
+   "category": "shopping_mall",
+   "places": 78,
+   "with_website": 21,
+   "without_website": 57,
+   "share_without_website": 0.7308
+  },
+  {
+   "category": "college_university",
+   "places": 58,
+   "with_website": 36,
+   "without_website": 22,
+   "share_without_website": 0.3793
+  },
+  {
+   "category": "non_alcoholic_beverage_venue",
+   "places": 55,
+   "with_website": 41,
+   "without_website": 14,
+   "share_without_website": 0.2545
+  },
+  {
+   "category": "casual_eatery",
+   "places": 54,
+   "with_website": 31,
+   "without_website": 23,
+   "share_without_website": 0.4259
+  },
+  {
+   "category": "historic_site",
+   "places": 52,
+   "with_website": 8,
+   "without_website": 44,
+   "share_without_website": 0.8462
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 1064,
+   "with_website": 378,
+   "without_website": 686,
+   "share_without_website": 0.6447
+  },
+  {
+   "category": "shopping",
+   "places": 541,
+   "with_website": 335,
+   "without_website": 206,
+   "share_without_website": 0.3808
+  },
+  {
+   "category": "lodging",
+   "places": 433,
+   "with_website": 239,
+   "without_website": 194,
+   "share_without_website": 0.448
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 205,
+   "with_website": 92,
+   "without_website": 113,
+   "share_without_website": 0.5512
+  },
+  {
+   "category": "services_and_business",
+   "places": 165,
+   "with_website": 105,
+   "without_website": 60,
+   "share_without_website": 0.3636
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 106,
+   "with_website": 31,
+   "without_website": 75,
+   "share_without_website": 0.7075
+  },
+  {
+   "category": "education",
+   "places": 106,
+   "with_website": 64,
+   "without_website": 42,
+   "share_without_website": 0.3962
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 72,
+   "with_website": 10,
+   "without_website": 62,
+   "share_without_website": 0.8611
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 72,
+   "with_website": 11,
+   "without_website": 61,
+   "share_without_website": 0.8472
+  },
+  {
+   "category": "community_and_government",
+   "places": 39,
+   "with_website": 7,
+   "without_website": 32,
+   "share_without_website": 0.8205
+  },
+  {
+   "category": "health_care",
+   "places": 34,
+   "with_website": 12,
+   "without_website": 22,
+   "share_without_website": 0.6471
+  },
+  {
+   "category": "geographic_entities",
+   "places": 17,
+   "with_website": 0,
+   "without_website": 17,
+   "share_without_website": 1.0
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 14,
+   "with_website": 7,
+   "without_website": 7,
+   "share_without_website": 0.5
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:51:23Z",
+  "query_seconds": 3.7,
+  "bytes_read": 32086425,
+  "get_requests": 47,
+  "head_requests": 0
+ }
+}

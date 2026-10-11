@@ -1,0 +1,210 @@
+{
+ "city": "Fez",
+ "local_name": "Fès ⴼⴰⵙ فاس",
+ "slug": "fez",
+ "country": "MA",
+ "country_name": "Morocco",
+ "population": 1167842,
+ "wikidata": "Q80985",
+ "division_id": "934d4327-381f-4abb-a53b-aecad75be1a1",
+ "boundary": {
+  "kind": "division_area",
+  "area_id": "10e706ae-d2a6-46da-b111-0711643738e6",
+  "area_subtype": "locality",
+  "area_km2": 97.7
+ },
+ "bbox": [
+  -5.07818,
+  33.976425,
+  -4.937709,
+  34.075508
+ ],
+ "overture_release": "2026-09-23.1",
+ "confidence_min": 0.5,
+ "counts": {
+  "places": 2983,
+  "with_website": 1386,
+  "without_website": 1597,
+  "share_without_website": 0.5354,
+  "without_website_with_phone": 1234,
+  "without_website_with_social": 1571
+ },
+ "excluded": {
+  "below_confidence": 1482,
+  "permanently_closed": 0
+ },
+ "uncategorised": 73,
+ "blank_website_entries": 7,
+ "top_categories": [
+  {
+   "category": "restaurant",
+   "places": 238,
+   "with_website": 87,
+   "without_website": 151,
+   "share_without_website": 0.6345
+  },
+  {
+   "category": "hotel",
+   "places": 218,
+   "with_website": 151,
+   "without_website": 67,
+   "share_without_website": 0.3073
+  },
+  {
+   "category": "cafe",
+   "places": 194,
+   "with_website": 27,
+   "without_website": 167,
+   "share_without_website": 0.8608
+  },
+  {
+   "category": "place_of_learning",
+   "places": 188,
+   "with_website": 86,
+   "without_website": 102,
+   "share_without_website": 0.5426
+  },
+  {
+   "category": "fashion_and_apparel_store",
+   "places": 110,
+   "with_website": 46,
+   "without_website": 64,
+   "share_without_website": 0.5818
+  },
+  {
+   "category": "coffee_shop",
+   "places": 84,
+   "with_website": 16,
+   "without_website": 68,
+   "share_without_website": 0.8095
+  },
+  {
+   "category": "travel_service",
+   "places": 73,
+   "with_website": 63,
+   "without_website": 10,
+   "share_without_website": 0.137
+  },
+  {
+   "category": "personal_or_beauty_service",
+   "places": 64,
+   "with_website": 23,
+   "without_website": 41,
+   "share_without_website": 0.6406
+  },
+  {
+   "category": "hardware_home_and_garden_store",
+   "places": 58,
+   "with_website": 44,
+   "without_website": 14,
+   "share_without_website": 0.2414
+  },
+  {
+   "category": "lodging",
+   "places": 57,
+   "with_website": 39,
+   "without_website": 18,
+   "share_without_website": 0.3158
+  }
+ ],
+ "category_groups": [
+  {
+   "category": "food_and_drink",
+   "places": 606,
+   "with_website": 159,
+   "without_website": 447,
+   "share_without_website": 0.7376
+  },
+  {
+   "category": "education",
+   "places": 441,
+   "with_website": 192,
+   "without_website": 249,
+   "share_without_website": 0.5646
+  },
+  {
+   "category": "shopping",
+   "places": 408,
+   "with_website": 196,
+   "without_website": 212,
+   "share_without_website": 0.5196
+  },
+  {
+   "category": "services_and_business",
+   "places": 346,
+   "with_website": 223,
+   "without_website": 123,
+   "share_without_website": 0.3555
+  },
+  {
+   "category": "lodging",
+   "places": 313,
+   "with_website": 222,
+   "without_website": 91,
+   "share_without_website": 0.2907
+  },
+  {
+   "category": "health_care",
+   "places": 234,
+   "with_website": 102,
+   "without_website": 132,
+   "share_without_website": 0.5641
+  },
+  {
+   "category": "travel_and_transportation",
+   "places": 157,
+   "with_website": 105,
+   "without_website": 52,
+   "share_without_website": 0.3312
+  },
+  {
+   "category": "lifestyle_services",
+   "places": 101,
+   "with_website": 39,
+   "without_website": 62,
+   "share_without_website": 0.6139
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 87,
+   "with_website": 27,
+   "without_website": 60,
+   "share_without_website": 0.6897
+  },
+  {
+   "category": "community_and_government",
+   "places": 86,
+   "with_website": 42,
+   "without_website": 44,
+   "share_without_website": 0.5116
+  },
+  {
+   "category": "cultural_and_historic",
+   "places": 76,
+   "with_website": 18,
+   "without_website": 58,
+   "share_without_website": 0.7632
+  },
+  {
+   "category": "arts_and_entertainment",
+   "places": 50,
+   "with_website": 17,
+   "without_website": 33,
+   "share_without_website": 0.66
+  },
+  {
+   "category": "geographic_entities",
+   "places": 4,
+   "with_website": 0,
+   "without_website": 4,
+   "share_without_website": 1.0
+  }
+ ],
+ "run": {
+  "computed_at": "2026-10-11T13:50:57Z",
+  "query_seconds": 1.2,
+  "bytes_read": 1048576,
+  "get_requests": 8,
+  "head_requests": 0
+ }
+}
