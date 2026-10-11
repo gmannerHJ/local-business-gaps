@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gmannerhj.github.io/local-business-gaps/sitemap.xml

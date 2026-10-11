@@ -1,0 +1,119 @@
+name: Refresh dataset
+
+# Recomputes this repository's own dataset (per-city counts from the public Overture Maps
+# release) and rebuilds its pages. Runs monthly and on manual dispatch. Does nothing when the
+# data is already on the latest Overture release.
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Recompute even if the data is already on the latest Overture release
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 5 28 * *"
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      release: ${{ steps.plan.outputs.release }}
+      run: ${{ steps.plan.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - id: plan
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          python - <<'EOF' >> "$GITHUB_OUTPUT"
+          import glob, json, os, urllib.request
+          req = urllib.request.Request("https://stac.overturemaps.org/catalog.json",
+                                       headers={"User-Agent": "local-business-gaps/1.0 (open data aggregates; github.com/gmannerHJ/local-business-gaps)"})
+          latest = json.load(urllib.request.urlopen(req, timeout=60))["latest"]
+          listed = len(json.load(open("cities/cities.json", encoding="utf-8"))["cities"])
+          files = glob.glob("data/*/*.json")
+          have = {json.load(open(f, encoding="utf-8"))["overture_release"] for f in files}
+          current = have == {latest} and len(files) >= listed
+          run = os.environ.get("FORCE") == "true" or not current
+          print(f"release={latest}")
+          print(f"run={'true' if run else 'false'}")
+          EOF
+
+  compute:
+    needs: plan
+    if: needs.plan.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        batch: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      # Start from an empty data folder so the artifact holds only the cities this job computed.
+      - run: rm -rf data
+      - name: Compute batch ${{ matrix.batch }} of 4 (about 50 cities)
+        run: python compute.py --batch ${{ matrix.batch }}/4 --release "${{ needs.plan.outputs.release }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ matrix.batch }}
+          path: data/
+          if-no-files-found: error
+          retention-days: 3
+
+  # Runs even when a compute batch failed, so the batches that succeeded are still published.
+  # A failed batch keeps its previous files; the next run then sees mixed releases and recomputes.
+  publish:
+    needs: [plan, compute]
+    if: ${{ !cancelled() && needs.plan.outputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: data-*
+          path: data/
+          merge-multiple: true
+      - run: python build_pages.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "Refresh data for Overture release ${{ needs.plan.outputs.release }}"
+            git push
+          fi
+
+      # Branch-based Pages sites are not always rebuilt for a push made with the workflow token,
+      # so ask for a build explicitly. Harmless when Pages is not enabled yet.
+      - name: Request a Pages build
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds"

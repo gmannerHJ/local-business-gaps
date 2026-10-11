@@ -1,0 +1,28 @@
+Licences for the data files (data/ in the repository, data/ on the site)
+
+1. Count fields
+
+The counts of places (places, with_website, without_website, the shares, the
+phone and social sub-counts, the category and group tables, the excluded
+counts) are computed from the Overture Maps places theme and are offered under
+the Community Data License Agreement - Permissive, Version 2.0:
+https://cdla.dev/permissive-2-0/
+
+Source: Overture Maps Foundation, overturemaps.org. Places theme sources and
+their licences, as listed at https://docs.overturemaps.org/attribution/ :
+- Meta, Microsoft, PinMeTo, Krick, RenderSEO, DAC, BrightQuery:
+  CDLA Permissive 2.0
+- Foursquare: Copyright 2024 Foursquare Labs, Inc. All rights reserved.
+  Available under Apache 2.0. Foursquare data was transformed to the Overture
+  schema.
+- AllThePlaces: CC0 1.0
+
+2. Fields taken from the city list
+
+The population, area_km2, boundary, boundary_kind and bbox fields are derived
+from the Overture Maps divisions theme and are offered under the Open Database
+License (ODbL) 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+
+(c) OpenStreetMap contributors, Overture Maps Foundation. Other sources in the
+divisions theme: geoBoundaries, Esri Community Maps contributors and Land
+Information New Zealand (LINZ), each under CC BY 4.0.

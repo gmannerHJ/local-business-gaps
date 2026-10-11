@@ -1,0 +1,4741 @@
+{
+ "source": "Overture Maps divisions theme",
+ "release": "2026-09-23.1",
+ "licence": "ODbL 1.0",
+ "rule": {
+  "min_population": 100000,
+  "max_per_country": 5,
+  "target": 200,
+  "max_span_deg": 1.5,
+  "density_range_per_km2": [
+   50,
+   30000
+  ],
+  "simplify_deg": 0.0002
+ },
+ "cities": [
+  {
+   "slug": "shanghai",
+   "name": "Shanghai",
+   "local_name": "上海市",
+   "country": "CN",
+   "country_name": "China",
+   "population": 24870895,
+   "division_id": "6fa0287f-24ff-4841-b055-9760a6512e34",
+   "wikidata": "Q8686",
+   "lon": 121.469102,
+   "lat": 31.232344,
+   "bbox": [
+    120.850845,
+    30.691307,
+    122.113197,
+    31.872019
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "1e02feb7-fdf2-48ec-9fd7-88ed5fc055cb",
+    "area_subtype": "region",
+    "area_km2": 7411.3
+   }
+  },
+  {
+   "slug": "beijing",
+   "name": "Beijing",
+   "local_name": "北京市",
+   "country": "CN",
+   "country_name": "China",
+   "population": 21893095,
+   "division_id": "f9512255-6ba0-4f19-a3a8-44a84780182f",
+   "wikidata": "Q956",
+   "lon": 116.391297,
+   "lat": 39.905714,
+   "bbox": [
+    116.157088,
+    39.724839,
+    116.625507,
+    40.086588
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1262.0
+   }
+  },
+  {
+   "slug": "dhaka",
+   "name": "Dhaka",
+   "local_name": "ঢাকা",
+   "country": "BD",
+   "country_name": "Bangladesh",
+   "population": 21741000,
+   "division_id": "de28647d-cb29-4dc3-a3e0-5d29bb2c718a",
+   "wikidata": "Q1354",
+   "lon": 90.389014,
+   "lat": 23.764386,
+   "bbox": [
+    90.192707,
+    23.583512,
+    90.585321,
+    23.945261
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1257.8
+   }
+  },
+  {
+   "slug": "chengdu",
+   "name": "Chengdu",
+   "local_name": "成都市",
+   "country": "CN",
+   "country_name": "China",
+   "population": 20937757,
+   "division_id": "553dd688-1ab7-4e5e-b89c-0466418a6175",
+   "wikidata": "Q30002",
+   "lon": 104.063315,
+   "lat": 30.659867,
+   "bbox": [
+    103.854456,
+    30.478993,
+    104.272174,
+    30.840741
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1259.4
+   }
+  },
+  {
+   "slug": "shenzhen",
+   "name": "Shenzhen",
+   "local_name": "深圳市",
+   "country": "CN",
+   "country_name": "China",
+   "population": 17560061,
+   "division_id": "7201cf6c-4eed-4998-acfe-db91978f45f7",
+   "wikidata": "Q15174",
+   "lon": 114.054543,
+   "lat": 22.544574,
+   "bbox": [
+    113.747131,
+    22.400459,
+    115.191612,
+    23.016535
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "866887cf-8027-45c9-8252-523d531a3239",
+    "area_subtype": "county",
+    "area_km2": 2428.0
+   }
+  },
+  {
+   "slug": "kinshasa",
+   "name": "Kinshasa",
+   "local_name": "Kinshasa",
+   "country": "CD",
+   "country_name": "Democratic Republic of the Congo",
+   "population": 17032322,
+   "division_id": "41acb1c7-5654-481b-bc27-a76aceafe676",
+   "wikidata": "Q3091458",
+   "lon": 15.312251,
+   "lat": -4.32171,
+   "bbox": [
+    15.132077,
+    -4.502584,
+    15.492426,
+    -4.140836
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1255.1
+   }
+  },
+  {
+   "slug": "delhi",
+   "name": "Delhi",
+   "local_name": "Delhi",
+   "country": "IN",
+   "country_name": "India",
+   "population": 16787941,
+   "division_id": "052d2a6f-2ca5-49b4-afd3-2970fd80439c",
+   "wikidata": "Q1353",
+   "lon": 77.216978,
+   "lat": 28.666453,
+   "bbox": [
+    76.838829,
+    28.404625,
+    77.345345,
+    28.88345
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "88914aa2-00b0-456a-9ee6-0e94f97d4bc7",
+    "area_subtype": "locality",
+    "area_km2": 1390.2
+   }
+  },
+  {
+   "slug": "istanbul",
+   "name": "Istanbul",
+   "local_name": "İstanbul",
+   "country": "TR",
+   "country_name": "Turkey",
+   "population": 15701602,
+   "division_id": "6046fdb5-3aa1-463a-a61b-66cf4b4aec57",
+   "wikidata": "Q406",
+   "lon": 28.975872,
+   "lat": 41.006381,
+   "bbox": [
+    28.737794,
+    40.825507,
+    29.213949,
+    41.187255
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1262.3
+   }
+  },
+  {
+   "slug": "karachi",
+   "name": "Karachi",
+   "local_name": "کراچی",
+   "country": "PK",
+   "country_name": "Pakistan",
+   "population": 14910352,
+   "division_id": "01cb702e-8752-46a8-a823-328326dd1390",
+   "wikidata": "Q8660",
+   "lon": 67.020706,
+   "lat": 24.854684,
+   "bbox": [
+    66.653885,
+    24.746492,
+    67.582779,
+    25.6768
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d2c1acf8-d59c-4ced-878c-e113a2218b12",
+    "area_subtype": "county",
+    "area_km2": 3670.9
+   }
+  },
+  {
+   "slug": "guangzhou",
+   "name": "Guangzhou",
+   "local_name": "广州市",
+   "country": "CN",
+   "country_name": "China",
+   "population": 14043500,
+   "division_id": "60e623db-8dcc-41ab-9b53-3ecd618b50e5",
+   "wikidata": "Q16572",
+   "lon": 113.258958,
+   "lat": 23.128843,
+   "bbox": [
+    112.95237,
+    22.560795,
+    114.055313,
+    23.935699
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "0fe25a81-43c2-4847-bf93-338890bdd99b",
+    "area_subtype": "county",
+    "area_km2": 7372.8
+   }
+  },
+  {
+   "slug": "ho-chi-minh-city",
+   "name": "Ho Chi Minh City",
+   "local_name": "Thành phố Hồ Chí Minh",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "population": 14002598,
+   "division_id": "72a14537-bd94-4676-b177-9e006ea11ba3",
+   "wikidata": "Q1854",
+   "lon": 106.716601,
+   "lat": 10.773726,
+   "bbox": [
+    106.533715,
+    10.592852,
+    106.899487,
+    10.9546
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1255.6
+   }
+  },
+  {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "local_name": "東京都",
+   "country": "JP",
+   "country_name": "Japan",
+   "population": 13613660,
+   "division_id": "798895d4-5005-4b1d-b805-ee44a1f99a54",
+   "wikidata": "Q1490",
+   "lon": 139.763895,
+   "lat": 35.67686,
+   "bbox": [
+    139.542723,
+    35.495986,
+    139.985067,
+    35.857734
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1260.8
+   }
+  },
+  {
+   "slug": "moscow",
+   "name": "Moscow",
+   "local_name": "Москва",
+   "country": "RU",
+   "country_name": "Russia",
+   "population": 12700000,
+   "division_id": "71ed2bb4-98ea-4aa9-b620-625aedb85f9a",
+   "wikidata": "Q649",
+   "lon": 37.617478,
+   "lat": 55.750541,
+   "bbox": [
+    37.290501,
+    55.516678,
+    37.967434,
+    55.957779
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "09a6201b-ba1b-4d59-b64c-d56949352128",
+    "area_subtype": "locality",
+    "area_km2": 1022.5
+   }
+  },
+  {
+   "slug": "mumbai",
+   "name": "Mumbai",
+   "local_name": "Mumbai",
+   "country": "IN",
+   "country_name": "India",
+   "population": 12442373,
+   "division_id": "8156f041-d549-47a0-b1f2-e4ee1264f87e",
+   "wikidata": "Q1156",
+   "lon": 72.869203,
+   "lat": 19.054999,
+   "bbox": [
+    72.679126,
+    18.874125,
+    73.059281,
+    19.235873
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1256.8
+   }
+  },
+  {
+   "slug": "sao-paulo",
+   "name": "São Paulo",
+   "local_name": "São Paulo",
+   "country": "BR",
+   "country_name": "Brazil",
+   "population": 11451999,
+   "division_id": "da93f482-8f04-4e8d-aec2-f0884d9c0ed2",
+   "wikidata": "Q174",
+   "lon": -46.633382,
+   "lat": -23.550651,
+   "bbox": [
+    -46.826271,
+    -24.007904,
+    -46.365089,
+    -23.357752
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "7c96524b-ce3a-47dd-9fa4-8490a8d688fa",
+    "area_subtype": "locality",
+    "area_km2": 1524.1
+   }
+  },
+  {
+   "slug": "lahore",
+   "name": "Lahore",
+   "local_name": "لاہور",
+   "country": "PK",
+   "country_name": "Pakistan",
+   "population": 11126285,
+   "division_id": "83fd5cb4-dbcd-41ef-8d9d-77fca614c04e",
+   "wikidata": "Q11739",
+   "lon": 74.314183,
+   "lat": 31.565682,
+   "bbox": [
+    74.103322,
+    31.384808,
+    74.525044,
+    31.746557
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1259.7
+   }
+  },
+  {
+   "slug": "bengaluru",
+   "name": "Bengaluru",
+   "local_name": "Bengaluru",
+   "country": "IN",
+   "country_name": "India",
+   "population": 10839725,
+   "division_id": "83d231e2-da9e-4933-bb89-0997d5dd8741",
+   "wikidata": "Q1355",
+   "lon": 77.590082,
+   "lat": 12.976794,
+   "bbox": [
+    77.459877,
+    12.83349,
+    77.784065,
+    13.142621
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "8a146389-50dc-4af8-a833-c807f0d46618",
+    "area_subtype": "locality",
+    "area_km2": 716.3
+   }
+  },
+  {
+   "slug": "jakarta",
+   "name": "Jakarta",
+   "local_name": "Jakarta",
+   "country": "ID",
+   "country_name": "Indonesia",
+   "population": 10467629,
+   "division_id": "a65fecdd-a2c9-463b-b6f2-e94ababdce14",
+   "wikidata": "Q3630",
+   "lon": 106.827168,
+   "lat": -6.175405,
+   "bbox": [
+    106.390419,
+    -6.374458,
+    106.973976,
+    -5.203775
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "82f3ce1f-402b-4592-97ff-823f297e99f9",
+    "area_subtype": "region",
+    "area_km2": 658.6
+   }
+  },
+  {
+   "slug": "seoul",
+   "name": "Seoul",
+   "local_name": "서울특별시",
+   "country": "KR",
+   "country_name": "South Korea",
+   "population": 9635445,
+   "division_id": "b31f884b-8178-42bf-8b08-8b79e7cf58c9",
+   "wikidata": "Q8684",
+   "lon": 126.978291,
+   "lat": 37.566679,
+   "bbox": [
+    126.76442,
+    37.428539,
+    127.183784,
+    37.701481
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "2d4b9f73-5037-4823-92b9-2084675e7d8d",
+    "area_subtype": "region",
+    "area_km2": 606.3
+   }
+  },
+  {
+   "slug": "mexico-city",
+   "name": "Mexico City",
+   "local_name": "Ciudad de México",
+   "country": "MX",
+   "country_name": "Mexico",
+   "population": 9209944,
+   "division_id": "29e0f904-3118-4d18-8e23-a70136fcf6d8",
+   "wikidata": "Q1489",
+   "lon": -99.133178,
+   "lat": 19.43263,
+   "bbox": [
+    -99.315002,
+    19.241953,
+    -98.975037,
+    19.579693
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "2b1d49e2-98ef-4665-b9f6-1ce96c9f015b",
+    "area_subtype": "locality",
+    "area_km2": 613.1
+   }
+  },
+  {
+   "slug": "cairo",
+   "name": "Cairo",
+   "local_name": "القاهرة",
+   "country": "EG",
+   "country_name": "Egypt",
+   "population": 9120350,
+   "division_id": "265b5149-8874-4b1a-bf1f-928bbf3cc346",
+   "wikidata": "Q85",
+   "lon": 31.235726,
+   "lat": 30.044388,
+   "bbox": [
+    31.22003,
+    29.748302,
+    31.909006,
+    30.320917
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e48ed7c7-45a0-42bb-9d62-ad9284e9030d",
+    "area_subtype": "locality",
+    "area_km2": 3003.6
+   }
+  },
+  {
+   "slug": "london",
+   "name": "London",
+   "local_name": "London",
+   "country": "GB",
+   "country_name": "United Kingdom",
+   "population": 8908083,
+   "division_id": "316096ba-fc3f-40a9-9991-5a70f28dddab",
+   "wikidata": "Q84",
+   "lon": -0.127765,
+   "lat": 51.507446,
+   "bbox": [
+    -0.41642,
+    51.326571,
+    0.160889,
+    51.68832
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1265.4
+   }
+  },
+  {
+   "slug": "hanoi",
+   "name": "Hanoi",
+   "local_name": "Hà Nội",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "population": 8685607,
+   "division_id": "9fcaa194-a11f-4a3d-9967-294dbc47c0fa",
+   "wikidata": "Q1858",
+   "lon": 105.854041,
+   "lat": 21.028333,
+   "bbox": [
+    105.288948,
+    20.564512,
+    106.020042,
+    21.385418
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "771779ff-e54a-4f0a-915d-82bd3a7ae676",
+    "area_subtype": "region",
+    "area_km2": 3353.9
+   }
+  },
+  {
+   "slug": "new-york",
+   "name": "New York",
+   "local_name": "New York",
+   "country": "US",
+   "country_name": "United States",
+   "population": 8467513,
+   "division_id": "a4c73b33-ce85-45ac-99e5-44abe35b6732",
+   "wikidata": "Q60",
+   "lon": -74.006015,
+   "lat": 40.712728,
+   "bbox": [
+    -74.25885,
+    40.476578,
+    -73.700226,
+    40.917633
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5524c3e4-a7da-4003-892c-119715571b78",
+    "area_subtype": "locality",
+    "area_km2": 1219.0
+   }
+  },
+  {
+   "slug": "bogota",
+   "name": "Bogota",
+   "local_name": "Bogotá",
+   "country": "CO",
+   "country_name": "Colombia",
+   "population": 8181047,
+   "division_id": "b50afe1f-5fa4-4c6e-95d7-80cca86a834e",
+   "wikidata": "Q2841",
+   "lon": -74.083633,
+   "lat": 4.653382,
+   "bbox": [
+    -74.450951,
+    3.730053,
+    -73.985901,
+    4.836981
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4e1d6a92-e066-4177-9cf6-64995975833c",
+    "area_subtype": "region",
+    "area_km2": 1631.1
+   }
+  },
+  {
+   "slug": "tehran",
+   "name": "Tehran",
+   "local_name": "شهر تهران",
+   "country": "IR",
+   "country_name": "Iran",
+   "population": 8000000,
+   "division_id": "2be1ba18-53cd-4f5d-b07b-abe30bfd1fa8",
+   "wikidata": "Q3616",
+   "lon": 51.3896,
+   "lat": 35.689252,
+   "bbox": [
+    51.089214,
+    35.568207,
+    51.606308,
+    35.828476
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4cbdadc8-22e8-4274-8f57-74965cc50d0b",
+    "area_subtype": "locality",
+    "area_km2": 630.8
+   }
+  },
+  {
+   "slug": "abidjan",
+   "name": "Abidjan",
+   "local_name": "Abidjan",
+   "country": "CI",
+   "country_name": "Ivory Coast",
+   "population": 7567409,
+   "division_id": "0a245a53-ab6c-4e15-a9b7-a256f09129e3",
+   "wikidata": "Q1515",
+   "lon": -4.016107,
+   "lat": 5.320357,
+   "bbox": [
+    -4.196547,
+    5.139483,
+    -3.835667,
+    5.501231
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1255.2
+   }
+  },
+  {
+   "slug": "baghdad",
+   "name": "Baghdad",
+   "local_name": "بغداد",
+   "country": "IQ",
+   "country_name": "Iraq",
+   "population": 7216040,
+   "division_id": "5b90fd0c-9268-4752-90f3-b77f9c82a0f1",
+   "wikidata": "Q1530",
+   "lon": 44.387221,
+   "lat": 33.30617,
+   "bbox": [
+    44.184608,
+    33.179756,
+    44.570004,
+    33.486828
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e5884bb6-f04b-4d73-a365-f48bc7f9d50b",
+    "area_subtype": "locality",
+    "area_km2": 861.7
+   }
+  },
+  {
+   "slug": "surat",
+   "name": "Surat",
+   "local_name": "Surat",
+   "country": "IN",
+   "country_name": "India",
+   "population": 6936534,
+   "division_id": "1eeae916-7713-449c-b8b2-1430ecd24697",
+   "wikidata": "Q4629",
+   "lon": 72.831706,
+   "lat": 21.209489,
+   "bbox": [
+    72.63899,
+    21.028615,
+    73.024422,
+    21.390364
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1257.2
+   }
+  },
+  {
+   "slug": "hyderabad",
+   "name": "Hyderabad",
+   "local_name": "Hyderabad",
+   "country": "IN",
+   "country_name": "India",
+   "population": 6809970,
+   "division_id": "bf848385-1d73-4c55-a1d1-780e73583cc8",
+   "wikidata": "Q1361",
+   "lon": 78.474061,
+   "lat": 17.360589,
+   "bbox": [
+    78.238701,
+    17.291637,
+    78.622398,
+    17.560833
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "ff588c0d-c919-4113-93b5-f790a2ee99bc",
+    "area_subtype": "locality",
+    "area_km2": 608.9
+   }
+  },
+  {
+   "slug": "rio-de-janeiro",
+   "name": "Rio de Janeiro",
+   "local_name": "Rio de Janeiro",
+   "country": "BR",
+   "country_name": "Brazil",
+   "population": 6211223,
+   "division_id": "030aefa6-e52a-48a6-bbcb-1cf66a09d0c5",
+   "wikidata": "Q8678",
+   "lon": -43.209373,
+   "lat": -22.911014,
+   "bbox": [
+    -43.796253,
+    -23.082708,
+    -43.099075,
+    -22.746084
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "45876df1-c2af-4082-b623-d87e3c064b71",
+    "area_subtype": "locality",
+    "area_km2": 1201.9
+   }
+  },
+  {
+   "slug": "santiago",
+   "name": "Santiago",
+   "local_name": "Santiago",
+   "country": "CL",
+   "country_name": "Chile",
+   "population": 6139087,
+   "division_id": "d3fef4b7-35d2-4469-acb4-8ea673f62b9a",
+   "wikidata": "Q188002",
+   "lon": -70.651067,
+   "lat": -33.4377,
+   "bbox": [
+    -70.866364,
+    -33.618574,
+    -70.43577,
+    -33.256825
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1260.2
+   }
+  },
+  {
+   "slug": "ankara",
+   "name": "Ankara",
+   "local_name": "Ankara",
+   "country": "TR",
+   "country_name": "Turkey",
+   "population": 5864049,
+   "division_id": "31416661-ff2c-4d28-9aac-d9cd5bb54d67",
+   "wikidata": "Q3640",
+   "lon": 32.85405,
+   "lat": 39.920776,
+   "bbox": [
+    32.619789,
+    39.739902,
+    33.088311,
+    40.10165
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1262.0
+   }
+  },
+  {
+   "slug": "saint-petersburg",
+   "name": "Saint Petersburg",
+   "local_name": "Санкт-Петербург",
+   "country": "RU",
+   "country_name": "Russia",
+   "population": 5652922,
+   "division_id": "ff3a1bef-1d4a-4f98-8221-19c888ad76f1",
+   "wikidata": "Q656",
+   "lon": 30.316229,
+   "lat": 59.938732,
+   "bbox": [
+    30.043343,
+    59.744141,
+    30.567169,
+    60.090744
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4cbd2e2e-e853-4a2f-a10d-cbad057bcc4b",
+    "area_subtype": "locality",
+    "area_km2": 594.6
+   }
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "local_name": "Singapore",
+   "country": "SG",
+   "country_name": "Singapore",
+   "population": 5535002,
+   "division_id": "a107473a-bab0-49c4-aaef-126868351e12",
+   "wikidata": "Q334",
+   "lon": 103.851907,
+   "lat": 1.289918,
+   "bbox": [
+    103.565567,
+    1.130361,
+    104.129028,
+    1.478751
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "8a02a177-ab00-4138-a297-f6d85a8f2b90",
+    "area_subtype": "locality",
+    "area_km2": 1421.6
+   }
+  },
+  {
+   "slug": "bangkok",
+   "name": "Bangkok",
+   "local_name": "กรุงเทพมหานคร",
+   "country": "TH",
+   "country_name": "Thailand",
+   "population": 5527948,
+   "division_id": "8cd5be66-aa85-4159-ab61-aa4f08acd4a1",
+   "wikidata": "Q1861",
+   "lon": 100.493509,
+   "lat": 13.752494,
+   "bbox": [
+    100.327866,
+    13.493526,
+    100.938606,
+    13.95517
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "b3003879-80fd-497e-bc8e-28925612f1b5",
+    "area_subtype": "region",
+    "area_km2": 1565.9
+   }
+  },
+  {
+   "slug": "dar-es-salaam",
+   "name": "Dar es Salaam",
+   "local_name": "Dar es Salaam",
+   "country": "TZ",
+   "country_name": "Tanzania",
+   "population": 5383728,
+   "division_id": "e19d7281-e8cd-4e64-ad15-067500122c1d",
+   "wikidata": "Q1960",
+   "lon": 39.280358,
+   "lat": -6.816084,
+   "bbox": [
+    39.007027,
+    -7.186845,
+    39.928047,
+    -6.566197
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5d506fff-695a-4b34-a2c9-b304a2126ce7",
+    "area_subtype": "region",
+    "area_km2": 1636.1
+   }
+  },
+  {
+   "slug": "melbourne",
+   "name": "Melbourne",
+   "local_name": "Melbourne",
+   "country": "AU",
+   "country_name": "Australia",
+   "population": 5328274,
+   "division_id": "7000476d-2044-4faf-9bed-d25a4f3da214",
+   "wikidata": "Q3141",
+   "lon": 144.963173,
+   "lat": -37.814245,
+   "bbox": [
+    144.735753,
+    -37.99512,
+    145.190593,
+    -37.633371
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1261.4
+   }
+  },
+  {
+   "slug": "sydney",
+   "name": "Sydney",
+   "local_name": "Sydney",
+   "country": "AU",
+   "country_name": "Australia",
+   "population": 5219674,
+   "division_id": "76129bb5-96bb-4432-bebf-0d2167092342",
+   "wikidata": "Q3130",
+   "lon": 151.208285,
+   "lat": -33.869844,
+   "bbox": [
+    150.260818,
+    -34.259838,
+    151.343903,
+    -33.364185
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "3d980af7-9e0c-447d-84f6-812ad49b32ae",
+    "area_subtype": "locality",
+    "area_km2": 4798.5
+   }
+  },
+  {
+   "slug": "riyadh",
+   "name": "Riyadh",
+   "local_name": "الرياض",
+   "country": "SA",
+   "country_name": "Saudi Arabia",
+   "population": 5188286,
+   "division_id": "f1614a3d-eb57-4fe1-8316-1bc1881dc84b",
+   "wikidata": "Q3692",
+   "lon": 46.71601,
+   "lat": 24.638916,
+   "bbox": [
+    46.518352,
+    24.458042,
+    46.913669,
+    24.81979
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 20,
+    "area_km2": 1258.0
+   }
+  },
+  {
+   "slug": "yangon",
+   "name": "Yangon",
+   "local_name": "ရန်ကုန်",
+   "country": "MM",
+   "country_name": "Myanmar",
+   "population": 5160512,
+   "division_id": "aad5b235-5dbe-4849-a54c-24316ed0becd",
+   "wikidata": "Q37995",
+   "lon": 96.160992,
+   "lat": 16.796713,
+   "bbox": [
+    95.994743,
+    16.591974,
+    96.36882,
+    17.090748
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "2e39c2a5-de48-47cb-8dfa-6c369867de76",
+    "area_subtype": "county",
+    "area_km2": 997.7
+   }
+  },
+  {
+   "slug": "haiphong",
+   "name": "Haiphong",
+   "local_name": "Hải Phòng",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "population": 4664124,
+   "division_id": "ac20fb26-e134-489c-8b54-adde114c2318",
+   "wikidata": "Q72818",
+   "lon": 106.679038,
+   "lat": 20.883097,
+   "bbox": [
+    106.534818,
+    20.747441,
+    106.823259,
+    21.018752
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.2
+   }
+  },
+  {
+   "slug": "alexandria",
+   "name": "Alexandria",
+   "local_name": "الإسكندرية",
+   "country": "EG",
+   "country_name": "Egypt",
+   "population": 4546231,
+   "division_id": "2db6c3a9-fb99-4b57-bc03-850b96dbdf32",
+   "wikidata": "Q87",
+   "lon": 29.895172,
+   "lat": 31.199181,
+   "bbox": [
+    29.737642,
+    31.063525,
+    30.052702,
+    31.334836
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.5
+   }
+  },
+  {
+   "slug": "izmir",
+   "name": "İzmir",
+   "local_name": "İzmir",
+   "country": "TR",
+   "country_name": "Turkey",
+   "population": 4493242,
+   "division_id": "64290f90-850e-483c-943a-a53735a6d15e",
+   "wikidata": "Q35997",
+   "lon": 27.128469,
+   "lat": 38.419254,
+   "bbox": [
+    26.956485,
+    38.283598,
+    27.300453,
+    38.554909
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.6
+   }
+  },
+  {
+   "slug": "johannesburg",
+   "name": "Johannesburg",
+   "local_name": "Johannesburg",
+   "country": "ZA",
+   "country_name": "South Africa",
+   "population": 4434827,
+   "division_id": "a97c9252-f8d9-4fe2-8c62-1e87220eda05",
+   "wikidata": "Q34647",
+   "lon": 28.049722,
+   "lat": -26.205,
+   "bbox": [
+    27.89954,
+    -26.340656,
+    28.199904,
+    -26.069344
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.8
+   }
+  },
+  {
+   "slug": "dubai",
+   "name": "Dubai",
+   "local_name": "دبي",
+   "country": "AE",
+   "country_name": "United Arab Emirates",
+   "population": 4248200,
+   "division_id": "f00e87a3-0607-4cc2-9b9f-23d4b1aa691c",
+   "wikidata": "Q612",
+   "lon": 55.292415,
+   "lat": 25.264723,
+   "bbox": [
+    55.143415,
+    25.129067,
+    55.441414,
+    25.400378
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.7
+   }
+  },
+  {
+   "slug": "can-tho",
+   "name": "Cần Thơ",
+   "local_name": "Cần Thơ",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "population": 4199824,
+   "division_id": "19475984-7d19-41ff-98c5-ae674cac25d9",
+   "wikidata": "Q216075",
+   "lon": 105.787266,
+   "lat": 10.036205,
+   "bbox": [
+    105.225677,
+    9.244907,
+    106.293282,
+    10.32521
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "fe00d80e-af6b-456f-97df-da6a26c305e6",
+    "area_subtype": "region",
+    "area_km2": 6347.2
+   }
+  },
+  {
+   "slug": "los-angeles",
+   "name": "Los Angeles",
+   "local_name": "Los Angeles",
+   "country": "US",
+   "country_name": "United States",
+   "population": 4030904,
+   "division_id": "5b65e181-2321-4234-88a0-89d92680c036",
+   "wikidata": "Q65",
+   "lon": -118.242766,
+   "lat": 34.053691,
+   "bbox": [
+    -118.668182,
+    33.659538,
+    -118.155296,
+    34.337307
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "dfd48d4f-4512-49a5-a85a-dfbfe878f064",
+    "area_subtype": "locality",
+    "area_km2": 1362.0
+   }
+  },
+  {
+   "slug": "amman",
+   "name": "Amman",
+   "local_name": "عمان",
+   "country": "JO",
+   "country_name": "Jordan",
+   "population": 4000000,
+   "division_id": "092fb2f3-8ff0-4cf8-8718-cd84c3330db9",
+   "wikidata": "Q3805",
+   "lon": 35.923963,
+   "lat": 31.951569,
+   "bbox": [
+    35.765156,
+    31.815914,
+    36.082769,
+    32.087225
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.6
+   }
+  },
+  {
+   "slug": "new-taipei",
+   "name": "New Taipei",
+   "local_name": "新北市",
+   "country": "TW",
+   "country_name": "Taiwan",
+   "population": 3979208,
+   "division_id": "7ae79b6b-58ff-45ee-80c6-085a2d576e3b",
+   "wikidata": "Q244898",
+   "lon": 121.465662,
+   "lat": 25.011997,
+   "bbox": [
+    121.282631,
+    24.673164,
+    122.00708,
+    25.299671
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e2371dd9-4603-4b30-b959-77ed00a93a2a",
+    "area_subtype": "region",
+    "area_km2": 2060.0
+   }
+  },
+  {
+   "slug": "pyongyang",
+   "name": "Pyongyang",
+   "local_name": "평양시",
+   "country": "KP",
+   "country_name": "North Korea",
+   "population": 3871335,
+   "division_id": "c92f4ece-d69f-48f2-9d0e-ed335422a27d",
+   "wikidata": "Q18808",
+   "lon": 125.752622,
+   "lat": 39.019658,
+   "bbox": [
+    125.522308,
+    38.791672,
+    126.403328,
+    39.305592
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "fc8a1202-ee5b-4ba6-bfe1-2fcbe8ab4dda",
+    "area_subtype": "region",
+    "area_km2": 1845.4
+   }
+  },
+  {
+   "slug": "yokohama",
+   "name": "Yokohama",
+   "local_name": "横浜市",
+   "country": "JP",
+   "country_name": "Japan",
+   "population": 3777491,
+   "division_id": "01143241-d602-430a-b5d5-348ca1abb26b",
+   "wikidata": "Q38283",
+   "lon": 139.63438,
+   "lat": 35.450338,
+   "bbox": [
+    139.464767,
+    35.3125,
+    139.776947,
+    35.592854
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "c15576e2-5e26-4157-a84a-3f570a8e6ade",
+    "area_subtype": "locality",
+    "area_km2": 559.6
+   }
+  },
+  {
+   "slug": "berlin",
+   "name": "Berlin",
+   "local_name": "Berlin",
+   "country": "DE",
+   "country_name": "Germany",
+   "population": 3769962,
+   "division_id": "9187e609-5a2f-4535-85ec-e2b88399eea3",
+   "wikidata": "Q64",
+   "lon": 13.395131,
+   "lat": 52.517389,
+   "bbox": [
+    13.088345,
+    52.338238,
+    13.761163,
+    52.67551
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5d231bd3-41ee-4aed-84b2-e3c609063672",
+    "area_subtype": "region",
+    "area_km2": 891.2
+   }
+  },
+  {
+   "slug": "cape-town",
+   "name": "Cape Town",
+   "local_name": "Cape Town",
+   "country": "ZA",
+   "country_name": "South Africa",
+   "population": 3740026,
+   "division_id": "847df174-2797-406e-ba20-160bd1700dff",
+   "wikidata": "Q5465",
+   "lon": 18.41722,
+   "lat": -33.92883,
+   "bbox": [
+    18.254822,
+    -34.064486,
+    18.579618,
+    -33.793174
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.9
+   }
+  },
+  {
+   "slug": "caracas",
+   "name": "Caracas",
+   "local_name": "Caracas",
+   "country": "VE",
+   "country_name": "Venezuela",
+   "population": 3523959,
+   "division_id": "b6485263-6c57-4cb4-b59b-1d61291473fc",
+   "wikidata": "Q1533",
+   "lon": -66.914601,
+   "lat": 10.506093,
+   "bbox": [
+    -67.163239,
+    10.340395,
+    -66.692223,
+    10.567741
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "bb01aeeb-22a1-4ec2-a4ed-ed1170df0d26",
+    "area_subtype": "locality",
+    "area_km2": 778.9
+   }
+  },
+  {
+   "slug": "addis-ababa",
+   "name": "Addis Ababa",
+   "local_name": "አዲስ አበባ",
+   "country": "ET",
+   "country_name": "Ethiopia",
+   "population": 3500000,
+   "division_id": "3d7cc12f-9bf1-4bdb-8e19-b5e9832fa395",
+   "wikidata": "Q3624",
+   "lon": 38.752432,
+   "lat": 9.035812,
+   "bbox": [
+    38.6399,
+    8.833115,
+    38.908054,
+    9.098577
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "c251ed13-dbba-4331-98d2-cfc806909ac8",
+    "area_subtype": "region",
+    "area_km2": 538.3
+   }
+  },
+  {
+   "slug": "guayaquil",
+   "name": "Guayaquil",
+   "local_name": "Guayaquil",
+   "country": "EC",
+   "country_name": "Ecuador",
+   "population": 3500000,
+   "division_id": "d2e6b5ae-422d-49e1-9fdd-efc55f9043a4",
+   "wikidata": "Q43509",
+   "lon": -79.886867,
+   "lat": -2.190057,
+   "bbox": [
+    -80.31237,
+    -2.617029,
+    -79.856339,
+    -1.962234
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "3e5cf1bf-750c-4548-b1d9-5d9b950e0da0",
+    "area_subtype": "locality",
+    "area_km2": 1938.6
+   }
+  },
+  {
+   "slug": "madrid",
+   "name": "Madrid",
+   "local_name": "Madrid",
+   "country": "ES",
+   "country_name": "Spain",
+   "population": 3477497,
+   "division_id": "cfb42293-0f1f-44f5-856f-036601c04546",
+   "wikidata": "Q2807",
+   "lon": -3.703507,
+   "lat": 40.416782,
+   "bbox": [
+    -3.888954,
+    40.311977,
+    -3.518326,
+    40.64373
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "99a28155-b0cb-45a2-812b-2a38005093f9",
+    "area_subtype": "locality",
+    "area_km2": 604.2
+   }
+  },
+  {
+   "slug": "busan",
+   "name": "Busan",
+   "local_name": "부산광역시",
+   "country": "KR",
+   "country_name": "South Korea",
+   "population": 3455611,
+   "division_id": "096b3ddc-1fe1-49b5-8f00-588eaeba1a81",
+   "wikidata": "Q16520",
+   "lon": 129.075236,
+   "lat": 35.179953,
+   "bbox": [
+    128.76564,
+    34.98864,
+    129.308044,
+    35.389225
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "3324930b-1cd2-4299-91bf-c721afb59ecb",
+    "area_subtype": "region",
+    "area_km2": 776.4
+   }
+  },
+  {
+   "slug": "durban",
+   "name": "Durban",
+   "local_name": "Durban",
+   "country": "ZA",
+   "country_name": "South Africa",
+   "population": 3442361,
+   "division_id": "add63888-67cf-4d78-b4ff-aebcedaa332f",
+   "wikidata": "Q5468",
+   "lon": 31.009909,
+   "lat": -29.861815,
+   "bbox": [
+    30.854533,
+    -29.99747,
+    31.165285,
+    -29.726159
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.3
+   }
+  },
+  {
+   "slug": "jeddah",
+   "name": "Jeddah",
+   "local_name": "جدة",
+   "country": "SA",
+   "country_name": "Saudi Arabia",
+   "population": 3430697,
+   "division_id": "b3d9e84a-9473-4113-8a96-ecf55ed3f292",
+   "wikidata": "Q374365",
+   "lon": 39.174236,
+   "lat": 21.550443,
+   "bbox": [
+    39.029362,
+    21.414787,
+    39.31911,
+    21.686099
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.2
+   }
+  },
+  {
+   "slug": "algiers",
+   "name": "Algiers",
+   "local_name": "Alger ⴷⵣⴰⵢⴻⵔ الجزائر",
+   "country": "DZ",
+   "country_name": "Algeria",
+   "population": 3415811,
+   "division_id": "e0d4a489-7333-45d0-9d37-8b951e3e5b83",
+   "wikidata": "Q3561",
+   "lon": 3.058845,
+   "lat": 36.772933,
+   "bbox": [
+    2.890624,
+    36.637278,
+    3.227065,
+    36.908589
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.4
+   }
+  },
+  {
+   "slug": "kabul",
+   "name": "Kabul",
+   "local_name": "کابل",
+   "country": "AF",
+   "country_name": "Afghanistan",
+   "population": 3289000,
+   "division_id": "518e8c55-ad1d-448c-a833-745c0e341279",
+   "wikidata": "Q5838",
+   "lon": 69.185058,
+   "lat": 34.52695,
+   "bbox": [
+    69.021503,
+    34.391295,
+    69.348614,
+    34.662606
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.0
+   }
+  },
+  {
+   "slug": "bursa",
+   "name": "Bursa",
+   "local_name": "Bursa",
+   "country": "TR",
+   "country_name": "Turkey",
+   "population": 3238618,
+   "division_id": "4836f50a-c0ac-4e71-80ee-f802653a4202",
+   "wikidata": "Q40738",
+   "lon": 29.067504,
+   "lat": 40.182573,
+   "bbox": [
+    28.891132,
+    40.046918,
+    29.243876,
+    40.318229
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.9
+   }
+  },
+  {
+   "slug": "casablanca",
+   "name": "Casablanca",
+   "local_name": "Casablanca ⵜⴰⴷⴷⴰⵔⵜ ⵜⵓⵎⵍⵉⵍⵜ الدار البيضاء",
+   "country": "MA",
+   "country_name": "Morocco",
+   "population": 3215935,
+   "division_id": "4b373463-bae4-40d8-88bd-83fd2afc0558",
+   "wikidata": "Q7903",
+   "lon": -7.620028,
+   "lat": 33.594514,
+   "bbox": [
+    -7.751239,
+    33.49334,
+    -7.457416,
+    33.640911
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "edb15f16-77ea-4a21-a1b0-cf21b15af79e",
+    "area_subtype": "locality",
+    "area_km2": 216.1
+   }
+  },
+  {
+   "slug": "faisalabad",
+   "name": "Faisalabad",
+   "local_name": "فیصل آباد",
+   "country": "PK",
+   "country_name": "Pakistan",
+   "population": 3203846,
+   "division_id": "5efdf70d-245e-4f23-aff3-19717885a895",
+   "wikidata": "Q173985",
+   "lon": 73.092325,
+   "lat": 31.422056,
+   "bbox": [
+    72.934422,
+    31.2864,
+    73.250228,
+    31.557712
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.5
+   }
+  },
+  {
+   "slug": "nairobi",
+   "name": "Nairobi",
+   "local_name": "Nairobi",
+   "country": "KE",
+   "country_name": "Kenya",
+   "population": 3138295,
+   "division_id": "edec87f7-7263-487a-a89b-bf3e25fd5af6",
+   "wikidata": "Q3870",
+   "lon": 36.817281,
+   "lat": -1.289001,
+   "bbox": [
+    36.664696,
+    -1.444882,
+    37.104874,
+    -1.160675
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "288a59f2-163f-48f2-a942-1d5096088685",
+    "area_subtype": "locality",
+    "area_km2": 695.5
+   }
+  },
+  {
+   "slug": "maroua",
+   "name": "Maroua",
+   "local_name": "Communauté urbaine de Maroua",
+   "country": "CM",
+   "country_name": "Cameroon",
+   "population": 3119000,
+   "division_id": "c10d071e-6b03-4d36-8493-3429805e4d2c",
+   "wikidata": "Q818824",
+   "lon": 14.328162,
+   "lat": 10.603308,
+   "bbox": [
+    14.143753,
+    10.433302,
+    14.633121,
+    10.998217
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e12df8c7-bc03-4e8d-b3f2-d73b8606739f",
+    "area_subtype": "locality",
+    "area_km2": 1116.3
+   }
+  },
+  {
+   "slug": "athens",
+   "name": "Athens",
+   "local_name": "Αθήνα",
+   "country": "GR",
+   "country_name": "Greece",
+   "population": 3090508,
+   "division_id": "adfbf49a-2781-4b77-8f02-b8ba400d50c6",
+   "wikidata": "Q1524",
+   "lon": 23.734832,
+   "lat": 37.975565,
+   "bbox": [
+    23.563893,
+    37.839909,
+    23.905771,
+    38.111221
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.6
+   }
+  },
+  {
+   "slug": "da-nang",
+   "name": "Da Nang",
+   "local_name": "Đà Nẵng",
+   "country": "VN",
+   "country_name": "Vietnam",
+   "population": 3065628,
+   "division_id": "b9ae9fc5-3a74-4b56-ab50-f3cad58e2503",
+   "wikidata": "Q25282",
+   "lon": 108.224024,
+   "lat": 16.068501,
+   "bbox": [
+    108.083799,
+    15.932845,
+    108.364249,
+    16.204157
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.7
+   }
+  },
+  {
+   "slug": "ibadan",
+   "name": "Ibadan",
+   "local_name": "Ìbàdàn",
+   "country": "NG",
+   "country_name": "Nigeria",
+   "population": 3034200,
+   "division_id": "6c78e0bb-59c7-4c26-9985-862bcb9d9336",
+   "wikidata": "Q183298",
+   "lon": 3.897233,
+   "lat": 7.378368,
+   "bbox": [
+    3.761361,
+    7.242712,
+    4.033105,
+    7.514024
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.1
+   }
+  },
+  {
+   "slug": "mashhad",
+   "name": "Mashhad",
+   "local_name": "شهر مشهد",
+   "country": "IR",
+   "country_name": "Iran",
+   "population": 3001184,
+   "division_id": "869562e9-d02e-428c-9d75-ee3a1180b677",
+   "wikidata": "Q121157",
+   "lon": 59.605923,
+   "lat": 36.297494,
+   "bbox": [
+    59.420193,
+    36.18457,
+    59.72374,
+    36.498947
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "fabf738b-9f7e-4791-91a8-3179aaa47344",
+    "area_subtype": "locality",
+    "area_km2": 368.6
+   }
+  },
+  {
+   "slug": "tashkent",
+   "name": "Tashkent",
+   "local_name": "Toshkent",
+   "country": "UZ",
+   "country_name": "Uzbekistan",
+   "population": 2956384,
+   "division_id": "d3d32f75-59b4-4f3e-a486-916cd4d8b04e",
+   "wikidata": "Q269",
+   "lon": 69.278708,
+   "lat": 41.312336,
+   "bbox": [
+    69.121796,
+    41.15773,
+    69.525909,
+    41.422497
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "9b470c3d-6f1e-479f-bc91-12faa533389b",
+    "area_subtype": "region",
+    "area_km2": 634.4
+   }
+  },
+  {
+   "slug": "incheon",
+   "name": "Incheon",
+   "local_name": "인천광역시",
+   "country": "KR",
+   "country_name": "South Korea",
+   "population": 2953883,
+   "division_id": "fe9a3b36-8abd-4ea9-8112-7059916c4359",
+   "wikidata": "Q20934",
+   "lon": 126.7052,
+   "lat": 37.456,
+   "bbox": [
+    126.535456,
+    37.320344,
+    126.874944,
+    37.591656
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.5
+   }
+  },
+  {
+   "slug": "kyiv",
+   "name": "Kyiv",
+   "local_name": "Київ",
+   "country": "UA",
+   "country_name": "Ukraine",
+   "population": 2952301,
+   "division_id": "5e7a9bd4-a0a9-4fe9-bac5-da085d64e149",
+   "wikidata": "Q1899",
+   "lon": 30.524136,
+   "lat": 50.450034,
+   "bbox": [
+    30.236145,
+    50.213242,
+    30.826363,
+    50.59082
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "66e34a08-2cc9-4648-9030-681bfea7bb2a",
+    "area_subtype": "region",
+    "area_km2": 826.1
+   }
+  },
+  {
+   "slug": "quezon-city",
+   "name": "Quezon City",
+   "local_name": "Quezon City",
+   "country": "PH",
+   "country_name": "Philippines",
+   "population": 2936116,
+   "division_id": "0b55fc56-d14c-4378-96e6-83ee9bc3e427",
+   "wikidata": "Q1475",
+   "lon": 121.048625,
+   "lat": 14.651055,
+   "bbox": [
+    120.989693,
+    14.589369,
+    121.133781,
+    14.776414
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "c0a8b6ad-545e-42b0-9661-a08543ee30bf",
+    "area_subtype": "locality",
+    "area_km2": 160.0
+   }
+  },
+  {
+   "slug": "buenos-aires",
+   "name": "Buenos Aires",
+   "local_name": "Buenos Aires",
+   "country": "AR",
+   "country_name": "Argentina",
+   "population": 2891082,
+   "division_id": "0c538abd-b49c-4500-b21e-bcdebad0ba7a",
+   "wikidata": "Q1486",
+   "lon": -58.38879,
+   "lat": -34.609558,
+   "bbox": [
+    -58.53146,
+    -34.705818,
+    -58.335136,
+    -34.52655
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d9c71766-e212-456e-959e-71a9540bf780",
+    "area_subtype": "locality",
+    "area_km2": 205.7
+   }
+  },
+  {
+   "slug": "rome",
+   "name": "Rome",
+   "local_name": "Roma",
+   "country": "IT",
+   "country_name": "Italy",
+   "population": 2802048,
+   "division_id": "6fe9e7a3-65c4-4a9c-9aa2-3dddad62e1ab",
+   "wikidata": "Q220",
+   "lon": 12.482932,
+   "lat": 41.89332,
+   "bbox": [
+    12.23444,
+    41.655636,
+    12.855761,
+    42.141029
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4a55dac8-93c0-4e22-8fa9-a164e6e66ce5",
+    "area_subtype": "locality",
+    "area_km2": 1285.5
+   }
+  },
+  {
+   "slug": "kaohsiung",
+   "name": "Kaohsiung",
+   "local_name": "高雄市",
+   "country": "TW",
+   "country_name": "Taiwan",
+   "population": 2779371,
+   "division_id": "4ee03605-49b0-4c9d-ba45-ae511bbccae8",
+   "wikidata": "Q181557",
+   "lon": 120.312038,
+   "lat": 22.620335,
+   "bbox": [
+    120.166061,
+    22.484679,
+    120.458014,
+    22.755991
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.4
+   }
+  },
+  {
+   "slug": "taichung",
+   "name": "Taichung",
+   "local_name": "臺中市",
+   "country": "TW",
+   "country_name": "Taiwan",
+   "population": 2767239,
+   "division_id": "1450018b-aa8c-42fc-ace1-02eb5fd3380f",
+   "wikidata": "Q245023",
+   "lon": 120.647828,
+   "lat": 24.163162,
+   "bbox": [
+    120.456558,
+    23.99856,
+    121.450974,
+    24.441513
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4e37d83a-2f24-46a7-a491-b1ab64b4bcd8",
+    "area_subtype": "region",
+    "area_km2": 2243.0
+   }
+  },
+  {
+   "slug": "surabaya",
+   "name": "Surabaya",
+   "local_name": "Surabaya",
+   "country": "ID",
+   "country_name": "Indonesia",
+   "population": 2765487,
+   "division_id": "786306bf-4be7-4809-9248-7f0434ab23e3",
+   "wikidata": "Q11462",
+   "lon": 112.737767,
+   "lat": -7.246284,
+   "bbox": [
+    112.591568,
+    -7.351441,
+    112.846687,
+    -7.18423
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d00a5ebf-daed-4aa4-8622-07fab53ed596",
+    "area_subtype": "county",
+    "area_km2": 337.3
+   }
+  },
+  {
+   "slug": "chicago",
+   "name": "Chicago",
+   "local_name": "Chicago",
+   "country": "US",
+   "country_name": "United States",
+   "population": 2746388,
+   "division_id": "3fa91fac-20c0-47b6-89e5-07d0682ce031",
+   "wikidata": "Q1297",
+   "lon": -87.624421,
+   "lat": 41.875562,
+   "bbox": [
+    -87.940102,
+    41.644527,
+    -87.524124,
+    42.023056
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "fc805ae0-5e9d-423b-a0be-2a701723df46",
+    "area_subtype": "locality",
+    "area_km2": 607.3
+   }
+  },
+  {
+   "slug": "toronto",
+   "name": "Toronto",
+   "local_name": "Toronto",
+   "country": "CA",
+   "country_name": "Canada",
+   "population": 2731571,
+   "division_id": "21381221-fa00-4111-bb1c-bb7020d75dfd",
+   "wikidata": "Q172",
+   "lon": -79.383935,
+   "lat": 43.653482,
+   "bbox": [
+    -79.63929,
+    43.579601,
+    -79.113213,
+    43.855446
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "c8009c9c-b552-42d5-8d1f-204c3cc1bd41",
+    "area_subtype": "county",
+    "area_km2": 666.2
+   }
+  },
+  {
+   "slug": "antalya",
+   "name": "Antalya",
+   "local_name": "Antalya",
+   "country": "TR",
+   "country_name": "Turkey",
+   "population": 2722103,
+   "division_id": "73c4c40c-2d50-436b-ab6f-e696e26252b6",
+   "wikidata": "Q6487",
+   "lon": 30.703024,
+   "lat": 36.886573,
+   "bbox": [
+    30.534554,
+    36.750917,
+    30.871494,
+    37.022229
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.4
+   }
+  },
+  {
+   "slug": "osaka",
+   "name": "Osaka",
+   "local_name": "大阪市",
+   "country": "JP",
+   "country_name": "Japan",
+   "population": 2691185,
+   "division_id": "5e3f1304-64a4-49b7-9bcd-756c96466144",
+   "wikidata": "Q35765",
+   "lon": 135.501454,
+   "lat": 34.693757,
+   "bbox": [
+    135.309967,
+    34.586151,
+    135.599182,
+    34.768852
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "302c9a8a-bb73-447e-bd5b-1066a613e7df",
+    "area_subtype": "locality",
+    "area_km2": 289.8
+   }
+  },
+  {
+   "slug": "khartoum",
+   "name": "Khartoum",
+   "local_name": "الخرطوم",
+   "country": "SD",
+   "country_name": "Sudan",
+   "population": 2682431,
+   "division_id": "8ae76f23-81f9-4ec2-880e-29f80700cf06",
+   "wikidata": "Q1963",
+   "lon": 32.534912,
+   "lat": 15.563597,
+   "bbox": [
+    32.395037,
+    15.427941,
+    32.674788,
+    15.699253
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.6
+   }
+  },
+  {
+   "slug": "giza",
+   "name": "Giza",
+   "local_name": "الجيزة",
+   "country": "EG",
+   "country_name": "Egypt",
+   "population": 2681863,
+   "division_id": "bb910e58-9fe3-45ab-8e63-eeeb967a7ca8",
+   "wikidata": "Q81788",
+   "lon": 31.211806,
+   "lat": 29.987075,
+   "bbox": [
+    31.056234,
+    29.85142,
+    31.367378,
+    30.122731
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.3
+   }
+  },
+  {
+   "slug": "quito",
+   "name": "Quito",
+   "local_name": "Quito",
+   "country": "EC",
+   "country_name": "Ecuador",
+   "population": 2671191,
+   "division_id": "6d72dccd-3d38-4e95-a3c8-69c30c07daa0",
+   "wikidata": "Q2900",
+   "lon": -78.512327,
+   "lat": -0.220164,
+   "bbox": [
+    -78.647075,
+    -0.35582,
+    -78.37758,
+    -0.084508
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "mogadishu",
+   "name": "Mogadishu",
+   "local_name": "Muqdisho مقديشو",
+   "country": "SO",
+   "country_name": "Somalia",
+   "population": 2610000,
+   "division_id": "3b84b4c8-8d1b-493a-b8f4-6bbfe5a2c53e",
+   "wikidata": "Q2449",
+   "lon": 45.341918,
+   "lat": 2.034931,
+   "bbox": [
+    45.207087,
+    1.899275,
+    45.47675,
+    2.170587
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "luanda",
+   "name": "Luanda",
+   "local_name": "Luanda",
+   "country": "AO",
+   "country_name": "Angola",
+   "population": 2600000,
+   "division_id": "f4b3aa82-cb59-4432-b4f6-c97a4517ffc5",
+   "wikidata": "Q3897",
+   "lon": 13.243951,
+   "lat": -8.82727,
+   "bbox": [
+    13.173223,
+    -8.920827,
+    13.310863,
+    -8.759227
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "0f4c2bd2-71a1-4b84-9cb7-94e55c49aea9",
+    "area_subtype": "locality",
+    "area_km2": 121.9
+   }
+  },
+  {
+   "slug": "chattogram",
+   "name": "Chattogram",
+   "local_name": "চট্টগ্রাম",
+   "country": "BD",
+   "country_name": "Bangladesh",
+   "population": 2592439,
+   "division_id": "42eebfb6-dac5-4dc6-af77-8b2be69f7015",
+   "wikidata": "Q376749",
+   "lon": 91.834435,
+   "lat": 22.333778,
+   "bbox": [
+    91.68876,
+    22.198122,
+    91.980109,
+    22.469434
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.3
+   }
+  },
+  {
+   "slug": "medan",
+   "name": "Medan",
+   "local_name": "Medan",
+   "country": "ID",
+   "country_name": "Indonesia",
+   "population": 2551006,
+   "division_id": "e8fbf4fe-19b0-4b80-9a78-21f314bdc80c",
+   "wikidata": "Q5972",
+   "lon": 98.674162,
+   "lat": 3.589462,
+   "bbox": [
+    98.592621,
+    3.479939,
+    98.747223,
+    3.801318
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "ecb4718f-7da6-421c-a661-f78d4d72d478",
+    "area_subtype": "county",
+    "area_km2": 278.6
+   }
+  },
+  {
+   "slug": "daegu",
+   "name": "Daegu",
+   "local_name": "대구광역시",
+   "country": "KR",
+   "country_name": "South Korea",
+   "population": 2468222,
+   "division_id": "ea451a13-9630-4d40-a0ed-6b97892f3265",
+   "wikidata": "Q20927",
+   "lon": 128.6018,
+   "lat": 35.8713,
+   "bbox": [
+    128.351181,
+    35.606758,
+    128.899445,
+    36.327114
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "71490509-f76f-4cba-befb-214793126dd2",
+    "area_subtype": "region",
+    "area_km2": 1495.6
+   }
+  },
+  {
+   "slug": "guatemala-city",
+   "name": "Guatemala City",
+   "local_name": "Ciudad de Guatemala",
+   "country": "GT",
+   "country_name": "Guatemala",
+   "population": 2450212,
+   "division_id": "dca5a286-700b-457f-908e-f6d7f122bfb7",
+   "wikidata": "Q1555",
+   "lon": -90.513284,
+   "lat": 14.641614,
+   "bbox": [
+    -90.587097,
+    14.536407,
+    -90.385406,
+    14.713791
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e4e79d33-3dc6-48b2-aab0-996921880405",
+    "area_subtype": "county",
+    "area_km2": 225.3
+   }
+  },
+  {
+   "slug": "medellin",
+   "name": "Medellín",
+   "local_name": "Medellín",
+   "country": "CO",
+   "country_name": "Colombia",
+   "population": 2441123,
+   "division_id": "b2b1ee17-c1a4-47b1-8297-40e129d22f05",
+   "wikidata": "Q48278",
+   "lon": -75.573553,
+   "lat": 6.244338,
+   "bbox": [
+    -75.638847,
+    6.175317,
+    -75.521507,
+    6.31282
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5837e9ac-3746-4f87-bcc5-4be9f1ade885",
+    "area_subtype": "locality",
+    "area_km2": 109.2
+   }
+  },
+  {
+   "slug": "fortaleza",
+   "name": "Fortaleza",
+   "local_name": "Fortaleza",
+   "country": "BR",
+   "country_name": "Brazil",
+   "population": 2428708,
+   "division_id": "5efab83d-cbff-4821-ba4e-00220d675849",
+   "wikidata": "Q43463",
+   "lon": -38.521799,
+   "lat": -3.730451,
+   "bbox": [
+    -38.637909,
+    -3.894544,
+    -38.401325,
+    -3.692104
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "337bc6c3-45db-4d06-b175-2ad32165e310",
+    "area_subtype": "locality",
+    "area_km2": 312.1
+   }
+  },
+  {
+   "slug": "salvador",
+   "name": "Salvador",
+   "local_name": "Salvador",
+   "country": "BR",
+   "country_name": "Brazil",
+   "population": 2417678,
+   "division_id": "78bf6c8f-8ba9-4f2b-9fee-a0d77a97535d",
+   "wikidata": "Q36947",
+   "lon": -38.481277,
+   "lat": -12.98225,
+   "bbox": [
+    -38.699436,
+    -13.017395,
+    -38.303413,
+    -12.733561
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "42122b6b-e3c2-4322-b261-215eae697fc1",
+    "area_subtype": "locality",
+    "area_km2": 693.6
+   }
+  },
+  {
+   "slug": "dakar",
+   "name": "Dakar",
+   "local_name": "Dakar",
+   "country": "SN",
+   "country_name": "Senegal",
+   "population": 2396800,
+   "division_id": "af462cdd-eef6-4e6f-9bd6-a53196c8aa6d",
+   "wikidata": "Q3718",
+   "lon": -17.447938,
+   "lat": 14.693425,
+   "bbox": [
+    -17.58724,
+    14.557769,
+    -17.308636,
+    14.829081
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.6
+   }
+  },
+  {
+   "slug": "kano",
+   "name": "Kano",
+   "local_name": "Kano",
+   "country": "NG",
+   "country_name": "Nigeria",
+   "population": 2395375,
+   "division_id": "143f153f-fd72-457d-8cae-0bdca56e99a4",
+   "wikidata": "Q182984",
+   "lon": 8.521974,
+   "lat": 11.993998,
+   "bbox": [
+    8.38422,
+    11.858342,
+    8.659728,
+    12.129654
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.4
+   }
+  },
+  {
+   "slug": "bandung",
+   "name": "Bandung",
+   "local_name": "Bandung",
+   "country": "ID",
+   "country_name": "Indonesia",
+   "population": 2390120,
+   "division_id": "8a6d64fc-27e2-462b-96c0-37212de05ab4",
+   "wikidata": "Q10389",
+   "lon": 107.607083,
+   "lat": -6.921846,
+   "bbox": [
+    107.545349,
+    -6.969748,
+    107.739532,
+    -6.836854
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "31c72cdf-7de2-4c7c-8b1d-b1ffbf82d149",
+    "area_subtype": "county",
+    "area_km2": 167.3
+   }
+  },
+  {
+   "slug": "accra",
+   "name": "Accra",
+   "local_name": "Accra",
+   "country": "GH",
+   "country_name": "Ghana",
+   "population": 2388000,
+   "division_id": "3367510f-9c1a-4e9d-b7cf-450d69809ae1",
+   "wikidata": "Q3761",
+   "lon": -0.201238,
+   "lat": 5.55711,
+   "bbox": [
+    -0.284271,
+    5.516926,
+    -0.054856,
+    5.667368
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d2af7375-8b7c-418a-b912-116e92f580cb",
+    "area_subtype": "locality",
+    "area_km2": 228.6
+   }
+  },
+  {
+   "slug": "bekasi",
+   "name": "Bekasi",
+   "local_name": "Bekasi",
+   "country": "ID",
+   "country_name": "Indonesia",
+   "population": 2334871,
+   "division_id": "ee14f769-9923-417a-9efe-245025184671",
+   "wikidata": "Q10392",
+   "lon": 106.994544,
+   "lat": -6.234986,
+   "bbox": [
+    106.89772,
+    -6.398606,
+    107.042473,
+    -6.171766
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "b2c428e9-c245-4dbf-8737-64984f57c1d8",
+    "area_subtype": "county",
+    "area_km2": 212.7
+   }
+  },
+  {
+   "slug": "almaty",
+   "name": "Almaty",
+   "local_name": "Алматы",
+   "country": "KZ",
+   "country_name": "Kazakhstan",
+   "population": 2332400,
+   "division_id": "4b80db6c-f006-4ed1-8995-167f7a116591",
+   "wikidata": "Q35493",
+   "lon": 76.945728,
+   "lat": 43.236392,
+   "bbox": [
+    76.742043,
+    43.032837,
+    77.166756,
+    43.403767
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "89127730-160b-4827-b37b-6e5a5d474b74",
+    "area_subtype": "region",
+    "area_km2": 703.9
+   }
+  },
+  {
+   "slug": "belo-horizonte",
+   "name": "Belo Horizonte",
+   "local_name": "Belo Horizonte",
+   "country": "BR",
+   "country_name": "Brazil",
+   "population": 2315560,
+   "division_id": "d755401d-99d2-446e-9b98-70fe0cc89e15",
+   "wikidata": "Q42800",
+   "lon": -43.945095,
+   "lat": -19.922732,
+   "bbox": [
+    -44.063293,
+    -20.059465,
+    -43.85722,
+    -19.776541
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "1c590b36-84af-4ea3-a872-3c12cf77e830",
+    "area_subtype": "locality",
+    "area_km2": 331.2
+   }
+  },
+  {
+   "slug": "houston",
+   "name": "Houston",
+   "local_name": "Houston",
+   "country": "US",
+   "country_name": "United States",
+   "population": 2304580,
+   "division_id": "16be5575-9111-44a1-8c4b-0e0298e627cd",
+   "wikidata": "Q16555",
+   "lon": -95.367697,
+   "lat": 29.758938,
+   "bbox": [
+    -95.909744,
+    29.537067,
+    -95.012039,
+    30.110353
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "264db8ea-74a4-488f-8e57-e9cca2c912bd",
+    "area_subtype": "locality",
+    "area_km2": 1588.9
+   }
+  },
+  {
+   "slug": "baku",
+   "name": "Baku",
+   "local_name": "Bakı",
+   "country": "AZ",
+   "country_name": "Azerbaijan",
+   "population": 2300500,
+   "division_id": "469a5a5e-7211-4f18-a8ee-dd669b6d4319",
+   "wikidata": "Q9248",
+   "lon": 49.832801,
+   "lat": 40.375588,
+   "bbox": [
+    49.655925,
+    40.239933,
+    50.009677,
+    40.511244
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.9
+   }
+  },
+  {
+   "slug": "valencia",
+   "name": "Valencia",
+   "local_name": "Valencia",
+   "country": "VE",
+   "country_name": "Venezuela",
+   "population": 2299026,
+   "division_id": "cad322f1-c348-429e-9805-53c1e6d36436",
+   "wikidata": "Q54880",
+   "lon": -68.000399,
+   "lat": 10.170026,
+   "bbox": [
+    -68.077888,
+    10.110398,
+    -67.910843,
+    10.277795
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "eddce50c-684b-4548-81cb-10a279e0d3fb",
+    "area_subtype": "locality",
+    "area_km2": 148.9
+   }
+  },
+  {
+   "slug": "brisbane",
+   "name": "Brisbane",
+   "local_name": "Brisbane",
+   "country": "AU",
+   "country_name": "Australia",
+   "population": 2287896,
+   "division_id": "a04b219a-98e1-45e1-bf62-80bb3ee87aff",
+   "wikidata": "Q34932",
+   "lon": 153.023501,
+   "lat": -27.468962,
+   "bbox": [
+    152.382721,
+    -27.938608,
+    153.546524,
+    -26.792267
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "a36ff749-cd33-42f6-b831-bcaf01fe8f34",
+    "area_subtype": "locality",
+    "area_km2": 6408.2
+   }
+  },
+  {
+   "slug": "cali",
+   "name": "Cali",
+   "local_name": "Cali",
+   "country": "CO",
+   "country_name": "Colombia",
+   "population": 2285099,
+   "division_id": "614d831a-e2ae-48ed-9c53-3e14575f975c",
+   "wikidata": "Q51103",
+   "lon": -76.532526,
+   "lat": 3.451999,
+   "bbox": [
+    -76.667518,
+    3.316343,
+    -76.397534,
+    3.587655
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "nagoya",
+   "name": "Nagoya",
+   "local_name": "名古屋市",
+   "country": "JP",
+   "country_name": "Japan",
+   "population": 2236000,
+   "division_id": "167fcf5c-c381-4432-9d45-585855c12335",
+   "wikidata": "Q11751",
+   "lon": 136.899844,
+   "lat": 35.185105,
+   "bbox": [
+    136.791962,
+    35.025948,
+    137.060913,
+    35.260235
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "9d7c465e-73af-458c-9f51-110f79d5dbce",
+    "area_subtype": "locality",
+    "area_km2": 341.8
+   }
+  },
+  {
+   "slug": "basra",
+   "name": "Basra",
+   "local_name": "البصرة",
+   "country": "IQ",
+   "country_name": "Iraq",
+   "population": 2150000,
+   "division_id": "88c09796-52fb-4f9d-acc1-e991e894a519",
+   "wikidata": "Q48195",
+   "lon": 47.809098,
+   "lat": 30.495237,
+   "bbox": [
+    47.65272,
+    30.359581,
+    47.965476,
+    30.630893
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.4
+   }
+  },
+  {
+   "slug": "paris",
+   "name": "Paris",
+   "local_name": "Paris",
+   "country": "FR",
+   "country_name": "France",
+   "population": 2133111,
+   "division_id": "8ac4f7a7-3596-4267-89a6-9ae3d1c6a634",
+   "wikidata": "Q90",
+   "lon": 2.348391,
+   "lat": 48.853495,
+   "bbox": [
+    2.224122,
+    48.815575,
+    2.46976,
+    48.902157
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "97b66514-3f41-47ac-a348-9cfd51d983d5",
+    "area_subtype": "locality",
+    "area_km2": 105.4
+   }
+  },
+  {
+   "slug": "aleppo",
+   "name": "Aleppo",
+   "local_name": "حلب",
+   "country": "SY",
+   "country_name": "Syria",
+   "population": 2132100,
+   "division_id": "955fd0a3-2d8b-4960-a9bf-5079a57415f7",
+   "wikidata": "Q41183",
+   "lon": 37.163725,
+   "lat": 36.19924,
+   "bbox": [
+    36.996746,
+    36.063584,
+    37.330704,
+    36.334896
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.3
+   }
+  },
+  {
+   "slug": "tripoli",
+   "name": "Tripoli",
+   "local_name": "طرابلس",
+   "country": "LY",
+   "country_name": "Libya",
+   "population": 2127000,
+   "division_id": "74d48ca5-8ed2-46ab-9c2f-68864d64ba22",
+   "wikidata": "Q3579",
+   "lon": 13.177792,
+   "lat": 32.896672,
+   "bbox": [
+    13.065738,
+    32.625305,
+    13.598142,
+    32.921223
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "f86bbf89-2e30-486e-891c-03c1a5622d68",
+    "area_subtype": "locality",
+    "area_km2": 842.4
+   }
+  },
+  {
+   "slug": "rawalpindi",
+   "name": "Rawalpindi",
+   "local_name": "راولپنڈی",
+   "country": "PK",
+   "country_name": "Pakistan",
+   "population": 2098231,
+   "division_id": "50a301d2-62c7-499a-b982-418f5bcd11c8",
+   "wikidata": "Q93230",
+   "lon": 73.053721,
+   "lat": 33.591545,
+   "bbox": [
+    72.891961,
+    33.455889,
+    73.215481,
+    33.7272
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.9
+   }
+  },
+  {
+   "slug": "perth",
+   "name": "Perth",
+   "local_name": "Perth",
+   "country": "AU",
+   "country_name": "Australia",
+   "population": 2043762,
+   "division_id": "65d302b4-cc8e-44b3-a333-bc6df5209583",
+   "wikidata": "Q14229145",
+   "lon": 115.860578,
+   "lat": -31.955897,
+   "bbox": [
+    115.701764,
+    -32.091552,
+    116.019392,
+    -31.820241
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.6
+   }
+  },
+  {
+   "slug": "vienna",
+   "name": "Vienna",
+   "local_name": "Wien",
+   "country": "AT",
+   "country_name": "Austria",
+   "population": 2042036,
+   "division_id": "a1f6236b-6bd6-4ce9-b4e6-cf8b9d1d68fa",
+   "wikidata": "Q1741",
+   "lon": 16.372504,
+   "lat": 48.208354,
+   "bbox": [
+    16.181829,
+    48.117901,
+    16.577515,
+    48.322674
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4f0b811b-6fc3-4ef1-8896-6e2eeac2202f",
+    "area_subtype": "region",
+    "area_km2": 414.9
+   }
+  },
+  {
+   "slug": "gujranwala",
+   "name": "Gujranwala",
+   "local_name": "گوجرانوالہ",
+   "country": "PK",
+   "country_name": "Pakistan",
+   "population": 2027001,
+   "division_id": "b93a63eb-f027-4ee7-8c81-8136524fafc4",
+   "wikidata": "Q243322",
+   "lon": 74.193375,
+   "lat": 32.152531,
+   "bbox": [
+    74.034219,
+    32.016875,
+    74.35253,
+    32.288187
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.6
+   }
+  },
+  {
+   "slug": "phnom-penh",
+   "name": "Phnom Penh",
+   "local_name": "រាជធានីភ្នំពេញ",
+   "country": "KH",
+   "country_name": "Cambodia",
+   "population": 2009264,
+   "division_id": "e4f1c114-7e45-40b4-9cb5-4cbef425ba91",
+   "wikidata": "Q1850",
+   "lon": 104.922443,
+   "lat": 11.568271,
+   "bbox": [
+    104.72039,
+    11.420085,
+    105.037376,
+    11.734954
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "a4ef2414-0113-45ec-bdd9-8e85652e9133",
+    "area_subtype": "region",
+    "area_km2": 689.0
+   }
+  },
+  {
+   "slug": "maracaibo",
+   "name": "Maracaibo",
+   "local_name": "Maracaibo",
+   "country": "VE",
+   "country_name": "Venezuela",
+   "population": 2000000,
+   "division_id": "37c47514-0689-4bcf-932d-aa859d5ae9fd",
+   "wikidata": "Q171632",
+   "lon": -71.64436,
+   "lat": 10.649809,
+   "bbox": [
+    -71.781468,
+    10.514154,
+    -71.507251,
+    10.785465
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.3
+   }
+  },
+  {
+   "slug": "douala",
+   "name": "Douala",
+   "local_name": "Communauté urbaine de Douala",
+   "country": "CM",
+   "country_name": "Cameroon",
+   "population": 2000000,
+   "division_id": "3a3bbe61-e372-4f14-98b3-9fcabac80fdb",
+   "wikidata": "Q132830",
+   "lon": 9.706202,
+   "lat": 4.042939,
+   "bbox": [
+    9.336133,
+    3.740716,
+    9.864412,
+    4.225236
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "aab45b9c-df96-42c3-bf48-4e45ef84c9d9",
+    "area_subtype": "locality",
+    "area_km2": 974.5
+   }
+  },
+  {
+   "slug": "goma",
+   "name": "Goma",
+   "local_name": "Goma",
+   "country": "CD",
+   "country_name": "Democratic Republic of the Congo",
+   "population": 2000000,
+   "division_id": "d1b7eb3b-11ad-46fa-8e5f-4699fc8fed9a",
+   "wikidata": "Q204381",
+   "lon": 29.225652,
+   "lat": -1.666568,
+   "bbox": [
+    29.090848,
+    -1.802224,
+    29.360456,
+    -1.530913
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "minsk",
+   "name": "Minsk",
+   "local_name": "Мінск",
+   "country": "BY",
+   "country_name": "Belarus",
+   "population": 1995471,
+   "division_id": "1e2d8220-ef83-478d-b1ac-48350fba49c8",
+   "wikidata": "Q2280",
+   "lon": 27.561823,
+   "lat": 53.902472,
+   "bbox": [
+    27.374014,
+    53.793846,
+    28.07995,
+    53.97179
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "b901b9e5-7849-4d32-843f-9ad77206aa13",
+    "area_subtype": "region",
+    "area_km2": 353.2
+   }
+  },
+  {
+   "slug": "kuala-lumpur",
+   "name": "Kuala Lumpur",
+   "local_name": "Kuala Lumpur",
+   "country": "MY",
+   "country_name": "Malaysia",
+   "population": 1982112,
+   "division_id": "7e3706d1-3a73-4b9c-aa35-aa6f6d0a35b7",
+   "wikidata": "Q1865",
+   "lon": 101.694237,
+   "lat": 3.151696,
+   "bbox": [
+    101.615135,
+    3.033397,
+    101.758507,
+    3.244554
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "04954ddf-5b8c-4825-aa2d-99743b84ffc5",
+    "area_subtype": "region",
+    "area_km2": 242.8
+   }
+  },
+  {
+   "slug": "sapporo",
+   "name": "Sapporo",
+   "local_name": "札幌市",
+   "country": "JP",
+   "country_name": "Japan",
+   "population": 1973395,
+   "division_id": "6d06e912-9045-4b10-a3b2-471f30264cd7",
+   "wikidata": "Q37951",
+   "lon": 141.354292,
+   "lat": 43.061936,
+   "bbox": [
+    140.990494,
+    42.780704,
+    141.505432,
+    43.189995
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "acaf57a4-6149-42e0-aa6b-7d35140b1a49",
+    "area_subtype": "locality",
+    "area_km2": 1121.2
+   }
+  },
+  {
+   "slug": "isfahan",
+   "name": "Isfahan",
+   "local_name": "اصفهان",
+   "country": "IR",
+   "country_name": "Iran",
+   "population": 1961260,
+   "division_id": "ccfc19d0-085f-4a05-a1eb-b7e841ba7e20",
+   "wikidata": "Q42053",
+   "lon": 51.665,
+   "lat": 32.670788,
+   "bbox": [
+    51.525631,
+    32.504642,
+    51.865376,
+    32.820396
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "cdea25e8-19d5-4871-ba2a-2666160fa800",
+    "area_subtype": "locality",
+    "area_km2": 550.2
+   }
+  },
+  {
+   "slug": "hargeisa",
+   "name": "Hargeisa",
+   "local_name": "Hargeysa هرجيسا",
+   "country": "SO",
+   "country_name": "Somalia",
+   "population": 1960000,
+   "division_id": "e48ba084-26dc-4d23-8a8b-48b0c0e6f629",
+   "wikidata": "Q168652",
+   "lon": 44.061803,
+   "lat": 9.561733,
+   "bbox": [
+    43.925158,
+    9.426077,
+    44.198448,
+    9.697389
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.2
+   }
+  },
+  {
+   "slug": "brazzaville",
+   "name": "Brazzaville",
+   "local_name": "Brazzaville",
+   "country": "CG",
+   "country_name": "Republic of the Congo",
+   "population": 1932610,
+   "division_id": "a1e3d1d3-d841-4d1c-aa07-7bef45ef0fad",
+   "wikidata": "Q3844",
+   "lon": 15.271226,
+   "lat": -4.269441,
+   "bbox": [
+    15.136104,
+    -4.405096,
+    15.406347,
+    -4.133785
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "ouagadougou",
+   "name": "Ouagadougou",
+   "local_name": "Ouagadougou",
+   "country": "BF",
+   "country_name": "Burkina Faso",
+   "population": 1915102,
+   "division_id": "a0535ea7-7f00-455b-970c-67057159e729",
+   "wikidata": "Q3777",
+   "lon": -1.527094,
+   "lat": 12.368187,
+   "bbox": [
+    -1.665043,
+    12.232532,
+    -1.389146,
+    12.503843
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.4
+   }
+  },
+  {
+   "slug": "manila",
+   "name": "Manila",
+   "local_name": "Manila",
+   "country": "PH",
+   "country_name": "Philippines",
+   "population": 1902590,
+   "division_id": "7973b692-4d6f-4090-9058-a4909beecb0f",
+   "wikidata": "Q1461",
+   "lon": 120.980362,
+   "lat": 14.590449,
+   "bbox": [
+    120.791702,
+    14.550823,
+    121.026169,
+    14.639547
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "2dc681b4-a92b-4dca-b294-ab843c27fd86",
+    "area_subtype": "locality",
+    "area_km2": 179.0
+   }
+  },
+  {
+   "slug": "tainan",
+   "name": "Tainan",
+   "local_name": "臺南市",
+   "country": "TW",
+   "country_name": "Taiwan",
+   "population": 1886033,
+   "division_id": "0533882e-70a6-4dd4-8ace-34bb8090fbcf",
+   "wikidata": "Q140631",
+   "lon": 120.184982,
+   "lat": 22.991235,
+   "bbox": [
+    120.034752,
+    22.887503,
+    120.656265,
+    23.413713
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "887f8946-20c8-4334-9662-2d13483097f0",
+    "area_subtype": "region",
+    "area_km2": 2244.3
+   }
+  },
+  {
+   "slug": "bucharest",
+   "name": "Bucharest",
+   "local_name": "București",
+   "country": "RO",
+   "country_name": "Romania",
+   "population": 1883425,
+   "division_id": "7ba7aafc-7443-40ee-b6fe-2d3699911d4e",
+   "wikidata": "Q19660",
+   "lon": 26.102684,
+   "lat": 44.436141,
+   "bbox": [
+    25.966671,
+    44.33424,
+    26.22558,
+    44.541397
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d8d312b9-3b66-4d38-a95e-6849103b31bc",
+    "area_subtype": "region",
+    "area_km2": 239.0
+   }
+  },
+  {
+   "slug": "warsaw",
+   "name": "Warsaw",
+   "local_name": "Warszawa",
+   "country": "PL",
+   "country_name": "Poland",
+   "population": 1863845,
+   "division_id": "36bdc2dc-d28a-489e-a902-18844abe1a5d",
+   "wikidata": "Q270",
+   "lon": 21.006725,
+   "lat": 52.231958,
+   "bbox": [
+    20.851686,
+    52.097843,
+    21.271154,
+    52.36816
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "f9beb2c9-faf0-4a39-ba96-744b1e23bd9a",
+    "area_subtype": "locality",
+    "area_km2": 517.1
+   }
+  },
+  {
+   "slug": "hamburg",
+   "name": "Hamburg",
+   "local_name": "Hamburg",
+   "country": "DE",
+   "country_name": "Germany",
+   "population": 1862565,
+   "division_id": "0276a018-8212-42c2-a976-1112458bf537",
+   "wikidata": "Q1055",
+   "lon": 10.001316,
+   "lat": 53.550172,
+   "bbox": [
+    9.774516,
+    53.414516,
+    10.228117,
+    53.685828
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 712.1
+   }
+  },
+  {
+   "slug": "davao-city",
+   "name": "Davao City",
+   "local_name": "Davao City",
+   "country": "PH",
+   "country_name": "Philippines",
+   "population": 1848947,
+   "division_id": "0670dac4-c5a6-4792-98ca-8b8d40e54efd",
+   "wikidata": "Q1473",
+   "lon": 125.608062,
+   "lat": 7.064831,
+   "bbox": [
+    125.21759,
+    6.95621,
+    125.697197,
+    7.605795
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "70cb9e1c-4b0a-47d2-adbb-0d67c07e91d5",
+    "area_subtype": "locality",
+    "area_km2": 2487.3
+   }
+  },
+  {
+   "slug": "mosul",
+   "name": "Mosul",
+   "local_name": "الموصل",
+   "country": "IQ",
+   "country_name": "Iraq",
+   "population": 1848000,
+   "division_id": "dd369b1b-8e58-48d9-86e0-843a2b74854e",
+   "wikidata": "Q83317",
+   "lon": 43.129139,
+   "lat": 36.341584,
+   "bbox": [
+    42.961855,
+    36.205929,
+    43.296422,
+    36.47724
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.3
+   }
+  },
+  {
+   "slug": "yaounde",
+   "name": "Yaoundé",
+   "local_name": "Communauté urbaine de Yaoundé",
+   "country": "CM",
+   "country_name": "Cameroon",
+   "population": 1817524,
+   "division_id": "5117453c-e493-43bc-bfe3-1d76ec7e0805",
+   "wikidata": "Q3808",
+   "lon": 11.521334,
+   "lat": 3.868987,
+   "bbox": [
+    11.411183,
+    3.713403,
+    11.574806,
+    3.969196
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "f935b7ad-41bc-41bd-a765-6eadbe4425f8",
+    "area_subtype": "locality",
+    "area_km2": 287.8
+   }
+  },
+  {
+   "slug": "tijuana",
+   "name": "Tijuana",
+   "local_name": "Tijuana",
+   "country": "MX",
+   "country_name": "Mexico",
+   "population": 1810645,
+   "division_id": "7ca3e8f2-8cf6-4a1a-8a7b-ed373b319791",
+   "wikidata": "Q124739",
+   "lon": -117.037123,
+   "lat": 32.536477,
+   "bbox": [
+    -117.196956,
+    32.400822,
+    -116.877291,
+    32.672133
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.7
+   }
+  },
+  {
+   "slug": "bamako",
+   "name": "Bamako",
+   "local_name": "Bamako",
+   "country": "ML",
+   "country_name": "Mali",
+   "population": 1809106,
+   "division_id": "2a2eb0bd-4c2b-4d63-bceb-ede57f3ff347",
+   "wikidata": "Q3703",
+   "lon": -8.000337,
+   "lat": 12.649319,
+   "bbox": [
+    -8.07382,
+    12.511324,
+    -7.900566,
+    12.713689
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "1edf5265-6d78-4b92-b6af-30641c25919c",
+    "area_subtype": "county",
+    "area_km2": 249.3
+   }
+  },
+  {
+   "slug": "montreal",
+   "name": "Montreal",
+   "local_name": "Montréal",
+   "country": "CA",
+   "country_name": "Canada",
+   "population": 1762949,
+   "division_id": "9d11a0e5-74db-4d17-9090-96f1b9172543",
+   "wikidata": "Q340",
+   "lon": -73.569806,
+   "lat": 45.503182,
+   "bbox": [
+    -73.974159,
+    45.410069,
+    -73.474289,
+    45.704796
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "63ac3fa3-8d18-45d4-9e43-837071e1bda3",
+    "area_subtype": "locality",
+    "area_km2": 440.9
+   }
+  },
+  {
+   "slug": "havana",
+   "name": "Havana",
+   "local_name": "La Habana",
+   "country": "CU",
+   "country_name": "Cuba",
+   "population": 1749964,
+   "division_id": "dfa6f636-6545-41de-bfb9-dd497a2068a2",
+   "wikidata": "Q1563",
+   "lon": -82.358963,
+   "lat": 23.135305,
+   "bbox": [
+    -82.505494,
+    22.999649,
+    -82.212432,
+    23.270961
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.4
+   }
+  },
+  {
+   "slug": "kigali",
+   "name": "Kigali",
+   "local_name": "Kigali",
+   "country": "RW",
+   "country_name": "Rwanda",
+   "population": 1745555,
+   "division_id": "5215b144-6494-4d08-8ac6-8c1c6986f7bf",
+   "wikidata": "Q3859",
+   "lon": 30.114009,
+   "lat": -1.953436,
+   "bbox": [
+    29.979523,
+    -2.079822,
+    30.279871,
+    -1.779581
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "95183faa-0178-4b66-95f2-91f635f49348",
+    "area_subtype": "region",
+    "area_km2": 738.2
+   }
+  },
+  {
+   "slug": "lusaka",
+   "name": "Lusaka",
+   "local_name": "Lusaka",
+   "country": "ZM",
+   "country_name": "Zambia",
+   "population": 1742979,
+   "division_id": "0d731abd-6598-40c2-a075-ec4046f096b8",
+   "wikidata": "Q3881",
+   "lon": 28.281841,
+   "lat": -15.416339,
+   "bbox": [
+    28.142066,
+    -15.551995,
+    28.421617,
+    -15.280684
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.6
+   }
+  },
+  {
+   "slug": "bamenda",
+   "name": "Bamenda",
+   "local_name": "Communauté urbaine de Bamenda",
+   "country": "CM",
+   "country_name": "Cameroon",
+   "population": 1735000,
+   "division_id": "0b78d890-6bb0-4e5e-8631-db81273ca9cf",
+   "wikidata": "Q528432",
+   "lon": 10.151651,
+   "lat": 5.961412,
+   "bbox": [
+    10.028194,
+    5.859824,
+    10.286434,
+    6.048189
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "853c419f-4d6d-4969-84ea-6b23ebd7359e",
+    "area_subtype": "locality",
+    "area_km2": 329.9
+   }
+  },
+  {
+   "slug": "al-hillah",
+   "name": "Al Hillah",
+   "local_name": "الحلة",
+   "country": "IQ",
+   "country_name": "Iraq",
+   "population": 1729666,
+   "division_id": "3f3998be-7554-41e2-b04a-a115f2cdb641",
+   "wikidata": "Q243846",
+   "lon": 44.432813,
+   "lat": 32.482245,
+   "bbox": [
+    44.273077,
+    32.346589,
+    44.592549,
+    32.617901
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.7
+   }
+  },
+  {
+   "slug": "erbil",
+   "name": "Erbil",
+   "local_name": "ھەولێر",
+   "country": "IQ",
+   "country_name": "Iraq",
+   "population": 1713461,
+   "division_id": "5f32930b-305c-4808-9395-c9ebd6efee30",
+   "wikidata": "Q132754",
+   "lon": 44.009414,
+   "lat": 36.191174,
+   "bbox": [
+    43.842453,
+    36.055519,
+    44.176376,
+    36.32683
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.3
+   }
+  },
+  {
+   "slug": "barcelona",
+   "name": "Barcelona",
+   "local_name": "Barcelona",
+   "country": "ES",
+   "country_name": "Spain",
+   "population": 1713247,
+   "division_id": "b7c512e6-208d-45a5-ac47-08ccdfa1cd0a",
+   "wikidata": "Q1492",
+   "lon": 2.177073,
+   "lat": 41.38258,
+   "bbox": [
+    2.052498,
+    41.317032,
+    2.228356,
+    41.467915
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "606cd3e3-a2c9-49d0-bd8b-b2191a15feae",
+    "area_subtype": "locality",
+    "area_km2": 101.3
+   }
+  },
+  {
+   "slug": "karaj",
+   "name": "Karaj",
+   "local_name": "کرج",
+   "country": "IR",
+   "country_name": "Iran",
+   "population": 1712000,
+   "division_id": "f8155ca5-b840-4d90-83bf-32bd6879af8a",
+   "wikidata": "Q36529",
+   "lon": 50.990468,
+   "lat": 35.822489,
+   "bbox": [
+    50.8466,
+    35.765736,
+    51.047909,
+    35.888386
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "bf8b847a-92e6-4d2b-a83b-2cf9023d370c",
+    "area_subtype": "locality",
+    "area_km2": 137.4
+   }
+  },
+  {
+   "slug": "garoua",
+   "name": "Garoua",
+   "local_name": "Communauté urbaine de Garoua",
+   "country": "CM",
+   "country_name": "Cameroon",
+   "population": 1703000,
+   "division_id": "c1fad6e0-343c-458b-b941-e5dc8ac8c192",
+   "wikidata": "Q157915",
+   "lon": 13.393453,
+   "lat": 9.30707,
+   "bbox": [
+    13.328127,
+    9.194309,
+    13.574765,
+    9.420701
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "22f26796-3974-4688-afb8-cfc8f2f7984f",
+    "area_subtype": "locality",
+    "area_km2": 424.4
+   }
+  },
+  {
+   "slug": "budapest",
+   "name": "Budapest",
+   "local_name": "Budapest",
+   "country": "HU",
+   "country_name": "Hungary",
+   "population": 1686222,
+   "division_id": "5b68bcaa-b122-42e3-8af4-b666cf0dd426",
+   "wikidata": "Q1781",
+   "lon": 19.040238,
+   "lat": 47.497879,
+   "bbox": [
+    18.925104,
+    47.349689,
+    19.334927,
+    47.613148
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "3a05a00c-fbd0-46c6-a735-0750e13d00de",
+    "area_subtype": "locality",
+    "area_km2": 526.0
+   }
+  },
+  {
+   "slug": "mbuji-mayi",
+   "name": "Mbuji-Mayi",
+   "local_name": "Mbuji-Mayi",
+   "country": "CD",
+   "country_name": "Democratic Republic of the Congo",
+   "population": 1680991,
+   "division_id": "c351bc37-c2cd-4bb3-a4a3-5f79e69a13ac",
+   "wikidata": "Q319660",
+   "lon": 23.599811,
+   "lat": -6.125894,
+   "bbox": [
+    23.464291,
+    -6.26155,
+    23.735332,
+    -5.990238
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.1
+   }
+  },
+  {
+   "slug": "ulaanbaatar",
+   "name": "Ulaanbaatar",
+   "local_name": "Улаанбаатар ᠤᠯᠠᠭᠠᠨ ᠪᠠᠭᠠᠲᠤᠷ",
+   "country": "MN",
+   "country_name": "Mongolia",
+   "population": 1672627,
+   "division_id": "f7b66945-2e86-4ee2-93b3-28bebbd70093",
+   "wikidata": "Q23430",
+   "lon": 106.917702,
+   "lat": 47.918468,
+   "bbox": [
+    106.716643,
+    47.782812,
+    107.11876,
+    48.054123
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 711.2
+   }
+  },
+  {
+   "slug": "caloocan",
+   "name": "Caloocan",
+   "local_name": "Caloocan",
+   "country": "PH",
+   "country_name": "Philippines",
+   "population": 1661584,
+   "division_id": "22de69df-65ba-4e65-9ef6-f1f7bfb7e7b1",
+   "wikidata": "Q1478",
+   "lon": 120.972384,
+   "lat": 14.651345,
+   "bbox": [
+    120.96064,
+    14.635558,
+    121.099075,
+    14.785336
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "caa07d78-d4ed-47db-a591-be4fa25004ed",
+    "area_subtype": "locality",
+    "area_km2": 52.8
+   }
+  },
+  {
+   "slug": "conakry",
+   "name": "Conakry",
+   "local_name": "Conakry",
+   "country": "GN",
+   "country_name": "Guinea",
+   "population": 1660973,
+   "division_id": "29ef4d12-75cc-484a-ba70-f203e826a155",
+   "wikidata": "Q3733",
+   "lon": -13.699843,
+   "lat": 9.51706,
+   "bbox": [
+    -13.84029,
+    9.432191,
+    -13.473817,
+    9.753367
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d8fb705e-f729-45a1-8167-3cf3c3374d58",
+    "area_subtype": "region",
+    "area_km2": 338.4
+   }
+  },
+  {
+   "slug": "cordoba",
+   "name": "Cordoba",
+   "local_name": "Córdoba",
+   "country": "AR",
+   "country_name": "Argentina",
+   "population": 1655481,
+   "division_id": "f48c9e81-af22-4c4c-b571-5ebc1dba9090",
+   "wikidata": "Q44210",
+   "lon": -64.183419,
+   "lat": -31.416687,
+   "bbox": [
+    -64.310097,
+    -31.525127,
+    -64.057243,
+    -31.308329
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5794871a-52fd-40e7-9e6c-788ba7a1f431",
+    "area_subtype": "locality",
+    "area_km2": 576.0
+   }
+  },
+  {
+   "slug": "ecatepec",
+   "name": "Ecatepec",
+   "local_name": "Ecatepec",
+   "country": "MX",
+   "country_name": "Mexico",
+   "population": 1645352,
+   "division_id": "58963006-fcc5-4da8-832b-87c20dbf1708",
+   "wikidata": "Q15121208",
+   "lon": -99.048728,
+   "lat": 19.599408,
+   "bbox": [
+    -99.118599,
+    19.48457,
+    -98.975761,
+    19.659149
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "ac662f53-c23f-434d-8406-43487f24bf45",
+    "area_subtype": "county",
+    "area_km2": 156.2
+   }
+  },
+  {
+   "slug": "novosibirsk",
+   "name": "Novosibirsk",
+   "local_name": "Новосибирск",
+   "country": "RU",
+   "country_name": "Russia",
+   "population": 1620162,
+   "division_id": "4be44de5-2599-4a48-b93c-4e11cb9c0fb6",
+   "wikidata": "Q883",
+   "lon": 82.922689,
+   "lat": 55.028831,
+   "bbox": [
+    82.751129,
+    54.800903,
+    83.16024,
+    55.199463
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d7df5774-c1c2-4de1-bec4-382c934c27cc",
+    "area_subtype": "locality",
+    "area_km2": 502.7
+   }
+  },
+  {
+   "slug": "santa-cruz-de-la-sierra",
+   "name": "Santa Cruz de la Sierra",
+   "local_name": "Santa Cruz de la Sierra",
+   "country": "BO",
+   "country_name": "Bolivia",
+   "population": 1610982,
+   "division_id": "8b3ba542-a9db-4e70-947c-2844c2378b28",
+   "wikidata": "Q170688",
+   "lon": -63.182085,
+   "lat": -17.783422,
+   "bbox": [
+    -63.284084,
+    -18.017914,
+    -62.76265,
+    -17.508097
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "207b7848-3a19-4a61-be03-b4671e52ee13",
+    "area_subtype": "locality",
+    "area_km2": 1269.2
+   }
+  },
+  {
+   "slug": "phoenix",
+   "name": "Phoenix",
+   "local_name": "Phoenix",
+   "country": "US",
+   "country_name": "United States",
+   "population": 1608139,
+   "division_id": "691048cf-5f57-4ca8-8918-b96c724e2c7a",
+   "wikidata": "Q16556",
+   "lon": -112.074141,
+   "lat": 33.448437,
+   "bbox": [
+    -112.324043,
+    33.290482,
+    -111.925529,
+    33.918381
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "ca43c9df-b2c8-445d-9b95-e7952335ce08",
+    "area_subtype": "locality",
+    "area_km2": 1344.8
+   }
+  },
+  {
+   "slug": "harare",
+   "name": "Harare",
+   "local_name": "Harare",
+   "country": "ZW",
+   "country_name": "Zimbabwe",
+   "population": 1606000,
+   "division_id": "f4029be6-aba3-44ec-95bc-9c02df71e8fa",
+   "wikidata": "Q3921",
+   "lon": 31.045686,
+   "lat": -17.831773,
+   "bbox": [
+    30.877424,
+    -18.050995,
+    31.221451,
+    -17.657162
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "38763015-c1b6-4fe4-a49a-1d8ccff14983",
+    "area_subtype": "region",
+    "area_km2": 957.7
+   }
+  },
+  {
+   "slug": "leon",
+   "name": "León",
+   "local_name": "León",
+   "country": "MX",
+   "country_name": "Mexico",
+   "population": 1579803,
+   "division_id": "89dd936a-118b-43aa-bd6c-b9d9ec789cae",
+   "wikidata": "Q189128",
+   "lon": -101.682977,
+   "lat": 21.121965,
+   "bbox": [
+    -101.827428,
+    20.986309,
+    -101.538525,
+    21.257621
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.2
+   }
+  },
+  {
+   "slug": "shiraz",
+   "name": "Shiraz",
+   "local_name": "شیراز",
+   "country": "IR",
+   "country_name": "Iran",
+   "population": 1565572,
+   "division_id": "2ba9e7f9-4c08-4a30-b770-ac3e5f43180d",
+   "wikidata": "Q6397066",
+   "lon": 52.537804,
+   "lat": 29.606022,
+   "bbox": [
+    52.382248,
+    29.498737,
+    52.667515,
+    29.840349
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5cebda22-4e5e-4aaf-b45b-07c20636ec19",
+    "area_subtype": "locality",
+    "area_km2": 267.2
+   }
+  },
+  {
+   "slug": "puebla",
+   "name": "Puebla",
+   "local_name": "Puebla",
+   "country": "MX",
+   "country_name": "Mexico",
+   "population": 1542232,
+   "division_id": "e1319054-6eea-45ac-a75f-b4b02d63e2c0",
+   "wikidata": "Q125293",
+   "lon": -98.198151,
+   "lat": 19.043798,
+   "bbox": [
+    -98.3407,
+    18.908142,
+    -98.055603,
+    19.179453
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.0
+   }
+  },
+  {
+   "slug": "mecca",
+   "name": "Mecca",
+   "local_name": "مكة",
+   "country": "SA",
+   "country_name": "Saudi Arabia",
+   "population": 1534731,
+   "division_id": "e3161c55-6dde-4b67-94fe-32da4a2b3fc2",
+   "wikidata": "Q5806",
+   "lon": 39.826869,
+   "lat": 21.420847,
+   "bbox": [
+    39.505852,
+    21.119816,
+    40.475616,
+    21.848043
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e4917ca4-8167-4220-a34a-c697952d92b8",
+    "area_subtype": "county",
+    "area_km2": 3851.7
+   }
+  },
+  {
+   "slug": "sana-a",
+   "name": "Sana'a",
+   "local_name": "صنعاء",
+   "country": "YE",
+   "country_name": "Yemen",
+   "population": 1527861,
+   "division_id": "17888179-7138-455b-a9d7-0cd21b5385d8",
+   "wikidata": "Q2471",
+   "lon": 44.205884,
+   "lat": 15.353857,
+   "bbox": [
+    44.06615,
+    15.218201,
+    44.345618,
+    15.489513
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.6
+   }
+  },
+  {
+   "slug": "kumasi",
+   "name": "Kumasi",
+   "local_name": "Kumasi",
+   "country": "GH",
+   "country_name": "Ghana",
+   "population": 1517000,
+   "division_id": "922526cf-7aa3-443d-a301-7b0c21ed8fb0",
+   "wikidata": "Q182059",
+   "lon": -1.623309,
+   "lat": 6.698561,
+   "bbox": [
+    -1.758981,
+    6.562905,
+    -1.487636,
+    6.834216
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.1
+   }
+  },
+  {
+   "slug": "kampala",
+   "name": "Kampala",
+   "local_name": "Kampala",
+   "country": "UG",
+   "country_name": "Uganda",
+   "population": 1516210,
+   "division_id": "ae7f1dd6-21fc-4643-a5f6-38780b2b7ca2",
+   "wikidata": "Q3894",
+   "lon": 32.581354,
+   "lat": 0.317714,
+   "bbox": [
+    32.446605,
+    0.182058,
+    32.716103,
+    0.453369
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "yekaterinburg",
+   "name": "Yekaterinburg",
+   "local_name": "Екатеринбург",
+   "country": "RU",
+   "country_name": "Russia",
+   "population": 1495066,
+   "division_id": "6a6ec8ed-9149-420f-a168-84c9500dfd44",
+   "wikidata": "Q887",
+   "lon": 60.600789,
+   "lat": 56.838207,
+   "bbox": [
+    60.00708,
+    56.593739,
+    60.943283,
+    56.982693
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "a5c6960b-0889-465c-ba13-8c5ce2a9bf51",
+    "area_subtype": "locality",
+    "area_km2": 1111.0
+   }
+  },
+  {
+   "slug": "munich",
+   "name": "Munich",
+   "local_name": "München",
+   "country": "DE",
+   "country_name": "Germany",
+   "population": 1484226,
+   "division_id": "694b5dbd-13eb-4d10-853f-88e338d5b53b",
+   "wikidata": "Q1726",
+   "lon": 11.575382,
+   "lat": 48.137108,
+   "bbox": [
+    11.360777,
+    48.061623,
+    11.72291,
+    48.248123
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "e1b8fbff-ab6b-4d52-acb9-6e06e133a161",
+    "area_subtype": "county",
+    "area_km2": 310.7
+   }
+  },
+  {
+   "slug": "gwangju",
+   "name": "Gwangju",
+   "local_name": "광주",
+   "country": "KR",
+   "country_name": "South Korea",
+   "population": 1460745,
+   "division_id": "76c77c98-05aa-4c13-b1b2-6fb946f5751b",
+   "wikidata": "Q41283",
+   "lon": 126.851503,
+   "lat": 35.159465,
+   "bbox": [
+    126.686686,
+    35.023809,
+    127.016321,
+    35.29512
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 709.1
+   }
+  },
+  {
+   "slug": "kharkiv",
+   "name": "Kharkiv",
+   "local_name": "Харків",
+   "country": "UA",
+   "country_name": "Ukraine",
+   "population": 1447652,
+   "division_id": "b3e1c3c0-0d58-450d-b6d3-33f5b1032989",
+   "wikidata": "Q42308",
+   "lon": 36.231015,
+   "lat": 49.992318,
+   "bbox": [
+    36.105553,
+    49.878475,
+    36.45549,
+    50.104759
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "936f7bf6-c132-44d2-8033-dd9e2360a379",
+    "area_subtype": "locality",
+    "area_km2": 350.0
+   }
+  },
+  {
+   "slug": "maracay",
+   "name": "Maracay",
+   "local_name": "Maracay",
+   "country": "VE",
+   "country_name": "Venezuela",
+   "population": 1425606,
+   "division_id": "aa1a4cc2-5ac9-48df-a78c-4dba185b7691",
+   "wikidata": "Q333928",
+   "lon": -67.589022,
+   "lat": 10.237514,
+   "bbox": [
+    -67.669075,
+    10.203549,
+    -67.540131,
+    10.330569
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "78003769-9a59-4721-a55b-7f86ecf33d15",
+    "area_subtype": "locality",
+    "area_km2": 84.3
+   }
+  },
+  {
+   "slug": "damascus",
+   "name": "Damascus",
+   "local_name": "دمشق",
+   "country": "SY",
+   "country_name": "Syria",
+   "population": 1414913,
+   "division_id": "7ebb856d-d2f4-406b-9b6c-33d9c8f259c6",
+   "wikidata": "Q3766",
+   "lon": 36.309581,
+   "lat": 33.51307,
+   "bbox": [
+    36.147968,
+    33.377414,
+    36.471195,
+    33.648725
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.8
+   }
+  },
+  {
+   "slug": "milan",
+   "name": "Milan",
+   "local_name": "Milano",
+   "country": "IT",
+   "country_name": "Italy",
+   "population": 1396827,
+   "division_id": "fa978908-a67f-440e-8527-27feeca5c8d9",
+   "wikidata": "Q490",
+   "lon": 9.189635,
+   "lat": 45.464194,
+   "bbox": [
+    9.040886,
+    45.386738,
+    9.278111,
+    45.535854
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "9bca1250-ac7f-4969-abf0-7cfb095acfa6",
+    "area_subtype": "locality",
+    "area_km2": 181.9
+   }
+  },
+  {
+   "slug": "antananarivo",
+   "name": "Antananarivo",
+   "local_name": "Antananarivo",
+   "country": "MG",
+   "country_name": "Madagascar",
+   "population": 1391433,
+   "division_id": "042b2e4e-d916-4b85-a0eb-b6d514e0a4e8",
+   "wikidata": "Q3915",
+   "lon": 47.525581,
+   "lat": -18.910012,
+   "bbox": [
+    47.383147,
+    -19.045668,
+    47.668015,
+    -18.774356
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.0
+   }
+  },
+  {
+   "slug": "port-harcourt",
+   "name": "Port Harcourt",
+   "local_name": "Port Harcourt",
+   "country": "NG",
+   "country_name": "Nigeria",
+   "population": 1382592,
+   "division_id": "07df7071-08b7-46f5-93fe-9f3e166bab3a",
+   "wikidata": "Q217432",
+   "lon": 7.018853,
+   "lat": 4.767658,
+   "bbox": [
+    6.940325,
+    4.713169,
+    7.078134,
+    4.824065
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "20534da6-9a0b-4093-a0e9-6fc155ba5001",
+    "area_subtype": "county",
+    "area_km2": 107.8
+   }
+  },
+  {
+   "slug": "tbilisi",
+   "name": "Tbilisi",
+   "local_name": "თბილისი",
+   "country": "GE",
+   "country_name": "Georgia",
+   "population": 1331485,
+   "division_id": "8333c0ed-4977-4dde-b9d4-3682429d0297",
+   "wikidata": "Q994",
+   "lon": 44.801449,
+   "lat": 41.693459,
+   "bbox": [
+    44.596195,
+    41.617786,
+    45.017292,
+    41.843884
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "75b3c22f-9d64-4be0-9656-13f8e61c629e",
+    "area_subtype": "region",
+    "area_km2": 504.7
+   }
+  },
+  {
+   "slug": "barranquilla",
+   "name": "Barranquilla",
+   "local_name": "Barranquilla",
+   "country": "CO",
+   "country_name": "Colombia",
+   "population": 1327209,
+   "division_id": "78ac0920-c08e-40ab-9db7-d56f84d4496f",
+   "wikidata": "Q62823",
+   "lon": -74.792612,
+   "lat": 10.99386,
+   "bbox": [
+    -74.850792,
+    10.920688,
+    -74.758476,
+    11.045323
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "87158893-164e-485d-8be8-3f3e4a3f6090",
+    "area_subtype": "locality",
+    "area_km2": 87.2
+   }
+  },
+  {
+   "slug": "bishkek",
+   "name": "Bishkek",
+   "local_name": "Бишкек",
+   "country": "KG",
+   "country_name": "Kyrgyzstan",
+   "population": 1321900,
+   "division_id": "85bc7963-8144-4234-8d86-7dd42e777871",
+   "wikidata": "Q9361",
+   "lon": 74.603672,
+   "lat": 42.876142,
+   "bbox": [
+    74.454887,
+    42.715549,
+    74.71772,
+    43.012501
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "01220344-14e2-4ae5-a6c4-d20863d7db1a",
+    "area_subtype": "region",
+    "area_km2": 230.8
+   }
+  },
+  {
+   "slug": "montevideo",
+   "name": "Montevideo",
+   "local_name": "Montevideo",
+   "country": "UY",
+   "country_name": "Uruguay",
+   "population": 1319108,
+   "division_id": "6e05a706-19d5-4540-8bb3-650c987a3807",
+   "wikidata": "Q1335",
+   "lon": -56.19131,
+   "lat": -34.905892,
+   "bbox": [
+    -56.4314,
+    -34.938057,
+    -56.0172,
+    -34.701851
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "04a3c431-641f-4fe8-9fae-4166bcbeb457",
+    "area_subtype": "locality",
+    "area_km2": 529.7
+   }
+  },
+  {
+   "slug": "doha",
+   "name": "Doha",
+   "local_name": "الدوحة",
+   "country": "QA",
+   "country_name": "Qatar",
+   "population": 1312947,
+   "division_id": "6332acce-a9fe-4105-a756-aa57f1fe7289",
+   "wikidata": "Q3861",
+   "lon": 51.526416,
+   "lat": 25.285633,
+   "bbox": [
+    51.395767,
+    25.150537,
+    52.417118,
+    25.683205
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "f7586464-1bb6-4c90-8184-a6b74c7251df",
+    "area_subtype": "region",
+    "area_km2": 210.3
+   }
+  },
+  {
+   "slug": "mombasa",
+   "name": "Mombasa",
+   "local_name": "Mombasa",
+   "country": "KE",
+   "country_name": "Kenya",
+   "population": 1300000,
+   "division_id": "d8086132-efb9-4a04-9171-34f56ca0e199",
+   "wikidata": "Q225641",
+   "lon": 39.667169,
+   "lat": -4.05052,
+   "bbox": [
+    39.532085,
+    -4.186176,
+    39.802253,
+    -3.914864
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.0
+   }
+  },
+  {
+   "slug": "sofia",
+   "name": "Sofia",
+   "local_name": "София",
+   "country": "BG",
+   "country_name": "Bulgaria",
+   "population": 1286383,
+   "division_id": "6887196d-944a-42fa-a43d-79625d19738c",
+   "wikidata": "Q472",
+   "lon": 23.321736,
+   "lat": 42.697703,
+   "bbox": [
+    23.167994,
+    42.557983,
+    23.621582,
+    42.864304
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "d542b4c9-da34-4182-8215-7788189f1ce5",
+    "area_subtype": "locality",
+    "area_km2": 454.1
+   }
+  },
+  {
+   "slug": "prague",
+   "name": "Prague",
+   "local_name": "Praha",
+   "country": "CZ",
+   "country_name": "Czechia",
+   "population": 1275406,
+   "division_id": "25b0c49f-5213-45a8-bff6-0db4ee21cab8",
+   "wikidata": "Q1085",
+   "lon": 14.421254,
+   "lat": 50.087465,
+   "bbox": [
+    14.224434,
+    49.941895,
+    14.706787,
+    50.177437
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "66d7fd9b-e6f9-49b5-b774-4c7fb2212874",
+    "area_subtype": "region",
+    "area_km2": 496.3
+   }
+  },
+  {
+   "slug": "port-au-prince",
+   "name": "Port-au-Prince",
+   "local_name": "Port-au-Prince",
+   "country": "HT",
+   "country_name": "Haiti",
+   "population": 1275000,
+   "division_id": "3e1c941b-074d-45d5-ba91-10cb91c6d9b6",
+   "wikidata": "Q34261",
+   "lon": -72.339593,
+   "lat": 18.547327,
+   "bbox": [
+    -72.569771,
+    18.339897,
+    -72.158928,
+    18.630735
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "5501eaa3-a7a2-4f09-abe2-99d3d1cb6907",
+    "area_subtype": "county",
+    "area_km2": 726.8
+   }
+  },
+  {
+   "slug": "soweto",
+   "name": "Soweto",
+   "local_name": "Soweto",
+   "country": "ZA",
+   "country_name": "South Africa",
+   "population": 1270000,
+   "division_id": "3952ebbf-009d-46be-a2c3-24597aa93a3d",
+   "wikidata": "Q217426",
+   "lon": 27.89,
+   "lat": -26.222778,
+   "bbox": [
+    27.739795,
+    -26.358434,
+    28.040205,
+    -26.087122
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.8
+   }
+  },
+  {
+   "slug": "calgary",
+   "name": "Calgary",
+   "local_name": "Calgary",
+   "country": "CA",
+   "country_name": "Canada",
+   "population": 1267344,
+   "division_id": "16704778-4d99-4ae5-86f4-0b4a2fbc59ea",
+   "wikidata": "Q36312",
+   "lon": -114.057541,
+   "lat": 51.045606,
+   "bbox": [
+    -114.315773,
+    50.842525,
+    -113.860001,
+    51.212502
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "69ca537e-8d58-4b4f-92ce-049174490b46",
+    "area_subtype": "county",
+    "area_km2": 852.6
+   }
+  },
+  {
+   "slug": "kazan",
+   "name": "Kazan",
+   "local_name": "Казань",
+   "country": "RU",
+   "country_name": "Russia",
+   "population": 1257341,
+   "division_id": "c2859eb8-45d3-40e6-9930-bf7d0cbe8fd3",
+   "wikidata": "Q900",
+   "lon": 49.111502,
+   "lat": 55.794649,
+   "bbox": [
+    48.820583,
+    55.603134,
+    49.381248,
+    55.93074
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "dc7236e9-7cac-49d6-b354-fb259ad21521",
+    "area_subtype": "locality",
+    "area_km2": 594.7
+   }
+  },
+  {
+   "slug": "beirut",
+   "name": "Beirut",
+   "local_name": "بيروت",
+   "country": "LB",
+   "country_name": "Lebanon",
+   "population": 1252000,
+   "division_id": "bf2f76dd-399c-42fb-92a6-4263889b982f",
+   "wikidata": "Q3820",
+   "lon": 35.47843,
+   "lat": 33.89592,
+   "bbox": [
+    35.316095,
+    33.760265,
+    35.640765,
+    34.031576
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 708.9
+   }
+  },
+  {
+   "slug": "adelaide",
+   "name": "Adelaide",
+   "local_name": "Adelaide",
+   "country": "AU",
+   "country_name": "Australia",
+   "population": 1245011,
+   "division_id": "7725747d-bdfa-4a39-871a-ecef702c4e97",
+   "wikidata": "Q5112",
+   "lon": 138.599931,
+   "lat": -34.928181,
+   "bbox": [
+    138.428131,
+    -35.350296,
+    138.847916,
+    -34.572239
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "19075ede-30d9-4ffa-b5b9-a79185025565",
+    "area_subtype": "locality",
+    "area_km2": 1625.5
+   }
+  },
+  {
+   "slug": "maputo",
+   "name": "Maputo",
+   "local_name": "Maputo",
+   "country": "MZ",
+   "country_name": "Mozambique",
+   "population": 1244227,
+   "division_id": "b4446874-eba9-4d08-965d-ccdec3b1597e",
+   "wikidata": "Q3889",
+   "lon": 32.56745,
+   "lat": -25.966213,
+   "bbox": [
+    32.439968,
+    -26.090025,
+    32.993675,
+    -25.811703
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "c4d7ff5e-9890-4314-82d0-6fcc23311e80",
+    "area_subtype": "region",
+    "area_km2": 331.7
+   }
+  },
+  {
+   "slug": "shymkent",
+   "name": "Shymkent",
+   "local_name": "Шымкент",
+   "country": "KZ",
+   "country_name": "Kazakhstan",
+   "population": 1222055,
+   "division_id": "b61d931a-6149-431c-8e8f-b3d4428460a4",
+   "wikidata": "Q485496",
+   "lon": 69.588328,
+   "lat": 42.314696,
+   "bbox": [
+    69.301849,
+    42.109016,
+    69.935722,
+    42.479446
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "a9512d62-4835-48c4-9192-e87ab72235cf",
+    "area_subtype": "region",
+    "area_km2": 1170.0
+   }
+  },
+  {
+   "slug": "mandalay",
+   "name": "Mandalay",
+   "local_name": "မန္တလေး",
+   "country": "MM",
+   "country_name": "Myanmar",
+   "population": 1208099,
+   "division_id": "71b2938d-0c4a-41c2-aa9f-afdc9565da7a",
+   "wikidata": "Q185518",
+   "lon": 96.094874,
+   "lat": 21.959683,
+   "bbox": [
+    95.984009,
+    21.772335,
+    96.365707,
+    22.166746
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "198bab27-11ba-4289-8576-28faecbc3071",
+    "area_subtype": "county",
+    "area_km2": 910.0
+   }
+  },
+  {
+   "slug": "belgrade",
+   "name": "Belgrade",
+   "local_name": "Београд",
+   "country": "RS",
+   "country_name": "Serbia",
+   "population": 1197714,
+   "division_id": "1539d870-22c6-4db6-bb07-6c1c02beb8c2",
+   "wikidata": "Q3711",
+   "lon": 20.456897,
+   "lat": 44.817813,
+   "bbox": [
+    20.221375,
+    44.688046,
+    20.623211,
+    44.942688
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "34f1416d-3035-4a51-b016-9ff35deb03b7",
+    "area_subtype": "locality",
+    "area_km2": 388.8
+   }
+  },
+  {
+   "slug": "maiduguri",
+   "name": "Maiduguri",
+   "local_name": "Maiduguri",
+   "country": "NG",
+   "country_name": "Nigeria",
+   "population": 1197497,
+   "division_id": "70eb2ce2-6e53-49aa-851a-44ca70ada734",
+   "wikidata": "Q221436",
+   "lon": 13.153621,
+   "lat": 11.839538,
+   "bbox": [
+    13.015946,
+    11.703882,
+    13.291297,
+    11.975193
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.4
+   }
+  },
+  {
+   "slug": "dushanbe",
+   "name": "Dushanbe",
+   "local_name": "Душанбе",
+   "country": "TJ",
+   "country_name": "Tajikistan",
+   "population": 1178251,
+   "division_id": "764927cb-3dd3-4512-8fcd-6075b56ee5a1",
+   "wikidata": "Q9365",
+   "lon": 68.785433,
+   "lat": 38.576704,
+   "bbox": [
+    68.68882,
+    38.464478,
+    68.886948,
+    38.706844
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "4907b9c7-c299-4e1b-8477-3a90921d4efd",
+    "area_subtype": "locality",
+    "area_km2": 197.4
+   }
+  },
+  {
+   "slug": "fez",
+   "name": "Fez",
+   "local_name": "Fès ⴼⴰⵙ فاس",
+   "country": "MA",
+   "country_name": "Morocco",
+   "population": 1167842,
+   "division_id": "934d4327-381f-4abb-a53b-aecad75be1a1",
+   "wikidata": "Q80985",
+   "lon": -5.016193,
+   "lat": 34.034653,
+   "bbox": [
+    -5.07818,
+    33.976425,
+    -4.937709,
+    34.075508
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "10e706ae-d2a6-46da-b111-0711643738e6",
+    "area_subtype": "locality",
+    "area_km2": 97.7
+   }
+  },
+  {
+   "slug": "nay-pyi-taw",
+   "name": "Nay Pyi Taw",
+   "local_name": "နေပြည်တော်",
+   "country": "MM",
+   "country_name": "Myanmar",
+   "population": 1160242,
+   "division_id": "e4df6a25-a74d-43f5-9dd9-79c1c15800ea",
+   "wikidata": "Q37400",
+   "lon": 96.103255,
+   "lat": 19.775329,
+   "bbox": [
+    95.960064,
+    19.639673,
+    96.246446,
+    19.910985
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 707.0
+   }
+  },
+  {
+   "slug": "kisumu",
+   "name": "Kisumu",
+   "local_name": "Kisumu",
+   "country": "KE",
+   "country_name": "Kenya",
+   "population": 1155574,
+   "division_id": "07015130-40c0-4390-b0e3-d823c47c0488",
+   "wikidata": "Q214485",
+   "lon": 34.754176,
+   "lat": -0.102911,
+   "bbox": [
+    34.579918,
+    -0.175225,
+    34.882309,
+    0.022631
+   ],
+   "boundary": {
+    "kind": "division_area",
+    "area_id": "a3ffd023-1b7c-455b-8c82-521d796cb271",
+    "area_subtype": "locality",
+    "area_km2": 288.9
+   }
+  },
+  {
+   "slug": "benin-city",
+   "name": "Benin City",
+   "local_name": "Benin City",
+   "country": "NG",
+   "country_name": "Nigeria",
+   "population": 1147188,
+   "division_id": "35cf618e-d141-4ac7-878b-c6c605e9bf5d",
+   "wikidata": "Q320704",
+   "lon": 5.622106,
+   "lat": 6.333059,
+   "bbox": [
+    5.486532,
+    6.197403,
+    5.75768,
+    6.468714
+   ],
+   "boundary": {
+    "kind": "radius",
+    "radius_km": 15,
+    "area_km2": 706.1
+   }
+  }
+ ]
+}

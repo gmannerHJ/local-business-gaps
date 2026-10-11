@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology: how the counts are computed</title>
+<meta name="description" content="Source, licence, city selection rule, confidence threshold and the exact DuckDB query behind the per-city counts of places with no website listed.">
+<link rel="canonical" href="https://gmannerhj.github.io/local-business-gaps/methodology/">
+<style>
+:root{--bg:#fff;--fg:#1c1e21;--mut:#5b6470;--line:#d9dde3;--acc:#0b5cad;--bar:#c8d9ec;--card:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14171a;--fg:#e6e8eb;--mut:#9aa4b1;--line:#2c333b;--acc:#7db7f0;--bar:#2b4764;--card:#1b2026}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main,header,footer{max-width:860px;margin:0 auto;padding:0 16px}
+header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line);font-size:14px}
+header a{margin-right:14px}
+a{color:var(--acc)}
+h1{font-size:1.6rem;line-height:1.25;margin:22px 0 10px}
+h2{font-size:1.15rem;margin:30px 0 8px}
+p{margin:10px 0}
+.lead{font-size:1.05rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:16px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 12px}
+.stat b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums}
+.stat span{color:var(--mut);font-size:.85rem}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.93rem;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+th{color:var(--mut);font-weight:600;font-size:.82rem}
+.bar{display:inline-block;height:.7em;background:var(--bar);border-radius:2px;margin-right:6px;vertical-align:baseline}
+.note{color:var(--mut);font-size:.9rem}
+.box{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:18px 0}
+pre{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px;overflow-x:auto;font-size:.82rem;line-height:1.4}
+footer{margin-top:40px;padding-top:14px;padding-bottom:30px;border-top:1px solid var(--line);color:var(--mut);font-size:.85rem}
+</style>
+</head>
+<body>
+<header><a href="../index.html"><b>Local Business Gaps</b></a><a href="../methodology/index.html">Methodology</a><a href="../data/index.html">Data downloads</a></header>
+<main>
+<h1>Methodology</h1>
+<p>Every number on this site is computed by code from the public Overture Maps release. Nothing is entered by hand.
+The pipeline is run by one person with AI agents; the code is in the <a href="https://github.com/gmannerHJ/local-business-gaps">repository</a>.
+This site is not affiliated with or endorsed by the Overture Maps Foundation or its data providers.</p>
+
+<h2>Source</h2>
+<p>Overture Maps Foundation, <a href="https://overturemaps.org">overturemaps.org</a>: the <b>places</b> theme for the
+counts and the <b>divisions</b> theme for city populations and boundaries. The data is GeoParquet on public cloud storage.
+It is queried in place with DuckDB over HTTP range requests, filtered by bounding box, so only the parts of the files that
+cover a city are read. Each page states the Overture release it was computed from.</p>
+
+<h2>Cities</h2>
+<p>The city list (200 cities) is generated from the Overture divisions theme by this rule:</p>
+<pre>Selection rule (all computed from Overture divisions, licence ODbL):
+  1. Candidates: divisions with subtype &#x27;locality&#x27;, class &#x27;city&#x27;, a Wikidata id and
+     population &gt;= MIN_POPULATION.
+  2. Boundary: the locality&#x27;s own division_area polygon (land); if there is none, the land
+     polygon of another division in the same country with the same Wikidata id (many large
+     cities are modelled as a county or region). A polygon is rejected when it clearly does
+     not correspond to the population figure: bounding box wider than MAX_SPAN_DEG, or
+     population / bounding-box area outside [MIN_DENSITY, MAX_DENSITY] people per km2.
+  3. If no polygon is accepted, the boundary is a circle around the division&#x27;s point:
+     10 km below 1 million people, 15 km from 1 to 5 million, 20 km above.
+  4. Cities are taken in descending population. A city is skipped when its point lies in the
+     bounding box of a larger selected city of the same country (boroughs, duplicates), or
+     when its country already has MAX_PER_COUNTRY cities. Stop at TARGET cities.
+</pre>
+<p>Limits of this rule: population figures and boundaries are whatever the divisions theme holds, so some cities are
+represented by a wider administrative area and some well-known cities are missing because the source gives them no
+population, no class or no Wikidata id. Boundary polygons are simplified to about 20 m.</p>
+
+<h2>What is counted</h2>
+<p>A place is counted when it lies inside the city boundary, has <code>confidence &gt;= 0.5</code>
+and is not marked <code>permanently_closed</code>.</p>
+<p>Overture documents <code>confidence</code> as "a value between 0 and 1 representing the likelihood that the place exists"
+and gives no recommended cutoff. 0.5 keeps the records rated more likely to exist than not. Overture also
+notes that the score is not calibrated to be strictly comparable across data providers, so the threshold does not behave the same way
+everywhere. Each city page reports how many places fell below the threshold. The totals move with the cutoff, so read
+every count as "at confidence 0.5 or higher".</p>
+<p>"No website listed" means the <code>websites</code> field of the record is missing, empty or holds only blank
+entries. Some records carry a list whose only entry is an empty string; those are counted as no website listed, and the
+same rule is applied to phone numbers and social links. It does not prove the business has no
+website. Some listed websites are social media pages or no longer work. Categories are Overture's
+<code>basic_category</code> labels; groups are the first level of <code>taxonomy.hierarchy</code>. The places theme
+includes non-commercial places such as parks, schools and government offices; the group table on each city page shows them.</p>
+
+<h2>The query</h2>
+<p>Per city, the rows inside the boundary are selected into a temporary in-memory table with only the columns below.
+No names, addresses, phone numbers or coordinates are selected, and no per-place rows are written anywhere.</p>
+<pre>CREATE OR REPLACE TEMP TABLE city_places AS
+SELECT
+    confidence,
+    operating_status,
+    basic_category,
+    taxonomy.hierarchy[1]              AS category_group,
+    trim(coalesce(array_to_string(websites, &#x27;&#x27;), &#x27;&#x27;)) &lt;&gt; &#x27;&#x27; AS has_website,
+    trim(coalesce(array_to_string(phones, &#x27;&#x27;), &#x27;&#x27;))   &lt;&gt; &#x27;&#x27; AS has_phone,
+    trim(coalesce(array_to_string(socials, &#x27;&#x27;), &#x27;&#x27;))  &lt;&gt; &#x27;&#x27; AS has_social,
+    coalesce(len(websites), 0) &gt; 0                          AS website_list_present
+FROM read_parquet(&#x27;{places}&#x27;)
+WHERE bbox.xmin BETWEEN $xmin AND $xmax
+  AND bbox.ymin BETWEEN $ymin AND $ymax
+  AND ST_Contains(ST_GeomFromWKB($boundary), ST_Point(ST_X(geometry), ST_Y(geometry)))</pre>
+<p>Totals:</p>
+<pre>SELECT
+    count(*) FILTER (WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27;)                                        AS places,
+    count(*) FILTER (WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27; AND has_website)                        AS with_website,
+    count(*) FILTER (WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27; AND NOT has_website)                    AS without_website,
+    count(*) FILTER (WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27; AND NOT has_website AND has_phone)      AS without_website_with_phone,
+    count(*) FILTER (WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27; AND NOT has_website AND has_social)     AS without_website_with_social,
+    count(*) FILTER (WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27; AND NOT has_website AND website_list_present) AS blank_website_entries,
+    count(*) FILTER (WHERE confidence &lt; 0.5 OR confidence IS NULL) AS below_confidence,
+    count(*) FILTER (WHERE confidence &gt;= 0.5
+                     AND operating_status = &#x27;permanently_closed&#x27;)        AS permanently_closed,
+    count(*)                                                              AS in_boundary_all
+FROM city_places</pre>
+<p>Category and group splits (<code>col</code> is <code>basic_category</code> with <code>LIMIT 10</code>, or <code>category_group</code>):</p>
+<pre>SELECT {col} AS category,
+       count(*)                                AS places,
+       count(*) FILTER (WHERE has_website)     AS with_website,
+       count(*) FILTER (WHERE NOT has_website) AS without_website
+FROM city_places
+WHERE confidence &gt;= 0.5 AND operating_status IS DISTINCT FROM &#x27;permanently_closed&#x27; AND {col} IS NOT NULL
+GROUP BY 1 ORDER BY places DESC, category {limit}</pre>
+
+<h2>Licence and attribution</h2>
+<p>Places theme sources and their licences, as listed at
+<a href="https://docs.overturemaps.org/attribution/">docs.overturemaps.org/attribution</a>: Meta, Microsoft, PinMeTo, Krick,
+RenderSEO, DAC and BrightQuery under CDLA Permissive 2.0; Foursquare under Apache 2.0 (&copy; 2024 Foursquare Labs, Inc.,
+transformed to the Overture schema); AllThePlaces under CC0 1.0.</p>
+<p>Divisions theme: Open Database License (ODbL). &copy; OpenStreetMap contributors, Overture Maps Foundation. Other
+sources in that theme: geoBoundaries, Esri Community Maps contributors and Land Information New Zealand, under CC BY 4.0.
+The city list and boundary file in the repository, and the <code>population</code>, <code>area_km2</code> and
+<code>boundary</code> fields in the downloads, are derived from the divisions theme and are offered under the
+<a href="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License 1.0</a>.</p>
+<p>The count fields published here are offered under <a href="https://cdla.dev/permissive-2-0/">CDLA Permissive 2.0</a>.
+Please credit Overture Maps Foundation when you reuse them.</p>
+
+<h2>Updates</h2>
+<p>A scheduled job checks once a month for a new Overture release and, when there is one, recomputes the cities and
+rebuilds these pages.</p>
+</main>
+<footer>
+<p>Place data: Overture Maps Foundation, <a href="https://overturemaps.org">overturemaps.org</a>, places theme
+(sources include Meta, Microsoft, PinMeTo, Krick, RenderSEO, DAC and BrightQuery under CDLA Permissive 2.0;
+Foursquare under Apache 2.0, &copy; 2024 Foursquare Labs, Inc.; AllThePlaces under CC0 1.0).
+City boundaries and populations: &copy; OpenStreetMap contributors, Overture Maps Foundation, divisions theme, available under the Open Database License.
+Details on the <a href="../methodology/index.html">methodology page</a>.</p>
+<p>This site is produced by an automated pipeline run by one person with AI agents. The numbers are computed from the
+source data and are not checked by hand. <a href="https://github.com/gmannerHJ/local-business-gaps">Source code and data</a>.</p>
+</footer>
+</body>
+</html>

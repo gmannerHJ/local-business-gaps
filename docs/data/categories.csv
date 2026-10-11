@@ -1,0 +1,323 @@
+country,city,slug,level,category,places,with_website,without_website,share_without_website
+CN,Shanghai,shanghai,basic_category_top10,restaurant,3465,891,2574,0.7429
+CN,Shanghai,shanghai,basic_category_top10,coffee_shop,1784,825,959,0.5376
+CN,Shanghai,shanghai,basic_category_top10,hotel,1466,725,741,0.5055
+CN,Shanghai,shanghai,basic_category_top10,fashion_and_apparel_store,972,751,221,0.2274
+CN,Shanghai,shanghai,basic_category_top10,fast_food_restaurant,906,790,116,0.128
+CN,Shanghai,shanghai,basic_category_top10,convenience_store,515,512,3,0.0058
+CN,Shanghai,shanghai,basic_category_top10,casual_eatery,482,342,140,0.2905
+CN,Shanghai,shanghai,basic_category_top10,historic_site,476,96,380,0.7983
+CN,Shanghai,shanghai,basic_category_top10,park,341,32,309,0.9062
+CN,Shanghai,shanghai,basic_category_top10,train_station,340,250,90,0.2647
+CN,Shanghai,shanghai,category_group,food_and_drink,7637,3301,4336,0.5678
+CN,Shanghai,shanghai,category_group,shopping,2874,2049,825,0.2871
+CN,Shanghai,shanghai,category_group,lodging,1615,804,811,0.5022
+CN,Shanghai,shanghai,category_group,services_and_business,1543,1091,452,0.2929
+CN,Shanghai,shanghai,category_group,travel_and_transportation,1061,705,356,0.3355
+CN,Shanghai,shanghai,category_group,arts_and_entertainment,701,273,428,0.6106
+CN,Shanghai,shanghai,category_group,education,688,338,350,0.5087
+CN,Shanghai,shanghai,category_group,sports_and_recreation,680,172,508,0.7471
+CN,Shanghai,shanghai,category_group,cultural_and_historic,641,130,511,0.7972
+CN,Shanghai,shanghai,category_group,community_and_government,330,102,228,0.6909
+CN,Shanghai,shanghai,category_group,health_care,286,129,157,0.549
+CN,Shanghai,shanghai,category_group,lifestyle_services,186,64,122,0.6559
+CN,Shanghai,shanghai,category_group,geographic_entities,119,14,105,0.8824
+CD,Kinshasa,kinshasa,basic_category_top10,christian_place_of_worship,614,141,473,0.7704
+CD,Kinshasa,kinshasa,basic_category_top10,religious_organization,461,137,324,0.7028
+CD,Kinshasa,kinshasa,basic_category_top10,restaurant,284,78,206,0.7254
+CD,Kinshasa,kinshasa,basic_category_top10,place_of_learning,183,73,110,0.6011
+CD,Kinshasa,kinshasa,basic_category_top10,hotel,177,71,106,0.5989
+CD,Kinshasa,kinshasa,basic_category_top10,social_or_community_service,154,61,93,0.6039
+CD,Kinshasa,kinshasa,basic_category_top10,college_university,134,62,72,0.5373
+CD,Kinshasa,kinshasa,basic_category_top10,professional_service,128,85,43,0.3359
+CD,Kinshasa,kinshasa,basic_category_top10,fashion_and_apparel_store,127,38,89,0.7008
+CD,Kinshasa,kinshasa,basic_category_top10,personal_or_beauty_service,102,15,87,0.8529
+CD,Kinshasa,kinshasa,category_group,cultural_and_historic,1174,303,871,0.7419
+CD,Kinshasa,kinshasa,category_group,services_and_business,798,495,303,0.3797
+CD,Kinshasa,kinshasa,category_group,food_and_drink,502,128,374,0.745
+CD,Kinshasa,kinshasa,category_group,shopping,499,190,309,0.6192
+CD,Kinshasa,kinshasa,category_group,education,463,186,277,0.5983
+CD,Kinshasa,kinshasa,category_group,community_and_government,424,204,220,0.5189
+CD,Kinshasa,kinshasa,category_group,lodging,213,85,128,0.6009
+CD,Kinshasa,kinshasa,category_group,travel_and_transportation,197,74,123,0.6244
+CD,Kinshasa,kinshasa,category_group,lifestyle_services,152,33,119,0.7829
+CD,Kinshasa,kinshasa,category_group,health_care,147,65,82,0.5578
+CD,Kinshasa,kinshasa,category_group,arts_and_entertainment,117,40,77,0.6581
+CD,Kinshasa,kinshasa,category_group,sports_and_recreation,73,26,47,0.6438
+CD,Kinshasa,kinshasa,category_group,geographic_entities,40,1,39,0.975
+BR,São Paulo,sao-paulo,basic_category_top10,personal_or_beauty_service,25477,9716,15761,0.6186
+BR,São Paulo,sao-paulo,basic_category_top10,restaurant,20670,11007,9663,0.4675
+BR,São Paulo,sao-paulo,basic_category_top10,fashion_and_apparel_store,15750,9716,6034,0.3831
+BR,São Paulo,sao-paulo,basic_category_top10,christian_place_of_worship,10790,4064,6726,0.6234
+BR,São Paulo,sao-paulo,basic_category_top10,automotive_service,9639,4192,5447,0.5651
+BR,São Paulo,sao-paulo,basic_category_top10,historic_site,7662,1495,6167,0.8049
+BR,São Paulo,sao-paulo,basic_category_top10,casual_eatery,7646,3963,3683,0.4817
+BR,São Paulo,sao-paulo,basic_category_top10,hardware_home_and_garden_store,7559,5172,2387,0.3158
+BR,São Paulo,sao-paulo,basic_category_top10,dental_clinic,7490,4272,3218,0.4296
+BR,São Paulo,sao-paulo,basic_category_top10,food_and_beverage_store,7481,3704,3777,0.5049
+BR,São Paulo,sao-paulo,category_group,shopping,61164,37496,23668,0.387
+BR,São Paulo,sao-paulo,category_group,services_and_business,60449,45856,14593,0.2414
+BR,São Paulo,sao-paulo,category_group,food_and_drink,41355,19802,21553,0.5212
+BR,São Paulo,sao-paulo,category_group,lifestyle_services,32178,13641,18537,0.5761
+BR,São Paulo,sao-paulo,category_group,health_care,23830,15165,8665,0.3636
+BR,São Paulo,sao-paulo,category_group,cultural_and_historic,23326,7677,15649,0.6709
+BR,São Paulo,sao-paulo,category_group,travel_and_transportation,16612,8356,8256,0.497
+BR,São Paulo,sao-paulo,category_group,education,14133,8816,5317,0.3762
+BR,São Paulo,sao-paulo,category_group,sports_and_recreation,10095,5447,4648,0.4604
+BR,São Paulo,sao-paulo,category_group,community_and_government,7732,4210,3522,0.4555
+BR,São Paulo,sao-paulo,category_group,arts_and_entertainment,4753,2535,2218,0.4667
+BR,São Paulo,sao-paulo,category_group,lodging,3247,1511,1736,0.5346
+BR,São Paulo,sao-paulo,category_group,geographic_entities,566,71,495,0.8746
+IN,Bengaluru,bengaluru,basic_category_top10,restaurant,6061,2647,3414,0.5633
+IN,Bengaluru,bengaluru,basic_category_top10,fashion_and_apparel_store,5134,3471,1663,0.3239
+IN,Bengaluru,bengaluru,basic_category_top10,bank_or_credit_union,3689,3116,573,0.1553
+IN,Bengaluru,bengaluru,basic_category_top10,electronics_store,3449,2845,604,0.1751
+IN,Bengaluru,bengaluru,basic_category_top10,shopping,3290,1364,1926,0.5854
+IN,Bengaluru,bengaluru,basic_category_top10,hardware_home_and_garden_store,2844,2047,797,0.2802
+IN,Bengaluru,bengaluru,basic_category_top10,hotel,2777,1805,972,0.35
+IN,Bengaluru,bengaluru,basic_category_top10,event_or_party_service,2732,965,1767,0.6468
+IN,Bengaluru,bengaluru,basic_category_top10,real_estate_service,2667,1783,884,0.3315
+IN,Bengaluru,bengaluru,basic_category_top10,historic_site,2462,494,1968,0.7994
+IN,Bengaluru,bengaluru,category_group,services_and_business,30040,23527,6513,0.2168
+IN,Bengaluru,bengaluru,category_group,shopping,21628,13993,7635,0.353
+IN,Bengaluru,bengaluru,category_group,education,12122,8421,3701,0.3053
+IN,Bengaluru,bengaluru,category_group,food_and_drink,11080,5257,5823,0.5255
+IN,Bengaluru,bengaluru,category_group,health_care,8356,6221,2135,0.2555
+IN,Bengaluru,bengaluru,category_group,cultural_and_historic,5996,1241,4755,0.793
+IN,Bengaluru,bengaluru,category_group,lodging,5243,3622,1621,0.3092
+IN,Bengaluru,bengaluru,category_group,travel_and_transportation,3866,2398,1468,0.3797
+IN,Bengaluru,bengaluru,category_group,sports_and_recreation,3715,1689,2026,0.5454
+IN,Bengaluru,bengaluru,category_group,lifestyle_services,3359,2005,1354,0.4031
+IN,Bengaluru,bengaluru,category_group,community_and_government,2323,1094,1229,0.5291
+IN,Bengaluru,bengaluru,category_group,arts_and_entertainment,1510,696,814,0.5391
+IN,Bengaluru,bengaluru,category_group,geographic_entities,250,37,213,0.852
+MX,Mexico City,mexico-city,basic_category_top10,restaurant,23259,7654,15605,0.6709
+MX,Mexico City,mexico-city,basic_category_top10,personal_or_beauty_service,9091,2701,6390,0.7029
+MX,Mexico City,mexico-city,basic_category_top10,fashion_and_apparel_store,5679,3168,2511,0.4422
+MX,Mexico City,mexico-city,basic_category_top10,food_and_beverage_store,4493,1597,2896,0.6446
+MX,Mexico City,mexico-city,basic_category_top10,dental_clinic,4491,1831,2660,0.5923
+MX,Mexico City,mexico-city,basic_category_top10,casual_eatery,4076,1777,2299,0.564
+MX,Mexico City,mexico-city,basic_category_top10,automotive_service,3928,1384,2544,0.6477
+MX,Mexico City,mexico-city,basic_category_top10,professional_service,3630,2385,1245,0.343
+MX,Mexico City,mexico-city,basic_category_top10,hardware_home_and_garden_store,3380,2040,1340,0.3964
+MX,Mexico City,mexico-city,basic_category_top10,bar,3192,848,2344,0.7343
+MX,Mexico City,mexico-city,category_group,food_and_drink,37340,12914,24426,0.6542
+MX,Mexico City,mexico-city,category_group,shopping,30767,16487,14280,0.4641
+MX,Mexico City,mexico-city,category_group,services_and_business,29424,18994,10430,0.3545
+MX,Mexico City,mexico-city,category_group,health_care,14759,7869,6890,0.4668
+MX,Mexico City,mexico-city,category_group,lifestyle_services,13729,4701,9028,0.6576
+MX,Mexico City,mexico-city,category_group,education,9799,5083,4716,0.4813
+MX,Mexico City,mexico-city,category_group,sports_and_recreation,7862,2685,5177,0.6585
+MX,Mexico City,mexico-city,category_group,travel_and_transportation,7451,3055,4396,0.59
+MX,Mexico City,mexico-city,category_group,cultural_and_historic,5482,1634,3848,0.7019
+MX,Mexico City,mexico-city,category_group,community_and_government,4892,2247,2645,0.5407
+MX,Mexico City,mexico-city,category_group,arts_and_entertainment,4369,1942,2427,0.5555
+MX,Mexico City,mexico-city,category_group,lodging,2516,1134,1382,0.5493
+MX,Mexico City,mexico-city,category_group,geographic_entities,340,21,319,0.9382
+GB,London,london,basic_category_top10,restaurant,21744,18406,3338,0.1535
+GB,London,london,basic_category_top10,professional_service,13541,12855,686,0.0507
+GB,London,london,basic_category_top10,personal_or_beauty_service,13232,10157,3075,0.2324
+GB,London,london,basic_category_top10,home_service,12790,11309,1481,0.1158
+GB,London,london,basic_category_top10,fashion_and_apparel_store,11497,10174,1323,0.1151
+GB,London,london,basic_category_top10,hardware_home_and_garden_store,9519,8897,622,0.0653
+GB,London,london,basic_category_top10,financial_service,8108,7522,586,0.0723
+GB,London,london,basic_category_top10,real_estate_service,7865,7187,678,0.0862
+GB,London,london,basic_category_top10,bar,7112,5929,1183,0.1663
+GB,London,london,basic_category_top10,food_and_beverage_store,6590,4925,1665,0.2527
+GB,London,london,category_group,services_and_business,92990,82835,10155,0.1092
+GB,London,london,category_group,shopping,53496,46667,6829,0.1277
+GB,London,london,category_group,food_and_drink,45280,37581,7699,0.17
+GB,London,london,category_group,travel_and_transportation,19908,14909,4999,0.2511
+GB,London,london,category_group,lifestyle_services,18489,14806,3683,0.1992
+GB,London,london,category_group,health_care,14863,13372,1491,0.1003
+GB,London,london,category_group,education,14506,12781,1725,0.1189
+GB,London,london,category_group,sports_and_recreation,13283,10138,3145,0.2368
+GB,London,london,category_group,arts_and_entertainment,9841,7782,2059,0.2092
+GB,London,london,category_group,community_and_government,9727,8318,1409,0.1449
+GB,London,london,category_group,cultural_and_historic,8796,5813,2983,0.3391
+GB,London,london,category_group,lodging,4553,3494,1059,0.2326
+GB,London,london,category_group,geographic_entities,931,313,618,0.6638
+AU,Sydney,sydney,basic_category_top10,restaurant,12483,9384,3099,0.2483
+AU,Sydney,sydney,basic_category_top10,home_service,8904,8355,549,0.0617
+AU,Sydney,sydney,basic_category_top10,personal_or_beauty_service,8319,5959,2360,0.2837
+AU,Sydney,sydney,basic_category_top10,fashion_and_apparel_store,6679,5873,806,0.1207
+AU,Sydney,sydney,basic_category_top10,professional_service,6019,5820,199,0.0331
+AU,Sydney,sydney,basic_category_top10,hardware_home_and_garden_store,5400,5051,349,0.0646
+AU,Sydney,sydney,basic_category_top10,automotive_service,5319,4394,925,0.1739
+AU,Sydney,sydney,basic_category_top10,financial_service,5264,4771,493,0.0937
+AU,Sydney,sydney,basic_category_top10,food_and_beverage_store,4487,3467,1020,0.2273
+AU,Sydney,sydney,basic_category_top10,real_estate_service,4213,4049,164,0.0389
+AU,Sydney,sydney,category_group,services_and_business,50817,47551,3266,0.0643
+AU,Sydney,sydney,category_group,shopping,33516,29389,4127,0.1231
+AU,Sydney,sydney,category_group,food_and_drink,24328,18392,5936,0.244
+AU,Sydney,sydney,category_group,sports_and_recreation,13696,9523,4173,0.3047
+AU,Sydney,sydney,category_group,health_care,13419,12156,1263,0.0941
+AU,Sydney,sydney,category_group,lifestyle_services,11980,9098,2882,0.2406
+AU,Sydney,sydney,category_group,travel_and_transportation,9491,7843,1648,0.1736
+AU,Sydney,sydney,category_group,education,7858,7083,775,0.0986
+AU,Sydney,sydney,category_group,community_and_government,4913,4033,880,0.1791
+AU,Sydney,sydney,category_group,cultural_and_historic,4355,2911,1444,0.3316
+AU,Sydney,sydney,category_group,arts_and_entertainment,3571,2636,935,0.2618
+AU,Sydney,sydney,category_group,lodging,2010,1549,461,0.2294
+AU,Sydney,sydney,category_group,geographic_entities,1400,376,1024,0.7314
+DE,Berlin,berlin,basic_category_top10,professional_service,20295,15255,5040,0.2483
+DE,Berlin,berlin,basic_category_top10,restaurant,11748,7536,4212,0.3585
+DE,Berlin,berlin,basic_category_top10,home_service,10409,7099,3310,0.318
+DE,Berlin,berlin,basic_category_top10,corporate_or_business_office,9286,5847,3439,0.3703
+DE,Berlin,berlin,basic_category_top10,personal_or_beauty_service,8954,5394,3560,0.3976
+DE,Berlin,berlin,basic_category_top10,fashion_and_apparel_store,6925,5151,1774,0.2562
+DE,Berlin,berlin,basic_category_top10,real_estate_service,6730,4453,2277,0.3383
+DE,Berlin,berlin,basic_category_top10,financial_service,6687,4813,1874,0.2802
+DE,Berlin,berlin,basic_category_top10,media_service,6361,5179,1182,0.1858
+DE,Berlin,berlin,basic_category_top10,diagnostics_imaging_or_lab_service,5988,2490,3498,0.5842
+DE,Berlin,berlin,category_group,services_and_business,99723,71666,28057,0.2813
+DE,Berlin,berlin,category_group,shopping,32213,23556,8657,0.2687
+DE,Berlin,berlin,category_group,health_care,27874,16300,11574,0.4152
+DE,Berlin,berlin,category_group,food_and_drink,22915,13869,9046,0.3948
+DE,Berlin,berlin,category_group,lifestyle_services,12827,8337,4490,0.35
+DE,Berlin,berlin,category_group,travel_and_transportation,11010,7402,3608,0.3277
+DE,Berlin,berlin,category_group,arts_and_entertainment,8674,5881,2793,0.322
+DE,Berlin,berlin,category_group,sports_and_recreation,7117,5228,1889,0.2654
+DE,Berlin,berlin,category_group,community_and_government,5980,4860,1120,0.1873
+DE,Berlin,berlin,category_group,education,5509,4986,523,0.0949
+DE,Berlin,berlin,category_group,lodging,3132,2043,1089,0.3477
+DE,Berlin,berlin,category_group,cultural_and_historic,2206,1437,769,0.3486
+DE,Berlin,berlin,category_group,geographic_entities,739,192,547,0.7402
+ES,Madrid,madrid,basic_category_top10,restaurant,7332,5474,1858,0.2534
+ES,Madrid,madrid,basic_category_top10,fashion_and_apparel_store,3637,3029,608,0.1672
+ES,Madrid,madrid,basic_category_top10,personal_or_beauty_service,3253,2074,1179,0.3624
+ES,Madrid,madrid,basic_category_top10,casual_eatery,2877,1912,965,0.3354
+ES,Madrid,madrid,basic_category_top10,bar,2729,1177,1552,0.5687
+ES,Madrid,madrid,basic_category_top10,food_and_beverage_store,2455,1832,623,0.2538
+ES,Madrid,madrid,basic_category_top10,home_service,1910,1333,577,0.3021
+ES,Madrid,madrid,basic_category_top10,professional_service,1572,1460,112,0.0712
+ES,Madrid,madrid,basic_category_top10,real_estate_service,1472,1356,116,0.0788
+ES,Madrid,madrid,basic_category_top10,specialty_school,1472,1400,72,0.0489
+ES,Madrid,madrid,category_group,services_and_business,16232,14026,2206,0.1359
+ES,Madrid,madrid,category_group,food_and_drink,14933,9847,5086,0.3406
+ES,Madrid,madrid,category_group,shopping,13961,11628,2333,0.1671
+ES,Madrid,madrid,category_group,health_care,4891,4317,574,0.1174
+ES,Madrid,madrid,category_group,lifestyle_services,4876,3397,1479,0.3033
+ES,Madrid,madrid,category_group,education,4129,3756,373,0.0903
+ES,Madrid,madrid,category_group,travel_and_transportation,3794,3012,782,0.2061
+ES,Madrid,madrid,category_group,sports_and_recreation,3028,2181,847,0.2797
+ES,Madrid,madrid,category_group,arts_and_entertainment,2604,2002,602,0.2312
+ES,Madrid,madrid,category_group,community_and_government,2313,1885,428,0.185
+ES,Madrid,madrid,category_group,cultural_and_historic,1597,943,654,0.4095
+ES,Madrid,madrid,category_group,lodging,1375,1174,201,0.1462
+ES,Madrid,madrid,category_group,geographic_entities,163,29,134,0.8221
+KE,Nairobi,nairobi,basic_category_top10,real_estate_service,1504,1017,487,0.3238
+KE,Nairobi,nairobi,basic_category_top10,professional_service,1370,1064,306,0.2234
+KE,Nairobi,nairobi,basic_category_top10,restaurant,1311,598,713,0.5439
+KE,Nairobi,nairobi,basic_category_top10,christian_place_of_worship,1198,493,705,0.5885
+KE,Nairobi,nairobi,basic_category_top10,travel_service,1191,1077,114,0.0957
+KE,Nairobi,nairobi,basic_category_top10,fashion_and_apparel_store,1184,592,592,0.5
+KE,Nairobi,nairobi,basic_category_top10,electronics_store,1115,765,350,0.3139
+KE,Nairobi,nairobi,basic_category_top10,hardware_home_and_garden_store,1074,633,441,0.4106
+KE,Nairobi,nairobi,basic_category_top10,automotive_service,902,420,482,0.5344
+KE,Nairobi,nairobi,basic_category_top10,personal_or_beauty_service,881,298,583,0.6617
+KE,Nairobi,nairobi,category_group,services_and_business,10279,7575,2704,0.2631
+KE,Nairobi,nairobi,category_group,shopping,6929,3891,3038,0.4384
+KE,Nairobi,nairobi,category_group,travel_and_transportation,2697,1797,900,0.3337
+KE,Nairobi,nairobi,category_group,cultural_and_historic,2692,1017,1675,0.6222
+KE,Nairobi,nairobi,category_group,food_and_drink,2549,1096,1453,0.57
+KE,Nairobi,nairobi,category_group,education,2164,1290,874,0.4039
+KE,Nairobi,nairobi,category_group,community_and_government,1527,1030,497,0.3255
+KE,Nairobi,nairobi,category_group,lifestyle_services,1339,530,809,0.6042
+KE,Nairobi,nairobi,category_group,health_care,1330,782,548,0.412
+KE,Nairobi,nairobi,category_group,lodging,1000,607,393,0.393
+KE,Nairobi,nairobi,category_group,sports_and_recreation,597,264,333,0.5578
+KE,Nairobi,nairobi,category_group,arts_and_entertainment,518,238,280,0.5405
+KE,Nairobi,nairobi,category_group,geographic_entities,54,10,44,0.8148
+US,Chicago,chicago,basic_category_top10,restaurant,9177,7548,1629,0.1775
+US,Chicago,chicago,basic_category_top10,financial_service,6968,5698,1270,0.1823
+US,Chicago,chicago,basic_category_top10,personal_or_beauty_service,5339,4084,1255,0.2351
+US,Chicago,chicago,basic_category_top10,home_service,4753,3892,861,0.1811
+US,Chicago,chicago,basic_category_top10,real_estate_service,4648,3690,958,0.2061
+US,Chicago,chicago,basic_category_top10,professional_service,4088,3438,650,0.159
+US,Chicago,chicago,basic_category_top10,christian_place_of_worship,3040,2292,748,0.2461
+US,Chicago,chicago,basic_category_top10,fashion_and_apparel_store,2894,2360,534,0.1845
+US,Chicago,chicago,basic_category_top10,attorney_or_law_firm,2581,2185,396,0.1534
+US,Chicago,chicago,basic_category_top10,health_care,2301,815,1486,0.6458
+US,Chicago,chicago,category_group,services_and_business,42836,35264,7572,0.1768
+US,Chicago,chicago,category_group,food_and_drink,15635,13178,2457,0.1571
+US,Chicago,chicago,category_group,health_care,13727,10836,2891,0.2106
+US,Chicago,chicago,category_group,shopping,13323,10728,2595,0.1948
+US,Chicago,chicago,category_group,lifestyle_services,7488,5933,1555,0.2077
+US,Chicago,chicago,category_group,travel_and_transportation,5930,4560,1370,0.231
+US,Chicago,chicago,category_group,cultural_and_historic,5066,3834,1232,0.2432
+US,Chicago,chicago,category_group,community_and_government,4341,3771,570,0.1313
+US,Chicago,chicago,category_group,education,3923,3433,490,0.1249
+US,Chicago,chicago,category_group,sports_and_recreation,3860,3225,635,0.1645
+US,Chicago,chicago,category_group,arts_and_entertainment,2592,2161,431,0.1663
+US,Chicago,chicago,category_group,lodging,771,566,205,0.2659
+US,Chicago,chicago,category_group,geographic_entities,283,137,146,0.5159
+CA,Toronto,toronto,basic_category_top10,restaurant,7535,6549,986,0.1309
+CA,Toronto,toronto,basic_category_top10,home_service,4180,3973,207,0.0495
+CA,Toronto,toronto,basic_category_top10,personal_or_beauty_service,3965,3159,806,0.2033
+CA,Toronto,toronto,basic_category_top10,fashion_and_apparel_store,3724,3327,397,0.1066
+CA,Toronto,toronto,basic_category_top10,professional_service,3658,3511,147,0.0402
+CA,Toronto,toronto,basic_category_top10,financial_service,3655,3472,183,0.0501
+CA,Toronto,toronto,basic_category_top10,real_estate_service,2984,2781,203,0.068
+CA,Toronto,toronto,basic_category_top10,hardware_home_and_garden_store,2396,2260,136,0.0568
+CA,Toronto,toronto,basic_category_top10,casual_eatery,2137,1922,215,0.1006
+CA,Toronto,toronto,basic_category_top10,automotive_service,2126,1756,370,0.174
+CA,Toronto,toronto,category_group,services_and_business,30306,28514,1792,0.0591
+CA,Toronto,toronto,category_group,shopping,16854,14995,1859,0.1103
+CA,Toronto,toronto,category_group,food_and_drink,14179,12308,1871,0.132
+CA,Toronto,toronto,category_group,health_care,6507,5900,607,0.0933
+CA,Toronto,toronto,category_group,lifestyle_services,6138,5108,1030,0.1678
+CA,Toronto,toronto,category_group,travel_and_transportation,4651,3833,818,0.1759
+CA,Toronto,toronto,category_group,sports_and_recreation,4281,2831,1450,0.3387
+CA,Toronto,toronto,category_group,education,4149,3802,347,0.0836
+CA,Toronto,toronto,category_group,cultural_and_historic,3621,2592,1029,0.2842
+CA,Toronto,toronto,category_group,community_and_government,3216,2800,416,0.1294
+CA,Toronto,toronto,category_group,arts_and_entertainment,2048,1697,351,0.1714
+CA,Toronto,toronto,category_group,lodging,763,511,252,0.3303
+CA,Toronto,toronto,category_group,geographic_entities,266,79,187,0.703
+JP,Osaka,osaka,basic_category_top10,restaurant,24082,14318,9764,0.4054
+JP,Osaka,osaka,basic_category_top10,bar,6735,3309,3426,0.5087
+JP,Osaka,osaka,basic_category_top10,personal_or_beauty_service,5109,4239,870,0.1703
+JP,Osaka,osaka,basic_category_top10,rental_service,3145,473,2672,0.8496
+JP,Osaka,osaka,basic_category_top10,cafe,2622,1644,978,0.373
+JP,Osaka,osaka,basic_category_top10,fashion_and_apparel_store,2560,1911,649,0.2535
+JP,Osaka,osaka,basic_category_top10,convenience_store,2208,2132,76,0.0344
+JP,Osaka,osaka,basic_category_top10,casual_eatery,1937,1408,529,0.2731
+JP,Osaka,osaka,basic_category_top10,atm,1789,1780,9,0.005
+JP,Osaka,osaka,basic_category_top10,professional_service,1696,1454,242,0.1427
+JP,Osaka,osaka,category_group,food_and_drink,38072,22226,15846,0.4162
+JP,Osaka,osaka,category_group,services_and_business,16444,11149,5295,0.322
+JP,Osaka,osaka,category_group,shopping,13838,10624,3214,0.2323
+JP,Osaka,osaka,category_group,lifestyle_services,6643,5411,1232,0.1855
+JP,Osaka,osaka,category_group,health_care,4713,4009,704,0.1494
+JP,Osaka,osaka,category_group,travel_and_transportation,3289,2245,1044,0.3174
+JP,Osaka,osaka,category_group,sports_and_recreation,2542,1500,1042,0.4099
+JP,Osaka,osaka,category_group,education,2527,1958,569,0.2252
+JP,Osaka,osaka,category_group,arts_and_entertainment,2442,1681,761,0.3116
+JP,Osaka,osaka,category_group,cultural_and_historic,1730,533,1197,0.6919
+JP,Osaka,osaka,category_group,lodging,1693,1044,649,0.3833
+JP,Osaka,osaka,category_group,community_and_government,1576,892,684,0.434
+JP,Osaka,osaka,category_group,geographic_entities,433,78,355,0.8199
+FR,Paris,paris,basic_category_top10,restaurant,13910,11199,2711,0.1949
+FR,Paris,paris,basic_category_top10,fashion_and_apparel_store,7241,6122,1119,0.1545
+FR,Paris,paris,basic_category_top10,personal_or_beauty_service,3532,2826,706,0.1999
+FR,Paris,paris,basic_category_top10,food_and_beverage_store,3259,2572,687,0.2108
+FR,Paris,paris,basic_category_top10,casual_eatery,2740,2168,572,0.2088
+FR,Paris,paris,basic_category_top10,professional_service,2677,2532,145,0.0542
+FR,Paris,paris,basic_category_top10,hotel,2589,2274,315,0.1217
+FR,Paris,paris,basic_category_top10,bar,2508,1780,728,0.2903
+FR,Paris,paris,basic_category_top10,parking,2303,2277,26,0.0113
+FR,Paris,paris,basic_category_top10,real_estate_service,1913,1752,161,0.0842
+FR,Paris,paris,category_group,food_and_drink,21906,17131,4775,0.218
+FR,Paris,paris,category_group,shopping,19682,16687,2995,0.1522
+FR,Paris,paris,category_group,services_and_business,18301,16895,1406,0.0768
+FR,Paris,paris,category_group,lifestyle_services,4847,4029,818,0.1688
+FR,Paris,paris,category_group,travel_and_transportation,4702,4092,610,0.1297
+FR,Paris,paris,category_group,arts_and_entertainment,4288,3436,852,0.1987
+FR,Paris,paris,category_group,community_and_government,4117,3221,896,0.2176
+FR,Paris,paris,category_group,education,4025,3591,434,0.1078
+FR,Paris,paris,category_group,health_care,3220,2870,350,0.1087
+FR,Paris,paris,category_group,lodging,3103,2602,501,0.1615
+FR,Paris,paris,category_group,sports_and_recreation,2937,2432,505,0.1719
+FR,Paris,paris,category_group,cultural_and_historic,2612,1229,1383,0.5295
+FR,Paris,paris,category_group,geographic_entities,253,108,145,0.5731

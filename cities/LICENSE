@@ -1,0 +1,15 @@
+cities.json and boundaries.parquet in this folder are a database derived from the
+Overture Maps divisions theme. They are made available under the Open Database
+License (ODbL) 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+
+Any rights in individual contents of the database are licensed under the
+Database Contents License: https://opendatacommons.org/licenses/dbcl/1-0/
+
+(c) OpenStreetMap contributors, Overture Maps Foundation.
+Source: Overture Maps Foundation, overturemaps.org, divisions theme. Other
+sources in that theme: geoBoundaries, Esri Community Maps contributors and Land
+Information New Zealand (LINZ), each under CC BY 4.0.
+
+Changes made: cities were selected by the rule in cities.py, boundary polygons
+were simplified to about 20 m, and cities without a usable polygon were given a
+circle around their centre point.
