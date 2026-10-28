@@ -18,18 +18,18 @@
   23.735332,
   -5.990238
  ],
- "overture_release": "2026-09-23.1",
+ "overture_release": "2026-10-21.0",
  "confidence_min": 0.5,
  "counts": {
-  "places": 103,
-  "with_website": 27,
-  "without_website": 76,
-  "share_without_website": 0.7379,
+  "places": 106,
+  "with_website": 28,
+  "without_website": 78,
+  "share_without_website": 0.7358,
   "without_website_with_phone": 52,
-  "without_website_with_social": 75
+  "without_website_with_social": 77
  },
  "excluded": {
-  "below_confidence": 21,
+  "below_confidence": 22,
   "permanently_closed": 0
  },
  "uncategorised": 2,
@@ -78,6 +78,13 @@
    "share_without_website": 0.6
   },
   {
+   "category": "civic_organization",
+   "places": 4,
+   "with_website": 1,
+   "without_website": 3,
+   "share_without_website": 0.75
+  },
+  {
    "category": "government_office",
    "places": 4,
    "with_website": 0,
@@ -93,13 +100,6 @@
   },
   {
    "category": "airport",
-   "places": 3,
-   "with_website": 1,
-   "without_website": 2,
-   "share_without_website": 0.6667
-  },
-  {
-   "category": "civic_organization",
    "places": 3,
    "with_website": 1,
    "without_website": 2,
@@ -123,10 +123,10 @@
   },
   {
    "category": "community_and_government",
-   "places": 13,
+   "places": 14,
    "with_website": 4,
-   "without_website": 9,
-   "share_without_website": 0.6923
+   "without_website": 10,
+   "share_without_website": 0.7143
   },
   {
    "category": "shopping",
@@ -136,6 +136,13 @@
    "share_without_website": 0.7778
   },
   {
+   "category": "travel_and_transportation",
+   "places": 7,
+   "with_website": 2,
+   "without_website": 5,
+   "share_without_website": 0.7143
+  },
+  {
    "category": "lodging",
    "places": 6,
    "with_website": 1,
@@ -143,18 +150,11 @@
    "share_without_website": 0.8333
   },
   {
-   "category": "travel_and_transportation",
-   "places": 6,
-   "with_website": 2,
-   "without_website": 4,
-   "share_without_website": 0.6667
-  },
-  {
    "category": "services_and_business",
-   "places": 5,
-   "with_website": 0,
+   "places": 6,
+   "with_website": 1,
    "without_website": 5,
-   "share_without_website": 1.0
+   "share_without_website": 0.8333
   },
   {
    "category": "geographic_entities",
@@ -186,9 +186,9 @@
   }
  ],
  "run": {
-  "computed_at": "2026-10-11T13:52:18Z",
-  "query_seconds": 1.1,
-  "bytes_read": 1258291,
+  "computed_at": "2026-10-28T11:25:04Z",
+  "query_seconds": 1.6,
+  "bytes_read": 1025843,
   "get_requests": 8,
   "head_requests": 0
  }

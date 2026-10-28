@@ -19,15 +19,15 @@
   51.047909,
   35.888386
  ],
- "overture_release": "2026-09-23.1",
+ "overture_release": "2026-10-21.0",
  "confidence_min": 0.5,
  "counts": {
-  "places": 306,
-  "with_website": 154,
-  "without_website": 152,
-  "share_without_website": 0.4967,
-  "without_website_with_phone": 42,
-  "without_website_with_social": 152
+  "places": 317,
+  "with_website": 155,
+  "without_website": 162,
+  "share_without_website": 0.511,
+  "without_website_with_phone": 45,
+  "without_website_with_social": 162
  },
  "excluded": {
   "below_confidence": 172,
@@ -45,10 +45,17 @@
   },
   {
    "category": "cafe",
-   "places": 22,
+   "places": 23,
    "with_website": 9,
-   "without_website": 13,
-   "share_without_website": 0.5909
+   "without_website": 14,
+   "share_without_website": 0.6087
+  },
+  {
+   "category": "shopping_mall",
+   "places": 16,
+   "with_website": 7,
+   "without_website": 9,
+   "share_without_website": 0.5625
   },
   {
    "category": "park",
@@ -58,25 +65,18 @@
    "share_without_website": 0.9333
   },
   {
-   "category": "shopping_mall",
-   "places": 15,
-   "with_website": 7,
-   "without_website": 8,
-   "share_without_website": 0.5333
-  },
-  {
    "category": "college_university",
-   "places": 11,
+   "places": 12,
    "with_website": 5,
-   "without_website": 6,
-   "share_without_website": 0.5455
+   "without_website": 7,
+   "share_without_website": 0.5833
   },
   {
    "category": "hospital",
-   "places": 11,
+   "places": 12,
    "with_website": 6,
-   "without_website": 5,
-   "share_without_website": 0.4545
+   "without_website": 6,
+   "share_without_website": 0.5
   },
   {
    "category": "hardware_home_and_garden_store",
@@ -110,66 +110,66 @@
  "category_groups": [
   {
    "category": "food_and_drink",
-   "places": 62,
+   "places": 63,
    "with_website": 30,
-   "without_website": 32,
-   "share_without_website": 0.5161
+   "without_website": 33,
+   "share_without_website": 0.5238
   },
   {
    "category": "shopping",
-   "places": 48,
+   "places": 50,
    "with_website": 26,
-   "without_website": 22,
-   "share_without_website": 0.4583
+   "without_website": 24,
+   "share_without_website": 0.48
   },
   {
    "category": "services_and_business",
-   "places": 36,
+   "places": 37,
    "with_website": 31,
-   "without_website": 5,
-   "share_without_website": 0.1389
+   "without_website": 6,
+   "share_without_website": 0.1622
   },
   {
    "category": "education",
-   "places": 29,
+   "places": 31,
    "with_website": 12,
-   "without_website": 17,
-   "share_without_website": 0.5862
+   "without_website": 19,
+   "share_without_website": 0.6129
   },
   {
    "category": "health_care",
-   "places": 25,
+   "places": 26,
    "with_website": 15,
-   "without_website": 10,
-   "share_without_website": 0.4
+   "without_website": 11,
+   "share_without_website": 0.4231
   },
   {
    "category": "sports_and_recreation",
-   "places": 25,
+   "places": 26,
    "with_website": 5,
-   "without_website": 20,
-   "share_without_website": 0.8
+   "without_website": 21,
+   "share_without_website": 0.8077
   },
   {
    "category": "community_and_government",
-   "places": 15,
+   "places": 16,
    "with_website": 1,
-   "without_website": 14,
-   "share_without_website": 0.9333
+   "without_website": 15,
+   "share_without_website": 0.9375
   },
   {
    "category": "travel_and_transportation",
-   "places": 14,
-   "with_website": 8,
+   "places": 15,
+   "with_website": 9,
    "without_website": 6,
-   "share_without_website": 0.4286
+   "share_without_website": 0.4
   },
   {
    "category": "lifestyle_services",
-   "places": 11,
+   "places": 12,
    "with_website": 11,
-   "without_website": 0,
-   "share_without_website": 0.0
+   "without_website": 1,
+   "share_without_website": 0.0833
   },
   {
    "category": "arts_and_entertainment",
@@ -201,10 +201,10 @@
   }
  ],
  "run": {
-  "computed_at": "2026-10-11T13:52:27Z",
-  "query_seconds": 0.4,
-  "bytes_read": 6860,
-  "get_requests": 1,
+  "computed_at": "2026-10-28T11:26:21Z",
+  "query_seconds": 1.9,
+  "bytes_read": 808755,
+  "get_requests": 8,
   "head_requests": 0
  }
 }

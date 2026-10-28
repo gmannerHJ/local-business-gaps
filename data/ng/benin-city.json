@@ -18,64 +18,71 @@
   5.75768,
   6.468714
  ],
- "overture_release": "2026-09-23.1",
+ "overture_release": "2026-10-21.0",
  "confidence_min": 0.5,
  "counts": {
-  "places": 2489,
-  "with_website": 1047,
-  "without_website": 1442,
-  "share_without_website": 0.5793,
-  "without_website_with_phone": 1095,
-  "without_website_with_social": 1416
+  "places": 2596,
+  "with_website": 1116,
+  "without_website": 1480,
+  "share_without_website": 0.5701,
+  "without_website_with_phone": 1122,
+  "without_website_with_social": 1454
  },
  "excluded": {
-  "below_confidence": 739,
+  "below_confidence": 809,
   "permanently_closed": 0
  },
- "uncategorised": 89,
+ "uncategorised": 92,
  "blank_website_entries": 6,
  "top_categories": [
   {
    "category": "religious_organization",
-   "places": 462,
-   "with_website": 183,
-   "without_website": 279,
-   "share_without_website": 0.6039
+   "places": 479,
+   "with_website": 189,
+   "without_website": 290,
+   "share_without_website": 0.6054
   },
   {
    "category": "christian_place_of_worship",
-   "places": 301,
-   "with_website": 102,
-   "without_website": 199,
-   "share_without_website": 0.6611
+   "places": 307,
+   "with_website": 106,
+   "without_website": 201,
+   "share_without_website": 0.6547
   },
   {
    "category": "place_of_learning",
-   "places": 132,
-   "with_website": 51,
-   "without_website": 81,
-   "share_without_website": 0.6136
+   "places": 137,
+   "with_website": 54,
+   "without_website": 83,
+   "share_without_website": 0.6058
   },
   {
    "category": "hotel",
    "places": 117,
-   "with_website": 53,
-   "without_website": 64,
-   "share_without_website": 0.547
+   "with_website": 54,
+   "without_website": 63,
+   "share_without_website": 0.5385
   },
   {
    "category": "professional_service",
-   "places": 73,
-   "with_website": 31,
-   "without_website": 42,
-   "share_without_website": 0.5753
+   "places": 76,
+   "with_website": 32,
+   "without_website": 44,
+   "share_without_website": 0.5789
   },
   {
    "category": "real_estate_service",
+   "places": 57,
+   "with_website": 33,
+   "without_website": 24,
+   "share_without_website": 0.4211
+  },
+  {
+   "category": "education",
    "places": 55,
-   "with_website": 32,
-   "without_website": 23,
-   "share_without_website": 0.4182
+   "with_website": 20,
+   "without_website": 35,
+   "share_without_website": 0.6364
   },
   {
    "category": "college_university",
@@ -85,104 +92,97 @@
    "share_without_website": 0.463
   },
   {
-   "category": "education",
-   "places": 53,
-   "with_website": 20,
-   "without_website": 33,
-   "share_without_website": 0.6226
-  },
-  {
    "category": "fashion_and_apparel_store",
-   "places": 49,
-   "with_website": 22,
+   "places": 51,
+   "with_website": 24,
    "without_website": 27,
-   "share_without_website": 0.551
+   "share_without_website": 0.5294
   },
   {
    "category": "personal_or_beauty_service",
-   "places": 48,
-   "with_website": 20,
+   "places": 49,
+   "with_website": 21,
    "without_website": 28,
-   "share_without_website": 0.5833
+   "share_without_website": 0.5714
   }
  ],
  "category_groups": [
   {
    "category": "cultural_and_historic",
-   "places": 775,
-   "with_website": 288,
-   "without_website": 487,
-   "share_without_website": 0.6284
+   "places": 799,
+   "with_website": 298,
+   "without_website": 501,
+   "share_without_website": 0.627
   },
   {
    "category": "services_and_business",
-   "places": 444,
-   "with_website": 224,
-   "without_website": 220,
-   "share_without_website": 0.4955
+   "places": 485,
+   "with_website": 257,
+   "without_website": 228,
+   "share_without_website": 0.4701
   },
   {
    "category": "education",
-   "places": 294,
-   "with_website": 125,
-   "without_website": 169,
-   "share_without_website": 0.5748
+   "places": 306,
+   "with_website": 132,
+   "without_website": 174,
+   "share_without_website": 0.5686
   },
   {
    "category": "shopping",
-   "places": 263,
-   "with_website": 102,
-   "without_website": 161,
-   "share_without_website": 0.6122
+   "places": 272,
+   "with_website": 106,
+   "without_website": 166,
+   "share_without_website": 0.6103
   },
   {
    "category": "lodging",
-   "places": 140,
-   "with_website": 61,
+   "places": 142,
+   "with_website": 63,
    "without_website": 79,
-   "share_without_website": 0.5643
+   "share_without_website": 0.5563
   },
   {
    "category": "community_and_government",
-   "places": 100,
-   "with_website": 49,
-   "without_website": 51,
-   "share_without_website": 0.51
+   "places": 104,
+   "with_website": 51,
+   "without_website": 53,
+   "share_without_website": 0.5096
   },
   {
    "category": "food_and_drink",
-   "places": 87,
-   "with_website": 28,
-   "without_website": 59,
-   "share_without_website": 0.6782
+   "places": 92,
+   "with_website": 31,
+   "without_website": 61,
+   "share_without_website": 0.663
   },
   {
    "category": "lifestyle_services",
-   "places": 85,
-   "with_website": 30,
+   "places": 86,
+   "with_website": 31,
    "without_website": 55,
-   "share_without_website": 0.6471
+   "share_without_website": 0.6395
   },
   {
    "category": "health_care",
-   "places": 84,
+   "places": 83,
    "with_website": 37,
-   "without_website": 47,
-   "share_without_website": 0.5595
+   "without_website": 46,
+   "share_without_website": 0.5542
   },
   {
    "category": "travel_and_transportation",
-   "places": 65,
-   "with_website": 40,
-   "without_website": 25,
-   "share_without_website": 0.3846
+   "places": 71,
+   "with_website": 44,
+   "without_website": 27,
+   "share_without_website": 0.3803
   },
   {
    "category": "arts_and_entertainment",
-   "places": 48,
-   "with_website": 19,
-   "without_website": 29,
-   "share_without_website": 0.6042
+   "places": 49,
+   "with_website": 21,
+   "without_website": 28,
+   "share_without_website": 0.5714
   },
   {
    "category": "sports_and_recreation",
@@ -200,10 +200,10 @@
   }
  ],
  "run": {
-  "computed_at": "2026-10-11T13:52:40Z",
-  "query_seconds": 1.0,
-  "bytes_read": 1782579,
-  "get_requests": 15,
+  "computed_at": "2026-10-28T11:26:45Z",
+  "query_seconds": 1.7,
+  "bytes_read": 1023692,
+  "get_requests": 8,
   "head_requests": 0
  }
 }

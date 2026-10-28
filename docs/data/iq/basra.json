@@ -18,57 +18,64 @@
   47.965476,
   30.630893
  ],
- "overture_release": "2026-09-23.1",
+ "overture_release": "2026-10-21.0",
  "confidence_min": 0.5,
  "counts": {
-  "places": 1618,
-  "with_website": 561,
-  "without_website": 1057,
-  "share_without_website": 0.6533,
-  "without_website_with_phone": 805,
-  "without_website_with_social": 1053
+  "places": 1745,
+  "with_website": 600,
+  "without_website": 1145,
+  "share_without_website": 0.6562,
+  "without_website_with_phone": 877,
+  "without_website_with_social": 1141
  },
  "excluded": {
-  "below_confidence": 843,
+  "below_confidence": 980,
   "permanently_closed": 0
  },
- "uncategorised": 106,
+ "uncategorised": 113,
  "blank_website_entries": 0,
  "top_categories": [
   {
    "category": "restaurant",
-   "places": 99,
+   "places": 106,
    "with_website": 32,
-   "without_website": 67,
-   "share_without_website": 0.6768
+   "without_website": 74,
+   "share_without_website": 0.6981
   },
   {
    "category": "dental_clinic",
-   "places": 69,
-   "with_website": 13,
-   "without_website": 56,
-   "share_without_website": 0.8116
+   "places": 76,
+   "with_website": 14,
+   "without_website": 62,
+   "share_without_website": 0.8158
   },
   {
    "category": "place_of_learning",
-   "places": 63,
-   "with_website": 15,
-   "without_website": 48,
-   "share_without_website": 0.7619
+   "places": 72,
+   "with_website": 16,
+   "without_website": 56,
+   "share_without_website": 0.7778
   },
   {
    "category": "automotive_service",
-   "places": 56,
-   "with_website": 20,
-   "without_website": 36,
-   "share_without_website": 0.6429
+   "places": 59,
+   "with_website": 22,
+   "without_website": 37,
+   "share_without_website": 0.6271
   },
   {
    "category": "college_university",
+   "places": 58,
+   "with_website": 32,
+   "without_website": 26,
+   "share_without_website": 0.4483
+  },
+  {
+   "category": "shopping",
    "places": 55,
-   "with_website": 31,
-   "without_website": 24,
-   "share_without_website": 0.4364
+   "with_website": 19,
+   "without_website": 36,
+   "share_without_website": 0.6545
   },
   {
    "category": "fashion_and_apparel_store",
@@ -79,96 +86,96 @@
   },
   {
    "category": "hospital",
-   "places": 49,
-   "with_website": 12,
-   "without_website": 37,
-   "share_without_website": 0.7551
-  },
-  {
-   "category": "shopping",
-   "places": 46,
-   "with_website": 14,
-   "without_website": 32,
-   "share_without_website": 0.6957
+   "places": 51,
+   "with_website": 13,
+   "without_website": 38,
+   "share_without_website": 0.7451
   },
   {
    "category": "travel_service",
-   "places": 39,
+   "places": 40,
    "with_website": 18,
-   "without_website": 21,
-   "share_without_website": 0.5385
+   "without_website": 22,
+   "share_without_website": 0.55
   },
   {
    "category": "electronics_store",
-   "places": 36,
+   "places": 39,
    "with_website": 16,
-   "without_website": 20,
-   "share_without_website": 0.5556
+   "without_website": 23,
+   "share_without_website": 0.5897
   }
  ],
  "category_groups": [
   {
    "category": "services_and_business",
-   "places": 272,
-   "with_website": 139,
-   "without_website": 133,
-   "share_without_website": 0.489
+   "places": 293,
+   "with_website": 150,
+   "without_website": 143,
+   "share_without_website": 0.4881
   },
   {
    "category": "shopping",
-   "places": 259,
-   "with_website": 95,
-   "without_website": 164,
-   "share_without_website": 0.6332
+   "places": 281,
+   "with_website": 103,
+   "without_website": 178,
+   "share_without_website": 0.6335
   },
   {
    "category": "health_care",
-   "places": 227,
-   "with_website": 53,
-   "without_website": 174,
-   "share_without_website": 0.7665
+   "places": 249,
+   "with_website": 58,
+   "without_website": 191,
+   "share_without_website": 0.7671
   },
   {
    "category": "education",
-   "places": 210,
-   "with_website": 85,
-   "without_website": 125,
-   "share_without_website": 0.5952
+   "places": 226,
+   "with_website": 88,
+   "without_website": 138,
+   "share_without_website": 0.6106
   },
   {
    "category": "food_and_drink",
-   "places": 185,
-   "with_website": 47,
-   "without_website": 138,
-   "share_without_website": 0.7459
+   "places": 200,
+   "with_website": 48,
+   "without_website": 152,
+   "share_without_website": 0.76
   },
   {
    "category": "travel_and_transportation",
-   "places": 110,
-   "with_website": 44,
-   "without_website": 66,
-   "share_without_website": 0.6
+   "places": 114,
+   "with_website": 46,
+   "without_website": 68,
+   "share_without_website": 0.5965
   },
   {
    "category": "community_and_government",
-   "places": 54,
-   "with_website": 24,
-   "without_website": 30,
-   "share_without_website": 0.5556
+   "places": 57,
+   "with_website": 25,
+   "without_website": 32,
+   "share_without_website": 0.5614
   },
   {
    "category": "lifestyle_services",
-   "places": 43,
-   "with_website": 11,
-   "without_website": 32,
-   "share_without_website": 0.7442
+   "places": 47,
+   "with_website": 14,
+   "without_website": 33,
+   "share_without_website": 0.7021
   },
   {
    "category": "cultural_and_historic",
-   "places": 38,
-   "with_website": 6,
-   "without_website": 32,
-   "share_without_website": 0.8421
+   "places": 43,
+   "with_website": 8,
+   "without_website": 35,
+   "share_without_website": 0.814
+  },
+  {
+   "category": "sports_and_recreation",
+   "places": 40,
+   "with_website": 9,
+   "without_website": 31,
+   "share_without_website": 0.775
   },
   {
    "category": "lodging",
@@ -178,18 +185,11 @@
    "share_without_website": 0.6667
   },
   {
-   "category": "sports_and_recreation",
-   "places": 35,
-   "with_website": 9,
-   "without_website": 26,
-   "share_without_website": 0.7429
-  },
-  {
    "category": "arts_and_entertainment",
-   "places": 30,
+   "places": 33,
    "with_website": 8,
-   "without_website": 22,
-   "share_without_website": 0.7333
+   "without_website": 25,
+   "share_without_website": 0.7576
   },
   {
    "category": "geographic_entities",
@@ -200,9 +200,9 @@
   }
  ],
  "run": {
-  "computed_at": "2026-10-11T13:52:04Z",
-  "query_seconds": 1.1,
-  "bytes_read": 1048576,
+  "computed_at": "2026-10-28T11:24:41Z",
+  "query_seconds": 1.8,
+  "bytes_read": 1258291,
   "get_requests": 8,
   "head_requests": 0
  }

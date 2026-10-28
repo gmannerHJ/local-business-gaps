@@ -19,36 +19,36 @@
   14.633121,
   10.998217
  ],
- "overture_release": "2026-09-23.1",
+ "overture_release": "2026-10-21.0",
  "confidence_min": 0.5,
  "counts": {
-  "places": 89,
-  "with_website": 30,
-  "without_website": 59,
-  "share_without_website": 0.6629,
-  "without_website_with_phone": 24,
-  "without_website_with_social": 58
+  "places": 97,
+  "with_website": 34,
+  "without_website": 63,
+  "share_without_website": 0.6495,
+  "without_website_with_phone": 27,
+  "without_website_with_social": 63
  },
  "excluded": {
-  "below_confidence": 34,
+  "below_confidence": 38,
   "permanently_closed": 0
  },
  "uncategorised": 1,
  "blank_website_entries": 0,
  "top_categories": [
   {
-   "category": "hotel",
-   "places": 9,
-   "with_website": 2,
-   "without_website": 7,
-   "share_without_website": 0.7778
+   "category": "college_university",
+   "places": 10,
+   "with_website": 4,
+   "without_website": 6,
+   "share_without_website": 0.6
   },
   {
-   "category": "college_university",
-   "places": 8,
-   "with_website": 4,
-   "without_website": 4,
-   "share_without_website": 0.5
+   "category": "hotel",
+   "places": 10,
+   "with_website": 2,
+   "without_website": 8,
+   "share_without_website": 0.8
   },
   {
    "category": "religious_organization",
@@ -72,6 +72,13 @@
    "share_without_website": 0.6667
   },
   {
+   "category": "casual_eatery",
+   "places": 3,
+   "with_website": 0,
+   "without_website": 3,
+   "share_without_website": 1.0
+  },
+  {
    "category": "fashion_and_apparel_store",
    "places": 3,
    "with_website": 0,
@@ -79,55 +86,48 @@
    "share_without_website": 1.0
   },
   {
-   "category": "gas_station",
+   "category": "financial_service",
+   "places": 3,
+   "with_website": 3,
+   "without_website": 0,
+   "share_without_website": 0.0
+  },
+  {
+   "category": "food_and_beverage_store",
    "places": 3,
    "with_website": 1,
    "without_website": 2,
    "share_without_website": 0.6667
   },
   {
-   "category": "geographic_entities",
+   "category": "gas_station",
    "places": 3,
-   "with_website": 0,
-   "without_website": 3,
-   "share_without_website": 1.0
-  },
-  {
-   "category": "hospital",
-   "places": 3,
-   "with_website": 0,
-   "without_website": 3,
-   "share_without_website": 1.0
-  },
-  {
-   "category": "muslim_place_of_worship",
-   "places": 3,
-   "with_website": 0,
-   "without_website": 3,
-   "share_without_website": 1.0
+   "with_website": 2,
+   "without_website": 1,
+   "share_without_website": 0.3333
   }
  ],
  "category_groups": [
   {
    "category": "education",
-   "places": 22,
+   "places": 24,
    "with_website": 9,
-   "without_website": 13,
-   "share_without_website": 0.5909
+   "without_website": 15,
+   "share_without_website": 0.625
   },
   {
    "category": "shopping",
-   "places": 12,
+   "places": 13,
    "with_website": 3,
-   "without_website": 9,
-   "share_without_website": 0.75
+   "without_website": 10,
+   "share_without_website": 0.7692
   },
   {
    "category": "lodging",
-   "places": 10,
+   "places": 11,
    "with_website": 2,
-   "without_website": 8,
-   "share_without_website": 0.8
+   "without_website": 9,
+   "share_without_website": 0.8182
   },
   {
    "category": "community_and_government",
@@ -137,6 +137,13 @@
    "share_without_website": 0.4444
   },
   {
+   "category": "services_and_business",
+   "places": 9,
+   "with_website": 6,
+   "without_website": 3,
+   "share_without_website": 0.3333
+  },
+  {
    "category": "cultural_and_historic",
    "places": 7,
    "with_website": 2,
@@ -144,18 +151,11 @@
    "share_without_website": 0.7143
   },
   {
-   "category": "services_and_business",
-   "places": 6,
-   "with_website": 3,
-   "without_website": 3,
-   "share_without_website": 0.5
-  },
-  {
    "category": "food_and_drink",
-   "places": 5,
+   "places": 6,
    "with_website": 2,
-   "without_website": 3,
-   "share_without_website": 0.6
+   "without_website": 4,
+   "share_without_website": 0.6667
   },
   {
    "category": "geographic_entities",
@@ -174,9 +174,9 @@
   {
    "category": "travel_and_transportation",
    "places": 5,
-   "with_website": 2,
-   "without_website": 3,
-   "share_without_website": 0.6
+   "with_website": 3,
+   "without_website": 2,
+   "share_without_website": 0.4
   },
   {
    "category": "sports_and_recreation",
@@ -187,9 +187,9 @@
   }
  ],
  "run": {
-  "computed_at": "2026-10-11T13:51:59Z",
-  "query_seconds": 1.0,
-  "bytes_read": 1258291,
+  "computed_at": "2026-10-28T11:25:20Z",
+  "query_seconds": 1.6,
+  "bytes_read": 948940,
   "get_requests": 8,
   "head_requests": 0
  }
